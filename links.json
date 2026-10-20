@@ -1,1 +1,173 @@
-{"updated": null, "news": {}, "courses": {}}
+{
+ "updated": "2026-10-20T18:57+00:00",
+ "news": {
+  "india": [
+   {
+    "title": "On paddy field conservation in Keralam",
+    "url": "https://www.thehindu.com/opinion/op-ed/on-paddy-field-conservation-in-keralam/article71605301.ece",
+    "source": "The Hindu · National",
+    "date": "21 Oct"
+   },
+   {
+    "title": "30-foot-high cockroach effigy triggers AAP-BJP war of words",
+    "url": "https://www.thehindu.com/news/cities/Delhi/30-foot-high-cockroach-effigy-triggers-aap-bjp-war-of-words/article71605225.ece",
+    "source": "The Hindu · National",
+    "date": "21 Oct"
+   },
+   {
+    "title": "T.N. government should construct new Secretariat complex outside Chennai, says Anbumani",
+    "url": "https://www.thehindu.com/news/national/tamil-nadu/tn-government-should-construct-new-secretariat-complex-outside-chennai-says-anbumani/article71604935.ece",
+    "source": "The Hindu · National",
+    "date": "20 Oct"
+   }
+  ],
+  "world": [
+   {
+    "title": "Marseille braces for more unrest after protests give way to 'apocalyptic' disorder",
+    "url": "https://www.bbc.co.uk/news/articles/cm5ynkk570pno?at_medium=RSS&at_campaign=rss",
+    "source": "BBC World",
+    "date": "20 Oct"
+   },
+   {
+    "title": "Man charged with attack on Australian MP as suspect's father says she is family friend",
+    "url": "https://www.bbc.co.uk/news/articles/c678pnn9mpgno?at_medium=RSS&at_campaign=rss",
+    "source": "BBC World",
+    "date": "20 Oct"
+   },
+   {
+    "title": "Sudan army drones hit mourners and fuel market killing more than 300 people, sources say",
+    "url": "https://www.bbc.co.uk/news/articles/cr3el70jz1nqo?at_medium=RSS&at_campaign=rss",
+    "source": "BBC World",
+    "date": "20 Oct"
+   }
+  ],
+  "business": [
+   {
+    "title": "Delhi airport traffic hits record first-half high with 38.5 million passengers, eyeing expansion",
+    "url": "https://www.livemint.com/news/india/delhi-airport-traffic-hits-record-first-half-high-with-38-5-million-passengers-eyeing-expansion-11792520280650.html",
+    "source": "Mint",
+    "date": "21 Oct"
+   },
+   {
+    "title": "Delhi AQI to slip into 'poor' category from Wednesday, pollution levels to rise",
+    "url": "https://www.livemint.com/news/india/delhi-aqi-to-slip-into-poor-category-from-wednesday-pollution-levels-to-rise-11792518955864.html",
+    "source": "Mint",
+    "date": "20 Oct"
+   },
+   {
+    "title": "Marco Rubio in India: Can US biz diplomacy ease Trump tensions over tariffs, Russian oil and bring trade deal closer?",
+    "url": "https://www.livemint.com/news/india/marco-rubio-in-india-can-us-biz-diplomacy-ease-trump-tensions-over-tariffs-russian-oil-and-bring-trade-deal-closer-11792515633636.html",
+    "source": "Mint",
+    "date": "20 Oct"
+   }
+  ]
+ },
+ "courses": {
+  "FIN": [
+   {
+    "title": "Bull vs Bear: Which Way Will the NIFTY Move? (Hindi) | CA Rachana Ranade | #shorts",
+    "url": "https://www.youtube.com/watch?v=zzsmtUE82yY",
+    "source": "CA Rachana Ranade",
+    "date": "19 Oct"
+   },
+   {
+    "title": "Nifty 50 Underperforms Its Asian Peers: What Could Be the Reasons? |CA Rachana Ranade(Hindi)|#shorts",
+    "url": "https://www.youtube.com/shorts/Y87OQQIKE1o",
+    "source": "CA Rachana Ranade",
+    "date": "14 Oct"
+   },
+   {
+    "title": "Small-cap mutual funds: Should you pick funds with high index overlap? What one-year returns show",
+    "url": "https://www.livemint.com/money/personal-finance/smallcap-mutual-funds-should-you-pick-funds-with-high-index-overlap-what-one-year-returns-show-11792518662358.html",
+    "source": "Mint Money",
+    "date": "20 Oct"
+   },
+   {
+    "title": "Bought a  ₹50 lakh LIC policy on  ₹4.81 lakh income? Why ITAT rejected the woman’s claim and upheld the tax addition",
+    "url": "https://www.livemint.com/money/personal-finance/bought-a-50-lakh-lic-policy-on-4-81-lakh-income-why-itat-rejected-the-woman-s-claim-and-upheld-the-tax-addition-11792516737533.html",
+    "source": "Mint Money",
+    "date": "20 Oct"
+   }
+  ],
+  "PRD": [
+   {
+    "title": "🎙️ How I AI: Meta Muse Wonder + How Brooke Lacey is scaling video with AI",
+    "url": "https://www.lennysnewsletter.com/p/how-i-ai-meta-muse-wonder-how-brooke",
+    "source": "Lenny's Newsletter",
+    "date": "19 Oct"
+   },
+   {
+    "title": "“Claude cuts my TikTok”: How this creator is scaling video with AI | Brooke Lacey",
+    "url": "https://www.lennysnewsletter.com/p/claude-cuts-my-tiktok-how-this-creator",
+    "source": "Lenny's Newsletter",
+    "date": "19 Oct"
+   }
+  ],
+  "AI": [
+   {
+    "title": "30 Months on the Exponential (in Charts)",
+    "url": "https://www.oneusefulthing.org/p/30-months-on-the-exponential-in-charts",
+    "source": "One Useful Thing",
+    "date": "20 Oct"
+   },
+   {
+    "title": "The Dot and the Swarm",
+    "url": "https://www.oneusefulthing.org/p/the-dot-and-the-swarm",
+    "source": "One Useful Thing",
+    "date": "1 Oct"
+   },
+   {
+    "title": "Parity of permutations, impossible puzzles and the magical determinant",
+    "url": "https://www.youtube.com/watch?v=rUiulWItECQ",
+    "source": "3Blue1Brown",
+    "date": "11 Apr"
+   },
+   {
+    "title": "I Built an Original One-Glance Proof from Dice",
+    "url": "https://www.youtube.com/watch?v=8q95eiq-y-Q",
+    "source": "3Blue1Brown",
+    "date": "11 Oct"
+   }
+  ],
+  "HIS": [
+   {
+    "title": "RSS Chief delivers the most pro-govt speech on Dussehra:Significance & a message to BJP via Dhankhar",
+    "url": "https://www.youtube.com/watch?v=fnEgS6CnpeU",
+    "source": "ThePrint · Cut the Clutter",
+    "date": "20 Oct"
+   },
+   {
+    "title": "Rubio’s India Visit: Can Trump and Modi Reset Ties Amid Trade and Iran War Tensions?",
+    "url": "https://www.youtube.com/watch?v=AJsxxBdWlo4",
+    "source": "ThePrint · Cut the Clutter",
+    "date": "20 Oct"
+   },
+   {
+    "title": "¿Por qué el Mundo Árabe nunca se unió?",
+    "url": "https://www.youtube.com/watch?v=9ogePQECcB8",
+    "source": "Caspian Report",
+    "date": "20 Oct"
+   },
+   {
+    "title": "La geografía oculta de la IA",
+    "url": "https://www.youtube.com/watch?v=5_sqBMzm-g4",
+    "source": "Caspian Report",
+    "date": "13 Oct"
+   }
+  ],
+  "FINAL": [
+   {
+    "title": "30 Months on the Exponential (in Charts)",
+    "url": "https://www.oneusefulthing.org/p/30-months-on-the-exponential-in-charts",
+    "source": "One Useful Thing",
+    "date": "20 Oct"
+   },
+   {
+    "title": "The Dot and the Swarm",
+    "url": "https://www.oneusefulthing.org/p/the-dot-and-the-swarm",
+    "source": "One Useful Thing",
+    "date": "1 Oct"
+   }
+  ]
+ }
+}
