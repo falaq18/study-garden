@@ -1,0 +1,665 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="description" content="Arushi's personal curriculum, Oct 2026 to Jan 2027.">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 16 16%22%3E%3Ctext y=%2214%22 font-size=%2214%22%3E🌱%3C/text%3E%3C/svg%3E">
+<title>Arushi's Study Garden</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Pixelify+Sans:wght@400;600;700&family=Nunito:ital,wght@0,400;0,600;0,700;0,800;1,600&family=DM+Mono:wght@400;500&display=swap">
+<style>
+/* Layout: a cosy pixel dashboard — paper ground, ink-outlined pastel cards, pixel sprites, one garden strip that fills as you tick things off. */
+:root{
+  --paper:#F6EFE3; --paper-2:#EFE5D3; --card:#FFFBF4; --ink:#2B2622; --ink-2:#5E554D; --line:#2B2622;
+  --butter:#F4D865; --pink:#F4B7D0; --sage:#B7CC8E; --peri:#B4C8EE; --peach:#F6BE98; --lilac:#CDBBEE; --sky:#CFE5EE;
+  --deep:#3E5C99; --leaf:#5E8C47; --soil:#8A5A3B;
+  --f-pixel:"Pixelify Sans", "Courier New", monospace;
+  --f-body:"Nunito", ui-rounded, "Segoe UI", system-ui, sans-serif;
+  --f-mono:"DM Mono", ui-monospace, "SFMono-Regular", Menlo, monospace;
+  --r:18px; color-scheme:light;
+}
+*{box-sizing:border-box}
+[hidden]{display:none!important}
+body{margin:0;background:var(--paper);color:var(--ink);font-family:var(--f-body);font-size:16px;line-height:1.5;
+  background-image:radial-gradient(var(--paper-2) 1.2px, transparent 1.3px);background-size:22px 22px}
+a{color:var(--deep);text-decoration-thickness:2px;text-underline-offset:3px}
+a:hover{color:var(--ink)}
+:focus-visible{outline:3px dashed var(--deep);outline-offset:3px}
+.wrap{max-width:1180px;margin:0 auto;padding-left:max(16px, env(safe-area-inset-left, 0px));padding-right:max(16px, env(safe-area-inset-right, 0px))}
+canvas.px{image-rendering:pixelated;image-rendering:crisp-edges;display:block}
+.mono{font-family:var(--f-mono);font-size:12px;letter-spacing:.08em;text-transform:uppercase}
+
+/* top bar */
+.top{display:flex;align-items:center;justify-content:space-between;gap:12px;flex-wrap:wrap;padding-block:18px}
+.brand{display:flex;align-items:center;gap:10px;font-family:var(--f-pixel);font-size:22px;font-weight:700;text-decoration:none;color:var(--ink)}
+.nav{display:flex;gap:8px;flex-wrap:wrap}
+.chip{font-family:var(--f-mono);font-size:12px;letter-spacing:.06em;text-transform:uppercase;padding:8px 14px;border:2px solid var(--line);border-radius:999px;background:var(--card);color:var(--ink);text-decoration:none;cursor:pointer;min-height:40px;display:inline-flex;align-items:center;gap:6px}
+.chip:hover{background:var(--butter)}
+.chip.solid{background:var(--ink);color:var(--paper)}
+.chip.solid:hover{background:var(--deep)}
+
+/* hero */
+.hero{display:grid;grid-template-columns:minmax(0,1.5fr) minmax(0,1fr);gap:24px;align-items:stretch;padding-block:12px 28px}
+@media (max-width:820px){.hero{grid-template-columns:1fr}}
+.hero h1{font-family:var(--f-pixel);font-weight:700;font-size:clamp(46px,8vw,96px);line-height:.92;margin:10px 0 14px;letter-spacing:-.01em;text-wrap:balance}
+.hero h1 .hl{background:var(--butter);padding:0 .12em;border:3px solid var(--ink);border-radius:12px;display:inline-block;transform:rotate(-1.5deg);box-shadow:4px 4px 0 var(--ink)}
+.hero h1 .hl2{background:var(--pink);padding:0 .12em;border:3px solid var(--ink);border-radius:12px;display:inline-block;transform:rotate(1deg);box-shadow:4px 4px 0 var(--ink)}
+.hero p{font-size:18px;max-width:52ch;color:var(--ink-2);margin:0}
+.sticker{position:relative;display:inline-block;font-family:var(--f-mono);font-size:12px;letter-spacing:.08em;text-transform:uppercase;background:var(--pink);border:2px solid var(--ink);padding:6px 12px;border-radius:6px;transform:rotate(-2deg)}
+.pot-card{background:var(--sky);border:2.5px solid var(--line);border-radius:var(--r);box-shadow:5px 5px 0 var(--ink);padding:18px;display:flex;flex-direction:column;align-items:center;gap:10px;position:relative;overflow:hidden}
+.pot-card .bubble{align-self:stretch;background:var(--card);border:2px solid var(--ink);border-radius:14px;padding:10px 14px;font-weight:700;font-size:15px;position:relative}
+.pot-card .bubble::after{content:"";position:absolute;left:50%;bottom:-10px;width:16px;height:16px;background:var(--card);border-right:2px solid var(--ink);border-bottom:2px solid var(--ink);transform:translateX(-50%) rotate(45deg)}
+#mascot{width:192px;height:192px;animation:bob 3.2s ease-in-out infinite}
+@keyframes bob{50%{transform:translateY(-6px)}}
+.meter{align-self:stretch;display:flex;flex-direction:column;gap:6px}
+.bar{height:16px;border:2px solid var(--ink);border-radius:6px;background:var(--card);overflow:hidden}
+.bar i{display:block;height:100%;background:repeating-linear-gradient(90deg,var(--leaf) 0 8px,#74A35B 8px 16px);width:0;transition:width .6s}
+.star{position:absolute;width:22px;height:22px}
+
+/* ticker */
+.ticker{border-block:2.5px solid var(--ink);background:var(--butter);overflow:hidden;white-space:nowrap}
+.ticker .track{display:inline-flex;gap:28px;padding-block:10px;animation:tick 38s linear infinite;font-family:var(--f-pixel);font-size:18px}
+@keyframes tick{to{transform:translateX(-50%)}}
+
+/* sections */
+section{padding-block:34px}
+.sec-head{display:flex;align-items:flex-end;justify-content:space-between;gap:12px;flex-wrap:wrap;margin-bottom:16px}
+.sec-head h2{font-family:var(--f-pixel);font-size:clamp(28px,4vw,40px);margin:0;line-height:1}
+.sec-head p{margin:0;color:var(--ink-2)}
+.card{background:var(--card);border:2.5px solid var(--line);border-radius:var(--r);padding:20px}
+.grid-2{display:grid;grid-template-columns:minmax(0,1.25fr) minmax(0,1fr);gap:20px}
+@media (max-width:860px){.grid-2{grid-template-columns:1fr}}
+
+/* today */
+.today-date{font-family:var(--f-body);font-weight:800;font-style:italic;font-size:clamp(26px,3.4vw,34px);margin:0;line-height:1.1}
+.tags{display:flex;gap:8px;flex-wrap:wrap;margin:12px 0 4px}
+.tag{font-family:var(--f-mono);font-size:11px;letter-spacing:.08em;text-transform:uppercase;padding:5px 12px;border:2px solid var(--ink);border-radius:999px}
+.tasklist{list-style:none;margin:14px 0 0;padding:0;display:flex;flex-direction:column;gap:2px}
+.task{display:grid;grid-template-columns:auto minmax(0,1fr) auto;gap:12px;align-items:start;padding:10px 4px;border-bottom:1.5px dashed #D8CDBB}
+.task:last-child{border-bottom:0}
+.task .when{font-family:var(--f-mono);font-size:12px;color:var(--ink-2);padding-top:3px;white-space:nowrap}
+.task label{cursor:pointer}
+.task .what{font-weight:700}
+.task .sub{font-size:14px;color:var(--ink-2)}
+.task .sub a{margin-right:10px}
+.task.done .what{text-decoration:line-through;text-decoration-thickness:2px;color:var(--ink-2)}
+input[type=checkbox].pix{appearance:none;width:24px;height:24px;border:2.5px solid var(--ink);border-radius:6px;background:var(--card);margin:0;cursor:pointer;display:grid;place-items:center;flex:none}
+input[type=checkbox].pix:checked{background:var(--sage)}
+input[type=checkbox].pix:checked::after{content:"";width:10px;height:6px;border-left:3px solid var(--ink);border-bottom:3px solid var(--ink);transform:rotate(-45deg) translate(1px,-1px)}
+.tiers{display:flex;gap:8px;flex-wrap:wrap}
+.tier{font-family:var(--f-pixel);font-size:15px;border:2px solid var(--ink);border-radius:10px;background:var(--card);padding:6px 12px;min-height:40px;cursor:pointer}
+.tier[aria-pressed=true]{box-shadow:3px 3px 0 var(--ink);transform:translate(-1px,-1px)}
+.tier[data-t=E][aria-pressed=true]{background:var(--peri)} .tier[data-t=M][aria-pressed=true]{background:var(--butter)} .tier[data-t=R][aria-pressed=true]{background:var(--pink)}
+.rule{font-size:13px;color:var(--ink-2);margin-top:6px}
+
+/* calendar */
+.cal-head{display:flex;justify-content:space-between;align-items:baseline;gap:8px;flex-wrap:wrap}
+.cal-head h3{font-family:var(--f-body);font-weight:800;font-style:italic;font-size:24px;margin:0}
+.cal{display:grid;grid-template-columns:44px repeat(7,minmax(0,1fr));gap:5px;margin-top:12px;font-variant-numeric:tabular-nums}
+.cal .h{font-family:var(--f-mono);font-size:11px;text-align:center;color:var(--ink-2)}
+.cal .wk{font-family:var(--f-mono);font-size:11px;color:var(--ink-2);display:flex;align-items:center}
+.day{aspect-ratio:1;max-width:100%;border-radius:50%;display:grid;place-items:center;font-size:13px;font-weight:700;position:relative;border:2px solid transparent}
+.day.has{background:var(--butter)}
+.day.full{background:var(--sage)}
+.day.today{border-color:var(--ink)}
+.day .ft{position:absolute;right:-3px;bottom:-3px;width:15px;height:15px;border-radius:4px;border:1.5px solid var(--ink);font-family:var(--f-mono);font-size:9px;display:grid;place-items:center;background:var(--card)}
+.day .ft.R{background:var(--pink)} .day .ft.M{background:var(--butter)} .day .ft.E{background:var(--peri)}
+.legend{display:flex;gap:14px;flex-wrap:wrap;margin-top:14px;font-size:13px;color:var(--ink-2)}
+.legend span{display:inline-flex;align-items:center;gap:6px}
+.legend b{width:12px;height:12px;border-radius:50%;display:inline-block;border:1.5px solid var(--ink)}
+
+/* fresh links */
+.feed{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:16px}
+@media (max-width:860px){.feed{grid-template-columns:1fr}}
+.feed .card{display:flex;flex-direction:column;gap:10px}
+.feed h3{margin:0;font-family:var(--f-pixel);font-size:22px;display:flex;justify-content:space-between;align-items:center}
+.feed ul{list-style:none;padding:0;margin:0;display:flex;flex-direction:column;gap:10px}
+.feed li a{font-weight:700;text-decoration:none;color:var(--ink);display:block}
+.feed li a:hover{text-decoration:underline}
+.feed li small{color:var(--ink-2);font-family:var(--f-mono);font-size:11px;letter-spacing:.04em}
+.feed-course{margin-top:16px;display:grid;grid-template-columns:minmax(0,220px) minmax(0,1fr);gap:16px;align-items:start}
+@media (max-width:700px){.feed-course{grid-template-columns:1fr}}
+.note{font-size:14px;color:var(--ink-2)}
+
+/* course cards */
+.cards{display:grid;grid-template-columns:repeat(5,minmax(0,1fr));gap:16px}
+@media (max-width:1000px){.cards{grid-template-columns:repeat(3,minmax(0,1fr))}}
+@media (max-width:620px){.cards{grid-template-columns:repeat(2,minmax(0,1fr))}}
+.ccard{appearance:none;font:inherit;color:inherit;text-align:left;padding:0;border:2.5px solid var(--line);border-radius:14px;background:var(--card);overflow:hidden;cursor:pointer;display:flex;flex-direction:column;transition:transform .15s, box-shadow .15s}
+.ccard:hover,.ccard:focus-visible{transform:translate(-3px,-3px) rotate(-.6deg);box-shadow:5px 5px 0 var(--ink)}
+.ccard .art{aspect-ratio:1/1;display:grid;place-items:center;border-bottom:2.5px solid var(--line);position:relative}
+.ccard .art canvas{width:62%;height:auto}
+.ccard .art .now{position:absolute;top:8px;left:8px;background:var(--ink);color:var(--paper);font-family:var(--f-mono);font-size:10px;letter-spacing:.08em;padding:3px 8px;border-radius:999px}
+.ccard .lab{padding:10px 12px;display:flex;flex-direction:column;gap:2px}
+.ccard .lab b{font-family:var(--f-mono);font-size:12px;letter-spacing:.06em;text-transform:uppercase;font-weight:500}
+.ccard .lab span{font-size:12px;color:var(--ink-2)}
+.ccard .prog{height:6px;background:var(--paper-2);margin:0 12px 12px;border-radius:4px;overflow:hidden}
+.ccard .prog i{display:block;height:100%;background:var(--leaf);width:0}
+
+/* dialog */
+dialog{border:2.5px solid var(--ink);border-radius:20px;padding:0;max-width:760px;width:calc(100% - 32px);background:var(--card);color:var(--ink);box-shadow:8px 8px 0 var(--ink);max-height:calc(100dvh - 48px)}
+dialog::backdrop{background:rgba(43,38,34,.45)}
+.dlg-head{display:grid;grid-template-columns:96px minmax(0,1fr) auto;gap:16px;align-items:center;padding:18px 20px;border-bottom:2.5px solid var(--ink)}
+.dlg-head canvas{width:96px;height:96px}
+.dlg-head h3{font-family:var(--f-pixel);font-size:30px;margin:2px 0;line-height:1.05}
+.dlg-head p{margin:0;font-size:15px;color:var(--ink-2)}
+.x{width:44px;height:44px;border:2px solid var(--ink);border-radius:12px;background:var(--card);font-family:var(--f-pixel);font-size:20px;cursor:pointer;align-self:start}
+.x:hover{background:var(--pink)}
+.dlg-body{padding:18px 20px 22px;display:flex;flex-direction:column;gap:18px}
+.week{border:2px solid var(--ink);border-radius:14px;overflow:hidden}
+.week h4{margin:0;padding:8px 14px;font-family:var(--f-mono);font-weight:500;font-size:12px;letter-spacing:.08em;text-transform:uppercase;border-bottom:2px solid var(--ink);display:flex;justify-content:space-between;gap:8px}
+.week ul{list-style:none;margin:0;padding:6px 14px}
+.week li{display:grid;grid-template-columns:auto minmax(0,1fr);gap:12px;padding:8px 0;border-bottom:1.5px dashed #D8CDBB;align-items:start}
+.week li:last-child{border-bottom:0}
+.week li .k{font-family:var(--f-mono);font-size:11px;letter-spacing:.06em;text-transform:uppercase;color:var(--ink-2);margin-right:6px}
+.res{display:flex;flex-wrap:wrap;gap:8px}
+.res a{font-size:14px;font-weight:700;border:2px solid var(--ink);border-radius:999px;padding:6px 12px;text-decoration:none;color:var(--ink);background:var(--paper)}
+.res a:hover{background:var(--butter)}
+.res a small{font-family:var(--f-mono);font-size:10px;letter-spacing:.06em;text-transform:uppercase;color:var(--ink-2);margin-right:6px;font-weight:400}
+.cap{border:2.5px dashed var(--ink);border-radius:14px;padding:12px 16px;background:var(--paper)}
+.cap b{font-family:var(--f-pixel);font-size:18px;display:block}
+
+/* bookshelf */
+.shelf-wrap{overflow-x:auto;padding-bottom:4px}
+.shelf{display:flex;align-items:flex-end;gap:6px;min-height:290px;padding:0 18px;border-bottom:14px solid var(--soil);min-width:min-content;position:relative}
+.spine{appearance:none;font:inherit;border:2.5px solid var(--ink);border-bottom:0;border-radius:6px 6px 0 0;width:58px;cursor:pointer;display:flex;flex-direction:column;align-items:center;justify-content:space-between;padding:10px 0;transition:transform .15s;color:var(--ink)}
+.spine:hover,.spine:focus-visible,.spine[aria-expanded=true]{transform:translateY(-14px)}
+.spine span{writing-mode:vertical-rl;transform:rotate(180deg);font-family:var(--f-pixel);font-size:16px;font-weight:600;white-space:nowrap}
+.spine em{font-style:normal;font-family:var(--f-mono);font-size:10px}
+.spine.thin{width:44px}
+.spine.lean{transform:rotate(-6deg);transform-origin:bottom left;margin-left:10px}
+.plant{width:90px;align-self:flex-end}
+.bookinfo{margin-top:18px;display:grid;grid-template-columns:minmax(0,1fr) minmax(0,280px);gap:18px;align-items:center}
+@media (max-width:700px){.bookinfo{grid-template-columns:1fr}}
+.bookinfo h3{margin:0;font-family:var(--f-pixel);font-size:26px}
+input[type=range]{width:100%;accent-color:var(--leaf);height:28px}
+
+/* garden */
+.garden{border:2.5px solid var(--ink);border-radius:var(--r);overflow:hidden;background:linear-gradient(var(--sky),#E6F1F2)}
+#garden{width:100%;height:150px}
+.garden-meta{display:flex;justify-content:space-between;gap:10px;flex-wrap:wrap;padding:10px 16px;border-top:2.5px solid var(--ink);background:var(--card);font-size:14px}
+
+/* digest */
+.dig-tabs{display:flex;gap:8px;margin-bottom:12px}
+.dig-tabs button[aria-selected=true]{background:var(--ink);color:var(--paper)}
+.digest{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:14px}
+@media (max-width:860px){.digest{grid-template-columns:repeat(2,minmax(0,1fr))}}
+@media (max-width:520px){.digest{grid-template-columns:1fr}}
+.dg{border:2.5px solid var(--ink);border-radius:14px;padding:12px 14px;display:flex;flex-direction:column;gap:6px}
+.dg label{font-family:var(--f-pixel);font-size:20px}
+.dg textarea{font:inherit;font-size:15px;border:0;background:transparent;resize:vertical;min-height:96px;line-height:1.6;color:var(--ink);
+  background-image:repeating-linear-gradient(transparent 0 23px, #D8CDBB 23px 24px);background-attachment:local;padding:0}
+.dg textarea:focus{outline:none}
+.dg:focus-within{box-shadow:4px 4px 0 var(--ink)}
+
+/* footer */
+footer{border-top:2.5px solid var(--ink);background:var(--card);margin-top:30px}
+footer .wrap{padding-block:28px;display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1fr);gap:24px}
+@media (max-width:760px){footer .wrap{grid-template-columns:1fr}}
+footer h3{font-family:var(--f-pixel);margin:0 0 8px;font-size:22px}
+footer textarea{width:100%;font-family:var(--f-mono);font-size:12px;border:2px solid var(--ink);border-radius:10px;padding:10px;min-height:76px;background:var(--paper);color:var(--ink)}
+.row{display:flex;gap:8px;flex-wrap:wrap;margin-top:8px}
+.toast{position:fixed;left:50%;bottom:calc(20px + env(safe-area-inset-bottom, 0px));transform:translateX(-50%);background:var(--ink);color:var(--paper);font-family:var(--f-mono);font-size:13px;padding:10px 16px;border-radius:999px;z-index:20}
+
+@media (prefers-reduced-motion:reduce){*{animation:none!important;transition:none!important}}
+</style>
+</head>
+<body>
+
+
+<div class="wrap">
+  <header class="top">
+    <a class="brand" href="#top" id="top"><canvas class="px" id="logo" width="16" height="16" style="width:32px;height:32px" aria-hidden="true"></canvas>study garden</a>
+    <nav class="nav" aria-label="Sections">
+      <a class="chip" href="#today">Today</a>
+      <a class="chip" href="#fresh">Fresh links</a>
+      <a class="chip" href="#courses">Courses</a>
+      <a class="chip" href="#shelf">Bookshelf</a>
+      <a class="chip" href="#digest">Digest</a>
+      <a class="chip solid" href="calendar.ics" id="calBtn">+ Add to calendar</a>
+    </nav>
+  </header>
+
+  <div class="hero">
+    <div>
+      <span class="sticker">Winter semester · Oct 26 – Jan 3</span>
+      <h1>Arushi's <span class="hl">study</span> <span class="hl2">garden</span></h1>
+      <p>A personal curriculum that grows. Ten weeks of money, product, AI and history, plus speaking, making things, moving every day and two cosy books. Tick things off and the garden fills up.</p>
+    </div>
+    <div class="pot-card">
+      <svg class="star" style="top:14px;left:16px" viewBox="0 0 7 7" aria-hidden="true" shape-rendering="crispEdges"><path fill="#F4D865" stroke="#2B2622" stroke-width=".5" d="M3 0h1v2h1v1h2v1H5v1H4v2H3V5H2V4H0V3h2V2h1z"/></svg>
+      <svg class="star" style="top:60px;right:18px;width:16px;height:16px" viewBox="0 0 7 7" aria-hidden="true" shape-rendering="crispEdges"><path fill="#FFFBF4" stroke="#2B2622" stroke-width=".5" d="M3 0h1v2h1v1h2v1H5v1H4v2H3V5H2V4H0V3h2V2h1z"/></svg>
+      <div class="bubble" id="sproutSays">Hi Arushi! I'm Pip.</div>
+      <canvas class="px" id="mascot" width="32" height="32" role="img" aria-label="Pip the sprout in a flower pot"></canvas>
+      <div class="meter">
+        <div class="mono" style="display:flex;justify-content:space-between"><span id="stageName">seed</span><span id="weekLabel">week 0 of 10</span></div>
+        <div class="bar" aria-hidden="true"><i id="semBar"></i></div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="ticker" aria-hidden="true"><div class="track" id="ticker"></div></div>
+
+<main class="wrap">
+  <section id="today">
+    <div class="sec-head"><h2>Today</h2><p id="weekLine"></p></div>
+    <div class="grid-2">
+      <div class="card">
+        <p class="today-date" id="todayDate"></p>
+        <div class="tags" id="todayTags"></div>
+        <ul class="tasklist" id="taskList"></ul>
+        <div style="margin-top:14px;border-top:2px solid var(--ink);padding-top:14px">
+          <div class="mono" style="margin-bottom:8px">Move today · pick a tier</div>
+          <div class="tiers" id="tiers">
+            <button class="tier" data-t="E" type="button" aria-pressed="false">Emergency · 3k</button>
+            <button class="tier" data-t="M" type="button" aria-pressed="false">Medium · 6k</button>
+            <button class="tier" data-t="R" type="button" aria-pressed="false">Regular · 10k</button>
+          </div>
+          <p class="rule" id="fitRule"></p>
+        </div>
+      </div>
+      <div class="card">
+        <div class="cal-head"><h3>The semester</h3><span class="mono" id="calCount"></span></div>
+        <div class="cal" id="cal"></div>
+        <div class="legend">
+          <span><b style="background:var(--butter)"></b>some done</span>
+          <span><b style="background:var(--sage)"></b>all done</span>
+          <span><b style="background:var(--pink);border-radius:3px"></b>R</span>
+          <span><b style="background:var(--butter);border-radius:3px"></b>M</span>
+          <span><b style="background:var(--peri);border-radius:3px"></b>E</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="fresh">
+    <div class="sec-head"><h2>Fresh links</h2><p id="feedUpdated">Updated every morning at 7</p></div>
+    <div class="feed" id="feedNews"></div>
+    <div class="feed-course card">
+      <div><div class="mono">This week's course</div><h3 style="font-family:var(--f-pixel);font-size:26px;margin:4px 0" id="feedCourseName"></h3><p class="note" id="feedCourseNote">The newest videos and posts from this course's sources.</p></div>
+      <ul id="feedCourse" style="list-style:none;margin:0;padding:0;display:flex;flex-direction:column;gap:10px"></ul>
+    </div>
+  </section>
+
+  <section id="courses">
+    <div class="sec-head"><h2>Semester cards</h2><p>Tap a card for its syllabus, links and capstone.</p></div>
+    <div class="cards" id="cards"></div>
+  </section>
+
+  <section id="shelf">
+    <div class="sec-head"><h2>Bookshelf</h2><p>Tap a spine to log how far you are.</p></div>
+    <div class="shelf-wrap"><div class="shelf" id="shelfRow"></div></div>
+    <div class="bookinfo card" id="bookInfo" hidden></div>
+  </section>
+
+  <section id="garden-sec">
+    <div class="sec-head"><h2>The garden</h2><p>Every tick plants a flower.</p></div>
+    <div class="garden"><canvas class="px" id="garden" role="img" aria-label="Pixel garden with one flower per finished task"></canvas>
+      <div class="garden-meta"><span id="gardenCount">0 flowers</span><span class="mono">grows until Jan 3</span></div></div>
+  </section>
+
+  <section id="digest">
+    <div class="sec-head"><h2>Monthly digest</h2><p>Fill it in on the last Sunday of the month.</p></div>
+    <div class="dig-tabs" role="tablist">
+      <button class="chip" role="tab" aria-selected="true" data-m="nov" type="button">November</button>
+      <button class="chip" role="tab" aria-selected="false" data-m="dec" type="button">December</button>
+    </div>
+    <div class="digest" id="digestGrid"></div>
+  </section>
+</main>
+
+<footer>
+  <div class="wrap">
+    <div>
+      <h3>Phone ↔ laptop</h3>
+      <p class="note" style="margin:0">Your ticks save on this device. To move them, copy the code here and paste it on the other device.</p>
+      <label class="mono" for="syncBox" style="display:block;margin-top:10px">Sync code</label>
+      <textarea id="syncBox" spellcheck="false"></textarea>
+      <div class="row"><button class="chip" type="button" id="copySync">Copy my code</button><button class="chip" type="button" id="loadSync">Load pasted code</button></div>
+    </div>
+    <div>
+      <h3>Take it with you</h3>
+      <div class="res">
+        <a href="calendar.ics"><small>iCal</small>Calendar (all reminders)</a>
+        <a href="curriculum.pdf"><small>PDF</small>Printable curriculum</a>
+        <a href="curriculum.epub"><small>Books</small>EPUB for Apple Books</a>
+      </div>
+      <p class="note">Made with Pip 🌱 for Arushi · winter 2026</p>
+    </div>
+  </div>
+</footer>
+
+<dialog id="dlg" aria-labelledby="dlgTitle"></dialog>
+
+<script>
+(function(){
+"use strict";
+/* ---------- palette + sprites ---------- */
+const PAL={k:"#2B2622",g:"#5E8C47",G:"#9DC27A",y:"#F2C94C",Y:"#F8E08E",o:"#C77A3A",n:"#6B4423",p:"#EE8FB5",P:"#F7C6DA",b:"#6F95D6",B:"#BFD3F2",w:"#FFFDF7",r:"#E2675A",l:"#B79BE6",s:"#A39A92",t:"#E9A07A"};
+const SPR={
+sun:["......kkkk......","....kkyyyykk....","...kyyYyyYyyk...","..kyyyoooooyyk..","..kyYoonnooYyk..","..kyyonnnnoyyk..","..kyYoonnooYyk..","..kyyyoooooyyk..","...kyyYyyYyyk...","....kkyyyykk....","......kgk.......","...kkk.gk.kkk...","..kGGGkgkGGGk...","...kkkkgkkkk....",".......gk.......","......kkkk......"],
+tulip:["................",".....k...k......","....kpk.kpk.....","....kppkppk.....","....kpPpPpk.....","....kpppppk.....",".....kpppk......","......kkk.......",".......gk.......","...kk..gk.......","..kGGk.gk..kk...","...kGGkgk.kGGk..","....kkkgkkGGk...",".......gkkkk....",".......gk.......",".....kkkkkk....."],
+robot:[".......k........",".......y........","....kkkkkkk.....","...kBBBBBBBk....","...kBwkBwkBk....","...kBkkBkkBk....","...kBBBBBBBk....","...kBBpppBBk....","....kkkkkkk.....","..kkbbbbbbbkk...","..kbbBBBBBbbk...","..kbbBybyBbbk...","..kbbBBBBBbbk...","..kkbbbbbbbkk...","....kbk.kbk.....","....kkk.kkk....."],
+oak:[".....kkkkk......","...kkGGgGGkk....","..kGGgGGgGGGk...",".kGgGGGGgGgGGk..",".kGGGgGGGGGgGk..",".kgGGGGgGGGGgk..","..kGgGGGGgGGk...","...kkGGgGGkk....",".....kknkk......","......knk.......","......knk.......","......knnk......",".....knnnk......","...kssssssssk...","..ksswsssswssk..","..kkkkkkkkkkkk.."],
+duck:["................","....kkk.........","...kYYYk........","..kYkYYYk.......","..kYYYYYk.......",".kooYYYYk.......","..kkkYYYk.......","....kYYYkkkkk...","...kYYYYYYYYYk..","..kYYYYYYYYYYk..","..kYYYYwwYYYk...","...kYYYYYYYk....","....kkkkkkk.....",".BBBBBBBBBBBBBB.","BBbBBBBBBBbBBBBB",".BBBBBbBBBBBBBB."],
+mic:["......kkkk......",".....kssssk.....","....kswssssk....","....kssssssk....","....kswssssk....","....kssssssk....",".....kssssk.....","...k..kkkk..k...","...k...kk...k...","....k..kk..k....",".....kkkkkk.....",".......kk.......",".......kk.......",".....kkkkkk.....","....kppppppk....",".....kkkkkk....."],
+palette:["................","....kkkkkkk.....","..kkwwwwwwwkk...",".kwwrrwwwbbwwk..",".kwwrrwwwbbwwk..","kwwwwwwwwwwwwwk.","kwyywwwkkkwwwwk.","kwyywwk...kwwk..","kwwwwwk...kwk...",".kwwwwwkkkwwk...",".kwggwwwwwllwk..","..kggwwwwwllwk..","...kkwwwwwwkk...",".....kkkkkk.....","................","................"],
+book:["................","................","..kkkkkk.kkkkk..",".kwwwwwwkwwwwwk.",".kwsssswkwssswk.",".kwwwwwwkwwwwwk.",".kwsssswkwssswk.",".kwwwwwwkwwwwwk.",".kwsssswkwssswk.",".kwwwwwwkwwwwwk.",".kppppppkllllllk","..kkkkkkkkkkkkk.","................",".......p........","......ppp.......",".......p........"],
+shoe:["................","................","................",".....kkkk.......","....kppppk......","....kpwwpk......","....kpppppkk....","....kpwpwpppkk..","...kppppppppppk.","..kppppppppppppk","..kpppppppppppk.","..kwwwwwwwwwwwk.","..kkkkkkkkkkkk..","................","................","................"],
+well:["................","......kkkk......","....kkyyyykk....","...kyyyyyyyyk...","..kyyk....kyyk..","..kk..kkkk..kk..",".....k.kk.k.....","...kkkkkkkkkk...","...kssswsssssk..","...ksssssswssk..","...kswsssssssk..","...kssssswsssk..","...kkkkkkkkkkk..","....BBBBBBBB....","...BBbBBBBbBB...","................"],
+cap:["................","................","......kkkk......","....kkllllkk....","..kkllllllllkk..","kkllllllllllllkk",".kkkllllllllkkk.","...kkkkkkkkkk.y.","...klllllllk..y.","...kllllllk...y.","....kkkkkk...yyy","................","................","................","................","................"],
+logo:["................","......kk........",".....kGGk.......","....kGGGk..kk...","....kGGk..kGGk..",".....kk..kGGGk..","......k.kGGk....",".......kkkk.....",".......kk.......",".....kkkkkkk....","....kttttttk....","....ktkttktk....","....kttppttk....",".....kttttk.....",".....kkkkkk.....","................"]
+};
+function drawSprite(cv,map,scale){scale=scale||1;const h=map.length,w=16;cv.width=w*scale;cv.height=h*scale;const c=cv.getContext("2d");c.clearRect(0,0,cv.width,cv.height);
+  map.forEach((row,y)=>{[...row].forEach((ch,x)=>{if(ch!=="."&&PAL[ch]){c.fillStyle=PAL[ch];c.fillRect(x*scale,y*scale,scale,scale)}})})}
+function makeCursor(map,hx,hy){const cv=document.createElement("canvas");drawSprite(cv,map,2);return `url(${cv.toDataURL()}) ${hx} ${hy}`}
+
+/* ---------- data ---------- */
+const GR=q=>"https://www.goodreads.com/search?q="+encodeURIComponent(q);
+const L={
+ pom:["The Psychology of Money",GR("the psychology of money housel")],
+ varsity:["Zerodha Varsity","https://zerodha.com/varsity/module/introduction-to-stock-markets/"],
+ vro:["Value Research","https://www.valueresearchonline.com/"],
+ rr:["CA Rachana Ranade","https://www.youtube.com/@CARachanaRanade"],
+ ltm:["Let's Talk Money",GR("lets talk money monika halan")],
+ mom:["The Mom Test","https://www.momtestbook.com/"],
+ gpm:["Good PM / Bad PM","https://a16z.com/good-product-manager-bad-product-manager/"],
+ lenny:["Lenny's Podcast","https://www.lennysnewsletter.com/podcast"],
+ lennyN:["Lenny's Newsletter","https://www.lennysnewsletter.com/"],
+ expo:["Exponent","https://www.youtube.com/@tryexponent"],
+ nn:["3Blue1Brown: neural networks","https://www.3blue1brown.com/topics/neural-networks"],
+ gpt:["But what is a GPT?","https://www.youtube.com/watch?v=wjZofJX0v4M"],
+ kar:["Karpathy: Intro to LLMs","https://www.youtube.com/watch?v=zjkBMFhNj_g"],
+ coi:["Co-Intelligence",GR("co-intelligence ethan mollick")],
+ out:["One Useful Thing","https://www.oneusefulthing.org/"],
+ eoa:["Elements of AI","https://www.elementsofai.com/"],
+ pog:["Prisoners of Geography",GR("prisoners of geography tim marshall")],
+ ctc:["Cut the Clutter","https://www.youtube.com/@ThePrintIndia"],
+ cas:["Caspian Report","https://www.youtube.com/@CaspianReport"],
+ trih:["The Rest Is History","https://therestishistory.com/"],
+ owid:["Our World in Data","https://ourworldindata.org/"],
+ iex:["Indian Express Explained","https://indianexpress.com/section/explained/"],
+ reu:["Reuters World","https://www.reuters.com/world/"],
+ mint:["Mint","https://www.livemint.com/"],
+ ted:["Julian Treasure TED talk","https://www.ted.com/talks/julian_treasure_how_to_speak_so_that_people_want_to_listen"],
+ vinh:["Vinh Giang","https://www.youtube.com/@vinhgiang"],
+ murdle:["Murdle Volume 1",GR("murdle volume 1 karber")],
+ sunder:["Sunder Nursery","https://www.google.com/maps/search/Sunder+Nursery+Delhi"],
+ eo:["Eleanor Oliphant Is Completely Fine",GR("eleanor oliphant is completely fine")],
+ rbc:["Remarkably Bright Creatures",GR("remarkably bright creatures")]
+};
+const it=(k,t,...links)=>({k,t,links:links.map(x=>L[x])});
+const COURSES=[
+ {id:"FIN",code:"FIN 101",name:"Money & Investing",weeks:[1,2],color:"var(--butter)",spr:"sun",goal:"Understand how markets and index funds work, then write your own money rules.",
+  plan:{1:[it("Read","The Psychology of Money, ch. 1–10","pom"),it("Study","Zerodha Varsity, Module 1, ch. 1–5","varsity"),it("Lab","Compare 2 Nifty 50 index funds: expense ratio, tracking error, fund size","vro")],
+        2:[it("Read","The Psychology of Money, ch. 11–20","pom"),it("Watch","CA Rachana Ranade on SIP vs lump sum","rr"),it("Lab","Map your money in 4 buckets: needs, wants, invest, buffer")]},
+  res:[["Book","pom"],["Extra book","ltm"],["Website","varsity"],["Website","vro"],["YouTube","rr"]],
+  cap:"One page: your fund comparison + your 3-line investing rules."},
+ {id:"PRD",code:"PRD 101",name:"Product Thinking",weeks:[3,4],color:"var(--pink)",spr:"tulip",goal:"Find the real user problem before talking about features.",
+  plan:{3:[it("Read","The Mom Test, ch. 1–4","mom"),it("Read","Good Product Manager / Bad Product Manager","gpm"),it("Lab","Interview 2 friends about an app they use daily, Mom Test style")],
+        4:[it("Read","The Mom Test, ch. 5–8","mom"),it("Listen","One Lenny's Podcast episode on product sense","lenny"),it("Lab","Teardown: user, problem, what works, one change you'd make","expo")]},
+  res:[["Book","mom"],["Article","gpm"],["Podcast","lenny"],["Newsletter","lennyN"],["YouTube","expo"]],
+  cap:"A one-page app teardown backed by 2 real interviews."},
+ {id:"AI",code:"AI 101",name:"How AI Actually Works",weeks:[5,7],color:"var(--peri)",spr:"robot",goal:"Explain an LLM in plain words, and know where AI helps or fails.",
+  plan:{5:[it("Watch","3Blue1Brown neural networks, ch. 1–2","nn"),it("Read","Co-Intelligence, Part I","coi"),it("Lab","AI tool log #1: one tool, one real task. What worked, what failed")],
+        6:[it("Watch","Karpathy, Intro to Large Language Models (2 sittings)","kar"),it("Watch","3Blue1Brown, But what is a GPT?","gpt"),it("Lab","AI tool log #2: the same prompt on two different models")],
+        7:[it("Read","Co-Intelligence, Part II","coi"),it("Read","2 posts from One Useful Thing","out"),it("Lab","AI tool log #3 + script your explainer video")]},
+  res:[["Book","coi"],["YouTube","nn"],["YouTube","kar"],["Newsletter","out"],["Free course","eoa"]],
+  cap:"A 2-minute video, “how an LLM works”, + your 3-week tool log."},
+ {id:"HIS",code:"HIS 101",name:"Geopolitics & History",weeks:[8,9],color:"var(--sage)",spr:"oak",goal:"See how geography and the past shape today's headlines, in India and the world.",
+  plan:{8:[it("Read","Prisoners of Geography: China, then India & Pakistan","pog"),it("Watch","2 episodes of Cut the Clutter","ctc"),it("Lab","Pick one current India story. List the 5 past events behind it","owid")],
+        9:[it("Read","Prisoners of Geography: USA, then Russia","pog"),it("Watch","2 Caspian Report videos on a current world story","cas"),it("Lab","Same exercise for one world story")]},
+  res:[["Book","pog"],["YouTube","ctc"],["YouTube","cas"],["Podcast","trih"],["Website","owid"]],
+  cap:"Two one-page timelines: one India story, one world story."},
+ {id:"FINAL",code:"FINALS",name:"Capstone Week",weeks:[10,10],color:"var(--lilac)",spr:"cap",goal:"Show yourself what you learned.",
+  plan:{10:[it("Review","Reread your notebook, one course a day"),it("Capstone","Record a 5-minute talk: “4 things I learned this semester”"),it("Plan","Fill in the December digest and pick next semester's courses")]},
+  res:[],cap:"A 5-minute talk, one idea from each core course."},
+ {id:"CUR",code:"CUR 100",name:"Current Affairs",always:"Sundays · 30 min",color:"var(--sky)",spr:"duck",goal:"Each Sunday, 3 stories (India, world, business). One line each, plus one question you're still curious about.",
+  list:[it("Sunday","Read 3 stories and write one line on each","iex","reu","mint"),it("Video","Pick one Cut the Clutter episode","ctc")],
+  res:[["India","iex"],["World","reu"],["Business","mint"],["Video","ctc"]],cap:"By January: 30 one-line notes you can talk about."},
+ {id:"SPK",code:"SPK 100",name:"Speaking with Structure",always:"Saturdays · 15 min",color:"var(--peach)",spr:"mic",goal:"Every Saturday, a 2-minute video explaining one idea from the week using PREP: Point, Reason, Example, Point.",
+  list:[it("Weekly","Record one 2-minute PREP video"),it("Week 3","Rewatch your videos and fix one habit"),it("Week 6","Record with no notes"),it("Watch","How to speak so that people want to listen","ted")],
+  res:[["TED","ted"],["YouTube","vinh"]],cap:"Feeds into the 5-minute finals talk."},
+ {id:"CRE",code:"CRE 100",name:"Creative Lab",always:"Sundays · 45 min",color:"var(--pink)",spr:"palette",goal:"Make something with your hands every week.",
+  list:["Cook a dish you've never made","Photo walk: 10 shots, one colour","Murdle night with friends","Make a bookmark or zine page","Bake something new","Photo walk at Sunder Nursery","Sudoku race + journal collage","Handmade holiday cards","Christmas bake","Scrapbook your December digest"].map((t,i)=>it("Wk "+(i+1),t,...(i===5?["sunder"]:i===2?["murdle"]:[]))),
+  res:[["Puzzle book","murdle"],["Place","sunder"]],cap:"Ten things you made, pinned to the digest."},
+ {id:"LIT",code:"LIT 100",name:"Reading for Pleasure",always:"Daily · 2 pm",color:"var(--lilac)",spr:"book",goal:"Twenty pages a day. Two warm, easy page-turners to pull you out of a reading slump.",
+  list:[it("Wks 1–5","Eleanor Oliphant Is Completely Fine, Gail Honeyman","eo"),it("Wks 6–10","Remarkably Bright Creatures, Shelby Van Pelt","rbc")],
+  res:[["Book","eo"],["Book","rbc"]],cap:"Two books finished by January."},
+ {id:"FIT",code:"FIT 100",name:"Move Every Day",always:"Daily · 8:30 pm",color:"var(--sage)",spr:"shoe",goal:"Pick a tier every day. Zero is not an option.",
+  list:[it("Emergency","3,000 steps, or a 10-min walk + 20 squats + 1-min plank"),it("Medium","6,000 steps, or a 20-min home workout"),it("Regular","10,000 steps + 5 min of stretching"),it("Rules","4+ Regular days a week, max 2 Medium, max 1 Emergency, never two Emergencies in a row")],
+  res:[],cap:"70 days with no zero days."}
+];
+const BOOKS=[
+ {id:"pom",t:"Psychology of Money",a:"Morgan Housel",c:"#F4D865",h:250,l:L.pom},
+ {id:"ltm",t:"Let's Talk Money",a:"Monika Halan",c:"#F6BE98",h:220,thin:1,l:L.ltm},
+ {id:"mom",t:"The Mom Test",a:"Rob Fitzpatrick",c:"#F4B7D0",h:200,thin:1,l:L.mom},
+ {id:"coi",t:"Co-Intelligence",a:"Ethan Mollick",c:"#B4C8EE",h:240,l:L.coi},
+ {id:"pog",t:"Prisoners of Geography",a:"Tim Marshall",c:"#B7CC8E",h:265,l:L.pog},
+ {id:"eo",t:"Eleanor Oliphant",a:"Gail Honeyman",c:"#CDBBEE",h:255,l:L.eo},
+ {id:"rbc",t:"Bright Creatures",a:"Shelby Van Pelt",c:"#CFE5EE",h:235,l:L.rbc},
+ {id:"mur",t:"Murdle",a:"G.T. Karber",c:"#E2675A",h:190,thin:1,lean:1,l:L.murdle}
+];
+const TICK=["20 pages a day","never two zero days","Pip believes in you","one tick = one flower","PREP: point, reason, example, point","capstone > perfection","10k steps, or at least 3k","the garden grows until Jan 3"];
+
+/* ---------- state ---------- */
+const KEY="studyGarden.v1";
+let S={checks:{},daily:{},fit:{},books:{},digest:{nov:{},dec:{}}};
+try{const raw=localStorage.getItem(KEY);if(raw){S=Object.assign(S,JSON.parse(raw))}}catch(e){}
+function save(){try{localStorage.setItem(KEY,JSON.stringify(S))}catch(e){} refreshAll()}
+
+/* ---------- dates ---------- */
+const START=new Date(2026,9,26), END=new Date(2027,0,3);
+const iso=d=>`${d.getFullYear()}-${String(d.getMonth()+1).padStart(2,"0")}-${String(d.getDate()).padStart(2,"0")}`;
+const addDays=(d,n)=>{const x=new Date(d);x.setDate(x.getDate()+n);return x};
+const TODAY=new Date();TODAY.setHours(0,0,0,0);
+function weekOf(d){const diff=Math.floor((d-START)/864e5);return diff<0?0:Math.min(10,Math.floor(diff/7)+1)}
+const NOWWK=weekOf(TODAY);
+const activeWk=NOWWK===0?1:NOWWK;
+function courseForWeek(w){return COURSES.find(c=>c.weeks&&w>=c.weeks[0]&&w<=c.weeks[1])}
+
+/* ---------- helpers ---------- */
+const $=s=>document.querySelector(s);
+function el(tag,attrs,...kids){const e=document.createElement(tag);for(const k in (attrs||{})){if(k==="class")e.className=attrs[k];else if(k==="html")e.innerHTML=attrs[k];else if(k.startsWith("on"))e.addEventListener(k.slice(2),attrs[k]);else e.setAttribute(k,attrs[k])}kids.flat().forEach(k=>{if(k==null)return;e.append(k.nodeType?k:document.createTextNode(k))});return e}
+const link=([t,u])=>el("a",{href:u,target:"_blank",rel:"noopener"},t);
+function toast(msg){const t=el("div",{class:"toast",role:"status"},msg);document.body.append(t);setTimeout(()=>t.remove(),2200)}
+function checkbox(id,store,label){const cb=el("input",{type:"checkbox",class:"pix",id:"cb-"+id,"aria-label":label});cb.checked=!!store[id];cb.addEventListener("change",()=>{if(cb.checked)store[id]=1;else delete store[id];save();if(cb.checked)toast("🌼 a flower was planted")});return cb}
+
+/* ---------- today ---------- */
+function todayTasks(d){
+  const dow=d.getDay(), w=weekOf(d)||1, c=courseForWeek(w), key=iso(d), out=[];
+  const plan=c&&c.plan[w]||[];
+  if(dow>=1&&dow<=4) plan.forEach((p,i)=>{if(p.k!=="Lab")out.push({when:"10:45",id:`${c.id}-${w}-${i}`,store:"checks",what:`${p.k} · ${p.t}`,links:p.links,tag:c.code})});
+  if(dow===6){plan.forEach((p,i)=>{if(p.k==="Lab"||p.k==="Capstone")out.push({when:"11:00",id:`${c.id}-${w}-${i}`,store:"checks",what:`${p.k} · ${p.t}`,links:p.links,tag:c.code})});
+    out.push({when:"12:00",id:key+"-spk",store:"daily",what:"Speaking · record a 2-min PREP video",links:[L.vinh],tag:"SPK 100"})}
+  if(dow===0){out.push({when:"11:00",id:key+"-cur",store:"daily",what:"Current affairs · 3 stories, one line each",links:[L.iex,L.reu,L.mint],tag:"CUR 100"});
+    const cre=COURSES.find(x=>x.id==="CRE").list[w-1];out.push({when:"16:00",id:key+"-cre",store:"daily",what:"Creative lab · "+cre.t,links:cre.links,tag:"CRE 100"})}
+  if(dow===5)out.push({when:"any",id:key+"-catch",store:"daily",what:"Free day · catch up on anything you skipped",links:[],tag:"rest"});
+  const book=w<=5?L.eo:L.rbc;
+  out.push({when:"14:00",id:key+"-lit",store:"daily",what:"Fun reading · 20 pages",links:[book],tag:"LIT 100"});
+  return out;
+}
+function renderToday(){
+  const d=TODAY;
+  $("#todayDate").textContent=d.toLocaleDateString("en-GB",{weekday:"long",day:"numeric",month:"long",year:"numeric"});
+  const c=courseForWeek(activeWk);
+  $("#weekLine").textContent=NOWWK===0?`Starts Monday 26 October · in ${Math.ceil((START-TODAY)/864e5)} days`:NOWWK>=10&&TODAY>END?"Semester complete 🌸":`Week ${NOWWK} · ${c?c.name:""}`;
+  const tags=$("#todayTags");tags.innerHTML="";
+  const tasks=todayTasks(NOWWK===0?START:d);
+  [...new Set(tasks.map(t=>t.tag))].forEach((t,i)=>tags.append(el("span",{class:"tag",style:`background:${["var(--butter)","var(--pink)","var(--peri)","var(--sage)"][i%4]}`},t)));
+  if(NOWWK===0)tags.prepend(el("span",{class:"tag",style:"background:var(--card)"},"preview of day 1"));
+  const ul=$("#taskList");ul.innerHTML="";
+  tasks.forEach(t=>{const store=S[t.store];const li=el("li",{class:"task"+(store[t.id]?" done":"")});
+    const lab=el("label",{for:"cb-"+t.id},el("div",{class:"what"},t.what));
+    if(t.links&&t.links.length)lab.append(el("div",{class:"sub"},...t.links.map(link)));
+    li.append(checkbox(t.id,store,t.what),lab,el("span",{class:"when"},t.when));ul.append(li)});
+  const k=iso(TODAY);document.querySelectorAll(".tier").forEach(b=>b.setAttribute("aria-pressed",String(S.fit[k]===b.dataset.t)));
+  // weekly fitness rule
+  const mon=addDays(TODAY,-((TODAY.getDay()+6)%7));let cnt={R:0,M:0,E:0};for(let i=0;i<7;i++){const t=S.fit[iso(addDays(mon,i))];if(t)cnt[t]++}
+  $("#fitRule").textContent=`This week: ${cnt.R} Regular · ${cnt.M} Medium · ${cnt.E} Emergency. Goal: 4+ Regular, max 2 Medium, max 1 Emergency.`;
+}
+document.querySelectorAll(".tier").forEach(b=>b.addEventListener("click",()=>{const k=iso(TODAY);if(S.fit[k]===b.dataset.t)delete S.fit[k];else{S.fit[k]=b.dataset.t;toast("👟 nice, logged "+b.textContent.split(" ·")[0])}save()}));
+
+/* ---------- calendar ---------- */
+function renderCal(){
+  const cal=$("#cal");cal.innerHTML="";cal.append(el("span",{}));["M","T","W","T","F","S","S"].forEach(x=>cal.append(el("span",{class:"h"},x)));
+  let active=0;
+  for(let w=0;w<10;w++){cal.append(el("span",{class:"wk"},"Wk "+(w+1)));
+    for(let i=0;i<7;i++){const d=addDays(START,w*7+i),k=iso(d);const tasks=todayTasks(d);const done=tasks.filter(t=>S[t.store][t.id]).length;
+      const cls=["day"];if(done)cls.push(done>=tasks.length?"full":"has");if(+d===+TODAY)cls.push("today");if(done||S.fit[k])active++;
+      const cell=el("span",{class:cls.join(" "),title:d.toDateString()},String(d.getDate()));
+      if(S.fit[k])cell.append(el("span",{class:"ft "+S.fit[k]},S.fit[k]));cal.append(cell)}}
+  $("#calCount").textContent=`${active} of 70 days active`;
+}
+
+/* ---------- feed ---------- */
+const FEED_FALLBACK={updated:null,news:{india:[{title:"Indian Express · Explained",url:L.iex[1],source:"opens the section"}],world:[{title:"Reuters · World",url:L.reu[1],source:"opens the section"}],business:[{title:"Mint · Latest",url:L.mint[1],source:"opens the section"}]},courses:{}};
+function renderFeed(data){
+  const box=$("#feedNews");box.innerHTML="";
+  [["india","India","var(--butter)"],["world","World","var(--peri)"],["business","Business","var(--sage)"]].forEach(([k,label,col])=>{
+    const items=(data.news&&data.news[k]||[]).slice(0,3);
+    box.append(el("div",{class:"card"},el("h3",{},label,el("span",{class:"tag",style:`background:${col}`},"3 to read")),
+      el("ul",{},...(items.length?items:FEED_FALLBACK.news[k]).map(n=>el("li",{},el("a",{href:n.url,target:"_blank",rel:"noopener"},n.title),el("small",{},[n.source,n.date].filter(Boolean).join(" · ")))))))});
+  $("#feedUpdated").textContent=data.updated?`Updated ${new Date(data.updated).toLocaleString("en-GB",{day:"numeric",month:"short",hour:"2-digit",minute:"2-digit"})} · refreshes daily at 7 am`:"Live headlines start the first morning the site is online";
+  const c=courseForWeek(activeWk)||COURSES[0];$("#feedCourseName").textContent=c.name;
+  const ul=$("#feedCourse");ul.innerHTML="";const items=(data.courses&&data.courses[c.id])||[];
+  (items.length?items.slice(0,4):c.res.map(([t,k])=>({title:L[k][0],url:L[k][1],source:t}))).forEach(n=>ul.append(el("li",{},el("a",{href:n.url,target:"_blank",rel:"noopener",style:"font-weight:700"},n.title),el("small",{class:"mono",style:"display:block;color:var(--ink-2);text-transform:none"},[n.source,n.date].filter(Boolean).join(" · ")))));
+}
+// On GitHub Pages, read the newest links.json straight from the repo, so the 7 am update shows even before Pages rebuilds.
+const feedUrls=["links.json"];
+if(/\.github\.io$/.test(location.hostname)){const owner=location.hostname.split(".")[0],repo=location.pathname.split("/").filter(Boolean)[0]||`${owner}.github.io`;
+  feedUrls.unshift(`https://raw.githubusercontent.com/${owner}/${repo}/main/links.json?t=${Date.now()}`)}
+(async()=>{for(const u of feedUrls){try{const r=await fetch(u,{cache:"no-store"});if(r.ok){renderFeed(await r.json());return}}catch(e){}}renderFeed(FEED_FALLBACK)})();
+
+/* ---------- course cards + dialog ---------- */
+function courseItems(c){if(c.plan)return Object.entries(c.plan).flatMap(([w,arr])=>arr.map((p,i)=>`${c.id}-${w}-${i}`));return c.list.map((p,i)=>`${c.id}-l-${i}`)}
+function courseProgress(c){const ids=courseItems(c);return ids.length?ids.filter(id=>S.checks[id]).length/ids.length:0}
+function renderCards(){
+  const box=$("#cards");box.innerHTML="";
+  COURSES.forEach(c=>{const cv=el("canvas",{class:"px","aria-hidden":"true"});drawSprite(cv,SPR[c.spr],1);
+    const isNow=c.weeks&&activeWk>=c.weeks[0]&&activeWk<=c.weeks[1];
+    const b=el("button",{class:"ccard",type:"button","aria-label":`${c.name} syllabus`,onclick:()=>openCourse(c)},
+      el("div",{class:"art",style:`background:${c.color}`},cv,isNow?el("span",{class:"now"},NOWWK===0?"up first":"now"):null),
+      el("div",{class:"lab"},el("b",{},c.name),el("span",{},c.weeks?(c.weeks[0]===c.weeks[1]?`Week ${c.weeks[0]}`:`Weeks ${c.weeks[0]}–${c.weeks[1]}`):c.always)),
+      el("div",{class:"prog"},el("i",{style:`width:${Math.round(courseProgress(c)*100)}%`})));
+    box.append(b)});
+}
+const dlg=$("#dlg");
+function openCourse(c){
+  dlg.innerHTML="";const cv=el("canvas",{class:"px","aria-hidden":"true"});drawSprite(cv,SPR[c.spr],6);
+  const head=el("div",{class:"dlg-head",style:`background:${c.color}`},cv,el("div",{},el("div",{class:"mono"},c.code+" · "+(c.weeks?(c.weeks[0]===c.weeks[1]?`Week ${c.weeks[0]}`:`Weeks ${c.weeks[0]}–${c.weeks[1]}`):c.always)),el("h3",{id:"dlgTitle"},c.name),el("p",{},c.goal)),
+    el("button",{class:"x",type:"button","aria-label":"Close",onclick:()=>dlg.close()},"×"));
+  const body=el("div",{class:"dlg-body"});
+  const row=(p,id)=>el("li",{},checkbox(id,S.checks,p.t),el("label",{for:"cb-"+id},el("span",{class:"k"},p.k),p.t,p.links.length?el("div",{class:"sub",style:"font-size:14px;margin-top:2px"},...p.links.map(l=>[link(l)," "]).flat()):null));
+  if(c.plan){Object.entries(c.plan).forEach(([w,arr])=>{const d0=addDays(START,(w-1)*7);
+    body.append(el("div",{class:"week"},el("h4",{style:`background:${c.color}`},el("span",{},"Week "+w),el("span",{},d0.toLocaleDateString("en-GB",{day:"numeric",month:"short"})+" – "+addDays(d0,6).toLocaleDateString("en-GB",{day:"numeric",month:"short"}))),
+      el("ul",{},...arr.map((p,i)=>row(p,`${c.id}-${w}-${i}`)))))})}
+  else body.append(el("div",{class:"week"},el("h4",{style:`background:${c.color}`},el("span",{},"All semester"),el("span",{},c.always)),el("ul",{},...c.list.map((p,i)=>row(p,`${c.id}-l-${i}`)))));
+  if(c.res.length)body.append(el("div",{},el("div",{class:"mono",style:"margin-bottom:8px"},"Resources"),el("div",{class:"res"},...c.res.map(([t,k])=>el("a",{href:L[k][1],target:"_blank",rel:"noopener"},el("small",{},t),L[k][0])))));
+  body.append(el("div",{class:"cap"},el("b",{},"★ Capstone"),c.cap));
+  dlg.append(head,body);dlg.showModal();
+}
+dlg.addEventListener("click",e=>{if(e.target===dlg)dlg.close()});
+
+/* ---------- bookshelf ---------- */
+function renderShelf(){
+  const row=$("#shelfRow");row.innerHTML="";
+  BOOKS.forEach(b=>{const p=S.books[b.id]||0;
+    row.append(el("button",{class:"spine"+(b.thin?" thin":"")+(b.lean?" lean":""),type:"button",style:`height:${b.h}px;background:${b.c}`,"aria-expanded":"false","aria-controls":"bookInfo","aria-label":`${b.t}, ${p}% read`,onclick:e=>showBook(b,e.currentTarget)},
+      el("em",{},p+"%"),el("span",{},b.t)))});
+  const cv=el("canvas",{class:"px plant","aria-hidden":"true"});drawSprite(cv,SPR.tulip,6);cv.style.width="84px";row.append(cv);
+}
+function showBook(b,btn){
+  document.querySelectorAll(".spine").forEach(s=>s.setAttribute("aria-expanded","false"));btn.setAttribute("aria-expanded","true");
+  const box=$("#bookInfo");box.hidden=false;box.innerHTML="";const p=S.books[b.id]||0;
+  const out=el("output",{for:"bookRange",class:"mono"},p+"% read");
+  const r=el("input",{type:"range",id:"bookRange",min:"0",max:"100",step:"5",value:String(p),"aria-label":"How far you've read"});
+  r.addEventListener("input",()=>{out.textContent=r.value+"% read"});
+  r.addEventListener("change",()=>{S.books[b.id]=+r.value;save();if(+r.value===100)toast("📚 finished! a big flower for that")});
+  box.append(el("div",{},el("div",{class:"mono"},b.a),el("h3",{},b.t),el("a",{href:b.l[1],target:"_blank",rel:"noopener"},"Open on Goodreads ↗")),el("div",{},out,r));
+}
+
+/* ---------- garden ---------- */
+function rng(seed){return()=>{seed=(seed*16807)%2147483647;return(seed-1)/2147483646}}
+function flowerCount(){return Object.keys(S.checks).length+Object.keys(S.daily).length+Object.keys(S.fit).length+Object.values(S.books).filter(v=>v===100).length*3}
+function drawGarden(){
+  const cv=$("#garden"),P=5,w=Math.max(60,Math.floor(cv.clientWidth/P)),h=30;cv.width=w;cv.height=h;const c=cv.getContext("2d");
+  c.clearRect(0,0,w,h);
+  // hills + ground
+  c.fillStyle="#CFE3C0";for(let x=0;x<w;x++){const y=20+Math.round(2*Math.sin(x/9));c.fillRect(x,y,1,h-y)}
+  c.fillStyle="#9DC27A";c.fillRect(0,24,w,6);c.fillStyle="#8A5A3B";c.fillRect(0,28,w,2);
+  // clouds
+  c.fillStyle="#FFFDF7";[[8,4],[w*.45|0,3],[w*.8|0,6]].forEach(([x,y])=>{c.fillRect(x,y,7,2);c.fillRect(x+2,y-1,4,1)});
+  const n=flowerCount(),R=rng(42),cols=["#EE8FB5","#F2C94C","#B79BE6","#6F95D6","#E2675A","#FFFDF7","#F6BE98"];
+  const spots=[];for(let i=0;i<Math.min(n,w*2);i++){spots.push({x:Math.floor(R()*(w-4))+2,hgt:3+Math.floor(R()*7),col:cols[Math.floor(R()*cols.length)]})}
+  spots.sort((a,b)=>b.hgt-a.hgt).forEach(s=>{const base=25,top=base-s.hgt;c.fillStyle="#5E8C47";c.fillRect(s.x,top,1,s.hgt);if(s.hgt>4){c.fillRect(s.x+1,base-3,1,1);c.fillRect(s.x-1,base-2,1,1)}
+    c.fillStyle=s.col;c.fillRect(s.x-1,top,3,1);c.fillRect(s.x,top-1,1,3);c.fillStyle="#F2C94C";if(s.col!=="#F2C94C")c.fillRect(s.x,top,1,1);else{c.fillStyle="#C77A3A";c.fillRect(s.x,top,1,1)}});
+  if(!n){c.fillStyle="#6B4423";for(let i=0;i<6;i++)c.fillRect(6+i*Math.floor(w/6),25,1,1)}
+  $("#gardenCount").textContent=n===1?"1 flower":`${n} flowers`;
+}
+window.addEventListener("resize",drawGarden);
+
+/* ---------- mascot ---------- */
+function drawMascot(){
+  const cv=$("#mascot"),c=cv.getContext("2d");c.clearRect(0,0,32,32);
+  const stage=NOWWK===0?0:NOWWK<=2?1:NOWWK<=5?2:NOWWK<=8?3:4;
+  const px=(x,y,col,w=1,h=1)=>{c.fillStyle=col;c.fillRect(x,y,w,h)};
+  // stem + leaves
+  const L=[1,4,8,11,14][stage],base=19;
+  if(stage===0){px(14,base-1,"#5E8C47",2,1);px(13,base-2,"#9DC27A",2,1);px(16,base-3,"#9DC27A",2,1)}
+  else{px(15,base-L,"#5E8C47",2,L);
+    if(stage>=1){px(12,base-L+1,"#2B2622",4,3);px(13,base-L+2,"#9DC27A",3,1);px(17,base-L+2,"#2B2622",4,3);px(17,base-L+3,"#9DC27A",3,1)}
+    if(stage>=2){px(10,base-5,"#2B2622",5,3);px(11,base-4,"#9DC27A",4,1);px(17,base-7,"#2B2622",5,3);px(17,base-6,"#9DC27A",4,1)}
+    if(stage>=3&&stage<4){px(14,base-L-3,"#2B2622",4,4);px(15,base-L-2,"#EE8FB5",2,2)}
+    if(stage===4){const y=base-L-5;px(12,y,"#2B2622",8,7);px(13,y+1,"#EE8FB5",6,5);px(12,y+2,"#F7C6DA",1,3);px(19,y+2,"#F7C6DA",1,3);px(15,y+2,"#F2C94C",2,3)}}
+  // pot rim + body
+  px(7,19,"#2B2622",18,1);px(7,20,"#2B2622",1,3);px(24,20,"#2B2622",1,3);px(8,20,"#F6BE98",16,3);px(7,23,"#2B2622",18,1);
+  for(let y=24;y<31;y++){const i=Math.floor((y-24)/3);px(9+i,y,"#2B2622",1,1);px(22-i,y,"#2B2622",1,1);px(10+i,y,"#E9A07A",12-2*i,1)}
+  px(10,31,"#2B2622",12,1);
+  // face
+  px(12,25,"#2B2622",2,2);px(18,25,"#2B2622",2,2);px(12,25,"#FFFDF7",1,1);px(18,25,"#FFFDF7",1,1);
+  px(15,28,"#2B2622",2,1);px(14,27,"#2B2622",1,1);px(17,27,"#2B2622",1,1);
+  px(10,27,"#EE8FB5",2,1);px(20,27,"#EE8FB5",2,1);
+  const names=["seed","sprout","leafy","budding","blooming"];
+  $("#stageName").textContent=names[stage];
+  $("#weekLabel").textContent=`week ${NOWWK} of 10`;
+  $("#semBar").style.width=Math.min(100,Math.max(0,(TODAY-START)/(END-START)*100))+"%";
+  const lines=NOWWK===0?["Hi Arushi! I'm Pip. We start Monday.","I'm just a seed right now. Water me with ticks!"]:["Did you do your 20 pages?","One tick = one flower 🌼","Pip is growing with you.","Walk at 8:30? I'll come too."];
+  $("#sproutSays").textContent=lines[Math.floor(Date.now()/864e5)%lines.length];
+}
+
+/* ---------- digest ---------- */
+let month=TODAY.getMonth()===11?"dec":"nov";
+const DG=[["read","read"],["learned","learned"],["watched","watched + listened"],["made","made"],["said","said (my videos)"],["ins","in's"],["outs","out's"],["proud","proudest moment"],["next","next month I'll…"]];
+function renderDigest(){
+  document.querySelectorAll(".dig-tabs button").forEach(b=>b.setAttribute("aria-selected",String(b.dataset.m===month)));
+  const g=$("#digestGrid");g.innerHTML="";const cols=["var(--butter)","var(--pink)","var(--peri)","var(--sage)","var(--peach)","var(--lilac)","var(--sky)","var(--butter)","var(--pink)"];
+  DG.forEach(([k,label],i)=>{const id=`dg-${month}-${k}`;const ta=el("textarea",{id});ta.value=(S.digest[month]||{})[k]||"";
+    ta.addEventListener("input",()=>{S.digest[month]=S.digest[month]||{};S.digest[month][k]=ta.value;try{localStorage.setItem(KEY,JSON.stringify(S))}catch(e){}});
+    g.append(el("div",{class:"dg",style:i%3===1?`background:${cols[i]}`:""},el("label",{for:id},label),ta))});
+}
+document.querySelectorAll(".dig-tabs button").forEach(b=>b.addEventListener("click",()=>{month=b.dataset.m;renderDigest()}));
+
+/* ---------- sync ---------- */
+const enc=o=>btoa(unescape(encodeURIComponent(JSON.stringify(o))));
+const dec=s=>JSON.parse(decodeURIComponent(escape(atob(s.trim()))));
+$("#copySync").addEventListener("click",()=>{const box=$("#syncBox");box.value=enc(S);navigator.clipboard&&navigator.clipboard.writeText(box.value).then(()=>toast("Copied. Paste it on your other device"),()=>{box.select();toast("Selected. Copy it manually")})});
+$("#loadSync").addEventListener("click",()=>{try{const o=dec($("#syncBox").value);if(!o.checks)throw 0;S=Object.assign({checks:{},daily:{},fit:{},books:{},digest:{nov:{},dec:{}}},o);save();renderDigest();toast("Loaded. Your garden is synced 🌱")}catch(e){toast("That code didn't work. Copy the whole thing and try again")}});
+
+/* ---------- ticker, logo, cursor ---------- */
+$("#ticker").innerHTML=[...TICK,...TICK].map(t=>`<span>✿ ${t}</span>`).join("");
+drawSprite($("#logo"),SPR.logo,1);
+try{const arrow=["k...............","kk..............","kwk.............","kwwk............","kwwwk...........","kwwwwk..........","kwwwwwk.........","kwwwwwwk........","kwwwwwwwk.......","kwwwwkkkkk......","kwwkwwk.........","kwk.kwwk........","kk..kwwk........","k....kwwk.......",".....kwwk.......","......kk........"];
+ const hand=[".....kk.........","....kwwk........","....kwwk........","....kwwkkk......","....kwwkwwkk....","..kkkwwkwwkwk...",".kwwkwwwwwwwwk..",".kwwwwwwwwwwwk..","..kwwwwwwwwwwk..","..kwwwwwwwwwk...","...kwwwwwwwwk...","....kwwwwwwk....","....kkkkkkkk....","................","................","................"];
+ const st=document.createElement("style");st.textContent=`body{cursor:${makeCursor(arrow,0,0)},auto} a,button,label,.spine,input[type=checkbox],input[type=range]{cursor:${makeCursor(hand,10,0)},pointer}`;document.head.append(st)}catch(e){}
+
+function refreshAll(){renderToday();renderCal();renderCards();renderShelf();drawGarden()}
+refreshAll();drawMascot();renderDigest();
+})();
+</script>
+
+</body>
+</html>

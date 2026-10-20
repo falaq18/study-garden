@@ -1,0 +1,573 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Arushi//Personal Curriculum//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Personal Curriculum
+X-WR-TIMEZONE:Asia/Kolkata
+BEGIN:VTIMEZONE
+TZID:Asia/Kolkata
+BEGIN:STANDARD
+DTSTART:19700101T000000
+TZOFFSETFROM:+0530
+TZOFFSETTO:+0530
+TZNAME:IST
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:dcfe3988-0acf-4b9b-be1c-0626cabd351f@curriculum
+DTSTAMP:20261020T183000Z
+DTSTART;TZID=Asia/Kolkata:20261026T104500
+DTEND;TZID=Asia/Kolkata:20261026T110500
+SUMMARY:📚 FIN 101 · Psychology of Money ch. 1–10 + Zerodha Varsity Mo
+ dule 1\, ch. 1–5
+DESCRIPTION:Wk 1 reading\, 20 min.\nhttps://www.goodreads.com/search?q=the+
+ psychology+of+money+housel\nhttps://zerodha.com/varsity/module/introductio
+ n-to-stock-markets/
+URL:https://www.goodreads.com/search?q=the+psychology+of+money+housel
+RRULE:FREQ=DAILY;COUNT=4
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:📚 FIN 101 · Psychology of Money ch. 1–10 + Zerodha Varsit
+ y Module 1\, ch. 1–5
+TRIGGER:-PT10M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:e97aee1f-eeb1-48d3-a137-d05fe73c1631@curriculum
+DTSTAMP:20261020T183000Z
+DTSTART;TZID=Asia/Kolkata:20261031T110000
+DTEND;TZID=Asia/Kolkata:20261031T114500
+SUMMARY:🧪 FIN 101 lab · Compare 2 Nifty 50 index funds on Value Researc
+ h: expense ratio\, tracking error\, fund size
+DESCRIPTION:Wk 1 lab\, 45 min.\nhttps://www.valueresearchonline.com/
+URL:https://www.valueresearchonline.com/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:🧪 FIN 101 lab · Compare 2 Nifty 50 index funds on Value Res
+ earch: expense ratio\, tracking error\, fund size
+TRIGGER:-PT10M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:88a451e6-48c1-4ef0-88f0-912d911b3066@curriculum
+DTSTAMP:20261020T183000Z
+DTSTART;TZID=Asia/Kolkata:20261101T160000
+DTEND;TZID=Asia/Kolkata:20261101T164500
+SUMMARY:🎨 Creative lab · Cook a dish you've never made
+DESCRIPTION:Wk 1 creative lab\, 45 min.
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:🎨 Creative lab · Cook a dish you've never made
+TRIGGER:-PT10M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:a5fe1e2e-6a03-4469-9bac-027f5e450772@curriculum
+DTSTAMP:20261020T183000Z
+DTSTART;TZID=Asia/Kolkata:20261102T104500
+DTEND;TZID=Asia/Kolkata:20261102T110500
+SUMMARY:📚 FIN 101 · Psychology of Money ch. 11–20 + CA Rachana Ranade
+  on SIP vs lump sum
+DESCRIPTION:Wk 2 reading\, 20 min.\nhttps://www.goodreads.com/search?q=the+
+ psychology+of+money+housel\nhttps://www.youtube.com/@CARachanaRanade
+URL:https://www.goodreads.com/search?q=the+psychology+of+money+housel
+RRULE:FREQ=DAILY;COUNT=4
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:📚 FIN 101 · Psychology of Money ch. 11–20 + CA Rachana Ra
+ nade on SIP vs lump sum
+TRIGGER:-PT10M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:f5999067-9b81-4138-acce-dd21ec67058e@curriculum
+DTSTAMP:20261020T183000Z
+DTSTART;TZID=Asia/Kolkata:20261107T110000
+DTEND;TZID=Asia/Kolkata:20261107T114500
+SUMMARY:🧪 FIN 101 lab · Map your money in 4 buckets (needs\, wants\, in
+ vest\, buffer). CAPSTONE: fund comparison + 3-line investing rules
+DESCRIPTION:Wk 2 lab\, 45 min.\n
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:🧪 FIN 101 lab · Map your money in 4 buckets (needs\, wants\
+ , invest\, buffer). CAPSTONE: fund comparison + 3-line investing rules
+TRIGGER:-PT10M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:c45eb052-450d-4ff8-92b7-4b1f855474fc@curriculum
+DTSTAMP:20261020T183000Z
+DTSTART;TZID=Asia/Kolkata:20261108T160000
+DTEND;TZID=Asia/Kolkata:20261108T164500
+SUMMARY:🎨 Creative lab · Photo walk: 10 shots\, one colour
+DESCRIPTION:Wk 2 creative lab\, 45 min.
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:🎨 Creative lab · Photo walk: 10 shots\, one colour
+TRIGGER:-PT10M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:00ba249e-26e9-461a-ac71-9e15aac7d261@curriculum
+DTSTAMP:20261020T183000Z
+DTSTART;TZID=Asia/Kolkata:20261109T104500
+DTEND;TZID=Asia/Kolkata:20261109T110500
+SUMMARY:📚 PRD 101 · The Mom Test ch. 1–4 + Good PM / Bad PM (Ben Horo
+ witz)
+DESCRIPTION:Wk 3 reading\, 20 min.\nhttps://www.momtestbook.com/\nhttps://a
+ 16z.com/good-product-manager-bad-product-manager/
+URL:https://www.momtestbook.com/
+RRULE:FREQ=DAILY;COUNT=4
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:📚 PRD 101 · The Mom Test ch. 1–4 + Good PM / Bad PM (Ben 
+ Horowitz)
+TRIGGER:-PT10M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:6e69f2e6-4e32-4a81-8231-d6bde43b69c1@curriculum
+DTSTAMP:20261020T183000Z
+DTSTART;TZID=Asia/Kolkata:20261114T110000
+DTEND;TZID=Asia/Kolkata:20261114T114500
+SUMMARY:🧪 PRD 101 lab · Interview 2 friends about an app they use daily
+ \, Mom Test style
+DESCRIPTION:Wk 3 lab\, 45 min.\n
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:🧪 PRD 101 lab · Interview 2 friends about an app they use d
+ aily\, Mom Test style
+TRIGGER:-PT10M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:dc60a06b-08b9-46e7-a4a2-a8050898ec7d@curriculum
+DTSTAMP:20261020T183000Z
+DTSTART;TZID=Asia/Kolkata:20261115T160000
+DTEND;TZID=Asia/Kolkata:20261115T164500
+SUMMARY:🎨 Creative lab · Murdle night with friends
+DESCRIPTION:Wk 3 creative lab\, 45 min.
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:🎨 Creative lab · Murdle night with friends
+TRIGGER:-PT10M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:8c0d6d41-e79b-4d05-909c-b9085b833ff2@curriculum
+DTSTAMP:20261020T183000Z
+DTSTART;TZID=Asia/Kolkata:20261116T104500
+DTEND;TZID=Asia/Kolkata:20261116T110500
+SUMMARY:📚 PRD 101 · The Mom Test ch. 5–8 + one Lenny's Podcast episod
+ e on product sense
+DESCRIPTION:Wk 4 reading\, 20 min.\nhttps://www.momtestbook.com/\nhttps://w
+ ww.lennysnewsletter.com/podcast
+URL:https://www.momtestbook.com/
+RRULE:FREQ=DAILY;COUNT=4
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:📚 PRD 101 · The Mom Test ch. 5–8 + one Lenny's Podcast ep
+ isode on product sense
+TRIGGER:-PT10M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:93f1da8e-08a8-4bd9-b9d7-8f955f073ad3@curriculum
+DTSTAMP:20261020T183000Z
+DTSTART;TZID=Asia/Kolkata:20261121T110000
+DTEND;TZID=Asia/Kolkata:20261121T114500
+SUMMARY:🧪 PRD 101 lab · CAPSTONE: one-page app teardown (user\, problem
+ \, what works\, one change)
+DESCRIPTION:Wk 4 lab\, 45 min.\nhttps://www.youtube.com/@tryexponent
+URL:https://www.youtube.com/@tryexponent
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:🧪 PRD 101 lab · CAPSTONE: one-page app teardown (user\, pro
+ blem\, what works\, one change)
+TRIGGER:-PT10M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:4a09716a-5181-482c-912b-61688736a4a4@curriculum
+DTSTAMP:20261020T183000Z
+DTSTART;TZID=Asia/Kolkata:20261122T160000
+DTEND;TZID=Asia/Kolkata:20261122T164500
+SUMMARY:🎨 Creative lab · Make a bookmark or zine page
+DESCRIPTION:Wk 4 creative lab\, 45 min.
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:🎨 Creative lab · Make a bookmark or zine page
+TRIGGER:-PT10M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:6957e47d-50fe-4b89-b2eb-9290976ebca9@curriculum
+DTSTAMP:20261020T183000Z
+DTSTART;TZID=Asia/Kolkata:20261123T104500
+DTEND;TZID=Asia/Kolkata:20261123T110500
+SUMMARY:📚 AI 101 · 3Blue1Brown neural networks ch. 1–2 + Co-Intellige
+ nce Part I
+DESCRIPTION:Wk 5 reading\, 20 min.\nhttps://www.3blue1brown.com/topics/neur
+ al-networks\nhttps://www.goodreads.com/search?q=co-intelligence+ethan+moll
+ ick
+URL:https://www.3blue1brown.com/topics/neural-networks
+RRULE:FREQ=DAILY;COUNT=4
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:📚 AI 101 · 3Blue1Brown neural networks ch. 1–2 + Co-Intel
+ ligence Part I
+TRIGGER:-PT10M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:ed60bbfb-3f63-4ae7-87b0-fd8377814756@curriculum
+DTSTAMP:20261020T183000Z
+DTSTART;TZID=Asia/Kolkata:20261128T110000
+DTEND;TZID=Asia/Kolkata:20261128T114500
+SUMMARY:🧪 AI 101 lab · AI tool log #1: use one AI tool on a real task\,
+  note what worked and what failed
+DESCRIPTION:Wk 5 lab\, 45 min.\n
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:🧪 AI 101 lab · AI tool log #1: use one AI tool on a real ta
+ sk\, note what worked and what failed
+TRIGGER:-PT10M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:f77c5851-8e2d-42cb-bf53-6041e19c3850@curriculum
+DTSTAMP:20261020T183000Z
+DTSTART;TZID=Asia/Kolkata:20261129T160000
+DTEND;TZID=Asia/Kolkata:20261129T164500
+SUMMARY:🎨 Creative lab · Bake something new
+DESCRIPTION:Wk 5 creative lab\, 45 min.
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:🎨 Creative lab · Bake something new
+TRIGGER:-PT10M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:237fbf90-e7c2-4867-997b-3c8e8449ccb3@curriculum
+DTSTAMP:20261020T183000Z
+DTSTART;TZID=Asia/Kolkata:20261130T104500
+DTEND;TZID=Asia/Kolkata:20261130T110500
+SUMMARY:📚 AI 101 · Karpathy\, Intro to Large Language Models (2 sitting
+ s) + 3Blue1Brown\, But what is a GPT?
+DESCRIPTION:Wk 6 reading\, 20 min.\nhttps://www.youtube.com/watch?v=zjkBMFh
+ Nj_g\nhttps://www.youtube.com/watch?v=wjZofJX0v4M
+URL:https://www.youtube.com/watch?v=zjkBMFhNj_g
+RRULE:FREQ=DAILY;COUNT=4
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:📚 AI 101 · Karpathy\, Intro to Large Language Models (2 sit
+ tings) + 3Blue1Brown\, But what is a GPT?
+TRIGGER:-PT10M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:bba08721-aba9-44bd-a749-fa396a309e0e@curriculum
+DTSTAMP:20261020T183000Z
+DTSTART;TZID=Asia/Kolkata:20261205T110000
+DTEND;TZID=Asia/Kolkata:20261205T114500
+SUMMARY:🧪 AI 101 lab · AI tool log #2: same prompt on two different AI 
+ models
+DESCRIPTION:Wk 6 lab\, 45 min.\n
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:🧪 AI 101 lab · AI tool log #2: same prompt on two different
+  AI models
+TRIGGER:-PT10M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:acb3c234-c6d1-4bdd-98a3-56ac86975b4a@curriculum
+DTSTAMP:20261020T183000Z
+DTSTART;TZID=Asia/Kolkata:20261206T160000
+DTEND;TZID=Asia/Kolkata:20261206T164500
+SUMMARY:🎨 Creative lab · Photo walk at Sunder Nursery
+DESCRIPTION:Wk 6 creative lab\, 45 min.
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:🎨 Creative lab · Photo walk at Sunder Nursery
+TRIGGER:-PT10M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:e4bb1c3b-dbeb-4513-84dc-7c82bd4e549d@curriculum
+DTSTAMP:20261020T183000Z
+DTSTART;TZID=Asia/Kolkata:20261207T104500
+DTEND;TZID=Asia/Kolkata:20261207T110500
+SUMMARY:📚 AI 101 · Co-Intelligence Part II + 2 posts from One Useful Th
+ ing
+DESCRIPTION:Wk 7 reading\, 20 min.\nhttps://www.goodreads.com/search?q=co-i
+ ntelligence+ethan+mollick\nhttps://www.oneusefulthing.org/
+URL:https://www.goodreads.com/search?q=co-intelligence+ethan+mollick
+RRULE:FREQ=DAILY;COUNT=4
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:📚 AI 101 · Co-Intelligence Part II + 2 posts from One Usefu
+ l Thing
+TRIGGER:-PT10M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:c1b14f82-4d1f-48d7-b1b6-d216f3e620ba@curriculum
+DTSTAMP:20261020T183000Z
+DTSTART;TZID=Asia/Kolkata:20261212T110000
+DTEND;TZID=Asia/Kolkata:20261212T114500
+SUMMARY:🧪 AI 101 lab · AI tool log #3 + script your video. CAPSTONE: 2-
+ min video 'How an LLM works'
+DESCRIPTION:Wk 7 lab\, 45 min.\nhttps://www.elementsofai.com/
+URL:https://www.elementsofai.com/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:🧪 AI 101 lab · AI tool log #3 + script your video. CAPSTONE
+ : 2-min video 'How an LLM works'
+TRIGGER:-PT10M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:08553140-0bcd-48c2-9d85-be9e8d48aada@curriculum
+DTSTAMP:20261020T183000Z
+DTSTART;TZID=Asia/Kolkata:20261213T160000
+DTEND;TZID=Asia/Kolkata:20261213T164500
+SUMMARY:🎨 Creative lab · Sudoku race + journal collage
+DESCRIPTION:Wk 7 creative lab\, 45 min.
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:🎨 Creative lab · Sudoku race + journal collage
+TRIGGER:-PT10M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:1067e768-fd22-4352-b0c8-d413ee32c0e5@curriculum
+DTSTAMP:20261020T183000Z
+DTSTART;TZID=Asia/Kolkata:20261214T104500
+DTEND;TZID=Asia/Kolkata:20261214T110500
+SUMMARY:📚 HIS 101 · Prisoners of Geography: China\, India & Pakistan + 
+ 2 Cut the Clutter episodes
+DESCRIPTION:Wk 8 reading\, 20 min.\nhttps://www.goodreads.com/search?q=pris
+ oners+of+geography+tim+marshall\nhttps://www.youtube.com/@ThePrintIndia
+URL:https://www.goodreads.com/search?q=prisoners+of+geography+tim+marshall
+RRULE:FREQ=DAILY;COUNT=4
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:📚 HIS 101 · Prisoners of Geography: China\, India & Pakista
+ n + 2 Cut the Clutter episodes
+TRIGGER:-PT10M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:e8cb6252-4fd5-4f15-9441-0137e6b27246@curriculum
+DTSTAMP:20261020T183000Z
+DTSTART;TZID=Asia/Kolkata:20261219T110000
+DTEND;TZID=Asia/Kolkata:20261219T114500
+SUMMARY:🧪 HIS 101 lab · Pick one current India story and list the 5 pas
+ t events behind it
+DESCRIPTION:Wk 8 lab\, 45 min.\nhttps://ourworldindata.org/
+URL:https://ourworldindata.org/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:🧪 HIS 101 lab · Pick one current India story and list the 5
+  past events behind it
+TRIGGER:-PT10M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:3f735ae5-77bc-492e-9e09-427237a739cb@curriculum
+DTSTAMP:20261020T183000Z
+DTSTART;TZID=Asia/Kolkata:20261220T160000
+DTEND;TZID=Asia/Kolkata:20261220T164500
+SUMMARY:🎨 Creative lab · Handmade holiday cards
+DESCRIPTION:Wk 8 creative lab\, 45 min.
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:🎨 Creative lab · Handmade holiday cards
+TRIGGER:-PT10M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:34933a93-6818-4bf0-ab4d-fb2ded094cb5@curriculum
+DTSTAMP:20261020T183000Z
+DTSTART;TZID=Asia/Kolkata:20261221T104500
+DTEND;TZID=Asia/Kolkata:20261221T110500
+SUMMARY:📚 HIS 101 · Prisoners of Geography: USA\, Russia + 2 Caspian Re
+ port videos
+DESCRIPTION:Wk 9 reading\, 20 min.\nhttps://www.goodreads.com/search?q=pris
+ oners+of+geography+tim+marshall\nhttps://www.youtube.com/@CaspianReport
+URL:https://www.goodreads.com/search?q=prisoners+of+geography+tim+marshall
+RRULE:FREQ=DAILY;COUNT=4
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:📚 HIS 101 · Prisoners of Geography: USA\, Russia + 2 Caspia
+ n Report videos
+TRIGGER:-PT10M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:86b60a52-7aff-4309-b5d6-dec5d4c900c5@curriculum
+DTSTAMP:20261020T183000Z
+DTSTART;TZID=Asia/Kolkata:20261226T110000
+DTEND;TZID=Asia/Kolkata:20261226T114500
+SUMMARY:🧪 HIS 101 lab · CAPSTONE: two one-page timelines\, one India st
+ ory and one world story
+DESCRIPTION:Wk 9 lab\, 45 min.\nhttps://therestishistory.com/
+URL:https://therestishistory.com/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:🧪 HIS 101 lab · CAPSTONE: two one-page timelines\, one Indi
+ a story and one world story
+TRIGGER:-PT10M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:45bd921e-0446-44ce-9da1-fd3ababa906c@curriculum
+DTSTAMP:20261020T183000Z
+DTSTART;TZID=Asia/Kolkata:20261227T160000
+DTEND;TZID=Asia/Kolkata:20261227T164500
+SUMMARY:🎨 Creative lab · Christmas bake
+DESCRIPTION:Wk 9 creative lab\, 45 min.
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:🎨 Creative lab · Christmas bake
+TRIGGER:-PT10M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:6bbc2861-28ed-4e5c-a0fe-402b1eb09211@curriculum
+DTSTAMP:20261020T183000Z
+DTSTART;TZID=Asia/Kolkata:20261228T104500
+DTEND;TZID=Asia/Kolkata:20261228T110500
+SUMMARY:📚 FINALS · Reread your notebook\, one course a day
+DESCRIPTION:Wk 10 reading\, 20 min.\n
+RRULE:FREQ=DAILY;COUNT=4
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:📚 FINALS · Reread your notebook\, one course a day
+TRIGGER:-PT10M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:2494ad06-5624-4e1c-8f97-5df7ad42b809@curriculum
+DTSTAMP:20261020T183000Z
+DTSTART;TZID=Asia/Kolkata:20270102T110000
+DTEND;TZID=Asia/Kolkata:20270102T114500
+SUMMARY:🧪 FINALS lab · BIG CAPSTONE: record a 5-min talk\, '4 things I 
+ learned this semester'
+DESCRIPTION:Wk 10 lab\, 45 min.\n
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:🧪 FINALS lab · BIG CAPSTONE: record a 5-min talk\, '4 thing
+ s I learned this semester'
+TRIGGER:-PT10M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:48951e8b-f844-41f6-90c5-f4981fe2da4a@curriculum
+DTSTAMP:20261020T183000Z
+DTSTART;TZID=Asia/Kolkata:20270103T160000
+DTEND;TZID=Asia/Kolkata:20270103T164500
+SUMMARY:🎨 Creative lab · Scrapbook your December digest page
+DESCRIPTION:Wk 10 creative lab\, 45 min.
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:🎨 Creative lab · Scrapbook your December digest page
+TRIGGER:-PT10M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:8603fb34-04fd-4194-af2e-a9adcd8c2b50@curriculum
+DTSTAMP:20261020T183000Z
+DTSTART;TZID=Asia/Kolkata:20261031T120000
+DTEND;TZID=Asia/Kolkata:20261031T121500
+SUMMARY:🎤 Speaking · record a 2-min PREP video
+DESCRIPTION:Point\, Reason\, Example\, Point. Explain one idea from this we
+ ek.\nhttps://www.ted.com/talks/julian_treasure_how_to_speak_so_that_people
+ _want_to_listen\nhttps://www.youtube.com/@vinhgiang
+RRULE:FREQ=WEEKLY;UNTIL=20270103T235959
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:🎤 Speaking · record a 2-min PREP video
+TRIGGER:-PT10M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:c7e9f972-e865-4660-b643-46874cb4cfc9@curriculum
+DTSTAMP:20261020T183000Z
+DTSTART;TZID=Asia/Kolkata:20261101T110000
+DTEND;TZID=Asia/Kolkata:20261101T113000
+SUMMARY:🗞️ Current affairs · India + world + business
+DESCRIPTION:3 stories\, one line each + one question.\nhttps://indianexpres
+ s.com/section/explained/\nhttps://www.reuters.com/world/\nhttps://www.live
+ mint.com/\nhttps://www.youtube.com/@ThePrintIndia
+RRULE:FREQ=WEEKLY;UNTIL=20270103T235959
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:🗞️ Current affairs · India + world + business
+TRIGGER:-PT10M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:0702278f-c83c-4be6-8cee-6d9538cbf874@curriculum
+DTSTAMP:20261020T183000Z
+DTSTART;TZID=Asia/Kolkata:20261026T203000
+DTEND;TZID=Asia/Kolkata:20261026T210000
+SUMMARY:👟 Move · Emergency\, Medium or Regular?
+DESCRIPTION:Emergency: 3k steps or 10-min walk + 20 squats + 1-min plank\nM
+ edium: 6k steps or 20-min home workout\nRegular: 10k steps + 5 min stretch
+ \nWeekly: 4+ Regular\, max 2 Medium\, max 1 Emergency\, never zero.
+RRULE:FREQ=DAILY;UNTIL=20270103T235959
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:👟 Move · Emergency\, Medium or Regular?
+TRIGGER:-PT10M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:44e75792-88fd-4c78-825f-36c280852573@curriculum
+DTSTAMP:20261020T183000Z
+DTSTART;TZID=Asia/Kolkata:20261026T140000
+DTEND;TZID=Asia/Kolkata:20261026T142000
+SUMMARY:📖 Fun reading · 20 pages
+DESCRIPTION:Wks 1–5: Eleanor Oliphant Is Completely Fine\nhttps://www.goo
+ dreads.com/search?q=eleanor+oliphant+is+completely+fine\nWks 6–10: Remar
+ kably Bright Creatures\nhttps://www.goodreads.com/search?q=remarkably+brig
+ ht+creatures
+RRULE:FREQ=DAILY;UNTIL=20270103T235959
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:📖 Fun reading · 20 pages
+TRIGGER:-PT5M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:87c83bc1-7dda-4fd1-9a60-79bf964dc130@curriculum
+DTSTAMP:20261020T183000Z
+DTSTART;TZID=Asia/Kolkata:20261129T170000
+DTEND;TZID=Asia/Kolkata:20261129T173000
+SUMMARY:✨ Fill in your monthly digest
+DESCRIPTION:Read\, learned\, watched\, made\, said\, in's and out's\, proud
+ est moment.
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:✨ Fill in your monthly digest
+TRIGGER:-PT10M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:d01d9f49-2c60-43be-843d-81bc5896b673@curriculum
+DTSTAMP:20261020T183000Z
+DTSTART;TZID=Asia/Kolkata:20261227T170000
+DTEND;TZID=Asia/Kolkata:20261227T173000
+SUMMARY:✨ Fill in your monthly digest
+DESCRIPTION:Read\, learned\, watched\, made\, said\, in's and out's\, proud
+ est moment.
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:✨ Fill in your monthly digest
+TRIGGER:-PT10M
+END:VALARM
+END:VEVENT
+END:VCALENDAR
