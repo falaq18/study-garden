@@ -1,67 +1,111 @@
 {
- "updated": "2026-10-20T18:57+00:00",
+ "updated": "2026-10-20T19:09+00:00",
+ "method": "ranked",
  "news": {
   "india": [
    {
-    "title": "On paddy field conservation in Keralam",
-    "url": "https://www.thehindu.com/opinion/op-ed/on-paddy-field-conservation-in-keralam/article71605301.ece",
-    "source": "The Hindu · National",
-    "date": "21 Oct"
+    "title": "\"Will Have To Defeat Them\": PM Modi's Dussehra Call To Fight India's \"Enemies\"",
+    "url": "https://www.ndtv.com/india-news/pm-modi-dussehra-2026-will-have-to-defeat-them-pm-modis-vijayadashami-call-to-out-indias-enemies-12211609#publisher=newsstand",
+    "source": "NDTV",
+    "date": "20 Oct",
+    "outlets": 3,
+    "also": [
+     "Hindustan Times",
+     "The Hindu"
+    ]
    },
    {
-    "title": "30-foot-high cockroach effigy triggers AAP-BJP war of words",
-    "url": "https://www.thehindu.com/news/cities/Delhi/30-foot-high-cockroach-effigy-triggers-aap-bjp-war-of-words/article71605225.ece",
-    "source": "The Hindu · National",
-    "date": "21 Oct"
+    "title": "Students gather at Delhi's Model Town park to burn 20-feet tall ‘Gyanesh Kumar effigy’, detained",
+    "url": "https://www.hindustantimes.com/india-news/students-gather-at-delhis-model-town-park-to-burn-20-feet-tall-gyanesh-kumar-effigy-detained-101792503833316.html",
+    "source": "Hindustan Times",
+    "date": "20 Oct",
+    "outlets": 2,
+    "also": [
+     "Mint Politics"
+    ]
    },
    {
-    "title": "T.N. government should construct new Secretariat complex outside Chennai, says Anbumani",
-    "url": "https://www.thehindu.com/news/national/tamil-nadu/tn-government-should-construct-new-secretariat-complex-outside-chennai-says-anbumani/article71604935.ece",
-    "source": "The Hindu · National",
-    "date": "20 Oct"
+    "title": "In pictures: Dussehra celebrated across India as triumph of good over evil",
+    "url": "https://www.bbc.co.uk/news/articles/c98rzynj6e1yo?at_medium=RSS&at_campaign=rss",
+    "source": "BBC India",
+    "date": "19 Oct",
+    "outlets": 2,
+    "also": [
+     "The Hindu"
+    ]
    }
   ],
   "world": [
    {
-    "title": "Marseille braces for more unrest after protests give way to 'apocalyptic' disorder",
-    "url": "https://www.bbc.co.uk/news/articles/cm5ynkk570pno?at_medium=RSS&at_campaign=rss",
-    "source": "BBC World",
-    "date": "20 Oct"
+    "title": "Sudan drone strike kills around 150 in Abyei market",
+    "url": "https://www.dw.com/en/sudan-drone-strike-kills-around-150-in-abyei-market/a-79716587?maca=en-rss-en-world-4025-rdf",
+    "source": "DW",
+    "date": "20 Oct",
+    "outlets": 4,
+    "also": [
+     "BBC World",
+     "The Guardian",
+     "The Hindu World"
+    ]
    },
    {
-    "title": "Man charged with attack on Australian MP as suspect's father says she is family friend",
-    "url": "https://www.bbc.co.uk/news/articles/c678pnn9mpgno?at_medium=RSS&at_campaign=rss",
+    "title": "'Great result for Canada', says Carney as Alberta votes to reject separatism",
+    "url": "https://www.bbc.co.uk/news/articles/cxr5yqqd7nlpo?at_medium=RSS&at_campaign=rss",
     "source": "BBC World",
-    "date": "20 Oct"
+    "date": "20 Oct",
+    "outlets": 4,
+    "also": [
+     "DW",
+     "NPR",
+     "The Guardian"
+    ]
    },
    {
-    "title": "Sudan army drones hit mourners and fuel market killing more than 300 people, sources say",
-    "url": "https://www.bbc.co.uk/news/articles/cr3el70jz1nqo?at_medium=RSS&at_campaign=rss",
-    "source": "BBC World",
-    "date": "20 Oct"
+    "title": "Kenyan starvation cult leader guilty of murder of 190 children and one adult",
+    "url": "https://www.theguardian.com/world/2026/oct/19/kenya-starvation-cult-leader-guilty-murder-190-children",
+    "source": "The Guardian",
+    "date": "19 Oct",
+    "outlets": 2,
+    "also": [
+     "BBC World"
+    ]
    }
   ],
   "business": [
    {
-    "title": "Delhi airport traffic hits record first-half high with 38.5 million passengers, eyeing expansion",
-    "url": "https://www.livemint.com/news/india/delhi-airport-traffic-hits-record-first-half-high-with-38-5-million-passengers-eyeing-expansion-11792520280650.html",
+    "title": "Big-ticket IPOs have struggled to deliver bumper listing gains. Can Mukesh Ambani backed Reliance Jio buck the trend?",
+    "url": "https://www.livemint.com/market/stock-market-news/bigticket-ipos-have-struggled-to-deliver-bumper-listing-gains-can-mukesh-ambani-backed-reliance-jio-buck-the-trend-11792505293980.html",
     "source": "Mint",
-    "date": "21 Oct"
+    "date": "20 Oct",
+    "outlets": 3,
+    "also": [
+     "The Guardian Business",
+     "The Hindu Business"
+    ]
    },
    {
-    "title": "Delhi AQI to slip into 'poor' category from Wednesday, pollution levels to rise",
-    "url": "https://www.livemint.com/news/india/delhi-aqi-to-slip-into-poor-category-from-wednesday-pollution-levels-to-rise-11792518955864.html",
-    "source": "Mint",
-    "date": "20 Oct"
+    "title": "Google resolves cloud outage affecting UK banks and websites",
+    "url": "https://www.bbc.co.uk/news/articles/cxdd8mm6qy4mo?at_medium=RSS&at_campaign=rss",
+    "source": "BBC Business",
+    "date": "20 Oct",
+    "outlets": 2,
+    "also": [
+     "The Guardian Business"
+    ]
    },
    {
-    "title": "Marco Rubio in India: Can US biz diplomacy ease Trump tensions over tariffs, Russian oil and bring trade deal closer?",
-    "url": "https://www.livemint.com/news/india/marco-rubio-in-india-can-us-biz-diplomacy-ease-trump-tensions-over-tariffs-russian-oil-and-bring-trade-deal-closer-11792515633636.html",
-    "source": "Mint",
-    "date": "20 Oct"
+    "title": "Union Bank of India Q2 net profit rises 30% to ₹5,537 crore",
+    "url": "https://www.thehindu.com/business/union-bank-of-india-q2-net-profit-rises-30-to-5537-crore/article71602868.ece",
+    "source": "The Hindu Business",
+    "date": "19 Oct",
+    "outlets": 2,
+    "also": [
+     "Mint"
+    ]
    }
   ]
  },
+ "explainer": [],
  "courses": {
   "FIN": [
    {
@@ -83,7 +127,7 @@
     "date": "20 Oct"
    },
    {
-    "title": "Bought a  ₹50 lakh LIC policy on  ₹4.81 lakh income? Why ITAT rejected the woman’s claim and upheld the tax addition",
+    "title": "Bought a ₹50 lakh LIC policy on ₹4.81 lakh income? Why ITAT rejected the woman’s claim and upheld the tax addition",
     "url": "https://www.livemint.com/money/personal-finance/bought-a-50-lakh-lic-policy-on-4-81-lakh-income-why-itat-rejected-the-woman-s-claim-and-upheld-the-tax-addition-11792516737533.html",
     "source": "Mint Money",
     "date": "20 Oct"
