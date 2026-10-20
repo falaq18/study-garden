@@ -103,7 +103,12 @@ input[type=checkbox].pix:checked::after{content:"";width:10px;height:6px;border-
 .day{aspect-ratio:1;max-width:100%;border-radius:50%;display:grid;place-items:center;font-size:13px;font-weight:700;position:relative;border:2px solid transparent}
 .day.has{background:var(--butter)}
 .day.full{background:var(--sage)}
-.day.today{border-color:var(--ink)}
+.day.prep{color:var(--ink-2);opacity:.75}
+.day.start{outline:2px dashed var(--deep);outline-offset:1px}
+.day.today{border:3px solid var(--ink);background:var(--pink);opacity:1;color:var(--ink);box-shadow:0 0 0 4px var(--butter)}
+.day.today::before{content:"";position:absolute;inset:-9px;border-radius:50%;border:2px solid var(--ink);animation:ping 1.8s ease-out infinite}
+@keyframes ping{0%{transform:scale(.85);opacity:.9}100%{transform:scale(1.25);opacity:0}}
+.day .here{position:absolute;top:-17px;left:50%;transform:translateX(-50%);background:var(--ink);color:var(--paper);font-family:var(--f-mono);font-size:9px;letter-spacing:.06em;padding:1px 6px;border-radius:999px;white-space:nowrap;z-index:2}
 .day .ft{position:absolute;right:-3px;bottom:-3px;width:15px;height:15px;border-radius:4px;border:1.5px solid var(--ink);font-family:var(--f-mono);font-size:9px;display:grid;place-items:center;background:var(--card)}
 .day .ft.R{background:var(--pink)} .day .ft.M{background:var(--butter)} .day .ft.E{background:var(--peri)}
 .legend{display:flex;gap:14px;flex-wrap:wrap;margin-top:14px;font-size:13px;color:var(--ink-2)}
@@ -162,17 +167,25 @@ dialog::backdrop{background:rgba(43,38,34,.45)}
 .cap b{font-family:var(--f-pixel);font-size:18px;display:block}
 
 /* bookshelf */
-.shelf-wrap{overflow-x:auto;padding-bottom:4px}
-.shelf{display:flex;align-items:flex-end;gap:6px;min-height:290px;padding:0 18px;border-bottom:14px solid var(--soil);min-width:min-content;position:relative}
-.spine{appearance:none;font:inherit;border:2.5px solid var(--ink);border-bottom:0;border-radius:6px 6px 0 0;width:58px;cursor:pointer;display:flex;flex-direction:column;align-items:center;justify-content:space-between;padding:10px 0;transition:transform .15s;color:var(--ink)}
-.spine:hover,.spine:focus-visible,.spine[aria-expanded=true]{transform:translateY(-14px)}
-.spine span{writing-mode:vertical-rl;transform:rotate(180deg);font-family:var(--f-pixel);font-size:16px;font-weight:600;white-space:nowrap}
-.spine em{font-style:normal;font-family:var(--f-mono);font-size:10px}
-.spine.thin{width:44px}
-.spine.lean{transform:rotate(-6deg);transform-origin:bottom left;margin-left:10px}
+.shelf-wrap{overflow-x:auto;padding:30px 0 4px}
+.shelf{display:flex;align-items:flex-end;gap:18px;padding:0 20px;border-bottom:14px solid var(--soil);min-width:min-content;position:relative}
+.bk{appearance:none;font:inherit;color:var(--ink);background:none;border:0;padding:0;cursor:pointer;position:relative;display:flex;flex-direction:column;align-items:center;gap:6px;transition:transform .18s}
+.bk:hover,.bk:focus-visible,.bk[aria-expanded=true]{transform:translateY(-12px) rotate(-1.5deg)}
+.bk .cov{width:112px;height:168px;border:2.5px solid var(--ink);border-radius:4px 8px 8px 4px;overflow:hidden;box-shadow:4px 4px 0 var(--ink);display:flex;flex-direction:column;justify-content:space-between;padding:10px 8px;text-align:left;position:relative}
+.bk .cov img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover}
+.bk .cov b{font-family:var(--f-pixel);font-size:16px;line-height:1.05}
+.bk .cov small{font-size:11px;font-weight:700}
+.bk .pct{font-family:var(--f-mono);font-size:11px;background:var(--card);border:2px solid var(--ink);border-radius:999px;padding:1px 8px;margin-bottom:6px}
+.bk .tip{position:absolute;bottom:calc(100% + 10px);left:50%;transform:translateX(-50%);width:240px;background:var(--card);border:2.5px solid var(--ink);border-radius:12px;box-shadow:4px 4px 0 var(--ink);padding:10px 12px;font-size:13px;line-height:1.45;text-align:left;opacity:0;pointer-events:none;transition:opacity .15s;z-index:5}
+.bk .tip b{display:block;font-size:14px;margin-bottom:2px}
+.bk:hover .tip,.bk:focus-visible .tip{opacity:1}
+@media (hover:none){.bk .tip{display:none}}
 .plant{width:90px;align-self:flex-end}
-.bookinfo{margin-top:18px;display:grid;grid-template-columns:minmax(0,1fr) minmax(0,280px);gap:18px;align-items:center}
-@media (max-width:700px){.bookinfo{grid-template-columns:1fr}}
+.bookinfo{margin-top:18px;display:grid;grid-template-columns:120px minmax(0,1fr) minmax(0,260px);gap:20px;align-items:center}
+.bookinfo .big{width:120px;height:180px;border:2.5px solid var(--ink);border-radius:4px 8px 8px 4px;overflow:hidden;box-shadow:4px 4px 0 var(--ink);display:grid;place-items:center;font-family:var(--f-pixel);text-align:center;padding:8px}
+.bookinfo .big img{width:100%;height:100%;object-fit:cover}
+.bookinfo p{margin:6px 0 8px;color:var(--ink-2)}
+@media (max-width:700px){.bookinfo{grid-template-columns:96px minmax(0,1fr)}.bookinfo>div:last-child{grid-column:1/-1}.bookinfo .big{width:96px;height:144px}}
 .bookinfo h3{margin:0;font-family:var(--f-pixel);font-size:26px}
 input[type=range]{width:100%;accent-color:var(--leaf);height:28px}
 
@@ -267,6 +280,7 @@ footer textarea{width:100%;font-family:var(--f-mono);font-size:12px;border:2px s
         <div class="legend">
           <span><b style="background:var(--butter)"></b>some done</span>
           <span><b style="background:var(--sage)"></b>all done</span>
+          <span><b style="background:var(--pink);box-shadow:0 0 0 2px var(--butter)"></b>today</span>
           <span><b style="background:var(--pink);border-radius:3px"></b>R</span>
           <span><b style="background:var(--butter);border-radius:3px"></b>M</span>
           <span><b style="background:var(--peri);border-radius:3px"></b>E</span>
@@ -290,7 +304,7 @@ footer textarea{width:100%;font-family:var(--f-mono);font-size:12px;border:2px s
   </section>
 
   <section id="shelf">
-    <div class="sec-head"><h2>Bookshelf</h2><p>Tap a spine to log how far you are.</p></div>
+    <div class="sec-head"><h2>Bookshelf</h2><p>Hover for a peek, tap to log how far you are.</p></div>
     <div class="shelf-wrap"><div class="shelf" id="shelfRow"></div></div>
     <div class="bookinfo card" id="bookInfo" hidden></div>
   </section>
@@ -434,14 +448,14 @@ const COURSES=[
   res:[],cap:"70 days with no zero days."}
 ];
 const BOOKS=[
- {id:"pom",t:"Psychology of Money",a:"Morgan Housel",c:"#F4D865",h:250,l:L.pom},
- {id:"ltm",t:"Let's Talk Money",a:"Monika Halan",c:"#F6BE98",h:220,thin:1,l:L.ltm},
- {id:"mom",t:"The Mom Test",a:"Rob Fitzpatrick",c:"#F4B7D0",h:200,thin:1,l:L.mom},
- {id:"coi",t:"Co-Intelligence",a:"Ethan Mollick",c:"#B4C8EE",h:240,l:L.coi},
- {id:"pog",t:"Prisoners of Geography",a:"Tim Marshall",c:"#B7CC8E",h:265,l:L.pog},
- {id:"eo",t:"Eleanor Oliphant",a:"Gail Honeyman",c:"#CDBBEE",h:255,l:L.eo},
- {id:"rbc",t:"Bright Creatures",a:"Shelby Van Pelt",c:"#CFE5EE",h:235,l:L.rbc},
- {id:"mur",t:"Murdle",a:"G.T. Karber",c:"#E2675A",h:190,thin:1,lean:1,l:L.murdle}
+ {id:"pom",t:"The Psychology of Money",a:"Morgan Housel",q:"the psychology of money",c:"#F4D865",tag:"FIN 101",l:L.pom,d:"Nineteen short stories about how people really behave with money. Why patience, luck and knowing when you have enough matter more than spreadsheets."},
+ {id:"ltm",t:"Let's Talk Money",a:"Monika Halan",q:"let's talk money",c:"#F6BE98",tag:"FIN 101 · extra",l:L.ltm,d:"A plain-English guide to personal finance in India: emergency funds, insurance, mutual funds and a simple system for your salary every month."},
+ {id:"mom",t:"The Mom Test",a:"Rob Fitzpatrick",q:"the mom test",c:"#F4B7D0",tag:"PRD 101",l:L.mom,d:"How to talk to users and learn whether your idea is any good, even though everyone politely lies to you. Short, funny, very practical."},
+ {id:"coi",t:"Co-Intelligence",a:"Ethan Mollick",q:"co-intelligence",c:"#B4C8EE",tag:"AI 101",l:L.coi,d:"A Wharton professor on living and working with AI: four rules for using it well, where it shines, where it fails, and what it means for jobs."},
+ {id:"pog",t:"Prisoners of Geography",a:"Tim Marshall",q:"prisoners of geography",c:"#B7CC8E",tag:"HIS 101",l:L.pog,d:"Ten maps that explain how mountains, rivers and seas shape the politics of China, India and Pakistan, the US, Russia and more."},
+ {id:"eo",t:"Eleanor Oliphant Is Completely Fine",a:"Gail Honeyman",q:"eleanor oliphant is completely fine",c:"#CDBBEE",tag:"Fun · wks 1–5",l:L.eo,d:"Eleanor runs her Glasgow life on strict routine, until a kind, scruffy IT guy and an old man who collapses in the street change everything. Funny first, then quietly moving."},
+ {id:"rbc",t:"Remarkably Bright Creatures",a:"Shelby Van Pelt",q:"remarkably bright creatures",c:"#CFE5EE",tag:"Fun · wks 6–10",l:L.rbc,d:"Tova, a widow who cleans an aquarium at night, befriends Marcellus, a grumpy and very clever octopus who knows more about her past than she does."},
+ {id:"mur",t:"Murdle: Volume 1",a:"G.T. Karber",q:"murdle",c:"#E2675A",tag:"Creative lab",l:L.murdle,d:"100 illustrated murder-mystery logic puzzles. Work out who did it, with what and where. Five to ten minutes each, perfect before bed."}
 ];
 const TICK=["20 pages a day","never two zero days","Pip believes in you","one tick = one flower","PREP: point, reason, example, point","capstone > perfection","10k steps, or at least 3k","the garden grows until Jan 3"];
 
@@ -507,10 +521,11 @@ document.querySelectorAll(".tier").forEach(b=>b.addEventListener("click",()=>{co
 function renderCal(){
   const cal=$("#cal");cal.innerHTML="";cal.append(el("span",{}));["M","T","W","T","F","S","S"].forEach(x=>cal.append(el("span",{class:"h"},x)));
   let active=0;
-  for(let w=0;w<10;w++){cal.append(el("span",{class:"wk"},"Wk "+(w+1)));
+  for(let w=-1;w<10;w++){cal.append(el("span",{class:"wk"},w<0?"Prep":"Wk "+(w+1)));
     for(let i=0;i<7;i++){const d=addDays(START,w*7+i),k=iso(d);const tasks=todayTasks(d);const done=tasks.filter(t=>S[t.store][t.id]).length;
-      const cls=["day"];if(done)cls.push(done>=tasks.length?"full":"has");if(+d===+TODAY)cls.push("today");if(done||S.fit[k])active++;
-      const cell=el("span",{class:cls.join(" "),title:d.toDateString()},String(d.getDate()));
+      const cls=["day"];if(done)cls.push(done>=tasks.length?"full":"has");if(+d===+TODAY)cls.push("today");if(w<0)cls.push("prep");if(+d===+START)cls.push("start");if(w>=0&&(done||S.fit[k]))active++;
+      const cell=el("span",{class:cls.join(" "),title:d.toDateString()+(+d===+TODAY?" · today":"")+(+d===+START?" · day 1":"")},String(d.getDate()));
+      if(+d===+TODAY)cell.append(el("span",{class:"here"},"today"));
       if(S.fit[k])cell.append(el("span",{class:"ft "+S.fit[k]},S.fit[k]));cal.append(cell)}}
   $("#calCount").textContent=`${active} of 70 days active`;
 }
@@ -565,21 +580,34 @@ function openCourse(c){
 dlg.addEventListener("click",e=>{if(e.target===dlg)dlg.close()});
 
 /* ---------- bookshelf ---------- */
+let COVERS={};try{COVERS=JSON.parse(localStorage.getItem("sg.covers")||"{}")}catch(e){}
+function coverFor(b){
+  if(COVERS[b.id])return Promise.resolve(COVERS[b.id]);
+  return fetch(`https://openlibrary.org/search.json?title=${encodeURIComponent(b.q)}&author=${encodeURIComponent(b.a)}&fields=cover_i&limit=5`)
+    .then(r=>r.json()).then(j=>{const d=(j.docs||[]).find(x=>x.cover_i);if(!d)throw 0;const u=`https://covers.openlibrary.org/b/id/${d.cover_i}-L.jpg`;COVERS[b.id]=u;try{localStorage.setItem("sg.covers",JSON.stringify(COVERS))}catch(e){}return u});
+}
+function coverEl(b,cls){
+  const box=el("span",{class:cls,style:`background:${b.c}`},el("b",{},b.t),el("small",{},b.a));
+  coverFor(b).then(u=>{const img=el("img",{src:u,alt:""});img.onload=()=>box.append(img);img.onerror=()=>{}}).catch(()=>{});
+  return box;
+}
 function renderShelf(){
   const row=$("#shelfRow");row.innerHTML="";
   BOOKS.forEach(b=>{const p=S.books[b.id]||0;
-    row.append(el("button",{class:"spine"+(b.thin?" thin":"")+(b.lean?" lean":""),type:"button",style:`height:${b.h}px;background:${b.c}`,"aria-expanded":"false","aria-controls":"bookInfo","aria-label":`${b.t}, ${p}% read`,onclick:e=>showBook(b,e.currentTarget)},
-      el("em",{},p+"%"),el("span",{},b.t)))});
+    row.append(el("button",{class:"bk",type:"button","aria-expanded":"false","aria-controls":"bookInfo","aria-label":`${b.t} by ${b.a}, ${p}% read`,onclick:e=>showBook(b,e.currentTarget)},
+      el("span",{class:"tip",role:"presentation"},el("b",{},b.t),b.d),
+      coverEl(b,"cov"),el("span",{class:"pct"},p+"%")))});
   const cv=el("canvas",{class:"px plant","aria-hidden":"true"});drawSprite(cv,SPR.tulip,6);cv.style.width="84px";row.append(cv);
 }
 function showBook(b,btn){
-  document.querySelectorAll(".spine").forEach(s=>s.setAttribute("aria-expanded","false"));btn.setAttribute("aria-expanded","true");
+  document.querySelectorAll(".bk").forEach(s=>s.setAttribute("aria-expanded","false"));btn.setAttribute("aria-expanded","true");
   const box=$("#bookInfo");box.hidden=false;box.innerHTML="";const p=S.books[b.id]||0;
   const out=el("output",{for:"bookRange",class:"mono"},p+"% read");
   const r=el("input",{type:"range",id:"bookRange",min:"0",max:"100",step:"5",value:String(p),"aria-label":"How far you've read"});
   r.addEventListener("input",()=>{out.textContent=r.value+"% read"});
   r.addEventListener("change",()=>{S.books[b.id]=+r.value;save();if(+r.value===100)toast("📚 finished! a big flower for that")});
-  box.append(el("div",{},el("div",{class:"mono"},b.a),el("h3",{},b.t),el("a",{href:b.l[1],target:"_blank",rel:"noopener"},"Open on Goodreads ↗")),el("div",{},out,r));
+  box.append(coverEl(b,"big"),el("div",{},el("div",{class:"mono"},b.tag+" · "+b.a),el("h3",{},b.t),el("p",{},b.d),el("a",{href:b.l[1],target:"_blank",rel:"noopener"},"Open on Goodreads ↗")),el("div",{},out,r));
+  box.scrollIntoView({behavior:"smooth",block:"nearest"});
 }
 
 /* ---------- garden ---------- */
@@ -654,7 +682,7 @@ $("#ticker").innerHTML=[...TICK,...TICK].map(t=>`<span>✿ ${t}</span>`).join(""
 drawSprite($("#logo"),SPR.logo,1);
 try{const arrow=["k...............","kk..............","kwk.............","kwwk............","kwwwk...........","kwwwwk..........","kwwwwwk.........","kwwwwwwk........","kwwwwwwwk.......","kwwwwkkkkk......","kwwkwwk.........","kwk.kwwk........","kk..kwwk........","k....kwwk.......",".....kwwk.......","......kk........"];
  const hand=[".....kk.........","....kwwk........","....kwwk........","....kwwkkk......","....kwwkwwkk....","..kkkwwkwwkwk...",".kwwkwwwwwwwwk..",".kwwwwwwwwwwwk..","..kwwwwwwwwwwk..","..kwwwwwwwwwk...","...kwwwwwwwwk...","....kwwwwwwk....","....kkkkkkkk....","................","................","................"];
- const st=document.createElement("style");st.textContent=`body{cursor:${makeCursor(arrow,0,0)},auto} a,button,label,.spine,input[type=checkbox],input[type=range]{cursor:${makeCursor(hand,10,0)},pointer}`;document.head.append(st)}catch(e){}
+ const st=document.createElement("style");st.textContent=`body{cursor:${makeCursor(arrow,0,0)},auto} a,button,label,.bk,input[type=checkbox],input[type=range]{cursor:${makeCursor(hand,10,0)},pointer}`;document.head.append(st)}catch(e){}
 
 function refreshAll(){renderToday();renderCal();renderCards();renderShelf();drawGarden()}
 refreshAll();drawMascot();renderDigest();
