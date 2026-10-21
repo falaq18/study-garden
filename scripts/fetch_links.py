@@ -143,9 +143,9 @@ BOOST = set("""rbi budget gdp inflation rate rates repo tariff tariffs trade dea
 parliament lok sabha rajya bill law court supreme verdict judge ceasefire war attack strike sanctions summit treaty talks minister
 president pm government policy reform tax gst fed ecb imf economy economic market markets sensex nifty rupee dollar oil crude
 climate flood floods earthquake cyclone protest protests ban security military nuclear china pakistan russia ukraine israel gaza
-iran us eu un sebi""".split())
+iran us eu un sebi ipo merger acquisition bank layoffs outage breach""".split())
 DROP = re.compile(r"\b(live|liveblog|live updates|photos?|in pics|gallery|horoscope|quiz|watch:|video:|recipe|celebrit|bollywood|ipl|"
-                  r"cricket score|match report|highlights|wordle|crossword|deal of the day|sale|lottery|opinion|podcast|newsletter)\b", re.I)
+                  r"cricket score|match report|highlights|wordle|crossword|deal of the day|big sale|mega sale|flash sale|on sale|lottery|opinion|podcast|newsletter|viral|lookalike|wedding|engagement|divorce|trailer|box office|bigg boss|reality show|flamingo)\b", re.I)
 
 RAW = {}
 LOG = []  # human-readable notes on what worked and what didn't
@@ -232,50 +232,57 @@ def similarity(a, b, idf):
     got = sum(idf.get(w, 1.0) for w in shared)
     base = min(sum(idf.get(w, 1.0) for w in a), sum(idf.get(w, 1.0) for w in b))
     s = got / base if base else 0.0
+    if len(shared) == 2 and all(idf.get(w, 0) >= RARE for w in shared):
+        s = max(s, SAME + 0.05)  # two rare words together (Jio + IPO, SpaceX + Tesla) name one story
     return s + (0.1 if len(shared) >= 3 else 0.0)
 
 
 SAME = 0.4
+AVG_MIN = 0.25
+RARE = 3.5  # idf above this is a word seen in only a handful of the day's headlines
 
 
 def cluster(items, idf):
+    """Best-fit grouping. A headline joins the group it matches best, and only if it also matches the
+    group on average, so one shared word cannot chain unrelated stories together."""
     clusters = []
     for it in items:
+        best, best_key = None, None
         for c in clusters:
-            if any(similarity(it["w"], o["w"], idf) >= SAME for o in c):
-                c.append(it)
-                break
+            sims = [similarity(it["w"], o["w"], idf) for o in c]
+            top, avg = max(sims), sum(sims) / len(sims)
+            if top >= SAME and avg >= AVG_MIN and (best is None or (top, avg) > best_key):
+                best, best_key = c, (top, avg)
+        if best is not None:
+            best.append(it)
         else:
             clusters.append([it])
     return clusters
 
 
-# ---------- GDELT: how many different sites worldwide ran this story in the last day ----------
-GDELT_OK = {"on": True}
+# ---------- pickup: how many different publishers ran this story in the last day (Google News) ----------
+PICKUP_OK = {"on": True}
 
 
-def gdelt_domains(best_title, idf):
-    """Distinct news domains carrying a story in the last 24h. Free, no key. None if unavailable."""
-    if not GDELT_OK["on"]:
+def pickup(best_title, idf):
+    """Distinct publishers Google News finds for the story's rarest words, last 24h. None if unavailable.
+    (GDELT would be nicer but it blocks GitHub's shared IPs with HTTP 429.)"""
+    if not PICKUP_OK["on"]:
         return None
-    toks = [w for w in re.findall(r"[A-Za-z0-9]+", best_title)
-            if w.lower() not in STOP and len(w) >= 4]
+    toks = [w for w in re.findall(r"[A-Za-z0-9]+", best_title) if w.lower() not in STOP and len(w) >= 4]
     toks.sort(key=lambda w: -idf.get(w.lower(), idf.get(w.lower().rstrip("s"), 1.0)))
-    q = " ".join(dict.fromkeys(w.lower() for w in toks[:3]))
+    q = " ".join(dict.fromkeys(w for w in toks[:3]))
     if not q:
         return None
-    url = ("https://api.gdeltproject.org/api/v2/doc/doc?query=" + urllib.parse.quote(f"{q} sourcelang:english") +
-           "&mode=artlist&maxrecords=250&format=json&timespan=1d&sort=hybridrel")
-    for wait in (6, 20, 45):  # GDELT asks for one request every 5 seconds; shared runner IPs get 429s
-        try:
-            time.sleep(wait)
-            data = json.loads(get(url, timeout=30).decode("utf-8", "ignore") or "{}")
-            return len({a.get("domain") for a in data.get("articles", []) if a.get("domain")})
-        except Exception as e:
-            err = f"{type(e).__name__} {e}"
-    LOG.append(f"gdelt off after retries: {err}")
-    GDELT_OK["on"] = False
-    return None
+    try:
+        time.sleep(1.5)
+        root = ET.fromstring(get(gnews(q), timeout=30))
+        pubs = {(n.text or "").strip() for n in root.iter() if n.tag.split("}")[-1] == "source" and n.text}
+        return len(pubs)
+    except Exception as e:
+        LOG.append(f"pickup off: {type(e).__name__} {e}")
+        PICKUP_OK["on"] = False
+        return None
 
 
 def score_cluster(c, idf, domains=None):
@@ -291,41 +298,62 @@ def score_cluster(c, idf, domains=None):
         s += 1.0 if age < 12 else 0 if age < 36 else -3.0
     allw = set().union(*(i["w"] for i in c))
     s += 0.5 * min(4, len(allw & BOOST))                    # consequence topics
-    if DROP.search(best["title"]):
-        s -= 6
+    s += 0.4 * min(8, len(c))                                # many headlines = many angles = a big story
+    if sum(1 for i in c if DROP.search(i["title"])) * 2 >= len(c):
+        s -= 6                                               # most headlines are live blogs, galleries, promos...
+    if not (allw & BOOST) and len(fams) <= 2:
+        s -= 2.0                                             # no consequence words and thin coverage: likely soft news
     if domains is not None:
-        s += min(4.0, 1.5 * math.log2(1 + domains / 10))     # worldwide pickup
+        s += min(4.0, 1.5 * math.log2(1 + domains / 8))      # publisher pickup
     return s, best, fams, buckets
 
 
-def rank_section(items, n=3):
-    for it in items:
-        it["w"] = words(it["title"])
+SECTION_ORDER = ["india", "world", "business"]
+
+
+def rank_all(sections, n=3):
+    """Cluster headlines from ALL sections together (one event often appears in India, world and business
+    feeds), score each story on its combined coverage, then place it in the section where most of its
+    headlines came from. A story is shown once."""
+    items = []
+    for sec in SECTION_ORDER:
+        for it in sections.get(sec, []):
+            it["sec"] = sec
+            it["w"] = words(it["title"])
+            items.append(it)
+    if not items:
+        return {}
     idf = make_idf([it["w"] for it in items])
     clusters = cluster(items, idf)
-    pre = []
+    homes = {sec: [] for sec in SECTION_ORDER}
     for c in clusters:
-        s, best, fams, buckets = score_cluster(c, idf)
-        pre.append((s, c))
-    pre.sort(key=lambda x: -x[0])
-    scored = []
-    for k, (s0, c) in enumerate(pre):
-        dom = gdelt_domains(min(c, key=lambda i: i["rank"])["title"], idf) if k < 6 else None
-        s, best, fams, buckets = score_cluster(c, idf, dom)
-        scored.append({"score": s, "best": best, "fams": fams, "buckets": buckets, "domains": dom, "n": len(c)})
-    # tier 1: picked by outlets on at least two different sides. Within a tier, by score.
-    scored.sort(key=lambda x: (len(x["buckets"]) >= 2, x["score"]), reverse=True)
-    picks = []
-    for x in scored[:n]:
-        b = x["best"]
-        picks.append({
-            "title": b["title"], "url": b["url"], "source": b["source"],
-            "date": b["dt"].strftime("%-d %b") if b["dt"] else "",
-            "outlets": len(x["fams"]), "also": sorted(f for f in x["fams"] if f != family(b["source"]))[:3],
-            "lean": "".join(sorted(x["buckets"], key=lambda z: "LCR".index(z))),
-            "sites": x["domains"],
-        })
-    return picks
+        count = Counter(i["sec"] for i in c)
+        home = max(SECTION_ORDER, key=lambda s: (count[s], -SECTION_ORDER.index(s)))
+        homes[home].append(c)
+    out = {}
+    for sec in SECTION_ORDER:
+        pre = sorted(((score_cluster(c, idf)[0], c) for c in homes[sec]), key=lambda x: -x[0])
+        scored = []
+        for k, (s0, c) in enumerate(pre):
+            mine = [i for i in c if i["sec"] == sec] or c
+            dom = pickup(min(mine, key=lambda i: i["rank"])["title"], idf) if k < 6 else None
+            s, best, fams, buckets = score_cluster(c, idf, dom)
+            best = min(mine, key=lambda i: (i["rank"], -(i["dt"] or NOW).timestamp()))
+            scored.append({"score": s, "best": best, "fams": fams, "buckets": buckets, "domains": dom})
+        # tier 1: picked by outlets on at least two different sides. Within a tier, by score.
+        scored.sort(key=lambda x: (len(x["buckets"]) >= 2, x["score"]), reverse=True)
+        picks = []
+        for x in scored[:n]:
+            b = x["best"]
+            picks.append({
+                "title": b["title"], "url": b["url"], "source": b["source"],
+                "date": b["dt"].strftime("%-d %b") if b["dt"] else "",
+                "outlets": len(x["fams"]), "also": sorted(f for f in x["fams"] if f != family(b["source"]))[:3],
+                "lean": "".join(sorted(x["buckets"], key=lambda z: "LCR".index(z))),
+                "sites": x["domains"],
+            })
+        out[sec] = picks
+    return out
 
 
 def collect(sources, per_source, ok=None, bad=None):
@@ -417,12 +445,16 @@ def main():
             old = {}
     data = {"updated": NOW.isoformat(timespec="minutes"), "method": "spectrum-v2", "news": {}, "explainer": [], "courses": {}}
     ok, bad = [], []
+    gathered = {}
     for k, sources in NEWS.items():
         items = collect(sources, 15, ok, bad)
+        gathered[k] = items
         RAW[k] = [{"src": i["source"], "lean": lean(i["source"]), "rank": i["rank"], "title": i["title"],
                    "age_h": round((NOW - i["dt"]).total_seconds() / 3600, 1) if i["dt"] else None} for i in items]
-        data["news"][k] = rank_section(items) if items else old.get("news", {}).get(k, [])
-        print(k, len(items), "headlines ->", [(p["outlets"], p.get("lean")) for p in data["news"][k]])
+    ranked = rank_all(gathered)
+    for k in NEWS:
+        data["news"][k] = ranked.get(k) or old.get("news", {}).get(k, [])
+        print(k, len(gathered[k]), "headlines ->", [(p["outlets"], p.get("lean")) for p in data["news"][k]])
     ex = collect([EXPLAINER], 2, ok, bad)
     data["explainer"] = plain(ex, 1) or old.get("explainer", [])
     for k, sources in COURSES.items():
@@ -457,9 +489,10 @@ def selftest():
         mk("India Today", "Supreme Court to hear electoral bonds plea next week", 5),
         mk("Hindustan Times", "Live updates: Stock market today Sensex Nifty", 0),
     ]
-    GDELT_OK["on"] = False
-    for p in rank_section(items, 4):
-        print(p["outlets"], p["lean"] or "-", p["title"])
+    PICKUP_OK["on"] = False
+    for sec, picks in rank_all({"india": items}, 4).items():
+        for p in picks:
+            print(sec, p["outlets"], p["lean"] or "-", p["title"])
 
 
 if __name__ == "__main__":
