@@ -1,13 +1,13 @@
 {
- "updated": "2026-10-20T19:09+00:00",
+ "updated": "2026-10-21T06:18+00:00",
  "method": "ranked",
  "news": {
   "india": [
    {
-    "title": "\"Will Have To Defeat Them\": PM Modi's Dussehra Call To Fight India's \"Enemies\"",
-    "url": "https://www.ndtv.com/india-news/pm-modi-dussehra-2026-will-have-to-defeat-them-pm-modis-vijayadashami-call-to-out-indias-enemies-12211609#publisher=newsstand",
+    "title": "Day After Amit Shah's Visit, CBI Takes Over Punjab Activist's Murder Case",
+    "url": "https://www.ndtv.com/india-news/parvinder-singh-jhota-day-after-amit-shahs-visit-cbi-takes-over-punjab-activists-murder-case-12213668#publisher=newsstand",
     "source": "NDTV",
-    "date": "20 Oct",
+    "date": "21 Oct",
     "outlets": 3,
     "also": [
      "Hindustan Times",
@@ -15,23 +15,24 @@
     ]
    },
    {
-    "title": "Students gather at Delhi's Model Town park to burn 20-feet tall ‘Gyanesh Kumar effigy’, detained",
-    "url": "https://www.hindustantimes.com/india-news/students-gather-at-delhis-model-town-park-to-burn-20-feet-tall-gyanesh-kumar-effigy-detained-101792503833316.html",
-    "source": "Hindustan Times",
-    "date": "20 Oct",
-    "outlets": 2,
-    "also": [
-     "Mint Politics"
-    ]
-   },
-   {
-    "title": "In pictures: Dussehra celebrated across India as triumph of good over evil",
-    "url": "https://www.bbc.co.uk/news/articles/c98rzynj6e1yo?at_medium=RSS&at_campaign=rss",
-    "source": "BBC India",
-    "date": "19 Oct",
+    "title": "'US' Pakistan Ties Will Never Come At India's Expense': Marco Rubio Assures Delhi",
+    "url": "https://www.ndtv.com/world-news/us-pak-ties-will-never-come-at-indias-expense-marco-rubio-assures-delhi-12213742#publisher=newsstand",
+    "source": "NDTV",
+    "date": "21 Oct",
     "outlets": 2,
     "also": [
      "The Hindu"
+    ]
+   },
+   {
+    "title": "Tamil Nadu rains LIVE: Schools declare holiday in Chennai, four other districts",
+    "url": "https://www.thehindu.com/news/national/tamil-nadu/tamil-nadu-rains-live-updates-chennai-school-holiday-october-21-2026/article71606190.ece",
+    "source": "The Hindu",
+    "date": "21 Oct",
+    "outlets": 3,
+    "also": [
+     "Hindustan Times",
+     "NDTV"
     ]
    }
   ],
@@ -43,16 +44,16 @@
     "date": "20 Oct",
     "outlets": 4,
     "also": [
+     "Al Jazeera",
      "BBC World",
-     "The Guardian",
-     "The Hindu World"
+     "The Guardian"
     ]
    },
    {
-    "title": "'Great result for Canada', says Carney as Alberta votes to reject separatism",
-    "url": "https://www.bbc.co.uk/news/articles/cxr5yqqd7nlpo?at_medium=RSS&at_campaign=rss",
-    "source": "BBC World",
-    "date": "20 Oct",
+    "title": "Canadian unity or separation: why did Alberta province hold a referendum?",
+    "url": "https://www.thehindu.com/news/international/canadian-unity-or-separation-why-did-alberta-province-hold-a-referendum/article71606263.ece",
+    "source": "The Hindu World",
+    "date": "21 Oct",
     "outlets": 4,
     "also": [
      "DW",
@@ -61,46 +62,47 @@
     ]
    },
    {
-    "title": "Kenyan starvation cult leader guilty of murder of 190 children and one adult",
-    "url": "https://www.theguardian.com/world/2026/oct/19/kenya-starvation-cult-leader-guilty-murder-190-children",
+    "title": "Nigeria confirms Ebola case as outbreak spreads into western Africa",
+    "url": "https://www.theguardian.com/world/2026/oct/21/nigeria-first-ebola-case-africa-outbreak-latest",
     "source": "The Guardian",
-    "date": "19 Oct",
-    "outlets": 2,
+    "date": "21 Oct",
+    "outlets": 3,
     "also": [
-     "BBC World"
+     "DW",
+     "NPR"
     ]
    }
   ],
   "business": [
    {
-    "title": "Big-ticket IPOs have struggled to deliver bumper listing gains. Can Mukesh Ambani backed Reliance Jio buck the trend?",
-    "url": "https://www.livemint.com/market/stock-market-news/bigticket-ipos-have-struggled-to-deliver-bumper-listing-gains-can-mukesh-ambani-backed-reliance-jio-buck-the-trend-11792505293980.html",
-    "source": "Mint",
-    "date": "20 Oct",
+    "title": "Elon Musk considering Tesla-SpaceX merger",
+    "url": "https://www.bbc.co.uk/news/articles/cmlyl09xjke4o?at_medium=RSS&at_campaign=rss",
+    "source": "BBC Business",
+    "date": "21 Oct",
     "outlets": 3,
     "also": [
-     "The Guardian Business",
+     "Economic Times",
      "The Hindu Business"
     ]
    },
    {
-    "title": "Google resolves cloud outage affecting UK banks and websites",
-    "url": "https://www.bbc.co.uk/news/articles/cxdd8mm6qy4mo?at_medium=RSS&at_campaign=rss",
-    "source": "BBC Business",
-    "date": "20 Oct",
+    "title": "Jio has record IPO fully subscribed within hours",
+    "url": "https://www.livemint.com/market/ipo/jio-has-record-ipo-fully-subscribed-within-hours-11792562581882.html",
+    "source": "Mint",
+    "date": "21 Oct",
     "outlets": 2,
     "also": [
-     "The Guardian Business"
+     "The Hindu Business"
     ]
    },
    {
-    "title": "Union Bank of India Q2 net profit rises 30% to ₹5,537 crore",
-    "url": "https://www.thehindu.com/business/union-bank-of-india-q2-net-profit-rises-30-to-5537-crore/article71602868.ece",
-    "source": "The Hindu Business",
-    "date": "19 Oct",
+    "title": "US judge dismisses sexual abuse lawsuit from Sam Altman’s sister",
+    "url": "https://www.theguardian.com/technology/2026/oct/20/judge-dismisses-sam-altman-sister-lawsuit",
+    "source": "The Guardian Business",
+    "date": "20 Oct",
     "outlets": 2,
     "also": [
-     "Mint"
+     "BBC Business"
     ]
    }
   ]
@@ -109,28 +111,16 @@
  "courses": {
   "FIN": [
    {
-    "title": "Bull vs Bear: Which Way Will the NIFTY Move? (Hindi) | CA Rachana Ranade | #shorts",
-    "url": "https://www.youtube.com/watch?v=zzsmtUE82yY",
-    "source": "CA Rachana Ranade",
-    "date": "19 Oct"
-   },
-   {
-    "title": "Nifty 50 Underperforms Its Asian Peers: What Could Be the Reasons? |CA Rachana Ranade(Hindi)|#shorts",
-    "url": "https://www.youtube.com/shorts/Y87OQQIKE1o",
-    "source": "CA Rachana Ranade",
-    "date": "14 Oct"
-   },
-   {
-    "title": "Small-cap mutual funds: Should you pick funds with high index overlap? What one-year returns show",
-    "url": "https://www.livemint.com/money/personal-finance/smallcap-mutual-funds-should-you-pick-funds-with-high-index-overlap-what-one-year-returns-show-11792518662358.html",
+    "title": "Made an error while paying income tax? How to request challan corrections, key deadlines and tax year changes",
+    "url": "https://www.livemint.com/money/personal-finance/made-an-error-while-paying-income-tax-how-to-request-challan-corrections-key-deadlines-and-tax-year-changes-11792553280110.html",
     "source": "Mint Money",
-    "date": "20 Oct"
+    "date": "21 Oct"
    },
    {
-    "title": "Bought a ₹50 lakh LIC policy on ₹4.81 lakh income? Why ITAT rejected the woman’s claim and upheld the tax addition",
-    "url": "https://www.livemint.com/money/personal-finance/bought-a-50-lakh-lic-policy-on-4-81-lakh-income-why-itat-rejected-the-woman-s-claim-and-upheld-the-tax-addition-11792516737533.html",
+    "title": "Gold, silver prices today, 21 October: Check retail rates of 24K, 22K gold, 999 silver in Delhi, Mumbai and Kolkata",
+    "url": "https://www.livemint.com/money/personal-finance/gold-silver-prices-today-21-october-check-retail-rates-of-24k-22k-gold-999-silver-in-delhi-mumbai-and-kolkata-11792555396066.html",
     "source": "Mint Money",
-    "date": "20 Oct"
+    "date": "21 Oct"
    }
   ],
   "PRD": [
@@ -159,18 +149,6 @@
     "url": "https://www.oneusefulthing.org/p/the-dot-and-the-swarm",
     "source": "One Useful Thing",
     "date": "1 Oct"
-   },
-   {
-    "title": "Parity of permutations, impossible puzzles and the magical determinant",
-    "url": "https://www.youtube.com/watch?v=rUiulWItECQ",
-    "source": "3Blue1Brown",
-    "date": "11 Apr"
-   },
-   {
-    "title": "I Built an Original One-Glance Proof from Dice",
-    "url": "https://www.youtube.com/watch?v=8q95eiq-y-Q",
-    "source": "3Blue1Brown",
-    "date": "11 Oct"
    }
   ],
   "HIS": [
