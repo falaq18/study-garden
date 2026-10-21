@@ -1,99 +1,109 @@
 {
- "updated": "2026-10-21T06:18+00:00",
- "method": "ranked",
+ "updated": "2026-10-21T11:38+00:00",
+ "method": "spectrum-v2",
  "news": {
   "india": [
    {
-    "title": "Day After Amit Shah's Visit, CBI Takes Over Punjab Activist's Murder Case",
-    "url": "https://www.ndtv.com/india-news/parvinder-singh-jhota-day-after-amit-shahs-visit-cbi-takes-over-punjab-activists-murder-case-12213668#publisher=newsstand",
-    "source": "NDTV",
+    "title": "Andhra local polls: SC asks SEC to decide on YSRCP plea for extending nomination deadline",
+    "url": "https://www.hindustantimes.com/india-news/andhra-local-polls-sc-asks-sec-to-decide-on-ysrcp-plea-for-extending-nomination-deadline-101792580156364.html",
+    "source": "Hindustan Times",
     "date": "21 Oct",
-    "outlets": 3,
+    "outlets": 2,
     "also": [
-     "Hindustan Times",
-     "The Hindu"
-    ]
+     "NDTV"
+    ],
+    "lean": "L",
+    "sites": null,
+    "wiki": false
    },
    {
-    "title": "'US' Pakistan Ties Will Never Come At India's Expense': Marco Rubio Assures Delhi",
-    "url": "https://www.ndtv.com/world-news/us-pak-ties-will-never-come-at-indias-expense-marco-rubio-assures-delhi-12213742#publisher=newsstand",
+    "title": "Pollution Curbs Under GRAP-1 Imposed In Delhi, Parking Charges To Be Doubled",
+    "url": "https://www.ndtv.com/india-news/delhi-air-quality-grap-1-pollution-curbs-under-grap-1-in-delhi-ncr-as-air-quality-drops-to-poor-12214729#publisher=newsstand",
     "source": "NDTV",
     "date": "21 Oct",
     "outlets": 2,
     "also": [
-     "The Hindu"
-    ]
+     "Hindustan Times"
+    ],
+    "lean": "L",
+    "sites": null,
+    "wiki": false
    },
    {
-    "title": "Tamil Nadu rains LIVE: Schools declare holiday in Chennai, four other districts",
-    "url": "https://www.thehindu.com/news/national/tamil-nadu/tamil-nadu-rains-live-updates-chennai-school-holiday-october-21-2026/article71606190.ece",
-    "source": "The Hindu",
+    "title": "Pinarayi Vijayan Gets 7-Day Relief In Bribery Case, CPI(M), BJP Trade Charges",
+    "url": "https://www.ndtv.com/india-news/pinarayi-vijayan-gets-7-day-relief-in-bribery-case-cpi-m-bjp-trade-charges-12214548#publisher=newsstand",
+    "source": "NDTV",
     "date": "21 Oct",
-    "outlets": 3,
+    "outlets": 2,
     "also": [
-     "Hindustan Times",
-     "NDTV"
-    ]
+     "Hindustan Times"
+    ],
+    "lean": "L",
+    "sites": null,
+    "wiki": false
    }
   ],
   "world": [
    {
-    "title": "Sudan drone strike kills around 150 in Abyei market",
-    "url": "https://www.dw.com/en/sudan-drone-strike-kills-around-150-in-abyei-market/a-79716587?maca=en-rss-en-world-4025-rdf",
-    "source": "DW",
-    "date": "20 Oct",
-    "outlets": 4,
+    "title": "Drone attack near market kills 80 in Sudan",
+    "url": "https://www.theguardian.com/world/2026/oct/19/drone-attack-market-al-dibab-west-kordofan-sudan",
+    "source": "The Guardian",
+    "date": "19 Oct",
+    "outlets": 5,
     "also": [
      "Al Jazeera",
-     "BBC World",
-     "The Guardian"
-    ]
-   },
-   {
-    "title": "Canadian unity or separation: why did Alberta province hold a referendum?",
-    "url": "https://www.thehindu.com/news/international/canadian-unity-or-separation-why-did-alberta-province-hold-a-referendum/article71606263.ece",
-    "source": "The Hindu World",
-    "date": "21 Oct",
-    "outlets": 4,
-    "also": [
-     "DW",
-     "NPR",
-     "The Guardian"
-    ]
+     "BBC",
+     "DW"
+    ],
+    "lean": "LC",
+    "sites": null,
+    "wiki": true
    },
    {
     "title": "Nigeria confirms Ebola case as outbreak spreads into western Africa",
     "url": "https://www.theguardian.com/world/2026/oct/21/nigeria-first-ebola-case-africa-outbreak-latest",
     "source": "The Guardian",
     "date": "21 Oct",
+    "outlets": 4,
+    "also": [
+     "DW",
+     "NPR",
+     "The Hindu"
+    ],
+    "lean": "LC",
+    "sites": null,
+    "wiki": true
+   },
+   {
+    "title": "US citizen Stephen Hubbard freed by Russia and 'on his way home', Trump says",
+    "url": "https://www.bbc.co.uk/news/articles/c6m24l9v3745o?at_medium=RSS&at_campaign=rss",
+    "source": "BBC World",
+    "date": "21 Oct",
     "outlets": 3,
     "also": [
      "DW",
      "NPR"
-    ]
+    ],
+    "lean": "LC",
+    "sites": null,
+    "wiki": true
    }
   ],
   "business": [
    {
-    "title": "Elon Musk considering Tesla-SpaceX merger",
-    "url": "https://www.bbc.co.uk/news/articles/cmlyl09xjke4o?at_medium=RSS&at_campaign=rss",
-    "source": "BBC Business",
-    "date": "21 Oct",
-    "outlets": 3,
+    "title": "Musk says SpaceX-Tesla merger is 'a good idea' as companies form deal committees",
+    "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxONHZoMzBtaGg1TmlMN19NRUEzM1lOZkpYb1ZXeWlLTnR4SkxObm1xbDBlN0RsQ2huaHBCMzRxU0VLb3ZPSS1ZeEdhampNY3VNclpoU2xGOWpoQjNfVzVDTHpqOVVRd0pZcVY3eGlpVkxjWTRrMGh4aWtCbVJVVnZ1Nnd1RkU1dFNtcUZCUnVxX1pRWXRTd09QUnpodWJSeEhpS3BKcmxsQkM1aFA1eExGSkNMMVIteV93OXZWa0Q2Vl9yUQ?oc=5",
+    "source": "Reuters Business",
+    "date": "20 Oct",
+    "outlets": 4,
     "also": [
-     "Economic Times",
-     "The Hindu Business"
-    ]
-   },
-   {
-    "title": "Jio has record IPO fully subscribed within hours",
-    "url": "https://www.livemint.com/market/ipo/jio-has-record-ipo-fully-subscribed-within-hours-11792562581882.html",
-    "source": "Mint",
-    "date": "21 Oct",
-    "outlets": 2,
-    "also": [
-     "The Hindu Business"
-    ]
+     "BBC",
+     "Mint",
+     "WSJ"
+    ],
+    "lean": "CR",
+    "sites": null,
+    "wiki": false
    },
    {
     "title": "US judge dismisses sexual abuse lawsuit from Sam Altman’s sister",
@@ -102,8 +112,24 @@
     "date": "20 Oct",
     "outlets": 2,
     "also": [
-     "BBC Business"
-    ]
+     "BBC"
+    ],
+    "lean": "LC",
+    "sites": null,
+    "wiki": false
+   },
+   {
+    "title": "Order to Slow Down Starlink for Ukraine Came From Musk",
+    "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNZlNQd1hOM3M3d2lrdVJlWFc4WVJUWkJhMzNfTGhoQmFFenp0SWNlVVRtMTFkTlhtQTFwbUhsZ3ExdmxuVVdSaHlTTzR6QzFxTTZRdW1PeFd3VFo0WjRFaFdrOVR5ZDQ2TzZ2NzNRRTNLQU5xT2FLeURIMmhqX1FrdFh2VXNXcGRlZi1DZzhaX0dGb21CTTBz?oc=5",
+    "source": "WSJ Business",
+    "date": "20 Oct",
+    "outlets": 2,
+    "also": [
+     "Reuters"
+    ],
+    "lean": "CR",
+    "sites": null,
+    "wiki": false
    }
   ]
  },
@@ -111,14 +137,26 @@
  "courses": {
   "FIN": [
    {
-    "title": "Made an error while paying income tax? How to request challan corrections, key deadlines and tax year changes",
-    "url": "https://www.livemint.com/money/personal-finance/made-an-error-while-paying-income-tax-how-to-request-challan-corrections-key-deadlines-and-tax-year-changes-11792553280110.html",
+    "title": "Bull vs Bear: Which Way Will the NIFTY Move? (Hindi) | CA Rachana Ranade | #shorts",
+    "url": "https://www.youtube.com/watch?v=zzsmtUE82yY",
+    "source": "CA Rachana Ranade",
+    "date": "19 Oct"
+   },
+   {
+    "title": "Nifty 50 Underperforms Its Asian Peers: What Could Be the Reasons? |CA Rachana Ranade(Hindi)|#shorts",
+    "url": "https://www.youtube.com/shorts/Y87OQQIKE1o",
+    "source": "CA Rachana Ranade",
+    "date": "14 Oct"
+   },
+   {
+    "title": "Last date alert! Income tax audit deadline ends today: Who must file? What happens if you miss the due date?",
+    "url": "https://www.livemint.com/money/personal-finance/last-date-alert-income-tax-audit-deadline-ends-today-who-must-file-what-happens-if-you-miss-the-due-date-11792576287410.html",
     "source": "Mint Money",
     "date": "21 Oct"
    },
    {
-    "title": "Gold, silver prices today, 21 October: Check retail rates of 24K, 22K gold, 999 silver in Delhi, Mumbai and Kolkata",
-    "url": "https://www.livemint.com/money/personal-finance/gold-silver-prices-today-21-october-check-retail-rates-of-24k-22k-gold-999-silver-in-delhi-mumbai-and-kolkata-11792555396066.html",
+    "title": "Mutual fund growth vs IDCW plans: Top 5 schemes’ returns compared, NAV differences — What investors should know",
+    "url": "https://www.livemint.com/money/personal-finance/mutual-fund-growth-vs-idcw-plans-top-5-schemes-returns-compared-nav-differences-what-investors-should-know-11792575685400.html",
     "source": "Mint Money",
     "date": "21 Oct"
    }
@@ -149,32 +187,18 @@
     "url": "https://www.oneusefulthing.org/p/the-dot-and-the-swarm",
     "source": "One Useful Thing",
     "date": "1 Oct"
-   }
-  ],
-  "HIS": [
-   {
-    "title": "RSS Chief delivers the most pro-govt speech on Dussehra:Significance & a message to BJP via Dhankhar",
-    "url": "https://www.youtube.com/watch?v=fnEgS6CnpeU",
-    "source": "ThePrint · Cut the Clutter",
-    "date": "20 Oct"
    },
    {
-    "title": "Rubio’s India Visit: Can Trump and Modi Reset Ties Amid Trade and Iran War Tensions?",
-    "url": "https://www.youtube.com/watch?v=AJsxxBdWlo4",
-    "source": "ThePrint · Cut the Clutter",
-    "date": "20 Oct"
+    "title": "Parity of permutations, impossible puzzles and the magical determinant",
+    "url": "https://www.youtube.com/watch?v=rUiulWItECQ",
+    "source": "3Blue1Brown",
+    "date": "11 Apr"
    },
    {
-    "title": "¿Por qué el Mundo Árabe nunca se unió?",
-    "url": "https://www.youtube.com/watch?v=9ogePQECcB8",
-    "source": "Caspian Report",
-    "date": "20 Oct"
-   },
-   {
-    "title": "La geografía oculta de la IA",
-    "url": "https://www.youtube.com/watch?v=5_sqBMzm-g4",
-    "source": "Caspian Report",
-    "date": "13 Oct"
+    "title": "I Built an Original One-Glance Proof from Dice",
+    "url": "https://www.youtube.com/watch?v=8q95eiq-y-Q",
+    "source": "3Blue1Brown",
+    "date": "11 Oct"
    }
   ],
   "FINAL": [
@@ -190,6 +214,63 @@
     "source": "One Useful Thing",
     "date": "1 Oct"
    }
+  ]
+ },
+ "audit": {
+  "wiki_items": 21,
+  "matched": 3,
+  "total": 9,
+  "by_section": {
+   "india": "0/3",
+   "world": "3/3",
+   "business": "0/3"
+  },
+  "note": "",
+  "feeds_ok": [
+   "The Hindu:15",
+   "Hindustan Times:15",
+   "NDTV:15",
+   "Times of India:15",
+   "India Today:15",
+   "BBC India:15",
+   "Reuters India:15",
+   "Mint Politics:15",
+   "BBC World:15",
+   "DW:12",
+   "Reuters World:15",
+   "AP:15",
+   "Al Jazeera:15",
+   "The Guardian:15",
+   "NPR:10",
+   "WSJ:15",
+   "The Hindu World:15",
+   "Mint:15",
+   "Economic Times:15",
+   "BBC Business:15",
+   "The Guardian Business:15",
+   "The Hindu Business:15",
+   "Reuters Business:15",
+   "WSJ Business:15",
+   "CA Rachana Ranade:2",
+   "Mint Money:2",
+   "Lenny's Newsletter:2",
+   "Exponent:0",
+   "One Useful Thing:2",
+   "3Blue1Brown:2",
+   "Andrej Karpathy:2",
+   "One Useful Thing:2"
+  ],
+  "feeds_failed": [
+   "Indian Express: HTTPError",
+   "ThePrint: TimeoutError",
+   "Business Standard: HTTPError",
+   "The Telegraph: HTTPError",
+   "Business Standard: HTTPError",
+   "Indian Express Explained: HTTPError",
+   "Vinh Giang: HTTPError"
+  ],
+  "notes": [
+   "gdelt off: HTTPError HTTP Error 429: Too Many Requests"
   ]
  }
 }
