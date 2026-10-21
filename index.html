@@ -4,13 +4,13 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
 <meta name="description" content="Arushi's personal curriculum, Oct 2026 to Jan 2027.">
-<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 16 16%22%3E%3Ctext y=%2214%22 font-size=%2214%22%3E🌱%3C/text%3E%3C/svg%3E">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 16 16%22%3E%3Ctext y=%2214%22 font-size=%2214%22%3E🐱%3C/text%3E%3C/svg%3E">
 <title>Arushi's Study Garden</title>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400..800;1,9..144,400..800&family=Inter:wght@300;400;500;600;700;800&family=DM+Mono:wght@400;500&display=swap">
 <style>
-/* Layout: a calm, editorial study journal. Warm paper, soft hairline cards, a serif for headings. The only playful parts are Pip and the pixel garden. */
+/* Layout: a calm, editorial study journal. Warm paper, soft hairline cards, a serif for headings. The only playful parts are Pip the cat and her snack jars. */
 :root{
   --paper:#F8F4EC; --paper-2:#EFE8DA; --card:#FFFDF9; --ink:#27231F; --ink-2:#645C53; --line:#E3D9C8; --line-2:#D3C7B3;
   --butter:#F1E2A8; --pink:#F0CCD8; --sage:#CBDAB0; --peri:#C6D4EC; --peach:#F2D0B6; --lilac:#D8CDEB; --sky:#D9E8EE;
@@ -60,9 +60,8 @@ canvas.px{image-rendering:pixelated;image-rendering:crisp-edges;display:block}
 .sticker{display:inline-flex;align-items:center;gap:8px;font-family:var(--f-mono);font-size:12px;letter-spacing:.06em;text-transform:uppercase;color:var(--ink-2)}
 .sticker::before{content:"";width:8px;height:8px;border-radius:50%;background:var(--leaf)}
 .pot-card{background:linear-gradient(180deg,var(--sky),#E9F1F1);border:1px solid var(--line);border-radius:20px;box-shadow:var(--shadow);padding:22px;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:12px;position:relative;overflow:hidden}
-.pot-card .bubble{order:2;align-self:stretch;background:none;border:0;border-radius:0;padding:0;font-weight:500;font-size:15px;font-style:italic;color:var(--ink-2);text-align:center;position:relative}
-.pot-card .bubble::after{display:none}
-#mascot{order:1;width:170px}
+.pot-card .bubble{order:2;margin-top:6px}
+#mascot{order:1;width:176px}
 .meter{order:3;align-self:stretch;display:flex;flex-direction:column;gap:6px}
 .bar{height:10px;border:0;border-radius:999px;background:rgba(39,35,31,.1);overflow:hidden}
 .bar i{display:block;height:100%;background:var(--leaf);border-radius:999px;width:0;transition:width .6s}
@@ -174,14 +173,14 @@ dialog::backdrop{background:rgba(43,38,34,.45)}
 
 /* bookshelf: spines only */
 .shelf-wrap{overflow-x:auto;padding:44px 0 0;scrollbar-width:thin}
-.shelf{display:flex;align-items:flex-end;gap:2px;padding:0 20px;border-bottom:2px solid var(--ink);min-width:min-content;position:relative}
+.shelf{display:flex;align-items:flex-end;gap:0;padding:0 20px;border-bottom:2px solid var(--ink);min-width:min-content;position:relative}
 .spine{appearance:none;border:0;font:inherit;cursor:pointer;flex:none;width:var(--w);height:var(--h);margin:0;padding:12px 0 10px;border-radius:2px 2px 0 0;position:relative;overflow:hidden;
   display:flex;flex-direction:column;align-items:center;justify-content:space-between;
   color:var(--sk);background:var(--bg);
   box-shadow:inset 3px 0 3px -2px rgba(255,255,255,.28),inset -3px 0 3px -2px rgba(0,0,0,.3),0 0 0 .5px rgba(0,0,0,.28);
   transition:transform .22s cubic-bezier(.3,.7,.3,1.2),box-shadow .22s}
 .spine::before{content:"";position:absolute;inset:0;pointer-events:none;
-  background:linear-gradient(90deg,rgba(0,0,0,.16),rgba(255,255,255,.06) 14%,transparent 30%,transparent 78%,rgba(0,0,0,.18)),repeating-linear-gradient(0deg,rgba(0,0,0,.025) 0 1px,transparent 1px 3px)}
+  background:linear-gradient(0deg,rgba(0,0,0,.14),transparent 14%,transparent 90%,rgba(0,0,0,.08)),linear-gradient(90deg,rgba(0,0,0,.18),rgba(255,255,255,.05) 14%,transparent 30%,transparent 78%,rgba(0,0,0,.2)),url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='140' height='140'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='.9' numOctaves='2' stitchTiles='stitch'/%3E%3CfeColorMatrix values='0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 .55 0'/%3E%3C/filter%3E%3Crect width='140' height='140' filter='url(%23n)' opacity='.5'/%3E%3C/svg%3E"),repeating-linear-gradient(0deg,rgba(0,0,0,.02) 0 1px,transparent 1px 3px)}
 .spine::after{content:"";position:absolute;right:0;bottom:0;width:4px;height:var(--p);background:var(--acc);opacity:.9}
 .spine:hover,.spine:focus-visible,.spine[aria-expanded=true]{transform:translateY(-16px);box-shadow:inset 3px 0 3px -2px rgba(255,255,255,.28),inset -3px 0 3px -2px rgba(0,0,0,.3),0 0 0 .5px rgba(0,0,0,.3),0 14px 18px -8px rgba(39,35,31,.35)}
 .spine:focus-visible{outline:2px solid var(--ink);outline-offset:2px}
@@ -198,7 +197,6 @@ dialog::backdrop{background:rgba(43,38,34,.45)}
 .pop .by{color:var(--ink-2);font-size:12px;margin:2px 0 6px;display:block}
 .pop .pd{display:block;font-size:12.5px;line-height:1.45;color:var(--ink)}
 .pop .pp{display:block;margin-top:6px;font-family:var(--f-mono);font-size:10.5px;letter-spacing:.06em;text-transform:uppercase;color:var(--ink-2)}
-.bookend{width:84px;align-self:flex-end;margin:0 0 -2px 18px;flex:none}
 .bookinfo{margin-top:18px;display:grid;grid-template-columns:120px minmax(0,1fr) minmax(0,260px);gap:20px;align-items:center}
 .bookinfo .big{width:120px;height:180px;border:0;border-radius:3px 6px 6px 3px;overflow:hidden;box-shadow:0 8px 16px rgba(39,35,31,.2);display:grid;place-items:center;font-family:var(--f-pixel);font-weight:600;text-align:center;padding:8px}
 .bookinfo .big img{width:100%;height:100%;object-fit:cover}
@@ -207,34 +205,50 @@ dialog::backdrop{background:rgba(43,38,34,.45)}
 .bookinfo h3{margin:0;font-family:var(--f-pixel);font-weight:600;font-size:26px}
 input[type=range]{width:100%;accent-color:var(--leaf);height:28px}
 
-/* plants: window sill, mascot */
-.plantbtn{appearance:none;border:0;background:none;padding:0;cursor:pointer;position:relative;display:block;font:inherit;color:inherit}
-.plantbtn svg.plant{width:100%;height:auto;display:block;overflow:visible}
-.plantbtn .top{transform-origin:60px 88px;transform-box:view-box}
-.plantbtn:hover .top,.plantbtn:focus-visible .top{animation:sway 1.8s ease-in-out infinite}
-@keyframes sway{0%,100%{transform:rotate(-3deg)}50%{transform:rotate(3deg)}}
-.plantbtn.watering svg.plant{animation:squish .7s ease-out}
-@keyframes squish{30%{transform:scale(1.06,.94)}60%{transform:scale(.97,1.04)}}
-.plantbtn .drops circle{opacity:0}
-.plantbtn.watering .drops circle{animation:drop .9s ease-in 2}
-.plantbtn .drops circle:nth-child(2){animation-delay:.15s!important}.plantbtn .drops circle:nth-child(3){animation-delay:.3s!important}
-@keyframes drop{0%{transform:translateY(-28px);opacity:0}25%{opacity:1}100%{transform:translateY(38px);opacity:0}}
-.plantbtn .can{position:absolute;top:-4%;right:-18%;width:46%;opacity:0;pointer-events:none}
-.plantbtn.watering .can{animation:pour 1.7s ease-in-out}
-@keyframes pour{0%{opacity:0;transform:translate(16px,-8px) rotate(0)}22%,75%{opacity:1;transform:translate(0,0) rotate(-26deg)}100%{opacity:0;transform:translate(16px,-8px) rotate(0)}}
-@media (prefers-reduced-motion:reduce){.plantbtn *{animation:none!important}}
-.logo{display:inline-block;width:30px;flex:none}
+/* Pip the cat + snack jars */
+.sr{position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0);white-space:nowrap}
+.pipbtn{appearance:none;border:0;background:none;padding:0;cursor:pointer;display:block;font:inherit;color:inherit}
+.pip{position:relative;display:block;width:100%;aspect-ratio:1;border-radius:22px;overflow:hidden;background:#E58DC7;box-shadow:0 6px 16px rgba(39,35,31,.18);transition:transform .2s}
+.pip i{position:absolute;inset:0;background:url(assets/pip.png) center/100% 100% no-repeat}
+.pip .up{clip-path:inset(0 0 44% 0)}
+.pip .jaw{clip-path:inset(54% 0 0 0);transform-origin:50% 54%}
+.pipbtn:hover .pip,.pipbtn:focus-visible .pip{transform:rotate(-3deg) scale(1.03)}
+.pipbtn:focus-visible{outline:2px solid var(--ink);outline-offset:3px;border-radius:22px}
+.pipbtn.talking .jaw{animation:chomp .24s steps(3,end) infinite alternate}
+.pipbtn.talking .pip{animation:nod .48s ease-in-out infinite}
+.pipbtn.popped .pip{animation:popp .5s ease-out}
+@keyframes chomp{from{transform:scaleY(1)}to{transform:scaleY(1.14)}}
+@keyframes nod{0%,100%{transform:translateY(0)}50%{transform:translateY(-3px)}}
+@keyframes popp{30%{transform:scale(1.12) rotate(-4deg)}60%{transform:scale(.96) rotate(2deg)}}
+.bubble{background:var(--card);border:1px solid var(--line-2);border-radius:14px;padding:10px 14px;font-weight:500;font-size:15px;line-height:1.4;color:var(--ink);text-align:center;position:relative;min-height:3.4em;display:flex;align-items:center;justify-content:center;width:100%}
+.bubble::before{content:"";position:absolute;top:-7px;left:50%;width:12px;height:12px;background:var(--card);border-left:1px solid var(--line-2);border-top:1px solid var(--line-2);transform:translateX(-50%) rotate(45deg)}
+.logo{display:inline-block;width:32px;height:32px;border-radius:50%;flex:none;background:#E58DC7 url(assets/pip.png) 48% 34%/230% no-repeat;box-shadow:0 0 0 1px var(--line-2)}
+.mini{width:36px;flex:none}.mini .pip{border-radius:50%;box-shadow:none}
 .sillwrap{background:var(--card);border:1px solid var(--line);border-radius:var(--r);box-shadow:var(--shadow);overflow:hidden}
 .sillrow{display:grid;grid-template-columns:repeat(5,minmax(0,1fr));padding:22px 18px 0}
 @media (min-width:1000px){.sillrow{grid-template-columns:repeat(10,minmax(0,1fr))}}
 @media (max-width:420px){.sillrow{grid-template-columns:repeat(3,minmax(0,1fr))}}
 .slot{display:flex;flex-direction:column;align-items:center;padding:0 4px 14px;position:relative}
-.slot .plantbtn{width:min(100%,104px)}
+.jarbtn{appearance:none;border:0;background:none;padding:0;cursor:pointer;display:block;font:inherit;color:inherit;width:min(100%,92px)}
+.jarbtn svg{width:100%;height:auto;display:block;overflow:visible;transition:transform .2s}
+.jarbtn:hover svg,.jarbtn:focus-visible svg{transform:translateY(-4px) rotate(-2deg)}
+.jarbtn:focus-visible{outline:2px solid var(--ink);outline-offset:3px;border-radius:12px}
+.jarbtn.shake svg{animation:shake .6s ease-in-out}
+@keyframes shake{15%{transform:rotate(-7deg)}35%{transform:rotate(6deg)}55%{transform:rotate(-4deg)}75%{transform:rotate(2deg)}}
 .slot .board{align-self:stretch;height:8px;background:var(--soil);margin:0 -4px}
 .slot .lab{font-size:12px;color:var(--ink-2);margin-top:6px;text-align:center;line-height:1.3}
 .slot .lab b{display:block;color:var(--ink);font-weight:600;font-size:13px}
 .slot.now .lab b::after{content:"";display:inline-block;width:6px;height:6px;border-radius:50%;background:var(--leaf);margin-left:6px;vertical-align:middle}
-.garden-meta{display:flex;justify-content:space-between;gap:10px;flex-wrap:wrap;padding:12px 18px;border-top:1px solid var(--line);font-size:14px;color:var(--ink-2)}
+.garden-meta{display:flex;justify-content:space-between;align-items:center;gap:10px;flex-wrap:wrap;padding:12px 18px;border-top:1px solid var(--line);font-size:14px;color:var(--ink-2)}
+.sillsay{display:flex;align-items:center;justify-content:flex-start;gap:10px;min-height:36px;width:min(100%,470px);margin-left:auto}
+.mugbtn{appearance:none;border:0;background:none;padding:0;cursor:pointer;width:72px;flex:none;align-self:flex-end;margin:0 0 -2px 18px}
+.mugbtn svg{width:100%;height:auto;display:block;overflow:visible}
+.mugbtn .steam{opacity:.5}
+.mugbtn:hover .steam path,.mugbtn:focus-visible .steam path,.mugbtn.sip .steam path{animation:steam 1.6s ease-in-out infinite}
+.mugbtn .steam path:nth-child(2){animation-delay:.25s!important}.mugbtn .steam path:nth-child(3){animation-delay:.5s!important}
+.mugbtn.sip svg{animation:shake .6s ease-in-out}
+@keyframes steam{0%,100%{transform:translateY(2px);opacity:.3}50%{transform:translateY(-4px);opacity:1}}
+@media (prefers-reduced-motion:reduce){.pip,.pip *,.jarbtn svg,.mugbtn *{animation:none!important;transition:none!important}}
 
 /* digest */
 .dig-tabs{display:flex;gap:8px;margin-bottom:12px}
@@ -266,8 +280,9 @@ footer textarea{width:100%;font-family:var(--f-mono);font-size:12px;border:1px s
 
 <div id="gate" hidden>
   <div class="box">
-    <span id="gatePip" style="width:96px;display:block" aria-hidden="true"></span>
-    <h2>Welcome back to your garden</h2>
+    <button class="pipbtn" id="gatePip" type="button" style="width:112px" aria-label="Pip the cat. Tap to hear her talk."></button>
+    <div class="bubble" id="gateSay"><span class="typed" aria-hidden="true"></span><span class="sr" aria-live="polite"></span></div>
+    <h2>Welcome back</h2>
     <p>Sign in with Google so your ticks and notes follow you from laptop to phone.</p>
     <button class="chip solid" type="button" id="gateGoogle" hidden>Sign in with Google</button>
     <button class="skip" type="button" id="gateSkip">Continue without signing in</button>
@@ -291,13 +306,13 @@ footer textarea{width:100%;font-family:var(--f-mono);font-size:12px;border:1px s
     <div>
       <span class="sticker">Winter semester · Oct 26 – Jan 3</span>
       <h1>Arushi's <span class="hl">study</span> <span class="hl2">garden</span></h1>
-      <p>A personal curriculum that grows. Ten weeks of product, money, AI and politics, plus speaking, making things, moving every day and two cosy books. Tick things off and the garden fills up.</p>
+      <p>A personal curriculum that grows. Ten weeks of product, money, AI and politics, plus speaking, making things, moving every day and two cosy books. Tick things off and Pip's snack jars fill up.</p>
     </div>
     <div class="pot-card">
-      <div class="bubble" id="sproutSays">Hi Arushi! I'm Pip.</div>
-      <button class="plantbtn" id="mascot" type="button" aria-label="Pip the plant. Tap to water."></button>
+      <div class="bubble" id="sproutSays"><span class="typed" aria-hidden="true"></span><span class="sr" aria-live="polite"></span></div>
+      <button class="pipbtn" id="mascot" type="button" aria-label="Pip the cat. Tap to chat."></button>
       <div class="meter">
-        <div class="mono" style="display:flex;justify-content:space-between"><span id="stageName">seed</span><span id="weekLabel">week 0 of 10</span></div>
+        <div class="mono" style="display:flex;justify-content:space-between"><span id="stageName">mood: sleepy</span><span id="weekLabel">week 0 of 10</span></div>
         <div class="bar" aria-hidden="true"><i id="semBar"></i></div>
       </div>
     </div>
@@ -360,9 +375,9 @@ footer textarea{width:100%;font-family:var(--f-mono);font-size:12px;border:1px s
   </section>
 
   <section id="garden-sec">
-    <div class="sec-head"><h2>Window garden</h2><p>One pot a week. Tick things off and each plant grows. Tap a plant to water it.</p></div>
+    <div class="sec-head"><h2>Snack jars</h2><p>One jar a week. Tick things off and the jar fills with crackers. Tap a jar to hear how the week is going.</p></div>
     <div class="sillwrap"><div class="sillrow" id="sill"></div>
-      <div class="garden-meta"><span id="gardenCount"></span><span id="sillNote" aria-live="polite">Weeks grow from seed to bloom as you tick things off</span></div></div>
+      <div class="garden-meta"><span id="gardenCount"></span><span class="sillsay"><span class="pipbtn mini" id="miniPip" aria-hidden="true"></span><span id="sillNote"><span class="typed" aria-hidden="true">Tap a jar to hear how it's going.</span><span class="sr" aria-live="polite"></span></span></span></div></div>
   </section>
 
   <section id="digest">
@@ -553,7 +568,7 @@ const BOOKS=[
  {id:"rbc",t:"Remarkably Bright Creatures",a:"Shelby Van Pelt",q:"remarkably bright creatures",c:"#CFE5EE",tag:"Fun · wks 6–10",l:L.rbc,d:"Tova, a widow who cleans an aquarium at night, befriends Marcellus, a grumpy and very clever octopus who knows more about her past than she does."},
  {id:"mur",t:"Murdle: Volume 1",a:"G.T. Karber",q:"murdle",c:"#E2675A",tag:"Creative lab",l:L.murdle,d:"100 illustrated murder-mystery logic puzzles. Work out who did it, with what and where. Five to ten minutes each, perfect before bed."}
 ];
-const TICK=["20 pages a day","never two zero days","Pip believes in you","one tick = one flower","PREP: point, reason, example, point","capstone > perfection","10k steps, or at least 3k","the garden grows until Jan 3"];
+const TICK=["20 pages a day","never two zero days","Pip believes in you","one tick = one cracker","PREP: point, reason, example, point","capstone > perfection","10k steps, or at least 3k","Pip's jars fill until Jan 3"];
 
 /* ---------- state ---------- */
 const KEY="studyGarden.v1";
@@ -684,6 +699,7 @@ function openCourse(c){
 dlg.addEventListener("click",e=>{if(e.target===dlg)dlg.close()});
 
 /* ---------- bookshelf ---------- */
+const MUG=`<svg viewBox="0 0 92 100" aria-hidden="true"><g class="steam" fill="none" stroke="#B9B0A2" stroke-width="3" stroke-linecap="round"><path d="M34 32q-6-8 0-14t0-12"/><path d="M48 32q-6-8 0-14t0-12"/><path d="M62 32q-6-8 0-14t0-12"/></g><ellipse cx="46" cy="95" rx="34" ry="4" fill="rgba(39,35,31,.12)"/><path d="M72 49h6q12 0 12 11t-12 11h-6" fill="none" stroke="#F1B6D8" stroke-width="7" stroke-linecap="round"/><path d="M18 40h56v34q0 17-17 17H35q-17 0-17-17Z" fill="#F4C4E0"/><ellipse cx="46" cy="40" rx="28" ry="5" fill="#8B5E44"/><path d="M46 78c-11-8-15-12-9-17 4-3 8-1 9 3 1-4 5-6 9-3 6 5 2 9-9 17Z" fill="#E58DC7"/></svg>`;
 let COVERS={};try{COVERS=JSON.parse(localStorage.getItem("sg.covers")||"{}")}catch(e){}
 function coverFor(b){
   if(COVERS[b.id])return Promise.resolve(COVERS[b.id]);
@@ -697,14 +713,14 @@ function coverEl(b,cls){
 }
 /* muted, real-book-ish spines: height, width, bg, ink, accent, font, size, weight, tracking, case */
 const SPINE={
- pom:{h:268,w:56,bg:"#EFE2AE",sk:"#1E1A15",acc:"#1E1A15",ff:"var(--f-pixel)",fs:"17px",fw:700,rule:1},
- ltm:{h:244,w:50,bg:"#E5805A",sk:"#FFF6EC",acc:"#FFF6EC",ff:"var(--f-body)",fs:"14px",fw:800,ls:".05em",tt:"uppercase"},
- mom:{h:212,w:44,bg:"#F1D13F",sk:"#1A1A1A",acc:"#1A1A1A",ff:"var(--f-body)",fs:"17px",fw:800,ls:"-.01em"},
- coi:{h:288,w:62,bg:"#1F3A5C",sk:"#F3EDE2",acc:"#E8A55B",ff:"var(--f-body)",fs:"16px",fw:300,ls:".16em",tt:"uppercase",rule:2},
- pog:{h:256,w:72,bg:"#CDBB98",sk:"#33271A",acc:"#8E3B2E",ff:"var(--f-pixel)",fs:"17px",fw:600,fst:"italic",rule:2},
- eo:{h:282,w:60,bg:"#F5EBD3",sk:"#2A2622",acc:"#EDBE2F",ff:"var(--f-pixel)",fs:"15px",fw:600,fst:"italic",rule:1},
- rbc:{h:262,w:62,bg:"#3E7C8A",sk:"#FDF7EA",acc:"#F2C879",ff:"var(--f-pixel)",fs:"16px",fw:500,rule:1},
- mur:{h:230,w:52,bg:"#181311",sk:"#E8695C",acc:"#E8695C",ff:"var(--f-mono)",fs:"17px",fw:500,ls:".08em",tt:"uppercase"}
+ pom:{h:252,w:44,bg:"#D8CA9E",sk:"#231E17",acc:"#231E17",ff:"var(--f-pixel)",fs:"14px",fw:700,rule:1},
+ ltm:{h:300,w:38,bg:"#B8664A",sk:"#FBEEDD",acc:"#FBEEDD",ff:"var(--f-body)",fs:"12px",fw:800,ls:".06em",tt:"uppercase"},
+ mom:{h:196,w:32,bg:"#CDB04A",sk:"#1C1A14",acc:"#1C1A14",ff:"var(--f-body)",fs:"14px",fw:800,ls:"-.01em"},
+ coi:{h:322,w:48,bg:"#26384F",sk:"#EDE6D8",acc:"#D9A25E",ff:"var(--f-body)",fs:"13px",fw:300,ls:".18em",tt:"uppercase",rule:2},
+ pog:{h:232,w:56,bg:"#B8AA8A",sk:"#2E2418",acc:"#7E3A2D",ff:"var(--f-pixel)",fs:"15px",fw:600,fst:"italic",rule:2},
+ eo:{h:288,w:44,bg:"#E7DDC4",sk:"#2A2622",acc:"#D8A92B",ff:"var(--f-pixel)",fs:"13px",fw:600,fst:"italic",rule:1},
+ rbc:{h:262,w:48,bg:"#4C7480",sk:"#F4ECDC",acc:"#E5BC70",ff:"var(--f-pixel)",fs:"14px",fw:500,rule:1},
+ mur:{h:214,w:36,bg:"#1B1614",sk:"#DE6A5C",acc:"#DE6A5C",ff:"var(--f-mono)",fs:"14px",fw:500,ls:".08em",tt:"uppercase"}
 };
 const popEl=el("div",{class:"pop",role:"tooltip",hidden:true});document.body.append(popEl);
 function pop(b,btn){if(matchMedia("(hover:none)").matches)return;
@@ -726,8 +742,8 @@ function renderShelf(){
     const btn=el("button",{class:"spine",type:"button","aria-expanded":"false","aria-controls":"bookInfo","aria-label":`${b.t} by ${b.a}, ${p}% read`,style:st,onclick:e=>{unpop();showBook(b,e.currentTarget)}},...kids);
     btn.addEventListener("mouseenter",()=>pop(b,btn));btn.addEventListener("focus",()=>pop(b,btn));btn.addEventListener("mouseleave",unpop);btn.addEventListener("blur",unpop);
     row.append(btn)});
-  const pb=el("button",{class:"plantbtn bookend",type:"button","aria-label":"Water the bookend plant",html:plantSVG(3,{pot:POTS[2],petal:PETALS[1]})});
-  pb.addEventListener("click",()=>water(pb));row.append(pb);
+  const mg=el("button",{class:"mugbtn",type:"button","aria-label":"A cup of tea",html:MUG});
+  mg.addEventListener("click",()=>{mg.classList.remove("sip");void mg.offsetWidth;mg.classList.add("sip");setTimeout(()=>mg.classList.remove("sip"),1800)});row.append(mg);
   const vals=BOOKS.map(b=>S.books[b.id]||0),fin=vals.filter(v=>v===100).length,sta=vals.filter(v=>v>0&&v<100).length;
   const hint=document.querySelector("#shelf .sec-head p");if(hint&&matchMedia("(hover:none)").matches)hint.textContent="Tap a spine to see the cover and log how far you are.";
   const note=$("#shelfNote");if(note)note.textContent=`${BOOKS.length} books on the shelf · ${sta} started · ${fin} finished`;
@@ -738,61 +754,69 @@ function showBook(b,btn){
   const out=el("output",{for:"bookRange",class:"mono"},p+"% read");
   const r=el("input",{type:"range",id:"bookRange",min:"0",max:"100",step:"5",value:String(p),"aria-label":"How far you've read"});
   r.addEventListener("input",()=>{out.textContent=r.value+"% read"});
-  r.addEventListener("change",()=>{S.books[b.id]=+r.value;save();if(+r.value===100)toast("📚 finished! a big flower for that")});
+  r.addEventListener("change",()=>{S.books[b.id]=+r.value;save();if(+r.value===100)toast("finished! Pip is very proud")});
   box.append(coverEl(b,"big"),el("div",{},el("div",{class:"mono"},b.tag+" · "+b.a),el("h3",{},b.t),el("p",{},b.d),el("a",{href:b.l[1],target:"_blank",rel:"noopener"},"Open on Goodreads ↗")),el("div",{},out,r));
   box.scrollIntoView({behavior:"smooth",block:"nearest"});
 }
 
-/* ---------- garden ---------- */
+/* ---------- Pip + snack jars ---------- */
 function rng(seed){return()=>{seed=(seed*16807)%2147483647;return(seed-1)/2147483646}}
-function flowerCount(){return Object.keys(S.checks).length+Object.keys(S.daily).length+Object.keys(S.fit).length+Object.values(S.books).filter(v=>v===100).length*3}
-const POTS=[["#EBA987","#DD9570"],["#E9B7C6","#DBA1B3"],["#BFCDEA","#A9BADD"],["#E3D294","#D3C17B"],["#B9D3A5","#A3C28E"]];
-const PETALS=["#EE8FB5","#F2C94C","#B79BE6","#F6A27A","#7FB5E8","#E5737A","#F28DB2"];
-function plantSVG(stage,o){o=o||{};const [pot,rim]=o.pot||POTS[0],pc=o.petal||PETALS[0],G="#6BA35A",G2="#86BD74",ink="#3A2E28";
-  const leaf=(x,y,r,s)=>`<ellipse cx="${x}" cy="${y}" rx="${10*(s||1)}" ry="${5.5*(s||1)}" fill="${G2}" transform="rotate(${r} ${x} ${y})"/>`;
-  let top="";
-  if(stage===0)top=`<ellipse cx="60" cy="86" rx="5" ry="3" fill="#B88B5A"/>`;
-  else{const h=[0,16,36,50,48][stage];
-    top=`<path d="M60 88 V${88-h}" stroke="${G}" stroke-width="4" stroke-linecap="round" fill="none"/>`+leaf(51,88-h+4,-25)+leaf(69,88-h+4,25);
-    if(stage>=2)top+=leaf(49,88-h/2,-35,1.1)+leaf(71,88-h/2-4,35,1.1);
-    if(stage===3)top+=`<ellipse cx="60" cy="${88-h-8}" rx="7" ry="10" fill="${pc}"/>`;
-    if(stage===4){const cy=88-h-10;for(let k=0;k<5;k++){const a=k*72-90,x=(60+14*Math.cos(a*Math.PI/180)).toFixed(1),y=(cy+14*Math.sin(a*Math.PI/180)).toFixed(1);top+=`<ellipse cx="${x}" cy="${y}" rx="10" ry="7" fill="${pc}" transform="rotate(${a} ${x} ${y})"/>`}top+=`<circle cx="60" cy="${cy}" r="8" fill="#F6D365"/>`}}
-  const eyes=stage===0?`<path d="M49 118 q3 3 6 0 M65 118 q3 3 6 0" stroke="${ink}" stroke-width="2" fill="none" stroke-linecap="round"/>`:`<circle cx="52" cy="118" r="3.2" fill="${ink}"/><circle cx="68" cy="118" r="3.2" fill="${ink}"/><circle cx="53" cy="117" r="1" fill="#fff"/><circle cx="69" cy="117" r="1" fill="#fff"/>`;
-  return `<svg class="plant" viewBox="0 0 120 150" aria-hidden="true"><ellipse cx="60" cy="146" rx="34" ry="5" fill="rgba(39,35,31,.10)"/>`+
-   `<path d="M36 100 H84 L79 142 Q78.5 146 74 146 H46 Q41.5 146 41 142 Z" fill="${pot}"/><rect x="30" y="86" width="60" height="16" rx="7" fill="${rim}"/><ellipse cx="60" cy="88" rx="26" ry="4" fill="#7A5A41"/>`+
-   `<g class="top">${top}</g>${eyes}<path d="M56 126 q4 4 8 0" stroke="${ink}" stroke-width="2" fill="none" stroke-linecap="round"/><ellipse cx="46" cy="125" rx="4" ry="2.6" fill="#F4A6B8" opacity=".75"/><ellipse cx="74" cy="125" rx="4" ry="2.6" fill="#F4A6B8" opacity=".75"/>`+
-   `<g class="drops" fill="#8CC4E8"><circle cx="50" cy="30" r="2.6"/><circle cx="60" cy="22" r="2.6"/><circle cx="70" cy="30" r="2.6"/></g></svg>`+
-   `<svg class="can" viewBox="0 0 60 50" aria-hidden="true"><path d="M8 18h30v22q0 4-4 4H12q-4 0-4-4Z" fill="#9CC5E3"/><path d="M38 24l14-10v6l-14 10Z" fill="#86B3D4"/><path d="M8 24q-8 0-8 8t8 8" stroke="#86B3D4" stroke-width="4" fill="none"/><rect x="6" y="14" width="34" height="6" rx="3" fill="#B4D6EE"/></svg>`}
-function water(btn){btn.classList.remove("watering");void btn.offsetWidth;btn.classList.add("watering");setTimeout(()=>btn.classList.remove("watering"),1800)}
+const PIP='<span class="pip" aria-hidden="true"><i class="up"></i><i class="jaw"></i></span>';
+const REDUCE=matchMedia("(prefers-reduced-motion: reduce)").matches;
+function speak(box,text,btn){
+  const typed=box.querySelector(".typed"),sr=box.querySelector(".sr");
+  clearInterval(box._t);if(sr)sr.textContent=text;
+  if(REDUCE){typed.textContent=text;return}
+  if(btn)btn.classList.add("talking");let i=0;typed.textContent="";
+  box._t=setInterval(()=>{typed.textContent=text.slice(0,++i);if(i>=text.length){clearInterval(box._t);if(btn)btn.classList.remove("talking")}},30);
+}
+function bounce(btn){btn.classList.remove("popped");void btn.offsetWidth;btn.classList.add("popped");setTimeout(()=>btn.classList.remove("popped"),600)}
 function weekStats(w){let done=0,total=0;for(let i=0;i<7;i++){todayTasks(addDays(START,(w-1)*7+i)).forEach(t=>{total++;if(S[t.store][t.id])done++})}return{done,total}}
 const stageOf=f=>f===0?0:f<.1?1:f<.35?2:f<.7?3:4;
+const LIDS=["#EBA987","#E9B7C6","#B9C9EA","#E3D294","#B2D1A0"];
+const FISH=["#F2A65A","#EE8A5C","#F6C35F"];
+function jarSVG(f,lid,idx){
+  const n=f===0?0:Math.max(1,Math.round(f*25));let fish="";
+  for(let k=0;k<n;k++){const row=Math.floor(k/5),col=k%5,x=27+col*11.4+(row%2?3:0)+((k*37)%5-2)*.6,y=113-row*13.5,r=((k*53)%50)-25,c=FISH[k%3];
+    fish+=`<g transform="translate(${x.toFixed(1)} ${y.toFixed(1)}) rotate(${r})"><ellipse rx="5.2" ry="3.4" fill="${c}"/><path d="M4 0L8.6-3.5V3.5Z" fill="${c}"/><circle cx="-2.4" cy="-.7" r=".8" fill="#6B3E2B"/></g>`}
+  const full=f>=.999;
+  return `<svg viewBox="0 0 100 130" aria-hidden="true"><defs><clipPath id="jc${idx}"><rect x="17" y="33" width="66" height="86" rx="13"/></clipPath></defs>`+
+   `<ellipse cx="50" cy="126" rx="34" ry="4" fill="rgba(39,35,31,.10)"/>`+
+   `<rect x="15" y="31" width="70" height="90" rx="15" fill="#F2F7F7" stroke="#C5D1D1" stroke-width="2"/>`+
+   `<g clip-path="url(#jc${idx})">${fish}</g>`+
+   `<path d="M24 52V96" stroke="#fff" stroke-width="4" stroke-linecap="round" opacity=".75"/>`+
+   `<rect x="20" y="14" width="60" height="19" rx="6" fill="${full?"#F2C94C":lid}"/><rect x="24" y="18" width="52" height="3" rx="1.5" fill="#fff" opacity=".4"/>`+
+   (full?`<path d="M50 4l2.4 5.4 5.8.6-4.4 3.9 1.3 5.7L50 16.6 44.9 19.6l1.3-5.7-4.4-3.9 5.8-.6Z" fill="#F2C94C" transform="translate(0 -4)"/>`:"")+`</svg>`}
 function drawGarden(){
-  const box=$("#sill");box.innerHTML="";let bloom=0,sumDone=0;
-  for(let w=1;w<=10;w++){const {done,total}=weekStats(w),f=total?done/total:0,st=f===0?0:f<.3?1:f<.6?2:f<.9?3:4;
-    const future=addDays(START,(w-1)*7)>TODAY;sumDone+=done;if(st===4)bloom++;
-    const btn=el("button",{class:"plantbtn",type:"button","aria-label":`Week ${w}: ${done} of ${total} ticks. Tap to water.`,html:plantSVG(st,{pot:POTS[(w-1)%POTS.length],petal:PETALS[(w-1)%PETALS.length]})});
-    btn.addEventListener("click",()=>{water(btn);$("#sillNote").textContent=done===total&&total?`Week ${w} is in full bloom.`:future?`Week ${w} hasn't started yet. It's resting.`:`Week ${w}: ${done} of ${total} ticks done. Keep watering.`});
-    box.append(el("div",{class:"slot"+(future?" future":"")+(w===activeWk&&NOWWK>0?" now":"")},btn,el("div",{class:"board"}),el("div",{class:"lab"},el("b",{},"Week "+w),el("span",{},`${done}/${total}`))))}
-  $("#gardenCount").textContent=`${sumDone} ticks so far · ${bloom} of 10 in bloom`;
+  const box=$("#sill");box.innerHTML="";let full=0,sumDone=0;
+  for(let w=1;w<=10;w++){const {done,total}=weekStats(w),f=total?done/total:0;
+    const future=addDays(START,(w-1)*7)>TODAY;sumDone+=done;if(total&&done===total)full++;
+    const btn=el("button",{class:"jarbtn",type:"button","aria-label":`Week ${w}: ${done} of ${total} ticks. Tap to hear how it's going.`,html:jarSVG(f,LIDS[(w-1)%LIDS.length],w)});
+    btn.addEventListener("click",()=>{btn.classList.remove("shake");void btn.offsetWidth;btn.classList.add("shake");setTimeout(()=>btn.classList.remove("shake"),700);
+      const left=total-done,msg=total&&!left?`Week ${w}: full jar! I'm so proud of you.`:future?`Week ${w} hasn't started. The jar is empty and so am I.`:done===0?`Week ${w}'s jar is empty. I'm starving.`:`Week ${w}: ${done} of ${total}. ${left} more and I eat.`;
+      speak($("#sillNote"),msg,$("#miniPip"))});
+    box.append(el("div",{class:"slot"+(w===activeWk&&NOWWK>0?" now":"")},btn,el("div",{class:"board"}),el("div",{class:"lab"},el("b",{},"Week "+w),el("span",{},`${done}/${total}`))))}
+  const mp=$("#miniPip");if(!mp.innerHTML)mp.innerHTML=PIP;
+  $("#gardenCount").textContent=`${sumDone} ticks so far · ${full} of 10 jars full`;
 }
-window.addEventListener("resize",unpop);
 
 /* ---------- mascot ---------- */
 let TOTAL_TASKS=0;
+const MOODS=["sleepy","peckish","perky","chatty","popping"];
 function drawMascot(){
   const btn=$("#mascot");
+  if(!btn.innerHTML)btn.innerHTML=PIP;
   if(!TOTAL_TASKS){for(let w=1;w<=10;w++)TOTAL_TASKS+=weekStats(w).total}
   let done=0;for(let w=1;w<=10;w++)done+=weekStats(w).done;
-  const stage=stageOf(TOTAL_TASKS?done/TOTAL_TASKS:0);
-  btn.innerHTML=plantSVG(stage,{pot:POTS[0],petal:PETALS[0]});
-  const names=["seed","sprout","leafy","budding","blooming"];
-  $("#stageName").textContent=names[stage];
+  $("#stageName").textContent="mood: "+MOODS[stageOf(TOTAL_TASKS?done/TOTAL_TASKS:0)];
   $("#weekLabel").textContent=NOWWK===0?"starts Monday":`week ${Math.min(NOWWK,10)} of 10`;
   $("#semBar").style.width=Math.min(100,Math.max(0,(TODAY-START)/(END-START)*100))+"%";
-  const lines=NOWWK===0?["Hi Arushi! I'm Pip. We start Monday.","I'm just a seed right now. Tick things off to water me."]:["Did you do your 20 pages?","Every tick helps me grow.","Pip is growing with you.","Walk at 8:30? I'll come too."];
-  const cheers=["Ahh, thank you! That's the good stuff.","Glug glug. I feel taller already.","Do the next tick and I'll show off.","You're doing great. I'm rooting for you."];
-  const say=$("#sproutSays");say.textContent=lines[Math.floor(Date.now()/864e5)%lines.length];
-  if(!btn.dataset.bound){btn.dataset.bound="1";btn.addEventListener("click",()=>{water(btn);say.textContent=cheers[Math.floor(Math.random()*cheers.length)]})}
+  const lines=NOWWK===0?["Hi Arushi! I'm Pip. We start Monday.","Ten weeks, tiny steps. I'll be right here.","Pick your first book. I'll wait."]:["Did you do your 20 pages?","PREP: point, reason, example, point. Say it out loud.","Walk at 8:30? I'm coming too.","Never two zero days. I'm watching. Lovingly.","One tick at a time. I'm not going anywhere."];
+  const cheers=["Pop! That tickles.","You're doing great. Keep going.","Do the next tick and I'll do a happy dance.","Meow. I mean: proud of you."];
+  const box=$("#sproutSays");
+  if(!btn.dataset.bound){btn.dataset.bound="1";
+    speak(box,lines[Math.floor(Date.now()/864e5)%lines.length],btn);
+    btn.addEventListener("click",()=>{bounce(btn);speak(box,cheers[Math.floor(Math.random()*cheers.length)],btn)})}
 }
 
 /* ---------- digest ---------- */
@@ -814,12 +838,11 @@ $("#copySync").addEventListener("click",()=>{const box=$("#syncBox");box.value=e
 $("#loadSync").addEventListener("click",()=>{try{const o=dec($("#syncBox").value);if(!o.checks)throw 0;S=Object.assign({checks:{},daily:{},fit:{},books:{},digest:{nov:{},dec:{}}},o);save();renderDigest();toast("Loaded. Your garden is synced 🌱")}catch(e){toast("That code didn't work. Copy the whole thing and try again")}});
 
 /* ---------- ticker, logo, cursor ---------- */
-$("#logo").innerHTML=plantSVG(2,{pot:POTS[0],petal:PETALS[0]});
 
 
 function refreshAll(){renderToday();renderCal();renderCards();renderShelf();drawGarden();if(typeof drawMascot==="function"&&$("#mascot"))drawMascot()}
 (function(){let hint=false;try{hint=localStorage.getItem("sg.guest")||localStorage.getItem("sg.signedin")}catch(e){}
- if(!hint){$("#gate").hidden=false;try{$("#gatePip").innerHTML=plantSVG(1,{pot:POTS[0],petal:PETALS[0]})}catch(e){}}
+ if(!hint){$("#gate").hidden=false;try{const gp=$("#gatePip");gp.innerHTML=PIP;speak($("#gateSay"),"Hi! Sign in and I'll remember every tick.",gp);gp.addEventListener("click",()=>{bounce(gp);speak($("#gateSay"),["Pop!","Sign in with Google. It takes two seconds.","Or just look around. I don't mind."][Math.floor(Math.random()*3)],gp)})}catch(e){}}
  $("#gateSkip").addEventListener("click",()=>{try{localStorage.setItem("sg.guest","1")}catch(e){}$("#gate").hidden=true});
  $("#gateGoogle").addEventListener("click",()=>$("#authBtn").click())})();
 refreshAll();renderDigest();
@@ -862,7 +885,7 @@ try{
         applying=true;SG.set(next);applying=false;localStorage.setItem("sg.synced."+u.uid,"1");
         if(JSON.stringify(next)!==JSON.stringify(cloud))push();
       } else {await setDoc(ref,{data:JSON.stringify(local),updatedAt:Date.now()});localStorage.setItem("sg.synced."+u.uid,"1")}
-      SG.toast("Synced 🌱 Your garden follows you now");
+      SG.toast("Synced. Your progress follows you now");
       unsub=onSnapshot(ref,s=>{if(!s.exists()||s.metadata.hasPendingWrites)return;const d=s.data();
         if(d.updatedAt&&d.updatedAt<=lastWrite)return;
         try{const c=JSON.parse(d.data);if(JSON.stringify(c)!==JSON.stringify(SG.get())){applying=true;SG.set(c);applying=false}}catch(e){}});
