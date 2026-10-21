@@ -1,37 +1,37 @@
 {
- "updated": "2026-10-21T11:38+00:00",
+ "updated": "2026-10-21T11:40+00:00",
  "method": "spectrum-v2",
  "news": {
   "india": [
    {
-    "title": "Andhra local polls: SC asks SEC to decide on YSRCP plea for extending nomination deadline",
-    "url": "https://www.hindustantimes.com/india-news/andhra-local-polls-sc-asks-sec-to-decide-on-ysrcp-plea-for-extending-nomination-deadline-101792580156364.html",
-    "source": "Hindustan Times",
+    "title": "India's HDFC Bank probe finds executives leaked confidential information, Bloomberg News reports",
+    "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPZTAwOTR1Z2FTcGtPLWtCZjdPMER5XzQ4cUo0UnF6WE45bW5iaFBwRmxvb1FldlJZUno2VmducGdDa0hHdHNXbXNfd0tBRzdpMGE1SGJDWTk3akJtYjFtd3hrWGZHXzQ1RzNvUk5teXNNekROTHhMekxlSEFDZ3lNTVpaLWZkN1NjT1JXUC1KYUJWZFBuTGxzUDB4UmdkZGlOazRTQkd2YkZLREhhMkljNkkwLVpubHlaTDBr?oc=5",
+    "source": "Reuters India",
     "date": "21 Oct",
     "outlets": 2,
     "also": [
-     "NDTV"
+     "Business Standard"
     ],
-    "lean": "L",
+    "lean": "CR",
+    "sites": null,
+    "wiki": false
+   },
+   {
+    "title": "SBI probes suspected dark web leak involving 3,897 customer records",
+    "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPOUotY1FHUm84T0FIQWdfbnItYjcwWXU2Y2l0TnFiOUNYMjBvMTVtNUM5c1NSV3l4V3Y5UTBDWkVKbXNELWhVRTc2aXgwdFJ5Y1FSMTBjS1QyX25EYV9VakUzNmhYeW1sbzJ4TkR6R21IUU5GYl9QY2NyWURUZE9SUDY2eEMyOFRhUDQ0eG91NWV6TEtEeUpqM3lLVXJkZkFZSDlTaWpQUURvQUFqSDlWQ0FoQXBNcHhrRGVENmNaRnPSAcYBQVVfeXFMTTlwcV8tSXBHelVVOUw1Mzh6ajVWaG1wU1VjcjJ2N040cXV2Q2xqVEVDSGlqOG5BQkIzbk15cFk5ckd2cmlHSVB3dXlEZTJhSDdaNnhCZW9DTE1CVkVWZGpDMUZaSXBIbkFSMmt6SkZ0aGNiQXZvWVFEaUJYVkRTUWdSRjJkQ0l6d0lXazZnQk1CbDlIT2t0TmtGTVRwSmN6OWEwMGJFeHdjZHdJa01lR1hTbTBBWXlLN2lJLUxHQnZHVVhCbnZn?oc=5",
+    "source": "Business Standard",
+    "date": "21 Oct",
+    "outlets": 2,
+    "also": [
+     "Reuters"
+    ],
+    "lean": "CR",
     "sites": null,
     "wiki": false
    },
    {
     "title": "Pollution Curbs Under GRAP-1 Imposed In Delhi, Parking Charges To Be Doubled",
     "url": "https://www.ndtv.com/india-news/delhi-air-quality-grap-1-pollution-curbs-under-grap-1-in-delhi-ncr-as-air-quality-drops-to-poor-12214729#publisher=newsstand",
-    "source": "NDTV",
-    "date": "21 Oct",
-    "outlets": 2,
-    "also": [
-     "Hindustan Times"
-    ],
-    "lean": "L",
-    "sites": null,
-    "wiki": false
-   },
-   {
-    "title": "Pinarayi Vijayan Gets 7-Day Relief In Bribery Case, CPI(M), BJP Trade Charges",
-    "url": "https://www.ndtv.com/india-news/pinarayi-vijayan-gets-7-day-relief-in-bribery-case-cpi-m-bjp-trade-charges-12214548#publisher=newsstand",
     "source": "NDTV",
     "date": "21 Oct",
     "outlets": 2,
@@ -60,6 +60,21 @@
     "wiki": true
    },
    {
+    "title": "UK fighter jets to protect Saudi Arabia from Houthi attacks",
+    "url": "https://www.dw.com/en/uk-fighter-jets-to-protect-saudi-arabia-from-houthi-attacks/a-79718467?maca=en-rss-en-world-4025-rdf",
+    "source": "DW",
+    "date": "21 Oct",
+    "outlets": 4,
+    "also": [
+     "AP",
+     "Al Jazeera",
+     "The Telegraph"
+    ],
+    "lean": "LCR",
+    "sites": null,
+    "wiki": true
+   },
+   {
     "title": "Nigeria confirms Ebola case as outbreak spreads into western Africa",
     "url": "https://www.theguardian.com/world/2026/oct/21/nigeria-first-ebola-case-africa-outbreak-latest",
     "source": "The Guardian",
@@ -73,20 +88,6 @@
     "lean": "LC",
     "sites": null,
     "wiki": true
-   },
-   {
-    "title": "US citizen Stephen Hubbard freed by Russia and 'on his way home', Trump says",
-    "url": "https://www.bbc.co.uk/news/articles/c6m24l9v3745o?at_medium=RSS&at_campaign=rss",
-    "source": "BBC World",
-    "date": "21 Oct",
-    "outlets": 3,
-    "also": [
-     "DW",
-     "NPR"
-    ],
-    "lean": "LC",
-    "sites": null,
-    "wiki": true
    }
   ],
   "business": [
@@ -95,34 +96,34 @@
     "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxONHZoMzBtaGg1TmlMN19NRUEzM1lOZkpYb1ZXeWlLTnR4SkxObm1xbDBlN0RsQ2huaHBCMzRxU0VLb3ZPSS1ZeEdhampNY3VNclpoU2xGOWpoQjNfVzVDTHpqOVVRd0pZcVY3eGlpVkxjWTRrMGh4aWtCbVJVVnZ1Nnd1RkU1dFNtcUZCUnVxX1pRWXRTd09QUnpodWJSeEhpS3BKcmxsQkM1aFA1eExGSkNMMVIteV93OXZWa0Q2Vl9yUQ?oc=5",
     "source": "Reuters Business",
     "date": "20 Oct",
-    "outlets": 4,
+    "outlets": 5,
     "also": [
      "BBC",
      "Mint",
-     "WSJ"
+     "The Hindu"
     ],
-    "lean": "CR",
+    "lean": "LCR",
     "sites": null,
     "wiki": false
    },
    {
-    "title": "US judge dismisses sexual abuse lawsuit from Sam Altman’s sister",
-    "url": "https://www.theguardian.com/technology/2026/oct/20/judge-dismisses-sam-altman-sister-lawsuit",
-    "source": "The Guardian Business",
-    "date": "20 Oct",
+    "title": "Rupee closes at six-week high of 94.43 driven by Jio IPO, RBI intervention",
+    "url": "https://www.thehindu.com/business/markets/rupee-closes-at-six-week-high-of-9443-driven-by-jio-ipo-rbi-intervention/article71607257.ece",
+    "source": "The Hindu Business",
+    "date": "21 Oct",
     "outlets": 2,
     "also": [
-     "BBC"
+     "Reuters"
     ],
     "lean": "LC",
     "sites": null,
     "wiki": false
    },
    {
-    "title": "Order to Slow Down Starlink for Ukraine Came From Musk",
-    "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNZlNQd1hOM3M3d2lrdVJlWFc4WVJUWkJhMzNfTGhoQmFFenp0SWNlVVRtMTFkTlhtQTFwbUhsZ3ExdmxuVVdSaHlTTzR6QzFxTTZRdW1PeFd3VFo0WjRFaFdrOVR5ZDQ2TzZ2NzNRRTNLQU5xT2FLeURIMmhqX1FrdFh2VXNXcGRlZi1DZzhaX0dGb21CTTBz?oc=5",
-    "source": "WSJ Business",
-    "date": "20 Oct",
+    "title": "SBI probes suspected dark web leak involving 3,897 customer records",
+    "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPOUotY1FHUm84T0FIQWdfbnItYjcwWXU2Y2l0TnFiOUNYMjBvMTVtNUM5c1NSV3l4V3Y5UTBDWkVKbXNELWhVRTc2aXgwdFJ5Y1FSMTBjS1QyX25EYV9VakUzNmhYeW1sbzJ4TkR6R21IUU5GYl9QY2NyWURUZE9SUDY2eEMyOFRhUDQ0eG91NWV6TEtEeUpqM3lLVXJkZkFZSDlTaWpQUURvQUFqSDlWQ0FoQXBNcHhrRGVENmNaRnPSAcYBQVVfeXFMTTlwcV8tSXBHelVVOUw1Mzh6ajVWaG1wU1VjcjJ2N040cXV2Q2xqVEVDSGlqOG5BQkIzbk15cFk5ckd2cmlHSVB3dXlEZTJhSDdaNnhCZW9DTE1CVkVWZGpDMUZaSXBIbkFSMmt6SkZ0aGNiQXZvWVFEaUJYVkRTUWdSRjJkQ0l6d0lXazZnQk1CbDlIT2t0TmtGTVRwSmN6OWEwMGJFeHdjZHdJa01lR1hTbTBBWXlLN2lJLUxHQnZHVVhCbnZn?oc=5",
+    "source": "Business Standard",
+    "date": "21 Oct",
     "outlets": 2,
     "also": [
      "Reuters"
@@ -133,7 +134,14 @@
    }
   ]
  },
- "explainer": [],
+ "explainer": [
+  {
+   "title": "SBI data breach: Personal data of nearly 4,000 exposed, how major is the incident?",
+   "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxORFJidDB3TmljclNNcHA4cWl5QTltMjJVNExnMmNBODVUOHV1NDd0NkFmYlJSdWdVTkFHNWJiVzNpdklMLW9sNzEtekt4Wlo5UDB0MTc1ZFptRGlJM2dOay1QYXR3RURVZTd2czZsWUg0eUg2YXdJZVU4bUtvdGl1ZEZkUnZqRXRxV0JtM1F2eW9CQW9rMWN4N2QtZnpiNi1GWkVTTjAtQWl0NjExdTBRSXQxMXVWWndhY0VQckItcW80d9IByAFBVV95cUxPejZVaE0xV3R6cTF1dV9ndDdqTmZyUGwwNllWSGVUaFladHlvRk5PWldaMkFEX1ZxTnlCVksyb21LZjZMTzVQX0VuZEN5Z3NXU2hLMExWV2c4bjRvRFNXLVIxeTdURFJuZ1ZDOWlWSDBWN2lHcGxTcTFDU1dzS1ExTW9SZmkzWkNKZU03c25zYVBEMHFGTURLTkhRMm9jbHRjR3FmUFdWbzJ4RDBXZ0N2VGFNeU1EQUxtdE9MZXFIdWFtWkhYQmJrMg?oc=5",
+   "source": "Indian Express Explained",
+   "date": "21 Oct"
+  }
+ ],
  "courses": {
   "FIN": [
    {
@@ -228,10 +236,13 @@
   "note": "",
   "feeds_ok": [
    "The Hindu:15",
+   "Indian Express (via gnews):15",
    "Hindustan Times:15",
    "NDTV:15",
    "Times of India:15",
    "India Today:15",
+   "ThePrint (via gnews):15",
+   "Business Standard (via gnews):15",
    "BBC India:15",
    "Reuters India:15",
    "Mint Politics:15",
@@ -242,15 +253,20 @@
    "Al Jazeera:15",
    "The Guardian:15",
    "NPR:10",
+   "The Telegraph (via gnews):15",
    "WSJ:15",
    "The Hindu World:15",
    "Mint:15",
    "Economic Times:15",
-   "BBC Business:15",
-   "The Guardian Business:15",
+   "Business Standard (via gnews):15",
    "The Hindu Business:15",
+   "Hindu BusinessLine:15",
+   "Reuters India Business:15",
+   "BBC Business:15",
    "Reuters Business:15",
+   "The Guardian Business:15",
    "WSJ Business:15",
+   "Indian Express Explained (via gnews):2",
    "CA Rachana Ranade:2",
    "Mint Money:2",
    "Lenny's Newsletter:2",
@@ -261,16 +277,10 @@
    "One Useful Thing:2"
   ],
   "feeds_failed": [
-   "Indian Express: HTTPError",
-   "ThePrint: TimeoutError",
-   "Business Standard: HTTPError",
-   "The Telegraph: HTTPError",
-   "Business Standard: HTTPError",
-   "Indian Express Explained: HTTPError",
    "Vinh Giang: HTTPError"
   ],
   "notes": [
-   "gdelt off: HTTPError HTTP Error 429: Too Many Requests"
+   "gdelt off after retries: HTTPError HTTP Error 429: Too Many Requests"
   ]
  }
 }
