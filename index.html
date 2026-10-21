@@ -39,6 +39,8 @@ canvas.px{image-rendering:pixelated;image-rendering:crisp-edges;display:block}
 #gate p{margin:0;color:var(--ink-2)}
 #gate .skip{background:none;border:0;font:inherit;color:var(--deep);text-decoration:underline;cursor:pointer;padding:8px}
 
+.deep .mono{padding:0 14px}
+.deep{border-top:2px dashed var(--line);margin-top:10px;padding-top:2px;opacity:.95}
 /* top bar */
 .top{display:flex;align-items:center;justify-content:space-between;gap:12px;flex-wrap:wrap;padding-block:18px}
 .brand{display:flex;align-items:center;gap:10px;font-family:var(--f-pixel);font-size:22px;font-weight:700;text-decoration:none;color:var(--ink)}
@@ -257,7 +259,7 @@ footer textarea{width:100%;font-family:var(--f-mono);font-size:12px;border:2px s
     <div>
       <span class="sticker">Winter semester · Oct 26 – Jan 3</span>
       <h1>Arushi's <span class="hl">study</span> <span class="hl2">garden</span></h1>
-      <p>A personal curriculum that grows. Ten weeks of money, product, AI and history, plus speaking, making things, moving every day and two cosy books. Tick things off and the garden fills up.</p>
+      <p>A personal curriculum that grows. Ten weeks of product, money, AI and politics, plus speaking, making things, moving every day and two cosy books. Tick things off and the garden fills up.</p>
     </div>
     <div class="pot-card">
       <svg class="star" style="top:14px;left:16px" viewBox="0 0 7 7" aria-hidden="true" shape-rendering="crispEdges"><path fill="#F4D865" stroke="#2B2622" stroke-width=".5" d="M3 0h1v2h1v1h2v1H5v1H4v2H3V5H2V4H0V3h2V2h1z"/></svg>
@@ -423,40 +425,84 @@ const L={
  murdle:["Murdle Volume 1",GR("murdle volume 1 karber")],
  sunder:["Sunder Nursery","https://www.google.com/maps/search/Sunder+Nursery+Delhi"],
  eo:["Eleanor Oliphant Is Completely Fine",GR("eleanor oliphant is completely fine")],
- rbc:["Remarkably Bright Creatures",GR("remarkably bright creatures")]
+ rbc:["Remarkably Bright Creatures",GR("remarkably bright creatures")],
+ varPF:["Varsity: Personal Finance & Mutual Funds","https://zerodha.com/varsity/module/personalfinance/"],
+ varIntro:["Varsity: Introduction to Stock Markets","https://zerodha.com/varsity/module/introduction-to-stock-markets/"],
+ varIns:["Varsity: Insurance","https://zerodha.com/varsity/module/insurance/"],
+ varNPS:["Varsity: NPS","https://zerodha.com/varsity/module/national-pension-scheme/"],
+ varFA:["Varsity: Fundamental Analysis","https://zerodha.com/varsity/module/fundamental-analysis/"],
+ varTax:["Varsity: Markets & Taxation","https://zerodha.com/varsity/module/markets-and-taxation/"],
+ varRisk:["Varsity: Risk Management","https://zerodha.com/varsity/module/risk-management/"],
+ varInner:["Varsity: Innerworth","https://zerodha.com/varsity/module/innerworth/"],
+ amfi:["Mutual Funds Sahi Hai (AMFI)","https://www.mutualfundssahihai.com"],
+ scr:["Screener","https://www.screener.in"],
+ fins:["Finshots","https://finshots.in"],
+ flu:["Anthropic: AI Fluency (free)","https://anthropic.skilljar.com/ai-fluency-framework-foundations"],
+ hamel:["Your AI Product Needs Evals","https://hamel.dev/blog/posts/evals/"],
+ pair:["People + AI Guidebook","https://pair.withgoogle.com/guidebook/"],
+ gop:["GoPractice PM simulator","https://gopractice.io/course/pm/"],
+ gprd:["PRD templates (GoPractice)","https://gopractice.io/product/prd-templates-for-product-managers/"],
+ svpg:["SVPG articles","https://www.svpg.com/"],
+ stat:["North star metrics (Statsig)","https://statsig.com/perspectives/north-star-metric-guides-success"],
+ lpc:["Lenny's favourite PM courses","https://www.lennysnewsletter.com/p/my-favorite-pm-courses"],
+ prsb:["PRS: how a law is enacted","https://prsindia.org/theprsblog/how-is-a-law-enacted-in-parliament"],
+ prsbill:["PRS Bill Track","https://prsindia.org/billtrack"],
+ cfr:["CFR Backgrounders","https://www.cfr.org/backgrounders"],
+ cfr101:["CFR World101","https://www.cfr.org/campus/world101"],
+ abr:["Matt Abrahams: 3 principles (Stanford)","https://gsb.stanford.edu/insights/three-guiding-principles-successful-communication"],
+ tfts:["Think Fast, Talk Smart",GR("think fast talk smart matt abrahams")],
+ insp:["INSPIRED, Marty Cagan",GR("inspired marty cagan")]
 };
 const it=(k,t,...links)=>({k,t,links:links.map(x=>L[x])});
 const COURSES=[
- {id:"FIN",code:"FIN 101",name:"Money & Investing",weeks:[1,2],color:"var(--butter)",spr:"sun",goal:"Understand how markets and index funds work, then write your own money rules.",
-  plan:{1:[it("Read","The Psychology of Money, ch. 1–10","pom"),it("Study","Zerodha Varsity, Module 1, ch. 1–5","varsity"),it("Lab","Compare 2 Nifty 50 index funds: expense ratio, tracking error, fund size","vro")],
-        2:[it("Read","The Psychology of Money, ch. 11–20","pom"),it("Watch","CA Rachana Ranade on SIP vs lump sum","rr"),it("Lab","Map your money in 4 buckets: needs, wants, invest, buffer")]},
-  res:[["Book","pom"],["Extra book","ltm"],["Website","varsity"],["Website","vro"],["YouTube","rr"]],
-  cap:"One page: your fund comparison + your 3-line investing rules."},
- {id:"PRD",code:"PRD 101",name:"Product Thinking",weeks:[3,4],color:"var(--pink)",spr:"tulip",goal:"Find the real user problem before talking about features.",
-  plan:{3:[it("Read","The Mom Test, ch. 1–4","mom"),it("Read","Good Product Manager / Bad Product Manager","gpm"),it("Lab","Interview 2 friends about an app they use daily, Mom Test style")],
-        4:[it("Read","The Mom Test, ch. 5–8","mom"),it("Listen","One Lenny's Podcast episode on product sense","lenny"),it("Lab","Teardown: user, problem, what works, one change you'd make","expo")]},
-  res:[["Book","mom"],["Article","gpm"],["Podcast","lenny"],["Newsletter","lennyN"],["YouTube","expo"]],
-  cap:"A one-page app teardown backed by 2 real interviews."},
- {id:"AI",code:"AI 101",name:"How AI Actually Works",weeks:[5,7],color:"var(--peri)",spr:"robot",goal:"Explain an LLM in plain words, and know where AI helps or fails.",
-  plan:{5:[it("Watch","3Blue1Brown neural networks, ch. 1–2","nn"),it("Read","Co-Intelligence, Part I","coi"),it("Lab","AI tool log #1: one tool, one real task. What worked, what failed")],
-        6:[it("Watch","Karpathy, Intro to Large Language Models (2 sittings)","kar"),it("Watch","3Blue1Brown, But what is a GPT?","gpt"),it("Lab","AI tool log #2: the same prompt on two different models")],
-        7:[it("Read","Co-Intelligence, Part II","coi"),it("Read","2 posts from One Useful Thing","out"),it("Lab","AI tool log #3 + script your explainer video")]},
-  res:[["Book","coi"],["YouTube","nn"],["YouTube","kar"],["Newsletter","out"],["Free course","eoa"]],
-  cap:"A 2-minute video, “how an LLM works”, + your 3-week tool log."},
- {id:"HIS",code:"HIS 101",name:"Geopolitics & History",weeks:[8,9],color:"var(--sage)",spr:"oak",goal:"See how geography and the past shape today's headlines, in India and the world.",
-  plan:{8:[it("Read","Prisoners of Geography: China, then India & Pakistan","pog"),it("Watch","2 episodes of Cut the Clutter","ctc"),it("Lab","Pick one current India story. List the 5 past events behind it","owid")],
-        9:[it("Read","Prisoners of Geography: USA, then Russia","pog"),it("Watch","2 Caspian Report videos on a current world story","cas"),it("Lab","Same exercise for one world story")]},
-  res:[["Book","pog"],["YouTube","ctc"],["YouTube","cas"],["Podcast","trih"],["Website","owid"]],
-  cap:"Two one-page timelines: one India story, one world story."},
- {id:"FINAL",code:"FINALS",name:"Capstone Week",weeks:[10,10],color:"var(--lilac)",spr:"cap",goal:"Show yourself what you learned.",
-  plan:{10:[it("Review","Reread your notebook, one course a day"),it("Capstone","Record a 5-minute talk: “4 things I learned this semester”"),it("Plan","Fill in the December digest and pick next semester's courses")]},
-  res:[],cap:"A 5-minute talk, one idea from each core course."},
- {id:"CUR",code:"CUR 100",name:"Current Affairs",always:"Sundays · 30 min",color:"var(--sky)",spr:"duck",goal:"Each Sunday, 3 stories (India, world, business). One line each, plus one question you're still curious about.",
-  list:[it("Sunday","Read 3 stories and write one line on each","iex","reu","mint"),it("Video","Pick one Cut the Clutter episode","ctc")],
-  res:[["India","iex"],["World","reu"],["Business","mint"],["Video","ctc"]],cap:"By January: 30 one-line notes you can talk about."},
- {id:"SPK",code:"SPK 100",name:"Speaking with Structure",always:"Saturdays · 15 min",color:"var(--peach)",spr:"mic",goal:"Every Saturday, a 2-minute video explaining one idea from the week using PREP: Point, Reason, Example, Point.",
-  list:[it("Weekly","Record one 2-minute PREP video"),it("Week 3","Rewatch your videos and fix one habit"),it("Week 6","Record with no notes"),it("Watch","How to speak so that people want to listen","ted")],
-  res:[["TED","ted"],["YouTube","vinh"]],cap:"Feeds into the 5-minute finals talk."},
+  {id:"PRD",code:"PRD 101",name:"Product Management",weeks:[1,9],color:"var(--pink)",spr:"tulip",goal:"The spine of the semester. Build product sense, metrics, prioritisation and your own story, using your AI newspaper as the case study.",
+   plan:{1:[it("Read","Good Product Manager / Bad Product Manager","gpm"),it("Read","The Mom Test, ch. 1–4","mom"),it("Lab","Write and say aloud your “software engineer to PM” story in 90 seconds. Point, reason, example, point")],
+         2:[it("Watch","One Exponent product sense walkthrough (“design X for Y”)","expo"),it("Read","The Mom Test, ch. 5–8","mom"),it("Lab","Teardown of an app you use daily: user, problem, what works, one change. Back it with 2 short user chats")],
+         3:[it("Read","SVPG: pick 2 articles on product discovery","svpg"),it("Listen","One Lenny's Podcast episode on finding the real problem","lenny"),it("Lab","From your chats, write 3 problem statements for the AI newspaper. Who hurts, when, how badly")],
+         4:[it("Read","North star metrics, Statsig guide","stat"),it("Study","GoPractice: first lessons of the data-driven PM simulator","gop"),it("Lab","Pick a north star plus 3 input metrics for your newspaper, and for one app you use")],
+         5:[it("Watch","One Exponent video on metrics questions (“a metric dropped 20%”)","expo"),it("Read","Lenny's list of recommended PM courses, skim what they teach","lpc"),it("Lab","Build a diagnosis tree for a 20% drop. Explain it aloud in 3 minutes, no notes")],
+         6:[it("Read","SVPG: 2 articles on product strategy and prioritisation","svpg"),it("Listen","One Lenny's Podcast episode on prioritisation or strategy","lenny"),it("Lab","List 8 features for the newspaper, score them, and say no to 3 with reasons")],
+         7:[it("Read","GoPractice PRD templates, compare 2","gprd"),it("Read","Re-read your own problem statements and metrics"),it("Lab","Write a one-page PRD for one newspaper feature")],
+         8:[it("Watch","Two full mock PM answers on Exponent","expo"),it("Review","Your Week 1 story video against today's version"),it("Lab","Record a 10-minute “design X for Y” answer on video and review it for structure")],
+         9:[it("Plan","Outline the case study: problem, users, metrics, decisions, what you'd do next"),it("Review","Ask one PM friend to read your PRD and give 3 comments"),it("Lab","Draft the LinkedIn post and case-study page for the AI newspaper")]},
+   deep:{1:[it("Read","INSPIRED, Marty Cagan, Part I","insp")],2:[it("Watch","3 more Exponent teardown videos","expo")],3:[it("Read","Teresa Torres: Continuous Interviewing (paid course, read the page for the method)","lpc")],
+         4:[it("Study","Finish the GoPractice simulator","gop")],5:[it("Listen","Two more Lenny's Podcast episodes on growth and retention","lenny")],6:[it("Read","INSPIRED, Marty Cagan, Part II","insp")],
+         7:[it("Read","Three more PRD examples from your favourite company blogs")],8:[it("Watch","Exponent: behavioural and strategy answer videos","expo")],9:[it("Read","Reforge Product Strategy overview","lpc")]},
+   res:[["Book","mom"],["Article","gpm"],["Articles","svpg"],["Podcast","lenny"],["YouTube","expo"],["Simulator","gop"],["Templates","gprd"]],
+   cap:"A published case study of your AI newspaper: problem, metrics, a PRD and what you decided."},
+  {id:"FIN",code:"FIN 101",name:"Money & Investing",weeks:[1,9],color:"var(--butter)",spr:"sun",goal:"Safety net first, then audit your SIPs, then learn to read the market and a company well enough to pick a few long-term stocks.",
+   plan:{1:[it("Study","Varsity Personal Finance, ch. 2–3: personal finance math","varPF"),it("Study","Varsity Insurance, ch. 1–2: why insurance and what it should do","varIns"),it("Lab","Work out your emergency fund target (6 months of expenses) and get 2 quotes each for health and term cover. Don't buy yet")],
+         3:[it("Study","Varsity Personal Finance, ch. 16, 18, 20: index funds, returns, expense ratio, direct vs regular","varPF"),it("Use","AMFI calculators: SIP, goal SIP, inflation, cost of delay","amfi"),it("Lab","Audit your own funds: plan type, expense ratio, 5-year returns vs the benchmark. Keep, switch or stop each one")],
+         5:[it("Study","Varsity Stock Markets, ch. 1, 2, 6, 7, 8: the market, regulators, indices, jargon","varIntro"),it("Study","Varsity Personal Finance, ch. 30: macro economics basics","varPF"),it("Lab","Decode 3 real headlines (a Nifty move, an RBI decision, one IPO). One plain sentence each on what it means")],
+         7:[it("Study","Varsity Fundamental Analysis, ch. 1–5: mindset, annual report, P&L","varFA"),it("Study","Varsity Fundamental Analysis, ch. 6–8: balance sheet and cash flow","varFA"),it("Lab","Take one company you use daily. Find revenue, profit, debt and operating cash flow for 3 years")],
+         9:[it("Study","Varsity Fundamental Analysis, ch. 9–12: ratios and due diligence","varFA"),it("Study","Varsity Markets & Taxation, ch. 4: taxation for investors","varTax"),it("Lab","Compare 2 companies in one sector on Screener. Write a one-page thesis: 3 reasons, and what would prove you wrong")]},
+   deep:{1:[it("Read","The Psychology of Money, ch. 1–10","pom"),it("Study","Varsity NPS module, ch. 1–3","varNPS")],3:[it("Study","Varsity Personal Finance, ch. 28–29: asset allocation and ETFs","varPF")],
+         5:[it("Study","Varsity Stock Markets, ch. 4–5: how IPOs work","varIntro"),it("Read","The Psychology of Money, ch. 11–20","pom")],7:[it("Study","Varsity Fundamental Analysis, ch. 13–14: equity research and DCF primer","varFA")],
+         9:[it("Study","Varsity Risk Management and Trading Psychology, ch. 1–3","varRisk"),it("Study","Varsity Innerworth: the first two chapters","varInner")]},
+   res:[["Course","varPF"],["Course","varIns"],["Course","varIntro"],["Course","varFA"],["Course","varTax"],["Tool","amfi"],["Tool","scr"],["Newsletter","fins"],["Book","pom"]],
+   cap:"A one-page money plan (safety net, SIP audit, stock rules) plus one stock thesis you wrote yourself."},
+  {id:"AI",code:"AI 101",name:"AI for Product People",weeks:[2,8],color:"var(--peri)",spr:"robot",goal:"Use AI well, know how it works, and design AI features that can be tested and trusted.",
+   plan:{2:[it("Study","AI Fluency, lessons 1–2: the 4D framework and what generative AI is","flu"),it("Watch","Karpathy, Intro to Large Language Models","kar"),it("Lab","AI tool log #1: one real task, what worked, what failed")],
+         4:[it("Study","AI Fluency, lessons 3–5: delegation, description, prompting","flu"),it("Read","Co-Intelligence, Part I","coi"),it("Lab","AI tool log #2: the same prompt on two models. Which was better and why")],
+         6:[it("Read","Your AI Product Needs Evals, Hamel Husain (14 min)","hamel"),it("Browse","People + AI Guidebook: read 2 chapters","pair"),it("Lab","Write 5 test cases and 3 failure modes for your newspaper's AI summaries")],
+         8:[it("Study","AI Fluency, lessons 6–8: discernment and diligence, then take the certificate","flu"),it("Watch","3Blue1Brown, But what is a GPT?","gpt"),it("Lab","Write the AI part of your PRD: user, job, quality bar, fallback when the model is wrong")]},
+   deep:{2:[it("Watch","3Blue1Brown neural networks, ch. 1–2","nn")],4:[it("Read","Co-Intelligence, Part II","coi")],6:[it("Read","Two more posts from One Useful Thing","out")],8:[it("Study","Elements of AI, chapter 1","eoa")]},
+   res:[["Course","flu"],["YouTube","kar"],["YouTube","nn"],["Article","hamel"],["Guide","pair"],["Book","coi"],["Newsletter","out"]],
+   cap:"A 2-minute video “how an LLM works”, plus the AI section of your PRD."},
+  {id:"FINAL",code:"FINALS",name:"Capstone Week",weeks:[10,10],color:"var(--lilac)",spr:"cap",goal:"Show yourself what you learned.",
+   plan:{10:[it("Review","Reread your notebook, one course a day"),it("Capstone","Record a 5-minute talk: “4 things I learned this semester”"),it("Plan","Fill in the December digest and pick next semester's courses")]},
+   res:[],cap:"A 5-minute talk, one idea from each core course."},
+  {id:"CUR",code:"POL 100",name:"Politics & Current Affairs",always:"Sundays · 30 min",color:"var(--sky)",spr:"duck",goal:"Each Sunday: one issue with its history, and one finance term. By January you can follow the news with context and hold your own in a conversation.",
+   list:[it("Wk 1","How India's economy is scored: GDP, inflation, the RBI","owid","varPF"),it("Wk 2","How a bill becomes law, and what Parliament does","prsb","prsbill"),it("Wk 3","Centre vs states: federalism and GST","iex"),
+         it("Wk 4","Elections: how India votes and who runs them","iex"),it("Wk 5","Courts and the Constitution: what judges can and can't do","iex"),it("Wk 6","India, China and Pakistan: the border and the balance","cfr"),
+         it("Wk 7","US vs China: trade, tariffs and chips","cfr"),it("Wk 8","Russia, Ukraine and the Middle East: why they matter to India","cfr"),it("Wk 9","Energy and climate: India's choices","owid"),it("Wk 10","Tech, AI and the law: who regulates what","iex"),
+         it("Jargon 1","Repo rate and the RBI policy","fins"),it("Jargon 2","CPI inflation","fins"),it("Jargon 3","Fiscal deficit","fins"),it("Jargon 4","FII and DII flows","fins"),it("Jargon 5","Nifty and Sensex: why they move","fins"),
+         it("Jargon 6","P/E ratio","fins"),it("Jargon 7","Bond yields","fins"),it("Jargon 8","IPO: subscription, GMP, listing gain","fins"),it("Jargon 9","Long-term vs short-term capital gains","fins"),it("Jargon 10","Your pick from the last nine, in your own words","fins")],
+   res:[["Explainers","iex"],["Parliament","prsb"],["Global","cfr"],["Course","cfr101"],["Finance","fins"],["Data","owid"],["Video","ctc"]],cap:"By January: 10 issue notes and 10 finance terms you can explain without notes."},
+  {id:"SPK",code:"SPK 100",name:"Speaking with Structure",always:"Saturdays · 15 min",color:"var(--peach)",spr:"mic",goal:"Every Saturday, a 2-minute video using a structure, aimed at the places you get jumbled: interviews, meetings, presentations and casual chat.",
+   list:[it("Wk 1","PREP: Point, Reason, Example, Point. Tell your story","abr"),it("Wk 2","Explain your app teardown to a friend"),it("Wk 3","Rewatch Weeks 1–2. Pick one filler habit to cut","ted"),it("Wk 4","Explain your north star metric to a non-PM"),
+         it("Wk 5","What? So what? Now what? Give a work update to a senior","abr"),it("Wk 6","Record with no notes"),it("Wk 7","Present 3 slides on the PRD in 3 minutes"),it("Wk 8","Mock interview answer, 2 minutes, timed"),it("Wk 9","Explain one idea to a friend over chai, no structure words allowed"),it("Wk 10","Finals talk")],
+   res:[["Article","abr"],["Book","tfts"],["TED","ted"],["YouTube","vinh"]],cap:"Ten videos, and the finals talk is your best one."},
  {id:"CRE",code:"CRE 100",name:"Creative Lab",always:"Sundays · 45 min",color:"var(--pink)",spr:"palette",goal:"Make something with your hands every week.",
   list:["Cook a dish you've never made","Photo walk: 10 shots, one colour","Murdle night with friends","Make a bookmark or zine page","Bake something new","Photo walk at Sunder Nursery","Sudoku race + journal collage","Handmade holiday cards","Christmas bake","Scrapbook your December digest"].map((t,i)=>it("Wk "+(i+1),t,...(i===5?["sunder"]:i===2?["murdle"]:[]))),
   res:[["Puzzle book","murdle"],["Place","sunder"]],cap:"Ten things you made, pinned to the digest."},
@@ -472,7 +518,7 @@ const BOOKS=[
  {id:"ltm",t:"Let's Talk Money",a:"Monika Halan",q:"let's talk money",c:"#F6BE98",tag:"FIN 101 · extra",l:L.ltm,d:"A plain-English guide to personal finance in India: emergency funds, insurance, mutual funds and a simple system for your salary every month."},
  {id:"mom",t:"The Mom Test",a:"Rob Fitzpatrick",q:"the mom test",c:"#F4B7D0",tag:"PRD 101",l:L.mom,d:"How to talk to users and learn whether your idea is any good, even though everyone politely lies to you. Short, funny, very practical."},
  {id:"coi",t:"Co-Intelligence",a:"Ethan Mollick",q:"co-intelligence",c:"#B4C8EE",tag:"AI 101",l:L.coi,d:"A Wharton professor on living and working with AI: four rules for using it well, where it shines, where it fails, and what it means for jobs."},
- {id:"pog",t:"Prisoners of Geography",a:"Tim Marshall",q:"prisoners of geography",c:"#B7CC8E",tag:"HIS 101",l:L.pog,d:"Ten maps that explain how mountains, rivers and seas shape the politics of China, India and Pakistan, the US, Russia and more."},
+ {id:"pog",t:"Prisoners of Geography",a:"Tim Marshall",q:"prisoners of geography",c:"#B7CC8E",tag:"POL 100",l:L.pog,d:"Ten maps that explain how mountains, rivers and seas shape the politics of China, India and Pakistan, the US, Russia and more."},
  {id:"eo",t:"Eleanor Oliphant Is Completely Fine",a:"Gail Honeyman",q:"eleanor oliphant is completely fine",c:"#CDBBEE",tag:"Fun · wks 1–5",l:L.eo,d:"Eleanor runs her Glasgow life on strict routine, until a kind, scruffy IT guy and an old man who collapses in the street change everything. Funny first, then quietly moving."},
  {id:"rbc",t:"Remarkably Bright Creatures",a:"Shelby Van Pelt",q:"remarkably bright creatures",c:"#CFE5EE",tag:"Fun · wks 6–10",l:L.rbc,d:"Tova, a widow who cleans an aquarium at night, befriends Marcellus, a grumpy and very clever octopus who knows more about her past than she does."},
  {id:"mur",t:"Murdle: Volume 1",a:"G.T. Karber",q:"murdle",c:"#E2675A",tag:"Creative lab",l:L.murdle,d:"100 illustrated murder-mystery logic puzzles. Work out who did it, with what and where. Five to ten minutes each, perfect before bed."}
@@ -494,7 +540,9 @@ const TODAY=new Date();TODAY.setHours(0,0,0,0);
 function weekOf(d){const diff=Math.floor((d-START)/864e5);return diff<0?0:Math.min(10,Math.floor(diff/7)+1)}
 const NOWWK=weekOf(TODAY);
 const activeWk=NOWWK===0?1:NOWWK;
-function courseForWeek(w){return COURSES.find(c=>c.weeks&&w>=c.weeks[0]&&w<=c.weeks[1])}
+function coursesForWeek(w){return COURSES.filter(c=>c.plan&&c.plan[w])}
+function courseForWeek(w){const a=coursesForWeek(w);return a.find(c=>c.id!=="PRD")||a[0]}
+const wkLabel=c=>c.weeks?(c.weeks[0]===c.weeks[1]?`Week ${c.weeks[0]}`:`Weeks ${c.weeks[0]}–${c.weeks[1]}`):c.always;
 
 /* ---------- helpers ---------- */
 const $=s=>document.querySelector(s);
@@ -505,14 +553,18 @@ function checkbox(id,store,label){const cb=el("input",{type:"checkbox",class:"pi
 
 /* ---------- today ---------- */
 function todayTasks(d){
-  const dow=d.getDay(), w=weekOf(d)||1, c=courseForWeek(w), key=iso(d), out=[];
-  const plan=c&&c.plan[w]||[];
-  if(dow>=1&&dow<=4) plan.forEach((p,i)=>{if(p.k!=="Lab")out.push({when:"10:45",id:`${c.id}-${w}-${i}`,store:"checks",what:`${p.k} · ${p.t}`,links:p.links,tag:c.code})});
-  if(dow===6){plan.forEach((p,i)=>{if(p.k==="Lab"||p.k==="Capstone")out.push({when:"11:00",id:`${c.id}-${w}-${i}`,store:"checks",what:`${p.k} · ${p.t}`,links:p.links,tag:c.code})});
-    out.push({when:"12:00",id:key+"-spk",store:"daily",what:"Speaking · record a 2-min PREP video",links:[L.vinh],tag:"SPK 100"})}
-  if(dow===0){out.push({when:"11:00",id:key+"-cur",store:"daily",what:"Current affairs · 3 stories, one line each",links:[L.iex,L.reu,L.mint],tag:"CUR 100"});
+  const dow=d.getDay(), w=weekOf(d)||1, key=iso(d), out=[], cs=coursesForWeek(w);
+  const core=[],labs=[],deep=[];
+  cs.forEach(c=>{c.plan[w].forEach((p,i)=>{const o={id:`${c.id}-${w}-${i}`,store:"checks",what:`${p.k} · ${p.t}`,links:p.links,tag:c.code};(p.k==="Lab"||p.k==="Capstone"?labs:core).push(o)});
+    ((c.deep&&c.deep[w])||[]).forEach((p,i)=>deep.push({id:`${c.id}-${w}-d${i}`,store:"checks",what:`Go deeper (optional) · ${p.t}`,links:p.links,tag:c.code}))});
+  if(dow>=1&&dow<=4){core.forEach((o,i)=>{if(i%4===dow-1)out.push({when:"10:45",...o})})}
+  if(dow===6){labs.forEach(o=>out.push({when:"11:00",...o}));
+    const sp=COURSES.find(x=>x.id==="SPK").list[w-1];out.push({when:"12:00",id:key+"-spk",store:"daily",what:"Speaking · "+(sp?sp.t:"record a 2-min video"),links:sp?sp.links:[L.vinh],tag:"SPK 100"})}
+  if(dow===0){const cur=COURSES.find(x=>x.id==="CUR").list,iss=cur[w-1],jar=cur[10+w-1];
+    out.push({when:"11:00",id:key+"-cur",store:"daily",what:"Politics · "+iss.t,links:iss.links,tag:"POL 100"});
+    out.push({when:"11:20",id:key+"-jar",store:"daily",what:"Finance term · "+jar.t,links:jar.links,tag:"POL 100"});
     const cre=COURSES.find(x=>x.id==="CRE").list[w-1];out.push({when:"16:00",id:key+"-cre",store:"daily",what:"Creative lab · "+cre.t,links:cre.links,tag:"CRE 100"})}
-  if(dow===5)out.push({when:"any",id:key+"-catch",store:"daily",what:"Free day · catch up on anything you skipped",links:[],tag:"rest"});
+  if(dow===5){deep.forEach(o=>out.push({when:"any",...o}));out.push({when:"any",id:key+"-catch",store:"daily",what:"Free day · catch up on anything you skipped",links:[],tag:"rest"})}
   const book=w<=5?L.eo:L.rbc;
   out.push({when:"14:00",id:key+"-lit",store:"daily",what:"Fun reading · 20 pages",links:[book],tag:"LIT 100"});
   return out;
@@ -521,7 +573,7 @@ function renderToday(){
   const d=TODAY;
   $("#todayDate").textContent=d.toLocaleDateString("en-GB",{weekday:"long",day:"numeric",month:"long",year:"numeric"});
   const c=courseForWeek(activeWk);
-  $("#weekLine").textContent=NOWWK===0?`Starts Monday 26 October · in ${Math.ceil((START-TODAY)/864e5)} days`:NOWWK>=10&&TODAY>END?"Semester complete 🌸":`Week ${NOWWK} · ${c?c.name:""}`;
+  $("#weekLine").textContent=NOWWK===0?`Starts Monday 26 October · in ${Math.ceil((START-TODAY)/864e5)} days`:NOWWK>=10&&TODAY>END?"Semester complete 🌸":`Week ${NOWWK} · ${coursesForWeek(NOWWK).map(x=>x.name).join(" + ")}`;
   const tags=$("#todayTags");tags.innerHTML="";
   const tasks=todayTasks(NOWWK===0?START:d);
   [...new Set(tasks.map(t=>t.tag))].forEach((t,i)=>tags.append(el("span",{class:"tag",style:`background:${["var(--butter)","var(--pink)","var(--peri)","var(--sage)"][i%4]}`},t)));
@@ -577,23 +629,23 @@ function courseProgress(c){const ids=courseItems(c);return ids.length?ids.filter
 function renderCards(){
   const box=$("#cards");box.innerHTML="";
   COURSES.forEach(c=>{const cv=el("canvas",{class:"px","aria-hidden":"true"});drawSprite(cv,SPR[c.spr],1);
-    const isNow=c.weeks&&activeWk>=c.weeks[0]&&activeWk<=c.weeks[1];
+    const isNow=!!(c.plan&&c.plan[activeWk]);
     const b=el("button",{class:"ccard",type:"button","aria-label":`${c.name} syllabus`,onclick:()=>openCourse(c)},
       el("div",{class:"art",style:`background:${c.color}`},cv,isNow?el("span",{class:"now"},NOWWK===0?"up first":"now"):null),
-      el("div",{class:"lab"},el("b",{},c.name),el("span",{},c.weeks?(c.weeks[0]===c.weeks[1]?`Week ${c.weeks[0]}`:`Weeks ${c.weeks[0]}–${c.weeks[1]}`):c.always)),
+      el("div",{class:"lab"},el("b",{},c.name),el("span",{},wkLabel(c))),
       el("div",{class:"prog"},el("i",{style:`width:${Math.round(courseProgress(c)*100)}%`})));
     box.append(b)});
 }
 const dlg=$("#dlg");
 function openCourse(c){
   dlg.innerHTML="";const cv=el("canvas",{class:"px","aria-hidden":"true"});drawSprite(cv,SPR[c.spr],6);
-  const head=el("div",{class:"dlg-head",style:`background:${c.color}`},cv,el("div",{},el("div",{class:"mono"},c.code+" · "+(c.weeks?(c.weeks[0]===c.weeks[1]?`Week ${c.weeks[0]}`:`Weeks ${c.weeks[0]}–${c.weeks[1]}`):c.always)),el("h3",{id:"dlgTitle"},c.name),el("p",{},c.goal)),
+  const head=el("div",{class:"dlg-head",style:`background:${c.color}`},cv,el("div",{},el("div",{class:"mono"},c.code+" · "+wkLabel(c)),el("h3",{id:"dlgTitle"},c.name),el("p",{},c.goal)),
     el("button",{class:"x",type:"button","aria-label":"Close",onclick:()=>dlg.close()},"×"));
   const body=el("div",{class:"dlg-body"});
   const row=(p,id)=>el("li",{},checkbox(id,S.checks,p.t),el("label",{for:"cb-"+id},el("span",{class:"k"},p.k),p.t,p.links.length?el("div",{class:"sub",style:"font-size:14px;margin-top:2px"},...p.links.map(l=>[link(l)," "]).flat()):null));
   if(c.plan){Object.entries(c.plan).forEach(([w,arr])=>{const d0=addDays(START,(w-1)*7);
     body.append(el("div",{class:"week"},el("h4",{style:`background:${c.color}`},el("span",{},"Week "+w),el("span",{},d0.toLocaleDateString("en-GB",{day:"numeric",month:"short"})+" – "+addDays(d0,6).toLocaleDateString("en-GB",{day:"numeric",month:"short"}))),
-      el("ul",{},...arr.map((p,i)=>row(p,`${c.id}-${w}-${i}`)))))})}
+      el("ul",{},...arr.map((p,i)=>row(p,`${c.id}-${w}-${i}`))),(c.deep&&c.deep[w])?el("div",{class:"deep"},el("div",{class:"mono",style:"margin:10px 0 4px"},"Go deeper · optional"),el("ul",{},...c.deep[w].map((p,i)=>row(p,`${c.id}-${w}-d${i}`)))):null))})}
   else body.append(el("div",{class:"week"},el("h4",{style:`background:${c.color}`},el("span",{},"All semester"),el("span",{},c.always)),el("ul",{},...c.list.map((p,i)=>row(p,`${c.id}-l-${i}`)))));
   if(c.res.length)body.append(el("div",{},el("div",{class:"mono",style:"margin-bottom:8px"},"Resources"),el("div",{class:"res"},...c.res.map(([t,k])=>el("a",{href:L[k][1],target:"_blank",rel:"noopener"},el("small",{},t),L[k][0])))));
   body.append(el("div",{class:"cap"},el("b",{},"★ Capstone"),c.cap));
@@ -712,7 +764,7 @@ function refreshAll(){renderToday();renderCal();renderCards();renderShelf();draw
  $("#gateSkip").addEventListener("click",()=>{try{localStorage.setItem("sg.guest","1")}catch(e){}$("#gate").hidden=true});
  $("#gateGoogle").addEventListener("click",()=>$("#authBtn").click())})();
 refreshAll();drawMascot();renderDigest();
-window.SG={get:()=>S,set:o=>{S=Object.assign({checks:{},daily:{},fit:{},books:{},digest:{nov:{},dec:{}}},o);try{localStorage.setItem(KEY,JSON.stringify(S))}catch(e){}refreshAll();renderDigest()},toast};
+window.SG={tt:todayTasks,get:()=>S,set:o=>{S=Object.assign({checks:{},daily:{},fit:{},books:{},digest:{nov:{},dec:{}}},o);try{localStorage.setItem(KEY,JSON.stringify(S))}catch(e){}refreshAll();renderDigest()},toast};
 window.dispatchEvent(new Event("sg-ready"));
 })();
 </script>
