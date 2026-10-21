@@ -232,6 +232,7 @@ footer textarea{width:100%;font-family:var(--f-mono);font-size:12px;border:2px s
       <a class="chip" href="#shelf">Bookshelf</a>
       <a class="chip" href="#digest">Digest</a>
       <a class="chip solid" href="calendar.ics" id="calBtn">+ Add to calendar</a>
+      <button class="chip" type="button" id="authBtn" hidden>Sign in with Google</button>
     </nav>
   </header>
 
@@ -329,7 +330,9 @@ footer textarea{width:100%;font-family:var(--f-mono);font-size:12px;border:2px s
   <div class="wrap">
     <div>
       <h3>Phone ↔ laptop</h3>
-      <p class="note" style="margin:0">Your ticks save on this device. To move them, copy the code here and paste it on the other device.</p>
+      <p class="note" id="authNote" style="margin:0 0 10px">Sign in with Google and your ticks follow you to every device.</p>
+      <div class="row" style="margin-bottom:14px"><button class="chip solid" type="button" id="authBtn2" hidden>Sign in with Google</button><span class="mono" id="authState"></span></div>
+      <p class="note" style="margin:0">No account? Your ticks still save on this device. To move them by hand, copy the code here and paste it on the other device.</p>
       <label class="mono" for="syncBox" style="display:block;margin-top:10px">Sync code</label>
       <textarea id="syncBox" spellcheck="false"></textarea>
       <div class="row"><button class="chip" type="button" id="copySync">Copy my code</button><button class="chip" type="button" id="loadSync">Load pasted code</button></div>
@@ -463,7 +466,8 @@ const TICK=["20 pages a day","never two zero days","Pip believes in you","one ti
 const KEY="studyGarden.v1";
 let S={checks:{},daily:{},fit:{},books:{},digest:{nov:{},dec:{}}};
 try{const raw=localStorage.getItem(KEY);if(raw){S=Object.assign(S,JSON.parse(raw))}}catch(e){}
-function save(){try{localStorage.setItem(KEY,JSON.stringify(S))}catch(e){} refreshAll()}
+function save(){try{localStorage.setItem(KEY,JSON.stringify(S))}catch(e){} refreshAll();changed()}
+function changed(){try{window.dispatchEvent(new Event("sg-changed"))}catch(e){}}
 
 /* ---------- dates ---------- */
 const START=new Date(2026,9,26), END=new Date(2027,0,3);
@@ -667,7 +671,7 @@ function renderDigest(){
   document.querySelectorAll(".dig-tabs button").forEach(b=>b.setAttribute("aria-selected",String(b.dataset.m===month)));
   const g=$("#digestGrid");g.innerHTML="";const cols=["var(--butter)","var(--pink)","var(--peri)","var(--sage)","var(--peach)","var(--lilac)","var(--sky)","var(--butter)","var(--pink)"];
   DG.forEach(([k,label],i)=>{const id=`dg-${month}-${k}`;const ta=el("textarea",{id});ta.value=(S.digest[month]||{})[k]||"";
-    ta.addEventListener("input",()=>{S.digest[month]=S.digest[month]||{};S.digest[month][k]=ta.value;try{localStorage.setItem(KEY,JSON.stringify(S))}catch(e){}});
+    ta.addEventListener("input",()=>{S.digest[month]=S.digest[month]||{};S.digest[month][k]=ta.value;try{localStorage.setItem(KEY,JSON.stringify(S))}catch(e){} changed()});
     g.append(el("div",{class:"dg",style:i%3===1?`background:${cols[i]}`:""},el("label",{for:id},label),ta))});
 }
 document.querySelectorAll(".dig-tabs button").forEach(b=>b.addEventListener("click",()=>{month=b.dataset.m;renderDigest()}));
@@ -687,7 +691,51 @@ try{const arrow=["k...............","kk..............","kwk.............","kwwk.
 
 function refreshAll(){renderToday();renderCal();renderCards();renderShelf();drawGarden()}
 refreshAll();drawMascot();renderDigest();
+window.SG={get:()=>S,set:o=>{S=Object.assign({checks:{},daily:{},fit:{},books:{},digest:{nov:{},dec:{}}},o);try{localStorage.setItem(KEY,JSON.stringify(S))}catch(e){}refreshAll();renderDigest()},toast};
+window.dispatchEvent(new Event("sg-ready"));
 })();
+</script>
+
+<script type="module">
+const cfg={apiKey:"AIzaSyBN6NTMWymYc0QKu-3ekpfMYXxS7fR5rG0",authDomain:"study-garden-5f1b8.firebaseapp.com",projectId:"study-garden-5f1b8",storageBucket:"study-garden-5f1b8.firebasestorage.app",messagingSenderId:"96760341159",appId:"1:96760341159:web:1e86cd1aac813fa4a27182"};
+const V="10.14.1",B=`https://www.gstatic.com/firebasejs/${V}/`;
+const btns=[document.getElementById("authBtn"),document.getElementById("authBtn2")],state=document.getElementById("authState");
+const ready=()=>window.SG?Promise.resolve():new Promise(r=>window.addEventListener("sg-ready",r,{once:true}));
+const merge=(a,b)=>{ // union of two garden states; b (local) wins on conflicts
+  if(a&&b&&typeof a==="object"&&typeof b==="object"&&!Array.isArray(a)){const o={...a};for(const k of Object.keys(b))o[k]=k in a?merge(a[k],b[k]):b[k];return o}
+  return b===undefined||b===""||b===false?(a??b):b};
+const empty=o=>!o||(!Object.keys(o.checks||{}).length&&!Object.keys(o.daily||{}).length&&!Object.keys(o.fit||{}).length&&!Object.keys(o.books||{}).length&&![...Object.values(o.digest?.nov||{}),...Object.values(o.digest?.dec||{})].some(Boolean));
+try{
+  const [{initializeApp},{getAuth,GoogleAuthProvider,signInWithPopup,signOut,onAuthStateChanged},{getFirestore,doc,getDoc,setDoc,onSnapshot}]=await Promise.all([import(B+"firebase-app.js"),import(B+"firebase-auth.js"),import(B+"firebase-firestore.js")]);
+  await ready();
+  const app=initializeApp(cfg),auth=getAuth(app),db=getFirestore(app);
+  let user=null,ref=null,unsub=null,timer=null,applying=false,lastWrite=0;
+  const ui=u=>{btns.forEach(b=>{b.hidden=false;b.textContent=u?"Sign out":"Sign in with Google"});
+    state.textContent=u?`✓ synced as ${u.email}`:"";};
+  btns.forEach(b=>b.addEventListener("click",async()=>{
+    try{ if(user){await signOut(auth);SG.toast("Signed out. Ticks stay on this device")} else {await signInWithPopup(auth,new GoogleAuthProvider())} }
+    catch(e){SG.toast(e.code==="auth/unauthorized-domain"?"Add this site's domain in Firebase → Authentication → Settings":"Sign-in didn't finish, try again")}}));
+  const push=()=>{if(!ref||applying)return;clearTimeout(timer);timer=setTimeout(async()=>{
+    try{lastWrite=Date.now();await setDoc(ref,{data:JSON.stringify(SG.get()),updatedAt:lastWrite})}catch(e){SG.toast("Couldn't sync just now. Will retry on your next tick")}},700)};
+  window.addEventListener("sg-changed",push);
+  onAuthStateChanged(auth,async u=>{
+    user=u;ui(u);if(unsub){unsub();unsub=null}ref=null;if(!u)return;
+    ref=doc(db,"gardens",u.uid);
+    try{
+      const snap=await getDoc(ref);const local=SG.get();
+      if(snap.exists()){const cloud=JSON.parse(snap.data().data);
+        const first=!localStorage.getItem("sg.synced."+u.uid);
+        const next=empty(local)?cloud:first?merge(cloud,local):cloud;
+        applying=true;SG.set(next);applying=false;localStorage.setItem("sg.synced."+u.uid,"1");
+        if(JSON.stringify(next)!==JSON.stringify(cloud))push();
+      } else {await setDoc(ref,{data:JSON.stringify(local),updatedAt:Date.now()});localStorage.setItem("sg.synced."+u.uid,"1")}
+      SG.toast("Synced 🌱 Your garden follows you now");
+      unsub=onSnapshot(ref,s=>{if(!s.exists()||s.metadata.hasPendingWrites)return;const d=s.data();
+        if(d.updatedAt&&d.updatedAt<=lastWrite)return;
+        try{const c=JSON.parse(d.data);if(JSON.stringify(c)!==JSON.stringify(SG.get())){applying=true;SG.set(c);applying=false}}catch(e){}});
+    }catch(e){SG.toast("Signed in, but the cloud save isn't reachable yet. Check Firestore rules")}
+  });
+}catch(e){ /* offline or blocked: the site still works with on-device saving */ }
 </script>
 
 </body>
