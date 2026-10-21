@@ -78,12 +78,25 @@ NEWS = {
         ("Mint", "https://www.livemint.com/rss/markets"),
         ("Economic Times", "https://economictimes.indiatimes.com/rssfeedstopstories.cms"),
         ("Business Standard", "https://www.business-standard.com/rss/home_page_top_stories.rss"),
-        ("BBC Business", "https://feeds.bbci.co.uk/news/business/rss.xml"),
-        ("The Guardian Business", "https://www.theguardian.com/business/rss"),
         ("The Hindu Business", "https://www.thehindu.com/business/feeder/default.rss"),
+        ("Hindu BusinessLine", "https://www.thehindubusinessline.com/feeder/default.rss"),
+        ("Reuters India Business", gnews("site:reuters.com india economy OR markets OR rupee OR RBI")),
+        ("BBC Business", "https://feeds.bbci.co.uk/news/business/rss.xml"),
         ("Reuters Business", gnews("site:reuters.com business")),
+        ("The Guardian Business", "https://www.theguardian.com/business/rss"),
         ("WSJ Business", gnews("site:wsj.com business")),
     ],
+}
+# When an outlet blocks the runner or has no feed, read its headlines through Google News instead.
+FALLBACKS = {
+    "Indian Express": gnews("site:indianexpress.com india"),
+    "ThePrint": gnews("site:theprint.in"),
+    "Business Standard": gnews("site:business-standard.com"),
+    "The Telegraph": gnews("site:telegraph.co.uk world"),
+    "Indian Express Explained": gnews("site:indianexpress.com explained"),
+    "The Hindu Business": gnews("site:thehindu.com business"),
+    "Hindu BusinessLine": gnews("site:thehindubusinessline.com"),
+    "Vinh Giang": None,
 }
 EXPLAINER = ("Indian Express Explained", "https://indianexpress.com/section/explained/feed/")
 
@@ -92,7 +105,7 @@ FAMILY = {
     "BBC India": "BBC", "BBC World": "BBC", "BBC Business": "BBC",
     "The Hindu World": "The Hindu", "The Hindu Business": "The Hindu",
     "The Guardian Business": "The Guardian",
-    "Reuters India": "Reuters", "Reuters World": "Reuters", "Reuters Business": "Reuters",
+    "Reuters India": "Reuters", "Reuters India Business": "Reuters", "Hindu BusinessLine": "The Hindu", "Reuters World": "Reuters", "Reuters Business": "Reuters",
     "WSJ Business": "WSJ", "Mint Politics": "Mint",
 }
 # Coarse lean buckets from Media Bias/Fact Check and Biasly (see docstring). None = not rated.
@@ -134,6 +147,7 @@ iran us eu un sebi""".split())
 DROP = re.compile(r"\b(live|liveblog|live updates|photos?|in pics|gallery|horoscope|quiz|watch:|video:|recipe|celebrit|bollywood|ipl|"
                   r"cricket score|match report|highlights|wordle|crossword|deal of the day|sale|lottery|opinion|podcast|newsletter)\b", re.I)
 
+RAW = {}
 LOG = []  # human-readable notes on what worked and what didn't
 
 
@@ -182,7 +196,8 @@ def parse(source, url, limit):
                 link = ch.get("href") or (ch.text or "").strip() or link
             elif t in ("pubDate", "published", "updated", "date") and dt is None:
                 dt = when((ch.text or "").strip())
-        title = re.sub(r"\s+-\s+(Reuters|AP News|The Associated Press|WSJ|The Wall Street Journal)$", "", title)
+        if "news.google.com" in url:  # Google News appends " - Outlet" to every title
+            title = re.sub(r"\s+-\s+[^-]{2,40}$", "", title)
         if title and link:
             items.append({"title": title, "url": link, "source": source, "dt": dt, "rank": len(items)})
         if len(items) >= limit:
@@ -251,14 +266,16 @@ def gdelt_domains(best_title, idf):
         return None
     url = ("https://api.gdeltproject.org/api/v2/doc/doc?query=" + urllib.parse.quote(f"{q} sourcelang:english") +
            "&mode=artlist&maxrecords=250&format=json&timespan=1d&sort=hybridrel")
-    try:
-        time.sleep(5.2)  # GDELT asks for one request every 5 seconds
-        data = json.loads(get(url, timeout=30).decode("utf-8", "ignore") or "{}")
-        return len({a.get("domain") for a in data.get("articles", []) if a.get("domain")})
-    except Exception as e:
-        LOG.append(f"gdelt off: {type(e).__name__} {e}")
-        GDELT_OK["on"] = False
-        return None
+    for wait in (6, 20, 45):  # GDELT asks for one request every 5 seconds; shared runner IPs get 429s
+        try:
+            time.sleep(wait)
+            data = json.loads(get(url, timeout=30).decode("utf-8", "ignore") or "{}")
+            return len({a.get("domain") for a in data.get("articles", []) if a.get("domain")})
+        except Exception as e:
+            err = f"{type(e).__name__} {e}"
+    LOG.append(f"gdelt off after retries: {err}")
+    GDELT_OK["on"] = False
+    return None
 
 
 def score_cluster(c, idf, domains=None):
@@ -316,13 +333,23 @@ def collect(sources, per_source, ok=None, bad=None):
     for name, url in sources:
         try:
             got = parse(name, url, per_source)
-            out += got
-            if ok is not None:
-                ok.append(f"{name}:{len(got)}")
-        except Exception as e:  # keep going if one feed is down
-            print(f"skip {name}: {e}")
-            if bad is not None:
-                bad.append(f"{name}: {type(e).__name__}")
+            tag = ""
+        except Exception as e:  # feed down or blocked: try the Google News route, else skip
+            got, tag = [], ""
+            fb = FALLBACKS.get(name)
+            if fb:
+                try:
+                    got, tag = parse(name, fb, per_source), " (via gnews)"
+                except Exception as e2:
+                    e = e2
+            if not got:
+                print(f"skip {name}: {e}")
+                if bad is not None:
+                    bad.append(f"{name}: {type(e).__name__}")
+                continue
+        out += got
+        if ok is not None:
+            ok.append(f"{name}{tag}:{len(got)}")
     return out
 
 
@@ -392,6 +419,8 @@ def main():
     ok, bad = [], []
     for k, sources in NEWS.items():
         items = collect(sources, 15, ok, bad)
+        RAW[k] = [{"src": i["source"], "lean": lean(i["source"]), "rank": i["rank"], "title": i["title"],
+                   "age_h": round((NOW - i["dt"]).total_seconds() / 3600, 1) if i["dt"] else None} for i in items]
         data["news"][k] = rank_section(items) if items else old.get("news", {}).get(k, [])
         print(k, len(items), "headlines ->", [(p["outlets"], p.get("lean")) for p in data["news"][k]])
     ex = collect([EXPLAINER], 2, ok, bad)
@@ -402,6 +431,7 @@ def main():
     data["audit"] = audit(data["news"])
     data["audit"].update({"feeds_ok": ok, "feeds_failed": bad, "notes": LOG[:6]})
     OUT.write_text(json.dumps(data, ensure_ascii=False, indent=1))
+    (ROOT / "raw-headlines.json").write_text(json.dumps(RAW, ensure_ascii=False))
     with AUDIT_LOG.open("a") as f:
         f.write(json.dumps({"date": NOW.strftime("%Y-%m-%d"), "audit": data["audit"],
                             "picks": {k: [{"t": p["title"], "src": p["source"], "n": p["outlets"], "lean": p.get("lean"),
