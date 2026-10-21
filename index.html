@@ -31,6 +31,14 @@ a:hover{color:var(--ink)}
 canvas.px{image-rendering:pixelated;image-rendering:crisp-edges;display:block}
 .mono{font-family:var(--f-mono);font-size:12px;letter-spacing:.08em;text-transform:uppercase}
 
+
+/* sign-in gate */
+#gate{position:fixed;inset:0;z-index:100;display:flex;align-items:center;justify-content:center;padding:24px;background:var(--paper);background-image:radial-gradient(var(--paper-2) 1.2px, transparent 1.3px);background-size:22px 22px}
+#gate .box{max-width:420px;width:100%;text-align:center;background:var(--card);border:3px solid var(--line);border-radius:var(--r);box-shadow:0 8px 0 var(--line);padding:32px 24px;display:flex;flex-direction:column;align-items:center;gap:14px}
+#gate h2{font-family:var(--f-pixel);font-size:30px;margin:0;line-height:1.1}
+#gate p{margin:0;color:var(--ink-2)}
+#gate .skip{background:none;border:0;font:inherit;color:var(--deep);text-decoration:underline;cursor:pointer;padding:8px}
+
 /* top bar */
 .top{display:flex;align-items:center;justify-content:space-between;gap:12px;flex-wrap:wrap;padding-block:18px}
 .brand{display:flex;align-items:center;gap:10px;font-family:var(--f-pixel);font-size:22px;font-weight:700;text-decoration:none;color:var(--ink)}
@@ -222,6 +230,15 @@ footer textarea{width:100%;font-family:var(--f-mono);font-size:12px;border:2px s
 <body>
 
 
+<div id="gate" hidden>
+  <div class="box">
+    <canvas class="px" id="gatePip" width="16" height="16" style="width:96px;height:96px" aria-hidden="true"></canvas>
+    <h2>Welcome back to your garden</h2>
+    <p>Sign in with Google so your ticks and notes follow you from laptop to phone.</p>
+    <button class="chip solid" type="button" id="gateGoogle" hidden>Sign in with Google</button>
+    <button class="skip" type="button" id="gateSkip">Continue without signing in</button>
+  </div>
+</div>
 <div class="wrap">
   <header class="top">
     <a class="brand" href="#top" id="top"><canvas class="px" id="logo" width="16" height="16" style="width:32px;height:32px" aria-hidden="true"></canvas>study garden</a>
@@ -690,6 +707,10 @@ try{const arrow=["k...............","kk..............","kwk.............","kwwk.
  const st=document.createElement("style");st.textContent=`body{cursor:${makeCursor(arrow,0,0)},auto} a,button,label,.bk,input[type=checkbox],input[type=range]{cursor:${makeCursor(hand,10,0)},pointer}`;document.head.append(st)}catch(e){}
 
 function refreshAll(){renderToday();renderCal();renderCards();renderShelf();drawGarden()}
+(function(){let hint=false;try{hint=localStorage.getItem("sg.guest")||localStorage.getItem("sg.signedin")}catch(e){}
+ if(!hint){$("#gate").hidden=false;try{const c=$("#gatePip");if(typeof SPR!=="undefined"&&SPR.logo)drawSprite(c,SPR.logo,6)}catch(e){}}
+ $("#gateSkip").addEventListener("click",()=>{try{localStorage.setItem("sg.guest","1")}catch(e){}$("#gate").hidden=true});
+ $("#gateGoogle").addEventListener("click",()=>$("#authBtn").click())})();
 refreshAll();drawMascot();renderDigest();
 window.SG={get:()=>S,set:o=>{S=Object.assign({checks:{},daily:{},fit:{},books:{},digest:{nov:{},dec:{}}},o);try{localStorage.setItem(KEY,JSON.stringify(S))}catch(e){}refreshAll();renderDigest()},toast};
 window.dispatchEvent(new Event("sg-ready"));
@@ -710,7 +731,8 @@ try{
   await ready();
   const app=initializeApp(cfg),auth=getAuth(app),db=getFirestore(app);
   let user=null,ref=null,unsub=null,timer=null,applying=false,lastWrite=0;
-  const ui=u=>{btns.forEach(b=>{b.hidden=false;b.textContent=u?"Sign out":"Sign in with Google"});
+  const gate=document.getElementById("gate"),gg=document.getElementById("gateGoogle");gg.hidden=false;
+  const ui=u=>{if(u){gate.hidden=true;try{localStorage.setItem("sg.signedin","1");localStorage.removeItem("sg.guest")}catch(e){}}else{try{localStorage.removeItem("sg.signedin");if(!localStorage.getItem("sg.guest"))gate.hidden=false}catch(e){}}btns.forEach(b=>{b.hidden=false;b.textContent=u?"Sign out":"Sign in with Google"});
     state.textContent=u?`✓ synced as ${u.email}`:"";};
   btns.forEach(b=>b.addEventListener("click",async()=>{
     try{ if(user){await signOut(auth);SG.toast("Signed out. Ticks stay on this device")} else {await signInWithPopup(auth,new GoogleAuthProvider())} }
