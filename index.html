@@ -8,7 +8,7 @@
 <title>Arushi's Study Garden</title>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,500;0,9..144,600;1,9..144,500&family=Inter:wght@400;500;600;700&family=DM+Mono:wght@400;500&display=swap">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400..800;1,9..144,400..800&family=Inter:wght@300;400;500;600;700;800&family=DM+Mono:wght@400;500&display=swap">
 <style>
 /* Layout: a calm, editorial study journal. Warm paper, soft hairline cards, a serif for headings. The only playful parts are Pip and the pixel garden. */
 :root{
@@ -173,21 +173,32 @@ dialog::backdrop{background:rgba(43,38,34,.45)}
 .cap b{font-family:var(--f-pixel);font-weight:600;font-size:17px;display:block}
 
 /* bookshelf: spines only */
-.shelf-wrap{overflow-x:auto;padding:36px 0 6px}
-.shelf{display:flex;align-items:flex-end;gap:5px;padding:0 20px;border-bottom:8px solid var(--soil);border-radius:0 0 4px 4px;min-width:min-content;position:relative}
-.spwrap{display:flex;flex-direction:column;align-items:center;gap:6px}
-.spine{appearance:none;border:0;font:inherit;color:var(--ink);cursor:pointer;width:var(--w);height:var(--h);border-radius:3px;position:relative;display:flex;flex-direction:column;align-items:center;justify-content:space-between;padding:10px 0;
-  background:linear-gradient(to top,rgba(39,35,31,.15) var(--p),transparent var(--p)),color-mix(in srgb,var(--c) 78%,#fff);
-  box-shadow:0 6px 12px rgba(39,35,31,.16),inset 2px 0 0 rgba(255,255,255,.4),inset -2px 0 0 rgba(0,0,0,.07);transition:transform .18s}
-.spine:hover,.spine:focus-visible,.spine[aria-expanded=true]{transform:translateY(-10px)}
-.spine .band{width:68%;height:3px;border-radius:2px;background:rgba(39,35,31,.32);flex:none}
-.spine .ttl{writing-mode:vertical-rl;transform:rotate(180deg);font-family:var(--f-pixel);font-weight:600;font-size:13px;line-height:1.15;flex:1;display:flex;align-items:center;justify-content:center;text-align:center;overflow:hidden;padding:8px 0;max-width:100%}
-.spine .au{writing-mode:vertical-rl;transform:rotate(180deg);font-size:9.5px;letter-spacing:.08em;text-transform:uppercase;opacity:.65;flex:none;padding-bottom:6px}
-.spwrap .pct{font-family:var(--f-mono);font-size:11px;color:var(--ink-2);margin-bottom:6px}
-.pop{position:fixed;z-index:30;background:var(--card);border:1px solid var(--line);border-radius:12px;box-shadow:0 12px 36px rgba(39,35,31,.2);padding:12px 14px;font-size:13px;line-height:1.5;pointer-events:none;display:flex;flex-direction:column;gap:2px}
-.pop b{font-family:var(--f-pixel);font-weight:600;font-size:16px}
-.pop .by{color:var(--ink-2);font-size:12px;margin-bottom:4px}
-.bookend{width:84px;align-self:flex-end;margin:0 0 -2px 10px}
+.shelf-wrap{overflow-x:auto;padding:44px 0 0;scrollbar-width:thin}
+.shelf{display:flex;align-items:flex-end;gap:2px;padding:0 20px;border-bottom:2px solid var(--ink);min-width:min-content;position:relative}
+.spine{appearance:none;border:0;font:inherit;cursor:pointer;flex:none;width:var(--w);height:var(--h);margin:0;padding:12px 0 10px;border-radius:2px 2px 0 0;position:relative;overflow:hidden;
+  display:flex;flex-direction:column;align-items:center;justify-content:space-between;
+  color:var(--sk);background:var(--bg);
+  box-shadow:inset 3px 0 3px -2px rgba(255,255,255,.28),inset -3px 0 3px -2px rgba(0,0,0,.3),0 0 0 .5px rgba(0,0,0,.28);
+  transition:transform .22s cubic-bezier(.3,.7,.3,1.2),box-shadow .22s}
+.spine::before{content:"";position:absolute;inset:0;pointer-events:none;
+  background:linear-gradient(90deg,rgba(0,0,0,.16),rgba(255,255,255,.06) 14%,transparent 30%,transparent 78%,rgba(0,0,0,.18)),repeating-linear-gradient(0deg,rgba(0,0,0,.025) 0 1px,transparent 1px 3px)}
+.spine::after{content:"";position:absolute;right:0;bottom:0;width:4px;height:var(--p);background:var(--acc);opacity:.9}
+.spine:hover,.spine:focus-visible,.spine[aria-expanded=true]{transform:translateY(-16px);box-shadow:inset 3px 0 3px -2px rgba(255,255,255,.28),inset -3px 0 3px -2px rgba(0,0,0,.3),0 0 0 .5px rgba(0,0,0,.3),0 14px 18px -8px rgba(39,35,31,.35)}
+.spine:focus-visible{outline:2px solid var(--ink);outline-offset:2px}
+.spine .rule{width:62%;height:2px;background:var(--acc);flex:none;position:relative;z-index:1}
+.spine .rule.two{height:5px;border-top:1px solid var(--acc);border-bottom:1px solid var(--acc);background:none;box-sizing:border-box;height:6px}
+.spine .ttl{writing-mode:vertical-rl;transform:rotate(180deg);font-family:var(--ff);font-size:var(--fs);font-weight:var(--fw);font-style:var(--fst,normal);letter-spacing:var(--ls,0);text-transform:var(--tt,none);line-height:1.12;flex:1;display:flex;align-items:center;justify-content:center;text-align:center;overflow:hidden;padding:8px 0;max-width:100%;position:relative;z-index:1}
+.spine .au{writing-mode:vertical-rl;transform:rotate(180deg);font-family:var(--f-mono);font-size:9px;letter-spacing:.16em;text-transform:uppercase;opacity:.8;flex:none;padding-bottom:8px;position:relative;z-index:1}
+.spine .done{position:absolute;top:6px;left:50%;width:8px;height:8px;margin-left:-4px;border-radius:50%;background:#F2C94C;box-shadow:0 0 0 1.5px rgba(0,0,0,.35);z-index:2}
+.shelf-note{margin-top:10px;font-family:var(--f-mono);font-size:11px;letter-spacing:.04em;color:var(--ink-2)}
+.pop{position:fixed;z-index:30;background:var(--card);border:1px solid var(--line);border-radius:10px;box-shadow:0 14px 40px rgba(39,35,31,.22);padding:12px;font-size:13px;line-height:1.5;pointer-events:none;display:grid;grid-template-columns:84px minmax(0,1fr);gap:12px}
+.pop .pc{width:84px;height:126px;border-radius:2px 5px 5px 2px;box-shadow:0 5px 12px rgba(39,35,31,.28);overflow:hidden;display:grid;place-items:center;text-align:center;font-family:var(--f-pixel);font-weight:600;font-size:11px;padding:6px;line-height:1.2}
+.pop .pc img{width:100%;height:100%;object-fit:cover;display:block}
+.pop b{font-family:var(--f-pixel);font-weight:600;font-size:15px;line-height:1.25;display:block}
+.pop .by{color:var(--ink-2);font-size:12px;margin:2px 0 6px;display:block}
+.pop .pd{display:block;font-size:12.5px;line-height:1.45;color:var(--ink)}
+.pop .pp{display:block;margin-top:6px;font-family:var(--f-mono);font-size:10.5px;letter-spacing:.06em;text-transform:uppercase;color:var(--ink-2)}
+.bookend{width:84px;align-self:flex-end;margin:0 0 -2px 18px;flex:none}
 .bookinfo{margin-top:18px;display:grid;grid-template-columns:120px minmax(0,1fr) minmax(0,260px);gap:20px;align-items:center}
 .bookinfo .big{width:120px;height:180px;border:0;border-radius:3px 6px 6px 3px;overflow:hidden;box-shadow:0 8px 16px rgba(39,35,31,.2);display:grid;place-items:center;font-family:var(--f-pixel);font-weight:600;text-align:center;padding:8px}
 .bookinfo .big img{width:100%;height:100%;object-fit:cover}
@@ -342,8 +353,9 @@ footer textarea{width:100%;font-family:var(--f-mono);font-size:12px;border:1px s
   </section>
 
   <section id="shelf">
-    <div class="sec-head"><h2>Bookshelf</h2><p>Hover a spine for a peek, tap it to log how far you are.</p></div>
+    <div class="sec-head"><h2>Bookshelf</h2><p>Move over a spine to see the cover. Click it to log how far you are.</p></div>
     <div class="shelf-wrap"><div class="shelf" id="shelfRow"></div></div>
+    <p class="shelf-note" id="shelfNote"></p>
     <div class="bookinfo card" id="bookInfo" hidden></div>
   </section>
 
@@ -683,22 +695,42 @@ function coverEl(b,cls){
   coverFor(b).then(u=>{const img=el("img",{src:u,alt:""});img.onload=()=>box.append(img);img.onerror=()=>{}}).catch(()=>{});
   return box;
 }
-const SPINE={pom:[176,48],ltm:[190,52],mom:[166,42],coi:[184,50],pog:[172,46],eo:[198,54],rbc:[180,48],mur:[168,44]};
+/* muted, real-book-ish spines: height, width, bg, ink, accent, font, size, weight, tracking, case */
+const SPINE={
+ pom:{h:268,w:56,bg:"#EFE2AE",sk:"#1E1A15",acc:"#1E1A15",ff:"var(--f-pixel)",fs:"17px",fw:700,rule:1},
+ ltm:{h:244,w:50,bg:"#E5805A",sk:"#FFF6EC",acc:"#FFF6EC",ff:"var(--f-body)",fs:"14px",fw:800,ls:".05em",tt:"uppercase"},
+ mom:{h:212,w:44,bg:"#F1D13F",sk:"#1A1A1A",acc:"#1A1A1A",ff:"var(--f-body)",fs:"17px",fw:800,ls:"-.01em"},
+ coi:{h:288,w:62,bg:"#1F3A5C",sk:"#F3EDE2",acc:"#E8A55B",ff:"var(--f-body)",fs:"16px",fw:300,ls:".16em",tt:"uppercase",rule:2},
+ pog:{h:256,w:72,bg:"#CDBB98",sk:"#33271A",acc:"#8E3B2E",ff:"var(--f-pixel)",fs:"17px",fw:600,fst:"italic",rule:2},
+ eo:{h:282,w:60,bg:"#F5EBD3",sk:"#2A2622",acc:"#EDBE2F",ff:"var(--f-pixel)",fs:"15px",fw:600,fst:"italic",rule:1},
+ rbc:{h:262,w:62,bg:"#3E7C8A",sk:"#FDF7EA",acc:"#F2C879",ff:"var(--f-pixel)",fs:"16px",fw:500,rule:1},
+ mur:{h:230,w:52,bg:"#181311",sk:"#E8695C",acc:"#E8695C",ff:"var(--f-mono)",fs:"17px",fw:500,ls:".08em",tt:"uppercase"}
+};
 const popEl=el("div",{class:"pop",role:"tooltip",hidden:true});document.body.append(popEl);
-function pop(b,btn){if(matchMedia("(hover:none)").matches)return;popEl.innerHTML="";popEl.append(el("b",{},b.t),el("span",{class:"by"},b.a),el("span",{},b.d));popEl.hidden=false;
-  const r=btn.getBoundingClientRect(),pw=Math.min(280,innerWidth-24);popEl.style.width=pw+"px";
-  const ph=popEl.offsetHeight;const left=Math.min(Math.max(12,r.left+r.width/2-pw/2),innerWidth-pw-12);let top=r.top-ph-12;if(top<12)top=r.bottom+12;
+function pop(b,btn){if(matchMedia("(hover:none)").matches)return;
+  const p=S.books[b.id]||0,pc=el("span",{class:"pc",style:`background:${b.c}`},b.t);
+  popEl.innerHTML="";popEl.append(pc,el("div",{},el("b",{},b.t),el("span",{class:"by"},b.a),el("span",{class:"pd"},b.d),el("span",{class:"pp"},p===100?"finished":p+"% read · click to log")));
+  coverFor(b).then(u=>{const img=el("img",{src:u,alt:""});img.onload=()=>{pc.textContent="";pc.append(img);pc.style.background="none"};img.onerror=()=>{}}).catch(()=>{});
+  popEl.hidden=false;
+  const r=btn.getBoundingClientRect(),pw=Math.min(380,innerWidth-24);popEl.style.width=pw+"px";
+  const ph=popEl.offsetHeight;const left=Math.min(Math.max(12,r.left+r.width/2-pw/2),innerWidth-pw-12);let top=r.top-ph-14;if(top<12)top=Math.min(r.bottom+14,innerHeight-ph-12);
   popEl.style.left=left+"px";popEl.style.top=top+"px"}
 function unpop(){popEl.hidden=true}
 window.addEventListener("scroll",unpop,{passive:true});
 function renderShelf(){
   const row=$("#shelfRow");row.innerHTML="";
-  BOOKS.forEach(b=>{const p=S.books[b.id]||0,[h,w]=SPINE[b.id]||[176,48];
-    const btn=el("button",{class:"spine",type:"button","aria-expanded":"false","aria-controls":"bookInfo","aria-label":`${b.t} by ${b.a}, ${p}% read`,style:`--h:${h}px;--w:${w}px;--c:${b.c};--p:${p}%`,onclick:e=>{unpop();showBook(b,e.currentTarget)}},
-      el("span",{class:"band"}),el("span",{class:"ttl"},b.t),el("span",{class:"au"},b.a.split(" ").slice(-1)[0]),el("span",{class:"band"}));
+  BOOKS.forEach(b=>{const p=S.books[b.id]||0,s=SPINE[b.id]||SPINE.pom;
+    const st=`--h:${s.h}px;--w:${s.w}px;--bg:${s.bg};--sk:${s.sk};--acc:${s.acc};--ff:${s.ff};--fs:${s.fs};--fw:${s.fw};--p:${p}%`+(s.ls?`;--ls:${s.ls}`:"")+(s.tt?`;--tt:${s.tt}`:"")+(s.fst?`;--fst:${s.fst}`:"");
+    const kids=[];if(p===100)kids.push(el("span",{class:"done"}));
+    kids.push(el("span",{class:"rule"+(s.rule===2?" two":"")}),el("span",{class:"ttl"},b.t),el("span",{class:"au"},b.a.split(" ").slice(-1)[0]));
+    const btn=el("button",{class:"spine",type:"button","aria-expanded":"false","aria-controls":"bookInfo","aria-label":`${b.t} by ${b.a}, ${p}% read`,style:st,onclick:e=>{unpop();showBook(b,e.currentTarget)}},...kids);
     btn.addEventListener("mouseenter",()=>pop(b,btn));btn.addEventListener("focus",()=>pop(b,btn));btn.addEventListener("mouseleave",unpop);btn.addEventListener("blur",unpop);
-    row.append(el("div",{class:"spwrap"},btn,el("span",{class:"pct"},p+"%")))});
-  row.append(el("span",{class:"bookend",html:plantSVG(3,{pot:POTS[2],petal:PETALS[1]})}));
+    row.append(btn)});
+  const pb=el("button",{class:"plantbtn bookend",type:"button","aria-label":"Water the bookend plant",html:plantSVG(3,{pot:POTS[2],petal:PETALS[1]})});
+  pb.addEventListener("click",()=>water(pb));row.append(pb);
+  const vals=BOOKS.map(b=>S.books[b.id]||0),fin=vals.filter(v=>v===100).length,sta=vals.filter(v=>v>0&&v<100).length;
+  const hint=document.querySelector("#shelf .sec-head p");if(hint&&matchMedia("(hover:none)").matches)hint.textContent="Tap a spine to see the cover and log how far you are.";
+  const note=$("#shelfNote");if(note)note.textContent=`${BOOKS.length} books on the shelf · ${sta} started · ${fin} finished`;
 }
 function showBook(b,btn){
   document.querySelectorAll(".spine").forEach(s=>s.setAttribute("aria-expanded","false"));btn.setAttribute("aria-expanded","true");
