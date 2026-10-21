@@ -1,49 +1,67 @@
 {
- "updated": "2026-10-21T11:40+00:00",
+ "updated": "2026-10-21T11:45+00:00",
  "method": "spectrum-v2",
  "news": {
   "india": [
    {
-    "title": "India's HDFC Bank probe finds executives leaked confidential information, Bloomberg News reports",
-    "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPZTAwOTR1Z2FTcGtPLWtCZjdPMER5XzQ4cUo0UnF6WE45bW5iaFBwRmxvb1FldlJZUno2VmducGdDa0hHdHNXbXNfd0tBRzdpMGE1SGJDWTk3akJtYjFtd3hrWGZHXzQ1RzNvUk5teXNNekROTHhMekxlSEFDZ3lNTVpaLWZkN1NjT1JXUC1KYUJWZFBuTGxzUDB4UmdkZGlOazRTQkd2YkZLREhhMkljNkkwLVpubHlaTDBr?oc=5",
-    "source": "Reuters India",
+    "title": "Billionaire Mukesh Ambani's Jio launches India's biggest share sale",
+    "url": "https://www.bbc.co.uk/news/articles/ck7vp17z7jv3o?at_medium=RSS&at_campaign=rss",
+    "source": "BBC India",
     "date": "21 Oct",
-    "outlets": 2,
+    "outlets": 3,
     "also": [
-     "Business Standard"
+     "Reuters",
+     "The Guardian"
     ],
-    "lean": "CR",
-    "sites": null,
+    "lean": "LC",
+    "sites": 12,
     "wiki": false
    },
    {
-    "title": "SBI probes suspected dark web leak involving 3,897 customer records",
-    "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPOUotY1FHUm84T0FIQWdfbnItYjcwWXU2Y2l0TnFiOUNYMjBvMTVtNUM5c1NSV3l4V3Y5UTBDWkVKbXNELWhVRTc2aXgwdFJ5Y1FSMTBjS1QyX25EYV9VakUzNmhYeW1sbzJ4TkR6R21IUU5GYl9QY2NyWURUZE9SUDY2eEMyOFRhUDQ0eG91NWV6TEtEeUpqM3lLVXJkZkFZSDlTaWpQUURvQUFqSDlWQ0FoQXBNcHhrRGVENmNaRnPSAcYBQVVfeXFMTTlwcV8tSXBHelVVOUw1Mzh6ajVWaG1wU1VjcjJ2N040cXV2Q2xqVEVDSGlqOG5BQkIzbk15cFk5ckd2cmlHSVB3dXlEZTJhSDdaNnhCZW9DTE1CVkVWZGpDMUZaSXBIbkFSMmt6SkZ0aGNiQXZvWVFEaUJYVkRTUWdSRjJkQ0l6d0lXazZnQk1CbDlIT2t0TmtGTVRwSmN6OWEwMGJFeHdjZHdJa01lR1hTbTBBWXlLN2lJLUxHQnZHVVhCbnZn?oc=5",
+    "title": "Eight eMudhra certificate authority keys compromised: What to know",
+    "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxQSjdsTklYSks5LU9tQVJ6SURCSGhNVklxYW5MNnRYX2drMmltdFJQVkJfbmhPQ2xfdlExMFhsMk5XMHF0clVGaVhQWVNleHdaaXRwWHBSRWp3YnpzYml1WTRGZHZDNmI3UC00ek1QVHFoQlNZSWx3aFJYSmF4NVh0bjF1ZHdsby14NVlETGtmcThtUFNib1R4ODYtd1JHb1FWMUNoRC1PU1Vyc0IyQkN3TnhQaFoyQldMWWU0ajQ3b052ZlBPbE9EUFBB0gHPAUFVX3lxTE90WWVJc0xWNnEtTk9ETl82NFBQLXI4eUJsZC0yc3Rva0sxZmc4VUxqY3VqZWNXM08tMzBMWGFlVnRXaEtDWFowZjZYNW1fYTl4QkFzQUYwODJ1ckg0Zm9pRTh0SVpWTTViMDlXTUJHbGpGZUVxQUtXSmZqVTZ6cDRTUkRVajJfVl8tSTZNOG84N0FFeWV3c0UwUHMyVGNkMnduUzRVZldkUE9aV0s5WHlnNW1CY0pwWDV5VjQ0c0xBNDdVNTV0OWQ1QjNndVJFbw?oc=5",
     "source": "Business Standard",
     "date": "21 Oct",
-    "outlets": 2,
+    "outlets": 3,
     "also": [
-     "Reuters"
+     "Mint",
+     "The Hindu"
     ],
-    "lean": "CR",
-    "sites": null,
+    "lean": "LR",
+    "sites": 34,
     "wiki": false
    },
    {
-    "title": "Pollution Curbs Under GRAP-1 Imposed In Delhi, Parking Charges To Be Doubled",
-    "url": "https://www.ndtv.com/india-news/delhi-air-quality-grap-1-pollution-curbs-under-grap-1-in-delhi-ncr-as-air-quality-drops-to-poor-12214729#publisher=newsstand",
-    "source": "NDTV",
-    "date": "21 Oct",
-    "outlets": 2,
+    "title": "Why Elon Musk is taking on India's richest man over Starlink",
+    "url": "https://www.bbc.co.uk/news/articles/cvglw9ryjrylo?at_medium=RSS&at_campaign=rss",
+    "source": "BBC India",
+    "date": "9 Oct",
+    "outlets": 3,
     "also": [
-     "Hindustan Times"
+     "Reuters",
+     "WSJ"
     ],
-    "lean": "L",
-    "sites": null,
+    "lean": "CR",
+    "sites": 16,
     "wiki": false
    }
   ],
   "world": [
+   {
+    "title": "Saudi Arabia cancels 'Davos in the Desert' due to Yemen's Houthi strikes",
+    "url": "https://www.npr.org/2026/10/21/nx-s1-6009545/saudi-arabia-cancels-davos-in-the-desert-due-to-air-strikes",
+    "source": "NPR",
+    "date": "21 Oct",
+    "outlets": 6,
+    "also": [
+     "AP",
+     "Al Jazeera",
+     "DW"
+    ],
+    "lean": "LCR",
+    "sites": 57,
+    "wiki": true
+   },
    {
     "title": "Drone attack near market kills 80 in Sudan",
     "url": "https://www.theguardian.com/world/2026/oct/19/drone-attack-market-al-dibab-west-kordofan-sudan",
@@ -56,38 +74,23 @@
      "DW"
     ],
     "lean": "LC",
-    "sites": null,
+    "sites": 18,
     "wiki": true
    },
    {
-    "title": "UK fighter jets to protect Saudi Arabia from Houthi attacks",
-    "url": "https://www.dw.com/en/uk-fighter-jets-to-protect-saudi-arabia-from-houthi-attacks/a-79718467?maca=en-rss-en-world-4025-rdf",
-    "source": "DW",
-    "date": "21 Oct",
-    "outlets": 4,
+    "title": "Alberta voters overwhelmingly reject plan to leave Canada in referendum",
+    "url": "https://www.theguardian.com/world/2026/oct/20/canada-alberta-rejects-independence-succession-referendum",
+    "source": "The Guardian",
+    "date": "20 Oct",
+    "outlets": 5,
     "also": [
      "AP",
-     "Al Jazeera",
-     "The Telegraph"
-    ],
-    "lean": "LCR",
-    "sites": null,
-    "wiki": true
-   },
-   {
-    "title": "Nigeria confirms Ebola case as outbreak spreads into western Africa",
-    "url": "https://www.theguardian.com/world/2026/oct/21/nigeria-first-ebola-case-africa-outbreak-latest",
-    "source": "The Guardian",
-    "date": "21 Oct",
-    "outlets": 4,
-    "also": [
-     "DW",
-     "NPR",
-     "The Hindu"
+     "BBC",
+     "Mint"
     ],
     "lean": "LC",
-    "sites": null,
-    "wiki": true
+    "sites": 19,
+    "wiki": false
    }
   ],
   "business": [
@@ -103,7 +106,7 @@
      "The Hindu"
     ],
     "lean": "LCR",
-    "sites": null,
+    "sites": 8,
     "wiki": false
    },
    {
@@ -111,25 +114,27 @@
     "url": "https://www.thehindu.com/business/markets/rupee-closes-at-six-week-high-of-9443-driven-by-jio-ipo-rbi-intervention/article71607257.ece",
     "source": "The Hindu Business",
     "date": "21 Oct",
-    "outlets": 2,
+    "outlets": 3,
     "also": [
+     "Mint",
      "Reuters"
     ],
     "lean": "LC",
-    "sites": null,
+    "sites": 4,
     "wiki": false
    },
    {
-    "title": "SBI probes suspected dark web leak involving 3,897 customer records",
-    "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPOUotY1FHUm84T0FIQWdfbnItYjcwWXU2Y2l0TnFiOUNYMjBvMTVtNUM5c1NSV3l4V3Y5UTBDWkVKbXNELWhVRTc2aXgwdFJ5Y1FSMTBjS1QyX25EYV9VakUzNmhYeW1sbzJ4TkR6R21IUU5GYl9QY2NyWURUZE9SUDY2eEMyOFRhUDQ0eG91NWV6TEtEeUpqM3lLVXJkZkFZSDlTaWpQUURvQUFqSDlWQ0FoQXBNcHhrRGVENmNaRnPSAcYBQVVfeXFMTTlwcV8tSXBHelVVOUw1Mzh6ajVWaG1wU1VjcjJ2N040cXV2Q2xqVEVDSGlqOG5BQkIzbk15cFk5ckd2cmlHSVB3dXlEZTJhSDdaNnhCZW9DTE1CVkVWZGpDMUZaSXBIbkFSMmt6SkZ0aGNiQXZvWVFEaUJYVkRTUWdSRjJkQ0l6d0lXazZnQk1CbDlIT2t0TmtGTVRwSmN6OWEwMGJFeHdjZHdJa01lR1hTbTBBWXlLN2lJLUxHQnZHVVhCbnZn?oc=5",
+    "title": "HDFC Bank probe finds senior executives leaked secrets to outsiders",
+    "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxQMEtIVjZNOGk5ZVVGbmxwaFE0dUdkUWZlcWdaNGlUa2JHQ1UtQ0xvOVFrc09BdzQxYnEtZVdYN2VRaXNxSVVhaWc5cmFhNUxHWGpPajREektXXzZIR2ZFaFB6SUU5amJuTnpaRHMwbGsxbkozVTRSSFlDRkJDTThpY2llQktWa2RfTG9oWXZiM3FRQ21xSElqbDhsZnpHelRlVE12bzNoS3Y0bnNWRk5MZ3QxYVYyMWVHNlVueWtWSHhKQmhMSXJ5ZmpGamwxTjgwcUHSAdcBQVVfeXFMTW8yY0phcm13UVdHMllhOUxDVzRQTm5HS1hzc0hPQUxBMU54ZF9KRy01eXE1NVJCMGp5UVllUnBQNzdaNkZZNXdLazkzY3RNbzBYc2F5SEtEMld2RWhsQ2VLb1FMOF9nX2xEY1NSOVhuUWN3cE51Q3Q4c2FlMHhsa1g0YWhDVVM2bHBJWVdTR2hUam5nU1daYnhzMTZOYld6MkF4VGdRcnptSF95Y3ZlU2dqRXZKTU1Sc3lxZWxvbFBMTndqbmlIYkVDME1IYWFrMHlZbi0tRTQ?oc=5",
     "source": "Business Standard",
     "date": "21 Oct",
-    "outlets": 2,
+    "outlets": 3,
     "also": [
+     "Mint",
      "Reuters"
     ],
     "lean": "CR",
-    "sites": null,
+    "sites": 1,
     "wiki": false
    }
   ]
@@ -226,11 +231,11 @@
  },
  "audit": {
   "wiki_items": 21,
-  "matched": 3,
+  "matched": 2,
   "total": 9,
   "by_section": {
    "india": "0/3",
-   "world": "3/3",
+   "world": "2/3",
    "business": "0/3"
   },
   "note": "",
@@ -279,8 +284,6 @@
   "feeds_failed": [
    "Vinh Giang: HTTPError"
   ],
-  "notes": [
-   "gdelt off after retries: HTTPError HTTP Error 429: Too Many Requests"
-  ]
+  "notes": []
  }
 }
