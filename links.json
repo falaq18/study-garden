@@ -1,165 +1,166 @@
 {
- "updated": "2026-10-22T06:21+00:00",
+ "updated": "2026-10-23T06:15+00:00",
  "method": "spectrum-v2",
  "news": {
   "india": [
    {
-    "title": "‘Finding a place to belong’: Sonia Gandhi makes Insta debut, shares first look of memoir",
-    "url": "https://timesofindia.indiatimes.com/india/finding-a-place-to-belong-sonia-gandhi-makes-instagram-debut-shares-first-look-of-memoir/articleshow/135108732.cms",
-    "source": "Times of India",
+    "title": "Indian killed, three others injured in Houthi attacks on Saudi Arabia",
+    "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxNaEJQNXdnR2tHY002NjZOVERmTDU1d1M5Y2JXOVN2TG9NZHVpY01Gbkd2LXZfTHpRN25UU1JyaEt1QkM0OFl0MXJrdTN1aFc5VTNrQU5MNGVFOVkzNTltTFBqZktZZVhZLXIxVTBPazluN01LMFpuTUhSUzFIekUyTi1YMkxOZmJHb2hpaWU0ek9qelJBMkVaMzV0QllLNjd6cnFFaUJuSm42aVZtR2ZoamlCN2pPSGZ0aU9DcEtrdndjWDI2dVdVZjYzd015Y0XSAdYBQVVfeXFMUDBnMzc3QXRXcHZaRkdDc1VOUnJDWFQ0VjNUS1h6aFdROTN5YTN4UEswVnBZc05JcHBkbkNCaUpnamZpaWQ5c3VtNUFpeVotaHV5VWFQOUl0LVBPVEctZDJWN1VyQ3dqdXdrTzdSOWpZYlBxVndmRWJlVUdoZlZ4SjVvN0Q1TTZCdHZOX0pqRGlZNTVNd2V2M1dyUHJyQzg2MFhOendBY05WU0JzUG9RaDNsWm9JSTBjNVpXMXVFZHc3eXA0Q1ZZM3ExdnJKOGV1SUJibExyZw?oc=5",
+    "source": "Indian Express",
     "date": "22 Oct",
-    "outlets": 3,
+    "outlets": 4,
     "also": [
-     "Hindustan Times",
-     "Indian Express"
-    ],
-    "lean": "LC",
-    "sites": 23,
-    "wiki": false
-   },
-   {
-    "title": "Billionaire Mukesh Ambani's Jio launches India's biggest share sale",
-    "url": "https://www.bbc.co.uk/news/articles/ck7vp17z7jv3o?at_medium=RSS&at_campaign=rss",
-    "source": "BBC India",
-    "date": "21 Oct",
-    "outlets": 3,
-    "also": [
-     "Reuters",
-     "The Guardian"
-    ],
-    "lean": "LC",
-    "sites": 13,
-    "wiki": false
-   },
-   {
-    "title": "Priyanka Gandhi shares message for son Raihan Vadra amid Bikaner House exhibition row",
-    "url": "https://www.hindustantimes.com/india-news/priyanka-gandhi-shares-message-for-son-raihan-vadra-amid-bikaner-house-exhibition-row-101792646392463.html",
-    "source": "Hindustan Times",
-    "date": "22 Oct",
-    "outlets": 3,
-    "also": [
+     "BBC",
      "The Hindu",
-     "Times of India"
+     "WSJ"
     ],
-    "lean": "LC",
-    "sites": 6,
+    "lean": "LCR",
+    "sites": 46,
+    "wiki": true
+   },
+   {
+    "title": "CPI(M) MP seeks independent probe into SBI customer data exposure, writes to FM Nirmala Sitharaman",
+    "url": "https://www.hindustantimes.com/india-news/cpim-mp-seeks-independent-probe-into-sbi-customer-data-exposure-writes-to-fm-nirmala-sitharaman-101792730814494.html",
+    "source": "Hindustan Times",
+    "date": "23 Oct",
+    "outlets": 3,
+    "also": [
+     "Business Standard",
+     "The Hindu"
+    ],
+    "lean": "LR",
+    "sites": 12,
+    "wiki": false
+   },
+   {
+    "title": "UP school headmaster arrested for embezzling mid-day meal funds",
+    "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPUVBabGcyY29YaTMxbnBOSFpmZEkyLV9BSXNIWk1DTm9yczJ2MF9Ca2NlaTJvWVlFTzV5YWYwVmYxZFRNb01VLXh4amo1dzA1WTRKOGxrV3lBZ1Iwei1TdUhsV0c4aVhrS09pZVJnMXpIcWszcGlZMUpNSm84bkZqbmF0ajdnZGZqa0daWjZKMjkwT2VmM0tVMXVwV2dhdWvSAaQBQVVfeXFMT0pmblFfRjdfMFpodTlBMHR6d2lnaW1FUzR4U2JrekJHLWxyRlFBcUZpMjRDcDh6dk1Uc0R5LXp5b0hvUEZLX0hoZEViS0dtc01tQ0JWZUhJNHpPTHNhZHIyV2R2dXJBbGlLbVpkeGFkNEJRSGxXbmctZTFEcWhrbWVINWV2ckU2UWh0WGFZLVdKcC1ReG9jSjJ0Z0tJck42ZVkwMVo?oc=5",
+    "source": "ThePrint",
+    "date": "22 Oct",
+    "outlets": 3,
+    "also": [
+     "Business Standard",
+     "The Hindu"
+    ],
+    "lean": "LR",
+    "sites": 3,
     "wiki": false
    }
   ],
   "world": [
    {
-    "title": "Exclusive | Musk Ordered Starlink Slowdown That Blindsided Ukraine",
-    "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE05TXhCNE5nTDBJcEZteGFUWGtLMHY5bmlkOXBBajNqMlpqbkF4Q2wwOVZjN2E2YWhSU2p6YmJoTmpwUW1VMkVqUEhSZjc3N1hMdVZwR3RjazBCdHRVZmptaEtpN2dtV3hzcHYwb2NadVlYZFlaMkE?oc=5",
+    "title": "Exclusive | Trump Called Musk and Asked Him to Lift Ukraine Starlink Restrictions",
+    "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQaXJlSTBTVHFScmtRbGRyTnkyTWlkQ0FrMnBhXzY1TmNlQVFmUUpud1N4RFR2TklOeXBLRzZSajJvbzNJYW9hN2JjbWdEbElRbzkwR1BSQzlhQWVKbWV6YmNRa2M3Z0oxVmhyT1JaOW5pODNzblBVNjVBbmVJOWxQbVBXS2NyU3VTcFlKLWFZLWN3NDllTWdSRmRzU3llcTN4b3lKc3JrTQ?oc=5",
     "source": "WSJ",
-    "date": "21 Oct",
+    "date": "22 Oct",
     "outlets": 5,
     "also": [
      "Al Jazeera",
      "BBC",
-     "NDTV"
+     "The Hindu"
     ],
     "lean": "LCR",
-    "sites": 17,
+    "sites": 32,
     "wiki": false
    },
    {
-    "title": "US orders some diplomats to leave Saudi Arabia as Houthi attacks escalate",
-    "url": "https://www.bbc.co.uk/news/articles/c6x2vpk93770o?at_medium=RSS&at_campaign=rss",
+    "title": "Powerful earthquake hits Tibet killing 16 people, reports say",
+    "url": "https://www.bbc.co.uk/news/articles/ck5ynd1z6e83o?at_medium=RSS&at_campaign=rss",
     "source": "BBC World",
-    "date": "22 Oct",
-    "outlets": 7,
-    "also": [
-     "AP",
-     "DW",
-     "NPR"
-    ],
-    "lean": "LCR",
-    "sites": 10,
-    "wiki": true
-   },
-   {
-    "title": "Australian MP Helen Haines loses both legs after car attack as suspect appears in court",
-    "url": "https://www.dw.com/en/australian-mp-helen-haines-loses-both-legs-after-car-attack-as-suspect-appears-in-court/a-79697660?maca=en-rss-en-world-4025-rdf",
-    "source": "DW",
-    "date": "21 Oct",
-    "outlets": 5,
+    "date": "23 Oct",
+    "outlets": 6,
     "also": [
      "AP",
      "Al Jazeera",
-     "The Hindu"
+     "The Guardian"
     ],
-    "lean": "LC",
-    "sites": 23,
+    "lean": "LCR",
+    "sites": 12,
+    "wiki": true
+   },
+   {
+    "title": "SK Hynix puts US IPO of chip unit Solidigm on hold after Seoul authorities raise concerns",
+    "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNakIxS1gtNjFlNDJKUVl5cUZZTGlsamY3UG5ST0Y5UjEyU1RUSmx2Skh3aXZIRE95MjFUdHdXOFhVZVpRZmVUclRwSVJMNUVnYWFSOXFRRzdYWXNBbDJxZlBMbXlmVGYtQ09KOWtrWnJZTXdEQmRzeHNDUi0tMGJoWXVmaHNqZTkyRm1CQmFUcUE4OEN3YnJWQ2M1cEo0d1hNQ3BzVVVLakd2SXVo?oc=5",
+    "source": "Reuters World",
+    "date": "22 Oct",
+    "outlets": 3,
+    "also": [
+     "The Guardian",
+     "WSJ"
+    ],
+    "lean": "LCR",
+    "sites": 21,
     "wiki": false
    }
   ],
   "business": [
    {
-    "title": "Tesla and SpaceX explore merger as Elon Musk gives backing",
-    "url": "https://www.theguardian.com/science/2026/oct/20/spacex-revenue-earnings-report",
+    "title": "Rupee rises 3 paise to 94.78 against USD in early trade",
+    "url": "https://www.thehindu.com/business/markets/rupee-rises-against-us-dollar-on-october-23-2026/article71614598.ece",
+    "source": "The Hindu Business",
+    "date": "23 Oct",
+    "outlets": 3,
+    "also": [
+     "Business Standard",
+     "Reuters"
+    ],
+    "lean": "LCR",
+    "sites": 13,
+    "wiki": false
+   },
+   {
+    "title": "CPCL net profit more than triples to ₹2,271 crore in Q2",
+    "url": "https://www.thehindu.com/business/cpcl-net-profit-more-than-triples-to-2271-crore-in-q2/article71612767.ece",
+    "source": "The Hindu Business",
+    "date": "23 Oct",
+    "outlets": 4,
+    "also": [
+     "Business Standard",
+     "Reuters",
+     "WSJ"
+    ],
+    "lean": "LCR",
+    "sites": 4,
+    "wiki": false
+   },
+   {
+    "title": "Elon Musk reportedly invests $1bn in David Ellison’s Skydance",
+    "url": "https://www.theguardian.com/technology/2026/oct/22/elon-musk-david-ellison-skydance-investment",
     "source": "The Guardian Business",
-    "date": "21 Oct",
-    "outlets": 5,
+    "date": "22 Oct",
+    "outlets": 4,
     "also": [
      "BBC",
-     "Economic Times",
-     "Reuters"
-    ],
-    "lean": "LCR",
-    "sites": 6,
-    "wiki": false
-   },
-   {
-    "title": "IBM Reports Higher Profit as Some Delayed Deals Come Through",
-    "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNX0lWaDc1enlyalotZEcxQTVKZHplV0FQZERuRDZ2djE1STg4eUdfaUxoX2V4YTMyUFB4ZDhpLTBTX3RUdDh0QmZiNm9jekdiZmcyMHRFdTNqM3NuVnNwRFNyMEJDN1JEbGMzWW01MDNoc3ZfMnpILTYtUk5mVlhDUkFScGVlb0ZzLUw5ejlYNlpFY3FjUk05SnpNcncyXzlSaHB2bmoyNzlScjA?oc=5",
-    "source": "WSJ Business",
-    "date": "21 Oct",
-    "outlets": 3,
-    "also": [
-     "Reuters",
+     "NPR",
      "The Hindu"
     ],
-    "lean": "LCR",
-    "sites": 54,
-    "wiki": false
-   },
-   {
-    "title": "Retail portion of Jio Platforms’ IPO fully subscribed",
-    "url": "https://www.thehindu.com/business/Industry/retail-portion-of-jio-platforms-ipo-fully-subscribed/article71610351.ece",
-    "source": "The Hindu Business",
-    "date": "22 Oct",
-    "outlets": 3,
-    "also": [
-     "Mint",
-     "Reuters"
-    ],
     "lean": "LC",
-    "sites": 22,
+    "sites": 16,
     "wiki": false
    }
   ]
  },
  "explainer": [
   {
-   "title": "GRAP Stage I invoked in Delhi-NCR: What restrictions apply and what residents need to know",
-   "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOV3BaVWVuVkVPMXVpMDZ0cnQ5aEpqYVBxMzZmRlJpcEE5Qkg5QVJqYWp6ZHhLRU5SWjdUMHdGTFIzSC1tVXdIbGxKVmYtRUxUdEJ5M0EtWUh5cy1tWHk3amgtNmxoTDVNVlIzdFl4SXh1UFUxUVFBTm1yNzd2RnBoT2JQemNlWFYtamdxaTlETGdMWTViMnZLRWFHQjNoQlhRZ0lHcFZaU2x2Z9IBsAFBVV95cUxOeDZyZk9TRzVxcm8yUjdHTW9EVWhVZFFWU0N1dExxX1FFQlk4bW1sY1lxbG9jSUhqbUg2eDEyTXRmSTVOdi0tZ015QWpqbHQweXpZRzdTeUdUM0Y5T1hTcE1Lajc2WlFTc3JvMWFMdXR2WHNWTHFtaFZFUVI0LXFDemNEc204bC1nVHBpU2JKcU5QUndBMkliWUtfeWFSelc3TGlFeE1Bd3pub0ZwTWhNZw?oc=5",
+   "title": "Daler Mehndi, a ‘mixer’ and a minister: What are minus-one tracks at live concerts",
+   "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxPN1dnX0ZKQVFHRE5weDVxSjF5MWYxRFl0U1hJck41aXhWdmxzbmN3M1h4YktlT1FCOEUyVXdSVUZPbFpybVhLOWZSUmpTZ1FNR0hNNG85WTlCX01DeldjYTBudjRYLU5hdWp6MUJqckQ2Z21PWEFKWDJ4RVZYeDJjZExRWGs2ak9QeWpjYmZKejMtTVJaLVp0NFpJSWpHX2tSMEs5ZGNldjd4czFoLUlOWWdaNUIteGtUT0Z4b0lWLTFnVWVrdS0ycmowQdIB0gFBVV95cUxOdUF5eWEwNW5QZDZvTUlRQnNTQk56WVk5Mzh2N2h2OF82OXpUTDBjYnBuUUxCSWZWVkZuSU1BU2JjSXU5cEJpaG9QTURSSUd6cUR6bDFRcjVITlRNQ2U1dGF1RGlQbXB4TmxNOFY5Q1Q3Y25LclpUWEJTN3FYLVhNc3BZRG5xMjZxYWVhVVh6b0FKQi1WRUpRTzYydzg3bTdIUW1BNzg5TjkzMlRQWG5JR1BBRzRYUjFRMTRnVVBVY0VYM1A0TEhSS2Z0c3g2Rzd1SkE?oc=5",
    "source": "Indian Express Explained",
-   "date": "21 Oct"
+   "date": "22 Oct"
   }
  ],
  "courses": {
   "FIN": [
    {
-    "title": "Small-cap funds see better score on liquidity stress-test. What does it mean?",
-    "url": "https://www.livemint.com/money/personal-finance/small-cap-mutual-funds-stress-test-liquidity-risk-11792641267715.html",
+    "title": "Retired at 58? EPFO details how long your EPF account earns interest and when to withdraw your money | Explained",
+    "url": "https://www.livemint.com/money/personal-finance/retired-at-58-epfo-details-how-long-your-epf-account-earns-interest-and-when-to-withdraw-your-money-explained-11792731179756.html",
     "source": "Mint Money",
-    "date": "22 Oct"
+    "date": ""
    },
    {
-    "title": "Dearness allowance delay July 2026: Government employees await DA hike and arrears update — what to watch next",
-    "url": "https://www.livemint.com/money/personal-finance/dearness-allowance-delay-july-2026-government-employees-await-da-hike-and-arrears-update-what-to-watch-next-11792645079788.html",
+    "title": "SGB 2018-19 Series II final redemption today: Investors to pocket 366% gains; check the RBI fixed price, interest rate",
+    "url": "https://www.livemint.com/money/personal-finance/sgb-2018-19-series-ii-final-redemption-today-investors-to-pocket-366-gains-check-the-rbi-fixed-price-interest-rate-11792726140993.html",
     "source": "Mint Money",
-    "date": "22 Oct"
+    "date": ""
    }
   ],
   "PRD": [
@@ -188,18 +189,6 @@
     "url": "https://www.oneusefulthing.org/p/the-dot-and-the-swarm",
     "source": "One Useful Thing",
     "date": "1 Oct"
-   },
-   {
-    "title": "Parity of permutations, impossible puzzles and the magical determinant",
-    "url": "https://www.youtube.com/watch?v=rUiulWItECQ",
-    "source": "3Blue1Brown",
-    "date": "11 Apr"
-   },
-   {
-    "title": "I Built an Original One-Glance Proof from Dice",
-    "url": "https://www.youtube.com/watch?v=8q95eiq-y-Q",
-    "source": "3Blue1Brown",
-    "date": "11 Oct"
    }
   ],
   "FINAL": [
@@ -218,11 +207,11 @@
   ]
  },
  "audit": {
-  "wiki_items": 22,
-  "matched": 1,
+  "wiki_items": 25,
+  "matched": 2,
   "total": 9,
   "by_section": {
-   "india": "0/3",
+   "india": "1/3",
    "world": "1/3",
    "business": "0/3"
   },
@@ -262,14 +251,14 @@
    "Indian Express Explained (via gnews):2",
    "Mint Money:2",
    "Lenny's Newsletter:2",
-   "Exponent:0",
    "One Useful Thing:2",
-   "3Blue1Brown:2",
-   "Andrej Karpathy:2",
    "One Useful Thing:2"
   ],
   "feeds_failed": [
    "CA Rachana Ranade: HTTPError",
+   "Exponent: HTTPError",
+   "3Blue1Brown: HTTPError",
+   "Andrej Karpathy: HTTPError",
    "Vinh Giang: HTTPError"
   ],
   "notes": []
