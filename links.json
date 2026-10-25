@@ -1,179 +1,181 @@
 {
- "updated": "2026-10-24T06:10+00:00",
+ "updated": "2026-10-25T06:30+00:00",
  "method": "spectrum-v2",
  "news": {
   "india": [
    {
-    "title": "Why Elon Musk is taking on India's richest man over Starlink",
-    "url": "https://www.bbc.co.uk/news/articles/cvglw9ryjrylo?at_medium=RSS&at_campaign=rss",
-    "source": "BBC India",
-    "date": "9 Oct",
-    "outlets": 3,
-    "also": [
-     "NDTV",
-     "WSJ"
-    ],
-    "lean": "LCR",
-    "sites": 40,
-    "wiki": false
-   },
-   {
-    "title": "Five killed in accidental blast during road construction work in Andhra Pradesh",
-    "url": "https://www.hindustantimes.com/india-news/andhra-pradesh-blast-accident-explosive-material-road-construction-work-alluri-sitaramaraju-district-deaths-injuries-101792817888094.html",
-    "source": "Hindustan Times",
+    "title": "Air Marshal Dixit inherits an Air Force in demand, yet short of allies",
+    "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOVlp0UUJFbTBPRnotbmtMRkF2OGd5SV9OcWdMWVNoZlYyVEtyaElEN2M3VGVKWUZiYmw1N0taUUktMnMzdlpHV3luNnBJZnM5MTlfYXpTOGlCSVN5bWJtbmhIa29KZWo5NUluWUROMmkxa0Mxck1PZ2JiRFU3dTJxd2puT21faFlfMTZpcTdpRDV6U1NVRzNYbXU4NNIBoAFBVV95cUxQdjlOSk9OaWFPWkZ0U0tuMzJvMk5ZZzYtOTE1N1hTLWJHWlA3VDl2NTNDMUhEa0xLTUc4WXBQTzJvUHhJVnF6ZHNsT2VOZmZWRFdNRXBFb2ZzSEE3RDNuVUtTdV92V2R6VFRlWVhkOUUwOVM3M1VZZWRrV3JEMUg3blhNUlBPb1FoNUlnbjFyX0VXS2drb25OZ0ZEa2tubGQz?oc=5",
+    "source": "ThePrint",
     "date": "24 Oct",
-    "outlets": 3,
+    "outlets": 4,
     "also": [
-     "India Today",
+     "Hindustan Times",
+     "Reuters",
      "The Hindu"
     ],
-    "lean": "LR",
-    "sites": 20,
+    "lean": "LCR",
+    "sites": 1,
     "wiki": false
    },
    {
-    "title": "\"People Like Abhijeet Dipke...\": Piyush Goyal's Jab During Berlin Event",
-    "url": "https://www.ndtv.com/world-news/piyush-goyal-jabs-cjps-abhijeet-dipke-while-speaking-to-indian-students-in-berlin-12228572#publisher=newsstand",
+    "title": "12, Including 6 Children, Injured In Shooting Near Florida University",
+    "url": "https://www.ndtv.com/world-news/shooting-near-florida-a-m-university-tallahassee-12-including-6-children-injured-us-12232354#publisher=newsstand",
     "source": "NDTV",
-    "date": "24 Oct",
-    "outlets": 3,
+    "date": "25 Oct",
+    "outlets": 4,
     "also": [
-     "DW",
-     "The Guardian"
+     "Economic Times",
+     "Reuters",
+     "The Hindu"
     ],
     "lean": "LC",
-    "sites": 3,
+    "sites": 25,
     "wiki": false
+   },
+   {
+    "title": "‘India stands with people of Jordan’: MEA on church attack that killed 7",
+    "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQNXVmY1R1aTh6eF92eTJpdkFzZXNZTFlVYk1uUzNTMFBYZFpDOXpqczYxOXhUMEc4VXdYRnc1WmV3YnNzRTdVV2U5alNFdWJxSlc4eXQzbnByYTI3VWJ2XzhFQm1yWlh6WE44M2lDZTlEd2xKZGx6YkdObEpYeGJNcGkwT21LTXVhS0k1M3FQSmVyQ2dwQTNJSXV2OE8zQVBtQ1A1dHExZzltNTZsVTdFOXRvRE04ODdxQUtz0gHCAUFVX3lxTE9wNXB1X2JlVkMyUjZsb1RJa3pKUGZsalhVLXl1NkIxQVFMelZBX0syM2dDaGpWN3pxNjlNTThqZlFIQTY4Y3JFbERscDd2a1pOU1owOGZWNVRjZmtGU29zQV9GNzh3eU5FeVpkYjZ3Q2p4aGZSVEhUZ3lUZHNtbWxkRkppdXpjcl9XM3FnRzlZRWptWW8zTmQ1bFl1dVdkQmczVkpCLXRQaHpTWElpYkxYZnRyRzlfU3dITTVjemtlSFB3?oc=5",
+    "source": "Indian Express",
+    "date": "25 Oct",
+    "outlets": 3,
+    "also": [
+     "BBC",
+     "ThePrint"
+    ],
+    "lean": "LCR",
+    "sites": 31,
+    "wiki": true
    }
   ],
   "world": [
    {
-    "title": "France prepares for day of protest a week after nationwide riots",
-    "url": "https://www.bbc.co.uk/news/articles/cj62yv5k0w4yo?at_medium=RSS&at_campaign=rss",
+    "title": "Almost 1,000 arrested as clashes follow another day of mass protests across France",
+    "url": "https://www.bbc.co.uk/news/articles/c95ynd587ynzo?at_medium=RSS&at_campaign=rss",
     "source": "BBC World",
-    "date": "24 Oct",
-    "outlets": 4,
-    "also": [
-     "Reuters",
-     "Times of India",
-     "WSJ"
-    ],
-    "lean": "CR",
-    "sites": 19,
-    "wiki": false
-   },
-   {
-    "title": "Trump says U.S. will 'take care of Cuba' on its way back from Iran",
-    "url": "https://www.thehindu.com/news/international/trump-says-us-will-take-care-of-cuba-on-its-way-back-from-iran/article71618927.ece",
-    "source": "The Hindu World",
-    "date": "24 Oct",
-    "outlets": 4,
+    "date": "25 Oct",
+    "outlets": 6,
     "also": [
      "AP",
-     "Economic Times",
+     "Al Jazeera",
      "NDTV"
     ],
-    "lean": "LC",
-    "sites": 24,
+    "lean": "LCR",
+    "sites": 8,
+    "wiki": true
+   },
+   {
+    "title": "Musk accuses Ukraine of violating Starlink's terms of service",
+    "url": "https://www.thehindu.com/news/international/musk-accuses-ukraine-of-violating-starlink-terms-by-using-it-for-offensive-drone-strikes/article71622539.ece",
+    "source": "The Hindu World",
+    "date": "25 Oct",
+    "outlets": 9,
+    "also": [
+     "AP",
+     "BBC",
+     "NDTV"
+    ],
+    "lean": "LCR",
+    "sites": 7,
     "wiki": false
    },
    {
-    "title": "Retired general discusses the U.S. and Israeli plan for possible attack on Iran",
-    "url": "https://www.npr.org/2026/10/23/nx-s1-6012303/retired-general-discusses-the-u-s-and-israeli-plan-for-possible-attack-on-iran",
-    "source": "NPR",
-    "date": "23 Oct",
+    "title": "Obama attacks Trump as he campaigns for Democrats ahead of midterm elections",
+    "url": "https://www.bbc.co.uk/news/articles/cmj6jwe1j1gjo?at_medium=RSS&at_campaign=rss",
+    "source": "BBC World",
+    "date": "25 Oct",
     "outlets": 4,
     "also": [
-     "DW",
+     "Al Jazeera",
      "Reuters",
      "The Hindu"
     ],
     "lean": "LC",
-    "sites": 8,
+    "sites": 79,
     "wiki": false
    }
   ],
   "business": [
    {
-    "title": "SLB Revenue Rises as Data-Center Demand Grows, Middle East Business Recovers",
-    "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOaHNvcElwSXZfWnhwS214b1kzVEdRRlF6THNld0V2MjZRckQyTG9BMVM5azBwbFRtcFNVMjNjQUdidTc1VHU4dVhoZFRkSGt1Z2txaFBOQzhHNnlXS01rdEZSQUNBRmdpcU5PUlkyUjB3ZnNyd0JuMGpwZHVQLTRrYm1aT3RrdmFYb2VfQy1HRkNfd1ZSd1NfeWVSdzREOFhuaFUxSDdaWndPLWV6SDRB?oc=5",
-    "source": "WSJ Business",
-    "date": "23 Oct",
-    "outlets": 3,
-    "also": [
-     "Reuters",
-     "The Guardian"
-    ],
-    "lean": "LCR",
-    "sites": 10,
-    "wiki": false
-   },
-   {
-    "title": "Trump drops some Canada tariffs in bid to boost embattled Susan Collins in Maine",
-    "url": "https://www.theguardian.com/us-news/2026/oct/23/susan-collins-maine-trump-tariffs-canada",
-    "source": "The Guardian Business",
-    "date": "23 Oct",
-    "outlets": 4,
-    "also": [
-     "BBC",
-     "Reuters",
-     "The Hindu"
-    ],
-    "lean": "LC",
-    "sites": 8,
-    "wiki": false
-   },
-   {
-    "title": "Akasa Air extends Saudi flight suspension",
-    "url": "https://economictimes.indiatimes.com/industry/transportation/airlines-/-aviation/akasa-air-extends-suspension-of-flights-to-jeddah-riyadh-amid-evolving-security-situation-in-saudi-arabia/articleshow/135160280.cms",
-    "source": "Economic Times",
+    "title": "India's Kotak Bank Q2 profit rises 29%, beats estimates",
+    "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQX0plbzI1SGJsanpnTUpVU2lBUHBLczJtTXFFQnI4aGhVR3Z0aXhReXlpWGtIWFBMV3BSWUpkOW9FWGltNXBOdVA2Mi1CUHdNLVNheTJDdXMta2p4WWY2bXo5clRja2JwSjQ0cndEOFhEem5Fb3NUVjE5emVkRHZ6QTdxNDVabWhmTlhpZjdpSENVS3RqNW8zeGVRUE9LUFZsUWc?oc=5",
+    "source": "Reuters India Business",
     "date": "24 Oct",
     "outlets": 3,
     "also": [
-     "Al Jazeera",
-     "Business Standard"
+     "Business Standard",
+     "The Hindu"
+    ],
+    "lean": "LCR",
+    "sites": 5,
+    "wiki": false
+   },
+   {
+    "title": "Earthquake of magnitude 6.16 strikes Vanuatu islands, GFZ says",
+    "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxOSmFjNlIzWmpXOUo3WWp5enVJbThmQmhPRWlEaDJ2UVZaV0ZmYm5EUVRqeXpzSFpydWZPOFlObEh2MWk2aTJaMXBqN202dThhWms5NF9Jb3hOSjR3V19MczZUOThKTU9kM0FBOVd4Q3kzMTlkaDJfa3N0MmdoNW1uSmVwbUlrbFJ3bWRwc0UwVkdVTjNmVXdoWHVzS25CLUYydGNBOVNPMmt4UEl4anM4YUowS0s?oc=5",
+    "source": "Reuters Business",
+    "date": "25 Oct",
+    "outlets": 3,
+    "also": [
+     "Business Standard",
+     "The Guardian"
+    ],
+    "lean": "LCR",
+    "sites": 16,
+    "wiki": false
+   },
+   {
+    "title": "Too little, too late: Trump takes on gas prices as fuel costs hamper his midterm hopes",
+    "url": "https://www.theguardian.com/us-news/2026/oct/22/trump-high-gas-prices-midterms-cycle",
+    "source": "The Guardian Business",
+    "date": "22 Oct",
+    "outlets": 4,
+    "also": [
+     "Business Standard",
+     "The Hindu",
+     "WSJ"
     ],
     "lean": "LR",
-    "sites": 8,
+    "sites": 0,
     "wiki": false
    }
   ]
  },
  "explainer": [
   {
-   "title": "MLC elections today: Why not all Indian states have Legislative Councils, and what they do",
-   "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNdlhrajJIWHhPY3BndTNhY3V1UGVKcDQxbnFXb1dORTdJQTNkMkpRTjdLQzRqZm52dlJtaEwwMUpwSGM0UFBHdVF1Q2NYcXJxLXlJLXNhNm1NQUdkYVZlUU5pcnlJMnB0MVlLMVhsNVJOY2pKSXRjdXV4b193ZW16aE51T01FdGZ0NHprUUNIT2pleEdXeWNjTkxZdWh5Q0gxTW96d2hjckc4bXZ3aUlkVlBZbEZFYlRVV3NOZUNNMWRKd9IByAFBVV95cUxNSVdCSkZBYjJWck1DM3VUcnFoREp0a3FkTkpDYVBWSHF2TFhlaFFXZ3QxVFFFeW9ieWtMN1JwRTREZzZobWNCMU5pYmFTNWRGYW0xcGRGQ2lJS2F1SlhMcU5tR0lmaXhmdDVabmlheUMxU3RCUzBmU0JrNk53YnpaM2hLdWI3UUtrbEJaanNETTFNaU02QTZjX3hncmxIel9XakljRWE1S1o5ZFNLVXFoRUZndVdLeE1GMV9adE1kQnNocnRaLXpTLQ?oc=5",
+   "title": "‘Godzilla’ El Nino: How extreme warming could hit India and the world",
+   "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxNZmd1OGFJQnJXdjR1X283WV9PNWtDcmRvMUxEaW5hNjRweGVoU3BWQ0FQbjgzV3RqN0xJM3VyN3h6Ujg1REpqWjJPc2p0TmhMY3owVERCTHR3a1R6QlRFTldJLUptR0k3VmZ2cm9NMnl0RlVpNW1IMjJjRXJYYzlxMFIxVUgtWlg4VGNvbFQ1UEUzOGdxU2ZJblF2U29yODFONUUzVEYxeDdTSWtMUndPRERMRTkxelBFaGlRYmxjXzYxT20wSnpwTmdTcmM1cEtsLTZUTGpB0gHcAUFVX3lxTE5wdFRpWVhaWl9lT1YyaGF4bzFOTWcyVmpFVktrTW53MFp0Qy1iemRMYXIwUDJzT0l1R2JfTXpPcXJidU10MmJKZG5VeG9CaGNTcllSZ2ZvbGdGM1NqNTNVdFc5clBiTXBuN1l4NHRYV2VHYXZNZ2tPbkdqYzlOQkxSUkxEUks3YTlyOVNjR2pIM2RqVXlKcWRNVFBLWVRtMFNGWjhBamFaYkpabjdxNWhzTGg2VjRScDQ2dk5rQ3JVOERHRFd3TER4b244VjVNZEd1RE1TSDdRTnhlYVY?oc=5",
    "source": "Indian Express Explained",
-   "date": "23 Oct"
+   "date": "24 Oct"
   }
  ],
  "courses": {
   "FIN": [
    {
-    "title": "ICICI Bank, Indian Bank hike FD rates: Check latest rates for senior citizens and general depositors",
-    "url": "https://www.livemint.com/money/personal-finance/icici-bank-indian-bank-hike-fd-rates-check-latest-rates-for-senior-citizens-and-general-depositors-11792817920474.html",
+    "title": "July 2026 DA Hike: Will the centre announce the revised allowance before Diwali in November?",
+    "url": "https://www.livemint.com/money/personal-finance/july-2026-da-hike-will-the-centre-announce-the-revised-allowance-before-diwali-in-november-11792851675306.html",
     "source": "Mint Money",
-    "date": "24 Oct"
+    "date": "25 Oct"
    },
    {
-    "title": "8th pay commission: Here's what ToR says on dearness allowance and govt's response to DA merger demands",
-    "url": "https://www.livemint.com/money/8th-pay-commission-cpc-terms-of-reference-what-tor-says-dearness-allowance-hike-govt-response-employee-da-merger-demands-11792812995010.html",
+    "title": "Aadhaar linked to your bank, demat account and SIM? Here's what UIDAI knows about you | Key facts about data security",
+    "url": "https://www.livemint.com/money/personal-finance/aadhaar-linked-to-your-bank-demat-account-and-sim-heres-what-uidai-knows-about-you-key-facts-about-data-security-11792899212502.html",
     "source": "Mint Money",
-    "date": "24 Oct"
+    "date": "25 Oct"
    }
   ],
   "PRD": [
+   {
+    "title": "🧠 Community Wisdom: Negotiating a lowball offer, designers earning a seat in product decisions, resources for building an MCP server, and more",
+    "url": "https://www.lennysnewsletter.com/p/community-wisdom-negotiating-a-lowball",
+    "source": "Lenny's Newsletter",
+    "date": "24 Oct"
+   },
    {
     "title": "Claude Duet is beautiful. I still forgot to use it",
     "url": "https://www.lennysnewsletter.com/p/claude-duet-is-beautiful-i-still",
     "source": "Lenny's Newsletter",
     "date": "21 Oct"
-   },
-   {
-    "title": "🎙️ How I AI: Meta Muse Wonder + How Brooke Lacey is scaling video with AI",
-    "url": "https://www.lennysnewsletter.com/p/how-i-ai-meta-muse-wonder-how-brooke",
-    "source": "Lenny's Newsletter",
-    "date": "19 Oct"
    }
   ],
   "AI": [
@@ -206,12 +208,12 @@
   ]
  },
  "audit": {
-  "wiki_items": 13,
-  "matched": 0,
+  "wiki_items": 19,
+  "matched": 2,
   "total": 9,
   "by_section": {
-   "india": "0/3",
-   "world": "0/3",
+   "india": "1/3",
+   "world": "1/3",
    "business": "0/3"
   },
   "note": "",
@@ -228,12 +230,13 @@
    "Reuters India:15",
    "Mint Politics:15",
    "BBC World:15",
-   "DW:12",
+   "DW:11",
    "Reuters World:15",
    "AP:15",
    "Al Jazeera:15",
    "The Guardian:15",
    "NPR:10",
+   "The Telegraph (via gnews):15",
    "WSJ:15",
    "The Hindu World:15",
    "Mint:15",
@@ -249,13 +252,12 @@
    "Indian Express Explained (via gnews):2",
    "Mint Money:2",
    "Lenny's Newsletter:2",
-   "Exponent:0",
    "One Useful Thing:2",
    "One Useful Thing:2"
   ],
   "feeds_failed": [
-   "The Telegraph: HTTPError",
    "CA Rachana Ranade: HTTPError",
+   "Exponent: HTTPError",
    "3Blue1Brown: HTTPError",
    "Andrej Karpathy: HTTPError",
    "Vinh Giang: HTTPError"
