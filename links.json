@@ -1,166 +1,179 @@
 {
- "updated": "2026-10-27T06:34+00:00",
+ "updated": "2026-10-28T07:05+00:00",
  "method": "spectrum-v2",
  "news": {
   "india": [
    {
-    "title": "Saudi Coalition Destroys 3 Houthi Missiles, 4 Drones Fired Towards Kingdom",
-    "url": "https://www.ndtv.com/world-news/saudi-coalition-destroys-3-houthi-missiles-4-drones-fired-towards-kingdom-12240712#publisher=newsstand",
-    "source": "NDTV",
+    "title": "India evacuates over 180,000 as Cyclone Arnab hits coast",
+    "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxOZlJDOVctdlFxT0xCaFRzd1dPMWJORzREWDItVWtGcHZyVGREWlRBeEd3VFV2Q1VzUjFSdkxqazFwekIxU181ZDdwVXBDTV9jU3Q2a0FHa0hVblVaSFpoaVhNMTdlYThKMUNHNnl5M3J2ZFp3MGlpRENFaklRTjJrajRiLWVoOXEwMUY4NFY2QTBFc2hTNW51QjJHSVNXbVNnTlJIbU9WOXNRZ1lOMDhJRWR6RzdiQjN5bU8wZFpn?oc=5",
+    "source": "Reuters India",
     "date": "27 Oct",
     "outlets": 5,
     "also": [
-     "Al Jazeera",
-     "DW",
-     "Times of India"
+     "AP",
+     "Hindustan Times",
+     "NDTV"
     ],
-    "lean": "LCR",
+    "lean": "LC",
+    "sites": 9,
+    "wiki": true
+   },
+   {
+    "title": "Iran’s Khamenei Reiterates Conditions for Ending War With US",
+    "url": "https://www.livemint.com/politics/irans-khamenei-reiterates-conditions-for-ending-war-with-us-11793142614834.html",
+    "source": "Mint Politics",
+    "date": "28 Oct",
+    "outlets": 4,
+    "also": [
+     "Economic Times",
+     "NDTV",
+     "WSJ"
+    ],
+    "lean": "LR",
     "sites": 6,
     "wiki": false
    },
    {
-    "title": "US judge rejects Novo Nordisk bid to halt Eli Lilly's weight-loss drug ads",
-    "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxORnpVbzFHTlVWSmI0dGVzMm5Rd0R2YkpwNUJKcWM3dTJuRGNPLWk3Q29mSWxSZjM3ampoZlhmR18tUWxDVndhSG9FRVpPQVNRaklTOGpxVnVsTUp5RzhxMXVtUVUyS1BOOFpmZXBRTWN2bDAyUVU1dTFxbFR1LTFoOFU4R1dRZlZxaFJ5RlUxR0xxYnEyMHlHR2NRcU5TMUJTVzlxZjEzaVotRnJ2RS1rb3d6OTlEZ0FxYk5wY2UxZ293QUh3QWsxd1FHcXdmNTFHR2RKMzJ30gHbAUFVX3lxTE9IOG9DWTE4WlNTMEtLdU5SSi1aNm0tRnJzYktKNjZKbnVvdzZQaU8yYS0waGFGMVcydndxbDZlSVk1Tkk5NmY1bFBQZ1VzNkRGd0xzNW5WbTg3SGFxYWNVQlpuaWtFMkFYR28tVDRNSEExSk11S0ZPQl9sWkZLc0N2bVozU2U0MjBaWVZjU1hmQ2RKWVAzaHBuX1dqTE1oMjNCZ2IyYm9fbmNKUDlWYktheGlKWjQzLTJVbzBQdzBldDJKVGpiS1o3LUEtQnJTYnROTFRKNE5fSFU5TQ?oc=5",
-    "source": "Business Standard",
-    "date": "27 Oct",
-    "outlets": 2,
-    "also": [
-     "NPR"
-    ],
-    "lean": "LR",
-    "sites": 19,
-    "wiki": false
-   },
-   {
-    "title": "SRM presents The Hindu Semiconductor Summit 2026 | Watch LIVE",
-    "url": "https://www.thehindu.com/news/cities/chennai/srm-presents-the-hindu-semiconductor-summit-2026/article71629957.ece",
+    "title": "Polling underway for phase 2 of Rajasthan Panchayat polls, faulty EVMs delay start at few booths",
+    "url": "https://www.thehindu.com/news/national/rajasthan/rajasthan-panchayat-polls-phase-2-polling-on-october-28-2026/article71634507.ece",
     "source": "The Hindu",
-    "date": "27 Oct",
-    "outlets": 2,
+    "date": "28 Oct",
+    "outlets": 3,
     "also": [
-     "Business Standard"
+     "Hindustan Times",
+     "Reuters"
     ],
-    "lean": "LR",
-    "sites": 2,
+    "lean": "LC",
+    "sites": 12,
     "wiki": false
    }
   ],
   "world": [
    {
-    "title": "Lula wins fourth term in dramatic Brazil election comeback",
-    "url": "https://www.bbc.co.uk/news/articles/ckm23y3mg1yyo?at_medium=RSS&at_campaign=rss",
-    "source": "BBC World",
-    "date": "26 Oct",
+    "title": "Trump would approve Flavio Bolsonaro coming to U.S.; says Brazil election was ‘very strange’",
+    "url": "https://www.thehindu.com/news/international/flavio-bolsonaro-us-trump-brazil-elections/article71634540.ece",
+    "source": "The Hindu World",
+    "date": "28 Oct",
     "outlets": 7,
     "also": [
-     "AP",
-     "NPR",
-     "Reuters"
+     "Al Jazeera",
+     "NDTV",
+     "NPR"
     ],
     "lean": "LCR",
-    "sites": 19,
+    "sites": 5,
     "wiki": true
    },
    {
-    "title": "A quick guide to Israel's high-stakes elections",
-    "url": "https://www.npr.org/2026/10/27/g-s1-149944/israel-election-guide",
-    "source": "NPR",
+    "title": "Norway and Finland leaders hold rare call with Putin",
+    "url": "https://www.bbc.co.uk/news/articles/c6vgj813mlelo?at_medium=RSS&at_campaign=rss",
+    "source": "BBC World",
     "date": "27 Oct",
-    "outlets": 6,
-    "also": [
-     "Al Jazeera",
-     "Economic Times",
-     "Reuters"
-    ],
-    "lean": "LCR",
-    "sites": 8,
-    "wiki": false
-   },
-   {
-    "title": "Israel holds polls amid uncertainty over Netanyahu’s future, coalition numbers",
-    "url": "https://www.thehindu.com/news/international/israel-holds-polls-amid-uncertainty-over-netanyahus-future-coalition-numbers/article71629859.ece",
-    "source": "The Hindu World",
-    "date": "27 Oct",
-    "outlets": 5,
+    "outlets": 4,
     "also": [
      "AP",
      "NPR",
      "The Telegraph"
     ],
     "lean": "LCR",
-    "sites": 7,
+    "sites": 22,
     "wiki": false
+   },
+   {
+    "title": "First Israeli election exit polls show narrow edge for Opposition",
+    "url": "https://www.thehindu.com/news/international/israeli-exit-polls-indicate-deadlock-in-election/article71633257.ece",
+    "source": "The Hindu World",
+    "date": "28 Oct",
+    "outlets": 4,
+    "also": [
+     "NPR",
+     "Reuters",
+     "WSJ"
+    ],
+    "lean": "LCR",
+    "sites": 1,
+    "wiki": true
    }
   ],
   "business": [
    {
-    "title": "Anthropic warns of 'catastrophic risk' to humankind ahead of blockbuster share listing",
-    "url": "https://www.bbc.co.uk/news/articles/cq398p1wd1evo?at_medium=RSS&at_campaign=rss",
-    "source": "BBC Business",
-    "date": "26 Oct",
-    "outlets": 8,
-    "also": [
-     "AP",
-     "Business Standard",
-     "Economic Times"
-    ],
-    "lean": "LCR",
-    "sites": 4,
-    "wiki": false
-   },
-   {
-    "title": "Microsoft offers voluntary exit packages to 60,000 staff, with some Indian teams eligible",
-    "url": "https://www.thehindu.com/sci-tech/technology/microsoft-offers-voluntary-exit-packages-to-60000-staff/article71629641.ece",
-    "source": "The Hindu Business",
-    "date": "27 Oct",
-    "outlets": 6,
-    "also": [
-     "AP",
-     "Economic Times",
-     "Indian Express"
-    ],
-    "lean": "LC",
-    "sites": 18,
-    "wiki": false
-   },
-   {
-    "title": "Ather Energy posts first quarterly profit, shares rise 10%",
-    "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOVnhEVHdQMmhvSjlHM0h6dzZuNWJnQi14MW1wa1Q3T1dTekdSaVpxRjVUMGhTWTBHVjF0amdGMkd2ZVNGUDFtTFhXUG54aS0xWU5VYW9nQVZMS05EV2ZQN3RaWjNwYmw4Snh1YTFJckZ2NTd0ZzE4RF9LYmhlQVBUX2xBSl91WlJCY0x0TXQ5Y090YjRKQ19BQWJ1WWYxU1A4bU5OX284WG5MUUF2YTdV?oc=5",
-    "source": "Reuters India Business",
-    "date": "26 Oct",
+    "title": "Q2 Results Today Live: HUL, CarTrade, KPR Mill Q2 profit rise, Info Edge (Naukri) profit tumbles, Adani Enterprises, Adani Ports, TVS Motor, Hyundai, Pidilite, Cholamandalam, Hero MotoCorp, Meesho, United Spirits, Vedanta, JSW Energy share to announce Q2 results",
+    "url": "https://www.thehindubusinessline.com/markets/q2-results-today-live-updates-adani-enterprises-adani-ports-tvs-motor-hyundai-pidilite-cholamandalam-hero-motocorp-meesho-united-spirits-vedanta-jsw-energy-results-28-october-2026/article71630853.ece",
+    "source": "Hindu BusinessLine",
+    "date": "28 Oct",
     "outlets": 4,
     "also": [
-     "Business Standard",
-     "Mint",
-     "The Hindu"
+     "Economic Times",
+     "Reuters",
+     "WSJ"
     ],
     "lean": "LCR",
-    "sites": 17,
+    "sites": 0,
+    "wiki": false
+   },
+   {
+    "title": "Watch: Mukesh Ambani gets emotional at Jio listing",
+    "url": "https://economictimes.indiatimes.com/news/india/jio-listing-mukesh-ambani-gets-emotional-as-isha-recalls-how-he-worked-on-reliances-first-ipo-at-age-20-watch-video/articleshow/135252607.cms",
+    "source": "Economic Times",
+    "date": "28 Oct",
+    "outlets": 3,
+    "also": [
+     "The Hindu",
+     "Times of India"
+    ],
+    "lean": "LC",
+    "sites": 6,
+    "wiki": false
+   },
+   {
+    "title": "Luxury cruise passengers stranded in Cambodia due to soaring fuel costs",
+    "url": "https://www.bbc.co.uk/news/articles/cwj342k62exyo?at_medium=RSS&at_campaign=rss",
+    "source": "BBC Business",
+    "date": "28 Oct",
+    "outlets": 3,
+    "also": [
+     "NDTV",
+     "The Guardian"
+    ],
+    "lean": "LC",
+    "sites": 14,
     "wiki": false
    }
   ]
  },
  "explainer": [
   {
-   "title": "Explained: Why the Supreme Court may be hearing too many Special Leave Petitions",
-   "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQanh1N09Ma1VUTkY5SEZQMGtKWG9pNG5CMkotN0RmSzg2WnBVMmplUUd0a0JwaGhOVnY4b2tqZnlPZkFmQjQ3dERkdTJfbjl5aUEybVJ2clF1MWx6bVFnVXJZV3dUb2lON3MyMVN1ZXFqeUlCM0hQc3pnN1lmV001RzdJSF9WdlQ0UTctdnJNUEtIaGJKNFU1VG1qSGhHcHJidnFrTjF3TFnSAa8BQVVfeXFMUEFPODJlUXJCS0pYMnhpWnRNLXFSNWVWdGVPaWoxbGc2dENXUkxwbmt5b042Z1hsb1E1eE02X2d6RkRIM2FxSTFITzFuSWdsY1U5dWx4VFllZ3VRX1Azdm9lUUUyNFBsWUl4UGo2czRGTjRRbnpibXRqU2E1dEhsVzVKYmx2cmJGZ3NoRmV3VEtnTmdmNFBDMlM1Z2RnUnl2cWtmeUswQzFidlcya1NGZw?oc=5",
+   "title": "How El Niño fuelled Cyclone Arnab’s rapid intensification",
+   "url": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxQSnEtaXp2bF9VSE1rSGplbU9OQmhFa09YVGhuV0p0cHgzQW9RNVBzWXgwb0VZNERxWGJFNU5RV3F3UU9NazRjT0xlQllUZUd2dnBzN3REb1pLZnVGM2Q2SGJWSV91LTdzR1ZuWjFQblctQVJaUGZLbGxYc0pja3pMcklfT2pUZGFhQ1hNRFU3MWcxSFVBODRwbjBwajc2ZlR1UGlDNERxQlR3b2tsNHlFV1E5X1hCRUJ0VEpaa2w0ZXRLbmg5M2NnaTVzZDNiQnBOa2s5QmFZR01KWl9vd3E2Rk01YV9JRHZXVXfSAfABQVVfeXFMTjBnQjdxS2dqczI5X2VpTElNRE5LSzlmWkg0RTZzLUxTT3MwVk84Tm5aTl9SUmpqQWx5RE5wS0M1RjdNbUk2VjFQRzZIa3hwb0t2T0hzZ19wd2xhQl94ZFRUZC00cGh3TW11bXRiTjlnVlZGNUFjQV9vYTFLNFptVUt2aHpoakswRE1TWkphX0xub0d5OFlEekdvY29FTkVZajJDVDdPTkZCSmRXZ3pUYWF0dTlKcUEtU3FDU1QyazlJTnQycXBkdG9XVFNVMFNvZjNEVkJqcUxiajVzWklGUzI1dHlFN2h3RDJQb0EyZWZM?oc=5",
    "source": "Indian Express Explained",
-   "date": "26 Oct"
+   "date": "28 Oct"
   }
  ],
  "courses": {
   "FIN": [
    {
-    "title": "LTCG tax on equities: Govt may restructure rates in coming weeks; how much could investors save at 10%, 5% or 2%?",
-    "url": "https://www.livemint.com/money/personal-finance/ltcg-tax-govt-may-restructure-rates-soon-how-much-could-investors-save-at-10-5-or-2-11793073136641.html",
-    "source": "Mint Money",
+    "title": "Why Lenskart rose 70% when the market fell? (Hindi) | CA Rachana Ranade",
+    "url": "https://www.youtube.com/watch?v=JROmixRrqxA",
+    "source": "CA Rachana Ranade",
     "date": "27 Oct"
    },
    {
-    "title": "8th Pay Commission: Speculation over fitment factors of 1.83, 2, 2.57, 3.83 and 4—We calculate salary increase for each",
-    "url": "https://www.livemint.com/money/8th-pay-commission-speculation-over-fitment-factors-of-1-83-2-2-57-3-83-and-4-we-calculate-salary-increase-for-each-11793071982009.html",
+    "title": "Power Sector Is Booming, So Why Are REC & PFC Stocks Falling?(Hindi) | CA Rachana Ranade",
+    "url": "https://www.youtube.com/watch?v=46250cIRRsM",
+    "source": "CA Rachana Ranade",
+    "date": "23 Oct"
+   },
+   {
+    "title": "Flexi-cap vs multi-cap mutual fund returns race 2026: Which category leads across 1, 3 and 5 years? Check top schemes",
+    "url": "https://www.livemint.com/money/personal-finance/flexicap-vs-multi-cap-mutual-fund-returns-race-2026-which-category-leads-across-1-3-and-5-years-check-top-schemes-11793163327530.html",
     "source": "Mint Money",
-    "date": "27 Oct"
+    "date": "28 Oct"
+   },
+   {
+    "title": "Paying extra to buy EV over petrol car? OpEx advantage may shock you; check break-even point, ROI, cash-flow benefits",
+    "url": "https://www.livemint.com/money/paying-extra-to-buy-ev-over-petrol-car-opex-advantage-may-shock-you-check-break-even-point-roi-cash-flow-benefits-11793168672695.html",
+    "source": "Mint Money",
+    "date": "28 Oct"
    }
   ],
   "PRD": [
@@ -191,16 +204,16 @@
     "date": "1 Oct"
    },
    {
-    "title": "Sphere Intersection Puzzle Corrected",
-    "url": "https://www.youtube.com/shorts/V_uq3v6xK-4",
-    "source": "Andrej Karpathy",
-    "date": "25 Oct"
+    "title": "Parity of permutations, impossible puzzles and the magical determinant",
+    "url": "https://www.youtube.com/watch?v=rUiulWItECQ",
+    "source": "3Blue1Brown",
+    "date": "11 Apr"
    },
    {
-    "title": "There's never been a better time to go into math",
-    "url": "https://www.youtube.com/watch?v=LKrwhjOI8Nc",
-    "source": "Andrej Karpathy",
-    "date": "16 Oct"
+    "title": "I Built an Original One-Glance Proof from Dice",
+    "url": "https://www.youtube.com/watch?v=8q95eiq-y-Q",
+    "source": "3Blue1Brown",
+    "date": "11 Oct"
    }
   ],
   "FINAL": [
@@ -219,12 +232,12 @@
   ]
  },
  "audit": {
-  "wiki_items": 24,
-  "matched": 1,
+  "wiki_items": 26,
+  "matched": 3,
   "total": 9,
   "by_section": {
-   "india": "0/3",
-   "world": "1/3",
+   "india": "1/3",
+   "world": "2/3",
    "business": "0/3"
   },
   "note": "",
@@ -261,16 +274,16 @@
    "The Guardian Business:15",
    "WSJ Business:15",
    "Indian Express Explained (via gnews):2",
+   "CA Rachana Ranade:2",
    "Mint Money:2",
    "Lenny's Newsletter:2",
+   "Exponent:0",
    "One Useful Thing:2",
+   "3Blue1Brown:2",
    "Andrej Karpathy:2",
    "One Useful Thing:2"
   ],
   "feeds_failed": [
-   "CA Rachana Ranade: HTTPError",
-   "Exponent: HTTPError",
-   "3Blue1Brown: HTTPError",
    "Vinh Giang: HTTPError"
   ],
   "notes": []
