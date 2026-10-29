@@ -1,149 +1,148 @@
 {
- "updated": "2026-10-28T07:05+00:00",
+ "updated": "2026-10-29T07:26+00:00",
  "method": "spectrum-v2",
  "news": {
   "india": [
    {
-    "title": "India evacuates over 180,000 as Cyclone Arnab hits coast",
-    "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxOZlJDOVctdlFxT0xCaFRzd1dPMWJORzREWDItVWtGcHZyVGREWlRBeEd3VFV2Q1VzUjFSdkxqazFwekIxU181ZDdwVXBDTV9jU3Q2a0FHa0hVblVaSFpoaVhNMTdlYThKMUNHNnl5M3J2ZFp3MGlpRENFaklRTjJrajRiLWVoOXEwMUY4NFY2QTBFc2hTNW51QjJHSVNXbVNnTlJIbU9WOXNRZ1lOMDhJRWR6RzdiQjN5bU8wZFpn?oc=5",
-    "source": "Reuters India",
-    "date": "27 Oct",
-    "outlets": 5,
+    "title": "Rivers in spate in north Andhra after Cyclone Arnab; flood water enters Ichchapuram",
+    "url": "https://www.thehindu.com/news/national/andhra-pradesh/rivers-in-spate-in-north-andhra-after-cyclone-arnab-flood-water-enters-ichchapuram/article71638931.ece",
+    "source": "The Hindu",
+    "date": "29 Oct",
+    "outlets": 4,
     "also": [
      "AP",
      "Hindustan Times",
-     "NDTV"
+     "Indian Express"
     ],
     "lean": "LC",
-    "sites": 9,
-    "wiki": true
-   },
-   {
-    "title": "Iran’s Khamenei Reiterates Conditions for Ending War With US",
-    "url": "https://www.livemint.com/politics/irans-khamenei-reiterates-conditions-for-ending-war-with-us-11793142614834.html",
-    "source": "Mint Politics",
-    "date": "28 Oct",
-    "outlets": 4,
-    "also": [
-     "Economic Times",
-     "NDTV",
-     "WSJ"
-    ],
-    "lean": "LR",
-    "sites": 6,
+    "sites": 0,
     "wiki": false
    },
    {
-    "title": "Polling underway for phase 2 of Rajasthan Panchayat polls, faulty EVMs delay start at few booths",
-    "url": "https://www.thehindu.com/news/national/rajasthan/rajasthan-panchayat-polls-phase-2-polling-on-october-28-2026/article71634507.ece",
-    "source": "The Hindu",
+    "title": "‘All Indian businesses, except 3-4, hate all of you’: Rahul responds to Sitharaman’s ‘trying to incite’ post",
+    "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxONVNwMlJVV0lUWGhYNG9oaUdTaVNXTnQ5RzhzVXZqcklqbkQ2M3VaSVp1SDZfN0ZJMnNtMzJsejU4U2JmcktrSzA3dE00bWItbHg3dW1yb0lxZDNqWUN4Y3FnUG1CcFQwY1phcmZ6WndfdFU1eG5xN2FJRnFtcFRrcUdzQWpkTlduZDdJRXNmQVY4MzFiVXNfUWxUODhaVlcyODNvdnd5a19Ob0ktT0NiTVZfQVptcWZURERjOGp2ZWRlazJnOHdsdzB3Z2lOQdIB1AFBVV95cUxPSS1RMnlHQ2pvZDRLaXU2WDljNlhMcUhtR2w3MW9qQXJFMFlyV2MzUFdDaDhnUHFnNWs1Q0t4d3hpYmFydWFHVE9QcFdMajRTd3hOemV4VjdfdzRwaHlpNGdSMXZGT01MZDB6NDlDd3FIa3NWbW1nem1IQ2VRSDVXOUdvNXkxcDU3QUJnSVFsUWZSaWJ5S2l5MEh1QjJsQXFkSk1XZ21pVlVRLWsydFpqQWNQLVNqRmkwODdqZUJzS3g0YWlzWVAzd1dER2huRlVXMG9zSg?oc=5",
+    "source": "Indian Express",
     "date": "28 Oct",
     "outlets": 3,
     "also": [
-     "Hindustan Times",
+     "Reuters",
+     "WSJ"
+    ],
+    "lean": "LCR",
+    "sites": 3,
+    "wiki": false
+   },
+   {
+    "title": "Elon Musk \"Truly A Genius\": Putin's Big Praise Has A Starlink Connection",
+    "url": "https://www.ndtv.com/world-news/elon-musk-truly-a-genius-vladimir-putins-big-praise-has-a-starlink-connection-12251919#publisher=newsstand",
+    "source": "NDTV",
+    "date": "29 Oct",
+    "outlets": 3,
+    "also": [
+     "BBC",
      "Reuters"
     ],
     "lean": "LC",
-    "sites": 12,
+    "sites": 2,
     "wiki": false
    }
   ],
   "world": [
    {
-    "title": "Trump would approve Flavio Bolsonaro coming to U.S.; says Brazil election was ‘very strange’",
-    "url": "https://www.thehindu.com/news/international/flavio-bolsonaro-us-trump-brazil-elections/article71634540.ece",
-    "source": "The Hindu World",
-    "date": "28 Oct",
-    "outlets": 7,
-    "also": [
-     "Al Jazeera",
-     "NDTV",
-     "NPR"
-    ],
-    "lean": "LCR",
-    "sites": 5,
-    "wiki": true
-   },
-   {
-    "title": "Norway and Finland leaders hold rare call with Putin",
-    "url": "https://www.bbc.co.uk/news/articles/c6vgj813mlelo?at_medium=RSS&at_campaign=rss",
-    "source": "BBC World",
-    "date": "27 Oct",
-    "outlets": 4,
+    "title": "Spain reckons with 2nd deadly train crash of the year ahead of national election",
+    "url": "https://www.npr.org/2026/10/29/nx-s1-6021963/spain-train-crash-updates",
+    "source": "NPR",
+    "date": "29 Oct",
+    "outlets": 8,
     "also": [
      "AP",
-     "NPR",
-     "The Telegraph"
+     "BBC",
+     "Reuters"
     ],
     "lean": "LCR",
-    "sites": 22,
+    "sites": 40,
     "wiki": false
    },
    {
-    "title": "First Israeli election exit polls show narrow edge for Opposition",
-    "url": "https://www.thehindu.com/news/international/israeli-exit-polls-indicate-deadlock-in-election/article71633257.ece",
-    "source": "The Hindu World",
+    "title": "Netanyahu's bloc leading Israel election but short of majority, partial results show",
+    "url": "https://www.bbc.co.uk/news/articles/cmdx3knq1xexo?at_medium=RSS&at_campaign=rss",
+    "source": "BBC World",
     "date": "28 Oct",
-    "outlets": 4,
+    "outlets": 5,
     "also": [
+     "NDTV",
      "NPR",
-     "Reuters",
-     "WSJ"
+     "The Hindu"
     ],
     "lean": "LCR",
-    "sites": 1,
-    "wiki": true
+    "sites": 33,
+    "wiki": false
+   },
+   {
+    "title": "A US cruise ship suspends a global voyage in Asia due to fuel costs, stranding 200 passengers",
+    "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQcWI4RUhjcG1nTkdOMzYyQ1NMNTBqWTFCNTlhWjlMMFNnYlZMc3ZMMHpfWGQyZnAxd2ViT2hwSU1uS1FleDl1V0ZkTENPSFdBYVpSR1kxN2k5S2lzbHd4ZUowMkdZRjZhaV9VSS1scERpUTR2dG9xMjJiYlJMZ2hDY2JXc0dyaWJNTHUyRXpqUDFxUQ?oc=5",
+    "source": "AP",
+    "date": "29 Oct",
+    "outlets": 6,
+    "also": [
+     "BBC",
+     "Indian Express",
+     "NPR"
+    ],
+    "lean": "LCR",
+    "sites": 16,
+    "wiki": false
    }
   ],
   "business": [
    {
-    "title": "Q2 Results Today Live: HUL, CarTrade, KPR Mill Q2 profit rise, Info Edge (Naukri) profit tumbles, Adani Enterprises, Adani Ports, TVS Motor, Hyundai, Pidilite, Cholamandalam, Hero MotoCorp, Meesho, United Spirits, Vedanta, JSW Energy share to announce Q2 results",
-    "url": "https://www.thehindubusinessline.com/markets/q2-results-today-live-updates-adani-enterprises-adani-ports-tvs-motor-hyundai-pidilite-cholamandalam-hero-motocorp-meesho-united-spirits-vedanta-jsw-energy-results-28-october-2026/article71630853.ece",
-    "source": "Hindu BusinessLine",
+    "title": "Fed holds interest rates steady in last decision before midterms",
+    "url": "https://www.theguardian.com/business/2026/oct/28/fed-interest-rates-midterms",
+    "source": "The Guardian Business",
     "date": "28 Oct",
     "outlets": 4,
     "also": [
-     "Economic Times",
      "Reuters",
+     "The Hindu",
      "WSJ"
     ],
     "lean": "LCR",
-    "sites": 0,
+    "sites": 26,
     "wiki": false
    },
    {
-    "title": "Watch: Mukesh Ambani gets emotional at Jio listing",
-    "url": "https://economictimes.indiatimes.com/news/india/jio-listing-mukesh-ambani-gets-emotional-as-isha-recalls-how-he-worked-on-reliances-first-ipo-at-age-20-watch-video/articleshow/135252607.cms",
-    "source": "Economic Times",
+    "title": "Exclusive | Nelson Peltz’s Trian Offers to Buy Wendy’s for $1.4 Billion",
+    "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOcTd1dnBmMzBtZzQ0UzlFSFdDUWJSRkxOMUcwcm43cEpRUUpHaENfN2FMV1BEV1FRV0hleDZvSGRGckpkVzJIZThQTGplNXBLTE5xbTI2dFNMY1NKWC1nYTVRRDNSeGlWTWdlZ08zNHVaLU9xbEMtY3RnM2NqeV9reG5NdHhNSHBHQmg3TS1Gc2ZZRDluUWI5d2pra21lNlhfd0E?oc=5",
+    "source": "WSJ Business",
     "date": "28 Oct",
     "outlets": 3,
     "also": [
-     "The Hindu",
-     "Times of India"
+     "Reuters",
+     "The Hindu"
     ],
-    "lean": "LC",
-    "sites": 6,
+    "lean": "LCR",
+    "sites": 2,
     "wiki": false
    },
    {
-    "title": "Luxury cruise passengers stranded in Cambodia due to soaring fuel costs",
-    "url": "https://www.bbc.co.uk/news/articles/cwj342k62exyo?at_medium=RSS&at_campaign=rss",
-    "source": "BBC Business",
-    "date": "28 Oct",
+    "title": "Sensex today | Stock Market Live: Sensex gains 600 pts, Nifty touches 22,850; Adani Ports leads gainers",
+    "url": "https://www.thehindubusinessline.com/markets/sensex-nifty50-today-stock-market-live-updates-29-october-2026/article71635535.ece",
+    "source": "Hindu BusinessLine",
+    "date": "29 Oct",
     "outlets": 3,
     "also": [
-     "NDTV",
-     "The Guardian"
+     "Mint",
+     "Reuters"
     ],
     "lean": "LC",
-    "sites": 14,
+    "sites": 3,
     "wiki": false
    }
   ]
  },
  "explainer": [
   {
-   "title": "How El Niño fuelled Cyclone Arnab’s rapid intensification",
+   "title": "How El Niño made Cyclone Arnab stronger and faster",
    "url": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxQSnEtaXp2bF9VSE1rSGplbU9OQmhFa09YVGhuV0p0cHgzQW9RNVBzWXgwb0VZNERxWGJFNU5RV3F3UU9NazRjT0xlQllUZUd2dnBzN3REb1pLZnVGM2Q2SGJWSV91LTdzR1ZuWjFQblctQVJaUGZLbGxYc0pja3pMcklfT2pUZGFhQ1hNRFU3MWcxSFVBODRwbjBwajc2ZlR1UGlDNERxQlR3b2tsNHlFV1E5X1hCRUJ0VEpaa2w0ZXRLbmg5M2NnaTVzZDNiQnBOa2s5QmFZR01KWl9vd3E2Rk01YV9JRHZXVXfSAfABQVVfeXFMTjBnQjdxS2dqczI5X2VpTElNRE5LSzlmWkg0RTZzLUxTT3MwVk84Tm5aTl9SUmpqQWx5RE5wS0M1RjdNbUk2VjFQRzZIa3hwb0t2T0hzZ19wd2xhQl94ZFRUZC00cGh3TW11bXRiTjlnVlZGNUFjQV9vYTFLNFptVUt2aHpoakswRE1TWkphX0xub0d5OFlEekdvY29FTkVZajJDVDdPTkZCSmRXZ3pUYWF0dTlKcUEtU3FDU1QyazlJTnQycXBkdG9XVFNVMFNvZjNEVkJqcUxiajVzWklGUzI1dHlFN2h3RDJQb0EyZWZM?oc=5",
    "source": "Indian Express Explained",
    "date": "28 Oct"
@@ -164,28 +163,28 @@
     "date": "23 Oct"
    },
    {
-    "title": "Flexi-cap vs multi-cap mutual fund returns race 2026: Which category leads across 1, 3 and 5 years? Check top schemes",
-    "url": "https://www.livemint.com/money/personal-finance/flexicap-vs-multi-cap-mutual-fund-returns-race-2026-which-category-leads-across-1-3-and-5-years-check-top-schemes-11793163327530.html",
+    "title": "Co-pay shifts the bill, doesn’t necessarily cut health care costs: Digit Insurance's Kamesh Goyal",
+    "url": "https://www.livemint.com/money/personal-finance/kamesh-goyal-digit-insurance-health-insurance-co-payment-co-pay-healthcare-costs-insurance-premiums-hospital-pricing-11793203288259.html",
     "source": "Mint Money",
-    "date": "28 Oct"
+    "date": "29 Oct"
    },
    {
-    "title": "Paying extra to buy EV over petrol car? OpEx advantage may shock you; check break-even point, ROI, cash-flow benefits",
-    "url": "https://www.livemint.com/money/paying-extra-to-buy-ev-over-petrol-car-opex-advantage-may-shock-you-check-break-even-point-roi-cash-flow-benefits-11793168672695.html",
+    "title": "₹1000 SIP, 10 years, top equity mutual funds calculator: How do regular plans reduce your final corpus vs direct plans?",
+    "url": "https://www.livemint.com/money/personal-finance/1000-sip-10-years-top-equity-mutual-funds-calculator-how-do-regular-plans-reduce-your-final-corpus-vs-direct-plans-11793253526639.html",
     "source": "Mint Money",
-    "date": "28 Oct"
+    "date": "29 Oct"
    }
   ],
   "PRD": [
    {
-    "title": "🎙️ How I AI: Claude Duet honest review + Why Reddit built its own AI prototyping tool",
-    "url": "https://www.lennysnewsletter.com/p/how-i-ai-claude-duet-honest-review",
+    "title": "Grok vs. Dot vs. Muse vs. Claude Duet: which one crushes the competition?",
+    "url": "https://www.lennysnewsletter.com/p/grok-vs-dot-vs-muse-vs-claude-duet",
     "source": "Lenny's Newsletter",
-    "date": "26 Oct"
+    "date": "28 Oct"
    },
    {
-    "title": "Why Reddit built its own AI prototyping tool | Blair Metcalf",
-    "url": "https://www.lennysnewsletter.com/p/why-reddit-built-its-own-ai-prototyping",
+    "title": "🎙️ How I AI: Claude Duet honest review + Why Reddit built its own AI prototyping tool",
+    "url": "https://www.lennysnewsletter.com/p/how-i-ai-claude-duet-honest-review",
     "source": "Lenny's Newsletter",
     "date": "26 Oct"
    }
@@ -232,12 +231,12 @@
   ]
  },
  "audit": {
-  "wiki_items": 26,
-  "matched": 3,
+  "wiki_items": 23,
+  "matched": 0,
   "total": 9,
   "by_section": {
-   "india": "1/3",
-   "world": "2/3",
+   "india": "0/3",
+   "world": "0/3",
    "business": "0/3"
   },
   "note": "",
@@ -254,7 +253,7 @@
    "Reuters India:15",
    "Mint Politics:15",
    "BBC World:15",
-   "DW:10",
+   "DW:12",
    "Reuters World:15",
    "AP:15",
    "Al Jazeera:15",
