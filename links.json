@@ -1,155 +1,158 @@
 {
- "updated": "2026-10-29T07:26+00:00",
+ "updated": "2026-10-30T07:30+00:00",
  "method": "spectrum-v2",
  "news": {
   "india": [
    {
-    "title": "Rivers in spate in north Andhra after Cyclone Arnab; flood water enters Ichchapuram",
-    "url": "https://www.thehindu.com/news/national/andhra-pradesh/rivers-in-spate-in-north-andhra-after-cyclone-arnab-flood-water-enters-ichchapuram/article71638931.ece",
+    "title": "Former MLA Muthukumar surrenders in bribery case involving ex-Minister Anbil Mahesh Poyyamozhi",
+    "url": "https://www.thehindu.com/news/cities/chennai/former-mla-muthukumar-surrenders-in-bribery-case-involving-ex-minister-anbil-mahesh-poyyamozhi/article71639781.ece",
     "source": "The Hindu",
-    "date": "29 Oct",
+    "date": "30 Oct",
     "outlets": 4,
     "also": [
-     "AP",
+     "Economic Times",
      "Hindustan Times",
-     "Indian Express"
+     "Times of India"
     ],
     "lean": "LC",
-    "sites": 0,
+    "sites": 5,
     "wiki": false
    },
    {
-    "title": "‘All Indian businesses, except 3-4, hate all of you’: Rahul responds to Sitharaman’s ‘trying to incite’ post",
-    "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxONVNwMlJVV0lUWGhYNG9oaUdTaVNXTnQ5RzhzVXZqcklqbkQ2M3VaSVp1SDZfN0ZJMnNtMzJsejU4U2JmcktrSzA3dE00bWItbHg3dW1yb0lxZDNqWUN4Y3FnUG1CcFQwY1phcmZ6WndfdFU1eG5xN2FJRnFtcFRrcUdzQWpkTlduZDdJRXNmQVY4MzFiVXNfUWxUODhaVlcyODNvdnd5a19Ob0ktT0NiTVZfQVptcWZURERjOGp2ZWRlazJnOHdsdzB3Z2lOQdIB1AFBVV95cUxPSS1RMnlHQ2pvZDRLaXU2WDljNlhMcUhtR2w3MW9qQXJFMFlyV2MzUFdDaDhnUHFnNWs1Q0t4d3hpYmFydWFHVE9QcFdMajRTd3hOemV4VjdfdzRwaHlpNGdSMXZGT01MZDB6NDlDd3FIa3NWbW1nem1IQ2VRSDVXOUdvNXkxcDU3QUJnSVFsUWZSaWJ5S2l5MEh1QjJsQXFkSk1XZ21pVlVRLWsydFpqQWNQLVNqRmkwODdqZUJzS3g0YWlzWVAzd1dER2huRlVXMG9zSg?oc=5",
-    "source": "Indian Express",
-    "date": "28 Oct",
+    "title": "PIL seeks probe into Saurav Das' identity, blocking of social media accounts over remarks against judiciary; Madras HC issues notice",
+    "url": "https://www.hindustantimes.com/india-news/pil-seeks-probe-into-saurav-das-identity-blocking-of-social-media-accounts-over-remarks-against-judiciary-madras-hc-issues-notice-101793341150615.html",
+    "source": "Hindustan Times",
+    "date": "30 Oct",
     "outlets": 3,
     "also": [
-     "Reuters",
-     "WSJ"
+     "The Telegraph",
+     "ThePrint"
     ],
-    "lean": "LCR",
-    "sites": 3,
+    "lean": "LR",
+    "sites": 5,
     "wiki": false
    },
    {
-    "title": "Elon Musk \"Truly A Genius\": Putin's Big Praise Has A Starlink Connection",
-    "url": "https://www.ndtv.com/world-news/elon-musk-truly-a-genius-vladimir-putins-big-praise-has-a-starlink-connection-12251919#publisher=newsstand",
-    "source": "NDTV",
-    "date": "29 Oct",
-    "outlets": 3,
+    "title": "Israel polls: Arab parties may hold key to govt formation as Netanyahu falls short",
+    "url": "https://timesofindia.indiatimes.com/world/middle-east/israel-elections-arab-parties-may-hold-key-to-next-government-after-netanyahu-falls-short-of-majority/articleshow/135345355.cms",
+    "source": "Times of India",
+    "date": "30 Oct",
+    "outlets": 2,
     "also": [
-     "BBC",
-     "Reuters"
+     "Al Jazeera"
     ],
     "lean": "LC",
-    "sites": 2,
+    "sites": 35,
     "wiki": false
    }
   ],
   "world": [
    {
-    "title": "Spain reckons with 2nd deadly train crash of the year ahead of national election",
-    "url": "https://www.npr.org/2026/10/29/nx-s1-6021963/spain-train-crash-updates",
-    "source": "NPR",
-    "date": "29 Oct",
-    "outlets": 8,
-    "also": [
-     "AP",
-     "BBC",
-     "Reuters"
-    ],
-    "lean": "LCR",
-    "sites": 40,
-    "wiki": false
-   },
-   {
-    "title": "Netanyahu's bloc leading Israel election but short of majority, partial results show",
-    "url": "https://www.bbc.co.uk/news/articles/cmdx3knq1xexo?at_medium=RSS&at_campaign=rss",
-    "source": "BBC World",
-    "date": "28 Oct",
-    "outlets": 5,
-    "also": [
-     "NDTV",
-     "NPR",
-     "The Hindu"
-    ],
-    "lean": "LCR",
-    "sites": 33,
-    "wiki": false
-   },
-   {
-    "title": "A US cruise ship suspends a global voyage in Asia due to fuel costs, stranding 200 passengers",
-    "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQcWI4RUhjcG1nTkdOMzYyQ1NMNTBqWTFCNTlhWjlMMFNnYlZMc3ZMMHpfWGQyZnAxd2ViT2hwSU1uS1FleDl1V0ZkTENPSFdBYVpSR1kxN2k5S2lzbHd4ZUowMkdZRjZhaV9VSS1scERpUTR2dG9xMjJiYlJMZ2hDY2JXc0dyaWJNTHUyRXpqUDFxUQ?oc=5",
+    "title": "Spain reckons with second deadly train crash of the year ahead of national election",
+    "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPeUNNM01hdUhtOFpKaGo4Z1pYaGRza1FQajlzVlBrWnZycFJWajlBMEl3QldEVXJtVHo0SW5GdEJ6Zm5DVjJRQVNpQUp5d3otRGpSMEJWczFFa2lJd3pWQ1Z0WlBBc2lkQkdxZ0tjbWM5QVZTcVgtejVqWnI0NXJmWnVjVGZPME9DdTVBaGF0NXdLWmM5WTJSR293?oc=5",
     "source": "AP",
-    "date": "29 Oct",
+    "date": "30 Oct",
     "outlets": 6,
     "also": [
+     "Al Jazeera",
      "BBC",
-     "Indian Express",
      "NPR"
     ],
     "lean": "LCR",
-    "sites": 16,
+    "sites": 6,
+    "wiki": false
+   },
+   {
+    "title": "Christine Lagarde to Resign Early as ECB President",
+    "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPXzdxQXdBY2xpYmxjbER5SnUxc2ZHM1JCZlJLYmJkaTJjbjNTLV9vZWEzblBWN0EzUWdvTzItY1NfSzFVV3VWMHNObHViNFl1S1NGSFJnaEF5cmlQMUR3dENYaTk4SGt5TkE4akxwV1pGZE0tN0F3NG56WjVib1BrcW91NHBGVHhHWUMwWThPYzl1US1rdEVB?oc=5",
+    "source": "WSJ",
+    "date": "29 Oct",
+    "outlets": 4,
+    "also": [
+     "DW",
+     "Reuters",
+     "The Guardian"
+    ],
+    "lean": "LCR",
+    "sites": 66,
+    "wiki": true
+   },
+   {
+    "title": "Glacial lake outburst in Bhutan triggers flood alert in northern West Bengal, Assam",
+    "url": "https://www.thehindu.com/news/international/shintaphu-glacial-lake-bursting-gasa-tshachu-hot-springs/article71643533.ece",
+    "source": "The Hindu World",
+    "date": "30 Oct",
+    "outlets": 3,
+    "also": [
+     "Al Jazeera",
+     "Times of India"
+    ],
+    "lean": "LC",
+    "sites": 23,
     "wiki": false
    }
   ],
   "business": [
    {
-    "title": "Fed holds interest rates steady in last decision before midterms",
-    "url": "https://www.theguardian.com/business/2026/oct/28/fed-interest-rates-midterms",
-    "source": "The Guardian Business",
-    "date": "28 Oct",
-    "outlets": 4,
+    "title": "Sensex today | Stock Market Live: Sensex rises 500 pts, Nifty 50 reclaims 23,000; Trent shares up 7%, Nifty IT up 2%",
+    "url": "https://www.thehindubusinessline.com/markets/sensex-nifty50-today-stock-market-live-updates-30th-october-2026/article71640574.ece",
+    "source": "Hindu BusinessLine",
+    "date": "30 Oct",
+    "outlets": 3,
     "also": [
-     "Reuters",
-     "The Hindu",
+     "Business Standard",
+     "Mint"
+    ],
+    "lean": "LR",
+    "sites": 9,
+    "wiki": false
+   },
+   {
+    "title": "Amazon burns cash, Intel flags weak PC demand as AI boom's costs ripple across markets",
+    "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNcXEzUmpkSHEwZWtxM2cwVjMwQkJXMVZqVUJrWk8xejY0TzkyZmtvN0E2Z3Q3MDJfNkRLOXRKUW5xR2QzLVM5WjQzSVp2OVBhQldOMVJKZkJ2ZC1qMm04dWFSVjExd1h2bXV2emx1dmkwTVFzT29DamloeVhPZUdwZEhuUmhvem92VG9MQzFIZU1ibDR1MWNaZ0o2ZVBOYzhodHdyQVY4T1U?oc=5",
+    "source": "Reuters Business",
+    "date": "29 Oct",
+    "outlets": 3,
+    "also": [
+     "The Guardian",
      "WSJ"
     ],
     "lean": "LCR",
-    "sites": 26,
+    "sites": 4,
     "wiki": false
    },
    {
-    "title": "Exclusive | Nelson Peltz’s Trian Offers to Buy Wendy’s for $1.4 Billion",
-    "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOcTd1dnBmMzBtZzQ0UzlFSFdDUWJSRkxOMUcwcm43cEpRUUpHaENfN2FMV1BEV1FRV0hleDZvSGRGckpkVzJIZThQTGplNXBLTE5xbTI2dFNMY1NKWC1nYTVRRDNSeGlWTWdlZ08zNHVaLU9xbEMtY3RnM2NqeV9reG5NdHhNSHBHQmg3TS1Gc2ZZRDluUWI5d2pra21lNlhfd0E?oc=5",
-    "source": "WSJ Business",
-    "date": "28 Oct",
-    "outlets": 3,
-    "also": [
-     "Reuters",
-     "The Hindu"
-    ],
-    "lean": "LCR",
-    "sites": 2,
-    "wiki": false
-   },
-   {
-    "title": "Sensex today | Stock Market Live: Sensex gains 600 pts, Nifty touches 22,850; Adani Ports leads gainers",
-    "url": "https://www.thehindubusinessline.com/markets/sensex-nifty50-today-stock-market-live-updates-29-october-2026/article71635535.ece",
-    "source": "Hindu BusinessLine",
+    "title": "US interest rates held steady and economy grows - what it means for you",
+    "url": "https://www.bbc.co.uk/news/articles/cr15jxzv4w24o?at_medium=RSS&at_campaign=rss",
+    "source": "BBC Business",
     "date": "29 Oct",
     "outlets": 3,
     "also": [
      "Mint",
-     "Reuters"
+     "The Guardian"
     ],
     "lean": "LC",
-    "sites": 3,
+    "sites": 10,
     "wiki": false
    }
   ]
  },
  "explainer": [
   {
-   "title": "How El Niño made Cyclone Arnab stronger and faster",
-   "url": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxQSnEtaXp2bF9VSE1rSGplbU9OQmhFa09YVGhuV0p0cHgzQW9RNVBzWXgwb0VZNERxWGJFNU5RV3F3UU9NazRjT0xlQllUZUd2dnBzN3REb1pLZnVGM2Q2SGJWSV91LTdzR1ZuWjFQblctQVJaUGZLbGxYc0pja3pMcklfT2pUZGFhQ1hNRFU3MWcxSFVBODRwbjBwajc2ZlR1UGlDNERxQlR3b2tsNHlFV1E5X1hCRUJ0VEpaa2w0ZXRLbmg5M2NnaTVzZDNiQnBOa2s5QmFZR01KWl9vd3E2Rk01YV9JRHZXVXfSAfABQVVfeXFMTjBnQjdxS2dqczI5X2VpTElNRE5LSzlmWkg0RTZzLUxTT3MwVk84Tm5aTl9SUmpqQWx5RE5wS0M1RjdNbUk2VjFQRzZIa3hwb0t2T0hzZ19wd2xhQl94ZFRUZC00cGh3TW11bXRiTjlnVlZGNUFjQV9vYTFLNFptVUt2aHpoakswRE1TWkphX0xub0d5OFlEekdvY29FTkVZajJDVDdPTkZCSmRXZ3pUYWF0dTlKcUEtU3FDU1QyazlJTnQycXBkdG9XVFNVMFNvZjNEVkJqcUxiajVzWklGUzI1dHlFN2h3RDJQb0EyZWZM?oc=5",
+   "title": "Ballot papers in Indian elections: Where are they still used, and why",
+   "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxOakFpWjdPT0k0akE5MG5HT3BRUVpPSU85d2JVczBSTW53YUJPQmNUZ3lEWERGM2owX0VSeEF1clh6Tzh4bzNjZExLTTUwNE4xeXY2MzRRZnNsWE5Tc0pFM0hhSDBMUVcyVFh1b015b09wRmw2UzN2TXZUVVYyTTdFWV9veDh1SVJqLVJob1hiUGJkNktqWWxSWk5PNXpId0JRSldqRk9CNW80TUE5MDVWYUstUVBEYXh0TENxSXZWa0tETnhrN0wxd2xqTnByTFc10gHXAUFVX3lxTE5iTkVqZEp1OUN2cU9FMngzWkJJNjdrWTVQeVJUazZYSE8yWjF4NXlsY1k3Z3NEUmdQMko0R1lNM2ZxeXRtYVU5YnZVNUxvRU9sa0lrSDhuRVdMMDFEM0dUTUc2RkdtenlrNVVUb2FRTVpGLWpZbDkxRFc4cjU1YWJrZzFQWGtqb2ZJcFJEV3lFMm5HLVJ1c25NTUcyeER3Q3hkcW50Z2ZWcTlNQnA1Z2N2OW15Y2x3Wk9YakxucXM5YjhnZGpOSzB5dFMySW5QeDk1ZnlxenBz?oc=5",
    "source": "Indian Express Explained",
-   "date": "28 Oct"
+   "date": "29 Oct"
   }
  ],
  "courses": {
   "FIN": [
+   {
+    "title": "Vedanta Demerger: 5 Companies | Which is performing better? | CA Rachana Ranade",
+    "url": "https://www.youtube.com/watch?v=J9qIL5bVT0U",
+    "source": "CA Rachana Ranade",
+    "date": "29 Oct"
+   },
    {
     "title": "Why Lenskart rose 70% when the market fell? (Hindi) | CA Rachana Ranade",
     "url": "https://www.youtube.com/watch?v=JROmixRrqxA",
@@ -157,22 +160,16 @@
     "date": "27 Oct"
    },
    {
-    "title": "Power Sector Is Booming, So Why Are REC & PFC Stocks Falling?(Hindi) | CA Rachana Ranade",
-    "url": "https://www.youtube.com/watch?v=46250cIRRsM",
-    "source": "CA Rachana Ranade",
-    "date": "23 Oct"
+    "title": "November 2026 income tax calendar: Check key deadlines for TDS payments, tax certificates and ITR filing",
+    "url": "https://www.livemint.com/money/personal-finance/november-2026-income-tax-calendar-check-key-deadlines-for-tds-payments-tax-certificates-and-itr-filing-11793339559723.html",
+    "source": "Mint Money",
+    "date": "30 Oct"
    },
    {
-    "title": "Co-pay shifts the bill, doesn’t necessarily cut health care costs: Digit Insurance's Kamesh Goyal",
-    "url": "https://www.livemint.com/money/personal-finance/kamesh-goyal-digit-insurance-health-insurance-co-payment-co-pay-healthcare-costs-insurance-premiums-hospital-pricing-11793203288259.html",
+    "title": "DA hike for employees under 5th, 6th Pay Commissions: Key details from Finance Ministry orders on Dearness Allowance",
+    "url": "https://www.livemint.com/money/personal-finance/da-hike-for-employees-under-5th-6th-pay-commissions-key-details-from-finance-ministry-orders-on-dearness-allowance-11793329833301.html",
     "source": "Mint Money",
-    "date": "29 Oct"
-   },
-   {
-    "title": "₹1000 SIP, 10 years, top equity mutual funds calculator: How do regular plans reduce your final corpus vs direct plans?",
-    "url": "https://www.livemint.com/money/personal-finance/1000-sip-10-years-top-equity-mutual-funds-calculator-how-do-regular-plans-reduce-your-final-corpus-vs-direct-plans-11793253526639.html",
-    "source": "Mint Money",
-    "date": "29 Oct"
+    "date": "30 Oct"
    }
   ],
   "PRD": [
@@ -231,12 +228,12 @@
   ]
  },
  "audit": {
-  "wiki_items": 23,
-  "matched": 0,
+  "wiki_items": 17,
+  "matched": 1,
   "total": 9,
   "by_section": {
    "india": "0/3",
-   "world": "0/3",
+   "world": "1/3",
    "business": "0/3"
   },
   "note": "",
@@ -253,7 +250,7 @@
    "Reuters India:15",
    "Mint Politics:15",
    "BBC World:15",
-   "DW:12",
+   "DW:10",
    "Reuters World:15",
    "AP:15",
    "Al Jazeera:15",
