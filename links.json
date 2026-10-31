@@ -1,148 +1,153 @@
 {
- "updated": "2026-10-30T07:30+00:00",
+ "updated": "2026-10-31T07:17+00:00",
  "method": "spectrum-v2",
  "news": {
   "india": [
    {
-    "title": "Former MLA Muthukumar surrenders in bribery case involving ex-Minister Anbil Mahesh Poyyamozhi",
-    "url": "https://www.thehindu.com/news/cities/chennai/former-mla-muthukumar-surrenders-in-bribery-case-involving-ex-minister-anbil-mahesh-poyyamozhi/article71639781.ece",
-    "source": "The Hindu",
+    "title": "'Real danger, real need': Why Zelenskyy wants Patriot missiles before winter",
+    "url": "https://timesofindia.indiatimes.com/defence/international/real-danger-real-need-why-zelenskyy-wants-patriot-missiles-before-winter/articleshow/135389374.cms",
+    "source": "Times of India",
+    "date": "31 Oct",
+    "outlets": 5,
+    "also": [
+     "Al Jazeera",
+     "BBC",
+     "NDTV"
+    ],
+    "lean": "LC",
+    "sites": 9,
+    "wiki": false
+   },
+   {
+    "title": "Israel elections 2026: What happens to India's defence, trade ties if Netanyahu fails to retain power? Expert weighs in",
+    "url": "https://www.livemint.com/politics/policy/israel-elections-2026-what-happens-to-india-s-defence-and-trade-deals-if-netanyahu-loses-power-scenarios-explained-11793342795631.html",
+    "source": "Mint Politics",
     "date": "30 Oct",
     "outlets": 4,
     "also": [
-     "Economic Times",
-     "Hindustan Times",
-     "Times of India"
-    ],
-    "lean": "LC",
-    "sites": 5,
-    "wiki": false
-   },
-   {
-    "title": "PIL seeks probe into Saurav Das' identity, blocking of social media accounts over remarks against judiciary; Madras HC issues notice",
-    "url": "https://www.hindustantimes.com/india-news/pil-seeks-probe-into-saurav-das-identity-blocking-of-social-media-accounts-over-remarks-against-judiciary-madras-hc-issues-notice-101793341150615.html",
-    "source": "Hindustan Times",
-    "date": "30 Oct",
-    "outlets": 3,
-    "also": [
-     "The Telegraph",
+     "AP",
+     "The Hindu",
      "ThePrint"
     ],
-    "lean": "LR",
-    "sites": 5,
+    "lean": "LCR",
+    "sites": 3,
     "wiki": false
    },
    {
-    "title": "Israel polls: Arab parties may hold key to govt formation as Netanyahu falls short",
-    "url": "https://timesofindia.indiatimes.com/world/middle-east/israel-elections-arab-parties-may-hold-key-to-next-government-after-netanyahu-falls-short-of-majority/articleshow/135345355.cms",
-    "source": "Times of India",
+    "title": "India's AU Small Finance Bank probes potential data leak",
+    "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxOV0JtMmNjNEZZRUV1blBBeFl1MXc2QjFQM3A1akFMdWRYTkdaY0g4ZjR6NUZhWXB0YXdZeXBUbHhzT1F0dUxwVWtvNjZ4V1lrUnNOVEdzWHNpdUhVMi11Y1lFYlFkRHZWbk5aZEQ0OGRrX19lTUVaZzhxVXc2aFRQbWgtN1BoWUtZejR2eWdnbmZtVmk0X1AtSVBaSVpGbFNvUVF2eGtBR2o4NDU2?oc=5",
+    "source": "Reuters India",
     "date": "30 Oct",
-    "outlets": 2,
+    "outlets": 4,
     "also": [
-     "Al Jazeera"
+     "Business Standard",
+     "Indian Express",
+     "ThePrint"
     ],
-    "lean": "LC",
-    "sites": 35,
+    "lean": "LCR",
+    "sites": 22,
     "wiki": false
    }
   ],
   "world": [
    {
-    "title": "Spain reckons with second deadly train crash of the year ahead of national election",
-    "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPeUNNM01hdUhtOFpKaGo4Z1pYaGRza1FQajlzVlBrWnZycFJWajlBMEl3QldEVXJtVHo0SW5GdEJ6Zm5DVjJRQVNpQUp5d3otRGpSMEJWczFFa2lJd3pWQ1Z0WlBBc2lkQkdxZ0tjbWM5QVZTcVgtejVqWnI0NXJmWnVjVGZPME9DdTVBaGF0NXdLWmM5WTJSR293?oc=5",
-    "source": "AP",
+    "title": "Blockchain intelligence firms link North Korea to $6.3B hack on Binance",
+    "url": "https://www.npr.org/2026/10/30/g-s1-150902/blockchain-intelligence-firms-link-north-korea-to-6-3b-hack-on-binance",
+    "source": "NPR",
     "date": "30 Oct",
-    "outlets": 6,
+    "outlets": 7,
     "also": [
-     "Al Jazeera",
      "BBC",
-     "NPR"
+     "DW",
+     "Reuters"
     ],
     "lean": "LCR",
-    "sites": 6,
+    "sites": 9,
     "wiki": false
    },
    {
-    "title": "Christine Lagarde to Resign Early as ECB President",
-    "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPXzdxQXdBY2xpYmxjbER5SnUxc2ZHM1JCZlJLYmJkaTJjbjNTLV9vZWEzblBWN0EzUWdvTzItY1NfSzFVV3VWMHNObHViNFl1S1NGSFJnaEF5cmlQMUR3dENYaTk4SGt5TkE4akxwV1pGZE0tN0F3NG56WjVib1BrcW91NHBGVHhHWUMwWThPYzl1US1rdEVB?oc=5",
-    "source": "WSJ",
-    "date": "29 Oct",
-    "outlets": 4,
+    "title": "Police secure Poland’s Constitutional Tribunal as protests erupt over court chief’s suspension",
+    "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxONTN6V2ZLYWRNNzFWb3hYckNxQzgzMXZlTHY2MGN3NldSRW1BUGEtX0NUVTRzREhQcTdldGtuNkFVRzY4ZFlYRUYzS2Q0Y0tuT1hYbmpVMmZ4T3pjQjB4Si1sRndxN1haVVJ6dnlVbElWRW5vWC00Mnd6dnRsNkFsZXc2WUlRTnlxM3pmNHBUN1BERGdJcElnb1hrbGpudHFMbzJaWGxrdmx1T1c3cDJYOUplUnk?oc=5",
+    "source": "AP",
+    "date": "30 Oct",
+    "outlets": 5,
     "also": [
-     "DW",
+     "Hindustan Times",
+     "NDTV",
+     "Reuters"
+    ],
+    "lean": "LC",
+    "sites": 30,
+    "wiki": true
+   },
+   {
+    "title": "Binance Suspends Transactions After It Is Targeted in Biggest-Ever Cyber Heist",
+    "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPbEREMjNtM29XdElLQVFoU1JvZ1REMUxNMjZkOHQ2X2x3ZDZsVGI4dHZkVDNKUzkzalFFLTdkVG5mY2NwNGYwQjRSVGN5aVB0ZHdZZkdGa2lFUXBkTS1tcmpmZkZJRGxZYzF0NFRtOGhiSTBIa0pHbjF1VGN5LU9VYy1XN3cyRnJCd3ZkUV84TVlMRUlIZTdBN0VrbjZoVjNkZWZrMzVWaFJOaDJRaUVaSFdDNERpVVg5MnNSXw?oc=5",
+    "source": "WSJ",
+    "date": "30 Oct",
+    "outlets": 5,
+    "also": [
+     "AP",
      "Reuters",
      "The Guardian"
     ],
     "lean": "LCR",
-    "sites": 66,
-    "wiki": true
-   },
-   {
-    "title": "Glacial lake outburst in Bhutan triggers flood alert in northern West Bengal, Assam",
-    "url": "https://www.thehindu.com/news/international/shintaphu-glacial-lake-bursting-gasa-tshachu-hot-springs/article71643533.ece",
-    "source": "The Hindu World",
-    "date": "30 Oct",
-    "outlets": 3,
-    "also": [
-     "Al Jazeera",
-     "Times of India"
-    ],
-    "lean": "LC",
-    "sites": 23,
+    "sites": 11,
     "wiki": false
    }
   ],
   "business": [
    {
-    "title": "Sensex today | Stock Market Live: Sensex rises 500 pts, Nifty 50 reclaims 23,000; Trent shares up 7%, Nifty IT up 2%",
-    "url": "https://www.thehindubusinessline.com/markets/sensex-nifty50-today-stock-market-live-updates-30th-october-2026/article71640574.ece",
-    "source": "Hindu BusinessLine",
-    "date": "30 Oct",
-    "outlets": 3,
-    "also": [
-     "Business Standard",
-     "Mint"
-    ],
-    "lean": "LR",
-    "sites": 9,
-    "wiki": false
-   },
-   {
-    "title": "Amazon burns cash, Intel flags weak PC demand as AI boom's costs ripple across markets",
-    "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNcXEzUmpkSHEwZWtxM2cwVjMwQkJXMVZqVUJrWk8xejY0TzkyZmtvN0E2Z3Q3MDJfNkRLOXRKUW5xR2QzLVM5WjQzSVp2OVBhQldOMVJKZkJ2ZC1qMm04dWFSVjExd1h2bXV2emx1dmkwTVFzT29DamloeVhPZUdwZEhuUmhvem92VG9MQzFIZU1ibDR1MWNaZ0o2ZVBOYzhodHdyQVY4T1U?oc=5",
-    "source": "Reuters Business",
-    "date": "29 Oct",
-    "outlets": 3,
-    "also": [
-     "The Guardian",
-     "WSJ"
-    ],
-    "lean": "LCR",
-    "sites": 4,
-    "wiki": false
-   },
-   {
-    "title": "US interest rates held steady and economy grows - what it means for you",
-    "url": "https://www.bbc.co.uk/news/articles/cr15jxzv4w24o?at_medium=RSS&at_campaign=rss",
+    "title": "US tech stocks see sharp falls as AI spending nears $1tn",
+    "url": "https://www.bbc.co.uk/news/articles/cvwy72e0n72yo?at_medium=RSS&at_campaign=rss",
     "source": "BBC Business",
-    "date": "29 Oct",
-    "outlets": 3,
+    "date": "30 Oct",
+    "outlets": 4,
     "also": [
+     "AP",
      "Mint",
      "The Guardian"
     ],
     "lean": "LC",
-    "sites": 10,
+    "sites": 8,
+    "wiki": false
+   },
+   {
+    "title": "Sun Pharma Q2 profit plunges 36% on exceptional charges despite revenue growth",
+    "url": "https://www.thehindu.com/business/sun-pharma-q2-profit-plunges-36-on-exceptional-charges-despite-revenue-growth/article71646441.ece",
+    "source": "The Hindu Business",
+    "date": "30 Oct",
+    "outlets": 3,
+    "also": [
+     "BBC",
+     "Reuters"
+    ],
+    "lean": "LC",
+    "sites": 9,
+    "wiki": false
+   },
+   {
+    "title": "Stocks to buy: Sumeet Bagadia's top 3 stock recommendations — Sun Pharma, IndiGo, Infosys | Target price, stop-loss",
+    "url": "https://www.livemint.com/market/stock-market-news/stocks-to-buy-sumeet-bagadias-top-3-stock-recommendations-sun-pharma-indigo-infosys-target-price-stoploss-11793428189400.html",
+    "source": "Mint",
+    "date": "31 Oct",
+    "outlets": 3,
+    "also": [
+     "Reuters",
+     "The Hindu"
+    ],
+    "lean": "LC",
+    "sites": 1,
     "wiki": false
    }
   ]
  },
  "explainer": [
   {
-   "title": "Ballot papers in Indian elections: Where are they still used, and why",
-   "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxOakFpWjdPT0k0akE5MG5HT3BRUVpPSU85d2JVczBSTW53YUJPQmNUZ3lEWERGM2owX0VSeEF1clh6Tzh4bzNjZExLTTUwNE4xeXY2MzRRZnNsWE5Tc0pFM0hhSDBMUVcyVFh1b015b09wRmw2UzN2TXZUVVYyTTdFWV9veDh1SVJqLVJob1hiUGJkNktqWWxSWk5PNXpId0JRSldqRk9CNW80TUE5MDVWYUstUVBEYXh0TENxSXZWa0tETnhrN0wxd2xqTnByTFc10gHXAUFVX3lxTE5iTkVqZEp1OUN2cU9FMngzWkJJNjdrWTVQeVJUazZYSE8yWjF4NXlsY1k3Z3NEUmdQMko0R1lNM2ZxeXRtYVU5YnZVNUxvRU9sa0lrSDhuRVdMMDFEM0dUTUc2RkdtenlrNVVUb2FRTVpGLWpZbDkxRFc4cjU1YWJrZzFQWGtqb2ZJcFJEV3lFMm5HLVJ1c25NTUcyeER3Q3hkcW50Z2ZWcTlNQnA1Z2N2OW15Y2x3Wk9YakxucXM5YjhnZGpOSzB5dFMySW5QeDk1ZnlxenBz?oc=5",
+   "title": "Why are so many helicopters crashing in Uttarakhand? The risks explained",
+   "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNMmRkdWVTeGFGdnBRVUx0ZzJsUW9ZTmRhWkNvQXE3UzBDcmFSUDl1ZTZ0bUp6cVZ1T2xScVZxSVpuMHhIZkRrU01nUndzWndkRUc1ZFI0OXhvdElJVHJ4UVB5MUV0N01HTDBHUFdla0ZVdENma2ItWWJyUW4xb2VxTnQwaDNEcVU3ZC1WTjg5NWJ5MHkyOTV4aEpNbkVYNW9qWmZkbHZkN2ZYSkNNb0pvekN6eUNzd9IBvAFBVV95cUxOdXhNMzlpakh3bERKSzZWalgzNG43TkJrN0w0TVplTjFWSXdvSjB2MG5RamMtbGZ2bkM3ZHBxRFBKU3pMZExONUFjWGpOcDBDWHphSFJqR2ZBQ0hJVUIzY01UbXZJb1NUT0RnYU5KVXB1Nm1FSjl6QXdRVzZTMU1rekt1Z1RsUTEyUThKS0ZxUFZySTZ3MUNEYjNoRjZ4S2ZSZmhhUFJwMUREaktWZWlzbzM0SFJuOHJIaHhCYw?oc=5",
    "source": "Indian Express Explained",
-   "date": "29 Oct"
+   "date": "30 Oct"
   }
  ],
  "courses": {
@@ -160,16 +165,16 @@
     "date": "27 Oct"
    },
    {
-    "title": "November 2026 income tax calendar: Check key deadlines for TDS payments, tax certificates and ITR filing",
-    "url": "https://www.livemint.com/money/personal-finance/november-2026-income-tax-calendar-check-key-deadlines-for-tds-payments-tax-certificates-and-itr-filing-11793339559723.html",
+    "title": "Earning well but still broke? Ankur Warikoo highlights 5 money habits to fix, from budgeting to investing early",
+    "url": "https://www.livemint.com/money/personal-finance/earning-well-but-still-broke-ankur-warikoo-highlights-5-money-habits-to-fix-from-budgeting-to-investing-early-11793426802704.html",
     "source": "Mint Money",
-    "date": "30 Oct"
+    "date": "31 Oct"
    },
    {
-    "title": "DA hike for employees under 5th, 6th Pay Commissions: Key details from Finance Ministry orders on Dearness Allowance",
-    "url": "https://www.livemint.com/money/personal-finance/da-hike-for-employees-under-5th-6th-pay-commissions-key-details-from-finance-ministry-orders-on-dearness-allowance-11793329833301.html",
+    "title": "Gold, silver rates today Hyderabad 31 Oct for investors: What are latest prices per kg and per 10 gms in Charminar City?",
+    "url": "https://www.livemint.com/money/gold-silver-rates-today-hyderabad-31-oct-for-investors-what-are-latest-prices-per-kg-and-per-10-gms-in-charminar-city-11793424196392.html",
     "source": "Mint Money",
-    "date": "30 Oct"
+    "date": "31 Oct"
    }
   ],
   "PRD": [
@@ -228,7 +233,7 @@
   ]
  },
  "audit": {
-  "wiki_items": 17,
+  "wiki_items": 22,
   "matched": 1,
   "total": 9,
   "by_section": {
@@ -250,7 +255,7 @@
    "Reuters India:15",
    "Mint Politics:15",
    "BBC World:15",
-   "DW:10",
+   "DW:11",
    "Reuters World:15",
    "AP:15",
    "Al Jazeera:15",
