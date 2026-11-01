@@ -1,142 +1,141 @@
 {
- "updated": "2026-10-31T07:17+00:00",
+ "updated": "2026-11-01T07:49+00:00",
  "method": "spectrum-v2",
  "news": {
   "india": [
    {
-    "title": "'Real danger, real need': Why Zelenskyy wants Patriot missiles before winter",
-    "url": "https://timesofindia.indiatimes.com/defence/international/real-danger-real-need-why-zelenskyy-wants-patriot-missiles-before-winter/articleshow/135389374.cms",
+    "title": "'India not a banana republic': BJP attacks Rahul Gandhi ahead of INDIA bloc rally",
+    "url": "https://timesofindia.indiatimes.com/india/india-not-a-banana-republic-bjp-attacks-rahul-gandhi-ahead-of-india-bloc-rally/articleshow/135419924.cms",
     "source": "Times of India",
-    "date": "31 Oct",
+    "date": "1 Nov",
     "outlets": 5,
     "also": [
-     "Al Jazeera",
+     "Business Standard",
+     "Indian Express",
+     "NDTV"
+    ],
+    "lean": "LCR",
+    "sites": 2,
+    "wiki": false
+   },
+   {
+    "title": "German, Slovak nationals die of suspected electrocution in Bengaluru five-star hotel’s swimming pool",
+    "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxQT09pYmZTa1pIandqdW5HSGFRZ3o3ekdTRVIxck1pQUpWSmR4WHhnNjdPWHlpbnhrMkxvWHRoWlRoMWRjbWlJU1g5Z0trTUJMYjdzZDdRRjUyUGViOEp5cl9zTjVDeG5hUjNQVDFodzVRVUdVLWJLT2JzV1hBV0l0NTY4c3ZINU9VNHI0UWRLNU5YTFk4M3NkaWE3SktQZ1ptVWY0TmxibklDb3ZKZEhyZ2NCWXdkeUpYT2diOFhLNHJYdzNER1JXNmo2eHV3d9IB0wFBVV95cUxNV2lzS29pQld1Z3Z0eXNyQUp3U1NadjVkWDFVSC11enVzbzdTajNrNXpvY0lOblVNMTA3MHVraEtVYnVFWHBpbVBZb0E5OXFPZ2NIOXktTmFxOURlUEFvdGhnRTFSejhNbWtNbWtWR1J3WWJ6UGpqZFpUUUgyY3owZmxMWlFCNXpXbWZWc0I3cUktUnFIY2hyay1PRDEtZjFFdDdpUEdsV0oyeWRhNEQtZ3g0ZjhrbDlCWVFaQlhnNVIwRWllVFhqSDhYc18xd1dFRHZR?oc=5",
+    "source": "ThePrint",
+    "date": "31 Oct",
+    "outlets": 4,
+    "also": [
+     "Economic Times",
+     "Hindustan Times",
+     "Indian Express"
+    ],
+    "lean": "LR",
+    "sites": 22,
+    "wiki": false
+   },
+   {
+    "title": "Bangladesh forms wage board as garment protests turn violent",
+    "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPTjhSamRicmVUSnUzRXhIZmkzVC1pVlhFWk1MRGFiM0VpOW9WTHRUQmd0a3BobkV3cUwxeHpzSkNLQWVmUWowb1BTTjE4MUlvaThta2YtaWZDUHpSdkxHZUtXNFhFQjlZMTNCM050QXJrc2FIV2JOVjNkWTFHZGE1bjMxek9PX1dEeWJiNDZNcWlhNDVOd1hoZ01DYXByQThDTEZqckVCeWVWQVIzVVNiV0lSNHhFVTdNdmh3TmtGT2c?oc=5",
+    "source": "Reuters India",
+    "date": "1 Nov",
+    "outlets": 3,
+    "also": [
      "BBC",
      "NDTV"
     ],
     "lean": "LC",
-    "sites": 9,
+    "sites": 17,
+    "wiki": false
+   }
+  ],
+  "world": [
+   {
+    "title": "FBI says North Korea behind $6 billion Binance crypto theft",
+    "url": "https://www.dw.com/en/fbi-says-north-korea-behind-6-billion-binance-crypto-theft/a-79819998?maca=en-rss-en-world-4025-rdf",
+    "source": "DW",
+    "date": "1 Nov",
+    "outlets": 7,
+    "also": [
+     "Al Jazeera",
+     "Mint",
+     "NPR"
+    ],
+    "lean": "LCR",
+    "sites": 32,
     "wiki": false
    },
    {
-    "title": "Israel elections 2026: What happens to India's defence, trade ties if Netanyahu fails to retain power? Expert weighs in",
-    "url": "https://www.livemint.com/politics/policy/israel-elections-2026-what-happens-to-india-s-defence-and-trade-deals-if-netanyahu-loses-power-scenarios-explained-11793342795631.html",
-    "source": "Mint Politics",
-    "date": "30 Oct",
+    "title": "‘Epstein Files’: U.S. Judge dismisses Trump lawsuit against Wall Street Journal",
+    "url": "https://www.thehindu.com/news/international/epstein-files-us-judge-dismisses-trump-lawsuit-against-wall-street-journal-over-epstein-letter/article71652110.ece",
+    "source": "The Hindu World",
+    "date": "1 Nov",
     "outlets": 4,
     "also": [
+     "Economic Times",
+     "Reuters",
+     "The Telegraph"
+    ],
+    "lean": "LCR",
+    "sites": 13,
+    "wiki": false
+   },
+   {
+    "title": "Tusk accused of constitutional court takeover by Poland’s president",
+    "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxOTGNkZmtpN0JNM2Rka3BLSE82ZWhYZ21OaG80U1g2Vy1mRVhoX2Y5SEFXNE96OEtUcFpPVnVPNHdRTmNEc2d2QXNUQkZiUHVBbDJNLVZoVkVYbXk4UHJvZS05b2U3OV9QNEo1WFNhU19pYTBOdkVMbFJKMzRQUm9tY2ZESnVhLXBWUlJNcnV0UF9LeW9IR1FXRGJfZmVHZw?oc=5",
+    "source": "The Telegraph",
+    "date": "31 Oct",
+    "outlets": 3,
+    "also": [
      "AP",
+     "Reuters"
+    ],
+    "lean": "CR",
+    "sites": 19,
+    "wiki": true
+   }
+  ],
+  "business": [
+   {
+    "title": "Crypto giant Binance attempting to recover $6.3bn stolen in hack linked to North Korea",
+    "url": "https://www.bbc.co.uk/news/articles/cwe8lp7zy07zo?at_medium=RSS&at_campaign=rss",
+    "source": "BBC Business",
+    "date": "30 Oct",
+    "outlets": 5,
+    "also": [
+     "Economic Times",
+     "Mint",
+     "Reuters"
+    ],
+    "lean": "LC",
+    "sites": 5,
+    "wiki": false
+   },
+   {
+    "title": "OPEC+ agrees in principle to keep oil output targets steady in December, sources say",
+    "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOTk80ZVBzRVczc0hyRHU0RkJiTWx5ZDUwdnBHb0FWSmJyQWJzWHRYR0hZd0MzTW1INnFtSWRISVVRb1RncDltYW16eTYxRU9NcWJzanRqMmp4LWFXUVNTV2tzT3JCM0doS01hWDdGeUhNdHZ3WTdYXy14Q0luZTRmOWdQNlp2ZThtYlQ0cWhNSVk0c0ZkOUFyMExMUWRHMXRKamU2ZHRLa2pPMG9heUhzN2YwTnpCZw?oc=5",
+    "source": "Reuters Business",
+    "date": "31 Oct",
+    "outlets": 3,
+    "also": [
      "The Hindu",
-     "ThePrint"
+     "WSJ"
     ],
     "lean": "LCR",
     "sites": 3,
     "wiki": false
    },
    {
-    "title": "India's AU Small Finance Bank probes potential data leak",
-    "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxOV0JtMmNjNEZZRUV1blBBeFl1MXc2QjFQM3A1akFMdWRYTkdaY0g4ZjR6NUZhWXB0YXdZeXBUbHhzT1F0dUxwVWtvNjZ4V1lrUnNOVEdzWHNpdUhVMi11Y1lFYlFkRHZWbk5aZEQ0OGRrX19lTUVaZzhxVXc2aFRQbWgtN1BoWUtZejR2eWdnbmZtVmk0X1AtSVBaSVpGbFNvUVF2eGtBR2o4NDU2?oc=5",
-    "source": "Reuters India",
-    "date": "30 Oct",
+    "title": "Was Ralph Nader right about (almost) everything? His challenge to Democrats ahead of the midterm elections",
+    "url": "https://www.theguardian.com/us-news/2026/oct/29/ralph-nader-midterm-elections",
+    "source": "The Guardian Business",
+    "date": "29 Oct",
     "outlets": 4,
     "also": [
-     "Business Standard",
-     "Indian Express",
-     "ThePrint"
-    ],
-    "lean": "LCR",
-    "sites": 22,
-    "wiki": false
-   }
-  ],
-  "world": [
-   {
-    "title": "Blockchain intelligence firms link North Korea to $6.3B hack on Binance",
-    "url": "https://www.npr.org/2026/10/30/g-s1-150902/blockchain-intelligence-firms-link-north-korea-to-6-3b-hack-on-binance",
-    "source": "NPR",
-    "date": "30 Oct",
-    "outlets": 7,
-    "also": [
-     "BBC",
-     "DW",
-     "Reuters"
-    ],
-    "lean": "LCR",
-    "sites": 9,
-    "wiki": false
-   },
-   {
-    "title": "Police secure Poland’s Constitutional Tribunal as protests erupt over court chief’s suspension",
-    "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxONTN6V2ZLYWRNNzFWb3hYckNxQzgzMXZlTHY2MGN3NldSRW1BUGEtX0NUVTRzREhQcTdldGtuNkFVRzY4ZFlYRUYzS2Q0Y0tuT1hYbmpVMmZ4T3pjQjB4Si1sRndxN1haVVJ6dnlVbElWRW5vWC00Mnd6dnRsNkFsZXc2WUlRTnlxM3pmNHBUN1BERGdJcElnb1hrbGpudHFMbzJaWGxrdmx1T1c3cDJYOUplUnk?oc=5",
-    "source": "AP",
-    "date": "30 Oct",
-    "outlets": 5,
-    "also": [
-     "Hindustan Times",
-     "NDTV",
-     "Reuters"
-    ],
-    "lean": "LC",
-    "sites": 30,
-    "wiki": true
-   },
-   {
-    "title": "Binance Suspends Transactions After It Is Targeted in Biggest-Ever Cyber Heist",
-    "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPbEREMjNtM29XdElLQVFoU1JvZ1REMUxNMjZkOHQ2X2x3ZDZsVGI4dHZkVDNKUzkzalFFLTdkVG5mY2NwNGYwQjRSVGN5aVB0ZHdZZkdGa2lFUXBkTS1tcmpmZkZJRGxZYzF0NFRtOGhiSTBIa0pHbjF1VGN5LU9VYy1XN3cyRnJCd3ZkUV84TVlMRUlIZTdBN0VrbjZoVjNkZWZrMzVWaFJOaDJRaUVaSFdDNERpVVg5MnNSXw?oc=5",
-    "source": "WSJ",
-    "date": "30 Oct",
-    "outlets": 5,
-    "also": [
-     "AP",
-     "Reuters",
-     "The Guardian"
-    ],
-    "lean": "LCR",
-    "sites": 11,
-    "wiki": false
-   }
-  ],
-  "business": [
-   {
-    "title": "US tech stocks see sharp falls as AI spending nears $1tn",
-    "url": "https://www.bbc.co.uk/news/articles/cvwy72e0n72yo?at_medium=RSS&at_campaign=rss",
-    "source": "BBC Business",
-    "date": "30 Oct",
-    "outlets": 4,
-    "also": [
-     "AP",
      "Mint",
-     "The Guardian"
+     "The Hindu",
+     "WSJ"
     ],
-    "lean": "LC",
-    "sites": 8,
-    "wiki": false
-   },
-   {
-    "title": "Sun Pharma Q2 profit plunges 36% on exceptional charges despite revenue growth",
-    "url": "https://www.thehindu.com/business/sun-pharma-q2-profit-plunges-36-on-exceptional-charges-despite-revenue-growth/article71646441.ece",
-    "source": "The Hindu Business",
-    "date": "30 Oct",
-    "outlets": 3,
-    "also": [
-     "BBC",
-     "Reuters"
-    ],
-    "lean": "LC",
-    "sites": 9,
-    "wiki": false
-   },
-   {
-    "title": "Stocks to buy: Sumeet Bagadia's top 3 stock recommendations — Sun Pharma, IndiGo, Infosys | Target price, stop-loss",
-    "url": "https://www.livemint.com/market/stock-market-news/stocks-to-buy-sumeet-bagadias-top-3-stock-recommendations-sun-pharma-indigo-infosys-target-price-stoploss-11793428189400.html",
-    "source": "Mint",
-    "date": "31 Oct",
-    "outlets": 3,
-    "also": [
-     "Reuters",
-     "The Hindu"
-    ],
-    "lean": "LC",
+    "lean": "LR",
     "sites": 1,
     "wiki": false
    }
@@ -144,10 +143,10 @@
  },
  "explainer": [
   {
-   "title": "Why are so many helicopters crashing in Uttarakhand? The risks explained",
-   "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNMmRkdWVTeGFGdnBRVUx0ZzJsUW9ZTmRhWkNvQXE3UzBDcmFSUDl1ZTZ0bUp6cVZ1T2xScVZxSVpuMHhIZkRrU01nUndzWndkRUc1ZFI0OXhvdElJVHJ4UVB5MUV0N01HTDBHUFdla0ZVdENma2ItWWJyUW4xb2VxTnQwaDNEcVU3ZC1WTjg5NWJ5MHkyOTV4aEpNbkVYNW9qWmZkbHZkN2ZYSkNNb0pvekN6eUNzd9IBvAFBVV95cUxOdXhNMzlpakh3bERKSzZWalgzNG43TkJrN0w0TVplTjFWSXdvSjB2MG5RamMtbGZ2bkM3ZHBxRFBKU3pMZExONUFjWGpOcDBDWHphSFJqR2ZBQ0hJVUIzY01UbXZJb1NUT0RnYU5KVXB1Nm1FSjl6QXdRVzZTMU1rekt1Z1RsUTEyUThKS0ZxUFZySTZ3MUNEYjNoRjZ4S2ZSZmhhUFJwMUREaktWZWlzbzM0SFJuOHJIaHhCYw?oc=5",
+   "title": "INDIA bloc’s ‘public impeachment’ of Gyanesh Kumar: What is the process to remove a CEC?",
+   "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxOUEJfRTJlR0ZZakNKc1BDdzU2WVBpWm94aHpPT3NNbFZJd1R2V0dSRkJwRm9maG1ZMVRTdWNPWXJBRXY0ZTBEd1I5UVkwUUxORkphb1M4bHpyWDZmdUhhcWc1UnR4V21xaHpDUmlQYXdiUlhEaGRQNWlLbWtmMHVPWExfdUQ4NS1rOXM5Z2lxUk5IU1Fua2sxVXJNcVVNU3lzME5naGcwWDdTSkJqaDEybHJWQVg1Wmg1WGx3aDlzeXMzRkp1ci1rQWR0MNIB0gFBVV95cUxNaHZ1RUdGZ0lCLVdCZVZmMjZkZVVUVW5PUGgxNjdsOW9GaUtSVVQ0NXpDaTFSdWo1eVV3X3JGdDJZdXdkMHRvbjBtVHNYdFMtQmUtRVlOWW9jdFlTdjIyai1LR2pNLXV3UExMcVlXTXlyWnpvT3RNdlB6UlROQzJ2bnFkQk9zSk91SWlUeTUtRjktQXF2bzF2UWFPR1FzbS1hLU5adlpmUHhESnAxN09ubVNBdktiMGhDQzlSbzZ3NURtbnMtVnNqa1h6NkpBUnl3WXc?oc=5",
    "source": "Indian Express Explained",
-   "date": "30 Oct"
+   "date": "31 Oct"
   }
  ],
  "courses": {
@@ -165,30 +164,30 @@
     "date": "27 Oct"
    },
    {
-    "title": "Earning well but still broke? Ankur Warikoo highlights 5 money habits to fix, from budgeting to investing early",
-    "url": "https://www.livemint.com/money/personal-finance/earning-well-but-still-broke-ankur-warikoo-highlights-5-money-habits-to-fix-from-budgeting-to-investing-early-11793426802704.html",
+    "title": "IDBI Bank strike on November 2, 3: Reason? Will customer banking services be affected? What account holders should know",
+    "url": "https://www.livemint.com/money/personal-finance/idbi-bank-strike-on-november-2-3-reason-will-customer-banking-services-be-affected-what-account-holders-should-know-11793517307308.html",
     "source": "Mint Money",
-    "date": "31 Oct"
+    "date": "1 Nov"
    },
    {
-    "title": "Gold, silver rates today Hyderabad 31 Oct for investors: What are latest prices per kg and per 10 gms in Charminar City?",
-    "url": "https://www.livemint.com/money/gold-silver-rates-today-hyderabad-31-oct-for-investors-what-are-latest-prices-per-kg-and-per-10-gms-in-charminar-city-11793424196392.html",
+    "title": "EPFO Foundation Day Quiz 2026: Full list of winners to be awarded today | What is EPF, EPS, PMVBRY, Vishwas 2026 scheme",
+    "url": "https://www.livemint.com/money/epfo-foundation-day-quiz-2026-full-list-of-winners-to-be-awarded-today-what-is-epf-eps-pmvbry-vishwas-2026-scheme-11793514101542.html",
     "source": "Mint Money",
-    "date": "31 Oct"
+    "date": "1 Nov"
    }
   ],
   "PRD": [
+   {
+    "title": "🧠 Community Wisdom: The biggest sources of interruptions for PMs, hiring junior PMs with case studies vs. behavioral interviews, building a product harness for AI-driven development, and more",
+    "url": "https://www.lennysnewsletter.com/p/community-wisdom-the-biggest-sources",
+    "source": "Lenny's Newsletter",
+    "date": "31 Oct"
+   },
    {
     "title": "Grok vs. Dot vs. Muse vs. Claude Duet: which one crushes the competition?",
     "url": "https://www.lennysnewsletter.com/p/grok-vs-dot-vs-muse-vs-claude-duet",
     "source": "Lenny's Newsletter",
     "date": "28 Oct"
-   },
-   {
-    "title": "🎙️ How I AI: Claude Duet honest review + Why Reddit built its own AI prototyping tool",
-    "url": "https://www.lennysnewsletter.com/p/how-i-ai-claude-duet-honest-review",
-    "source": "Lenny's Newsletter",
-    "date": "26 Oct"
    }
   ],
   "AI": [
@@ -233,7 +232,7 @@
   ]
  },
  "audit": {
-  "wiki_items": 22,
+  "wiki_items": 14,
   "matched": 1,
   "total": 9,
   "by_section": {
@@ -255,7 +254,7 @@
    "Reuters India:15",
    "Mint Politics:15",
    "BBC World:15",
-   "DW:11",
+   "DW:10",
    "Reuters World:15",
    "AP:15",
    "Al Jazeera:15",
