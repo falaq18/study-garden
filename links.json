@@ -1,47 +1,46 @@
 {
- "updated": "2026-11-01T07:49+00:00",
+ "updated": "2026-11-02T07:55+00:00",
  "method": "spectrum-v2",
  "news": {
   "india": [
    {
-    "title": "'India not a banana republic': BJP attacks Rahul Gandhi ahead of INDIA bloc rally",
-    "url": "https://timesofindia.indiatimes.com/india/india-not-a-banana-republic-bjp-attacks-rahul-gandhi-ahead-of-india-bloc-rally/articleshow/135419924.cms",
-    "source": "Times of India",
-    "date": "1 Nov",
-    "outlets": 5,
-    "also": [
-     "Business Standard",
-     "Indian Express",
-     "NDTV"
-    ],
-    "lean": "LCR",
-    "sites": 2,
-    "wiki": false
-   },
-   {
-    "title": "German, Slovak nationals die of suspected electrocution in Bengaluru five-star hotel’s swimming pool",
-    "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxQT09pYmZTa1pIandqdW5HSGFRZ3o3ekdTRVIxck1pQUpWSmR4WHhnNjdPWHlpbnhrMkxvWHRoWlRoMWRjbWlJU1g5Z0trTUJMYjdzZDdRRjUyUGViOEp5cl9zTjVDeG5hUjNQVDFodzVRVUdVLWJLT2JzV1hBV0l0NTY4c3ZINU9VNHI0UWRLNU5YTFk4M3NkaWE3SktQZ1ptVWY0TmxibklDb3ZKZEhyZ2NCWXdkeUpYT2diOFhLNHJYdzNER1JXNmo2eHV3d9IB0wFBVV95cUxNV2lzS29pQld1Z3Z0eXNyQUp3U1NadjVkWDFVSC11enVzbzdTajNrNXpvY0lOblVNMTA3MHVraEtVYnVFWHBpbVBZb0E5OXFPZ2NIOXktTmFxOURlUEFvdGhnRTFSejhNbWtNbWtWR1J3WWJ6UGpqZFpUUUgyY3owZmxMWlFCNXpXbWZWc0I3cUktUnFIY2hyay1PRDEtZjFFdDdpUEdsV0oyeWRhNEQtZ3g0ZjhrbDlCWVFaQlhnNVIwRWllVFhqSDhYc18xd1dFRHZR?oc=5",
-    "source": "ThePrint",
-    "date": "31 Oct",
+    "title": "Suspended Punjab AAP MLA Kunwar Vijay Pratap Resigns, 3rd MLA To Do So In 2 Days",
+    "url": "https://www.ndtv.com/india-news/suspended-punjab-aap-mla-kunwar-vijay-pratap-resigns-3rd-mla-to-do-so-in-2-days-12269645#publisher=newsstand",
+    "source": "NDTV",
+    "date": "2 Nov",
     "outlets": 4,
     "also": [
-     "Economic Times",
      "Hindustan Times",
-     "Indian Express"
+     "India Today",
+     "Times of India"
     ],
-    "lean": "LR",
-    "sites": 22,
+    "lean": "LCR",
+    "sites": 13,
     "wiki": false
    },
    {
-    "title": "Bangladesh forms wage board as garment protests turn violent",
-    "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPTjhSamRicmVUSnUzRXhIZmkzVC1pVlhFWk1MRGFiM0VpOW9WTHRUQmd0a3BobkV3cUwxeHpzSkNLQWVmUWowb1BTTjE4MUlvaThta2YtaWZDUHpSdkxHZUtXNFhFQjlZMTNCM050QXJrc2FIV2JOVjNkWTFHZGE1bjMxek9PX1dEeWJiNDZNcWlhNDVOd1hoZ01DYXByQThDTEZqckVCeWVWQVIzVVNiV0lSNHhFVTdNdmh3TmtGT2c?oc=5",
-    "source": "Reuters India",
-    "date": "1 Nov",
+    "title": "Cyclone Murasu: Chennai, Vijayawada flights hit; Andhra on alert ahead of landfall",
+    "url": "https://timesofindia.indiatimes.com/city/amaravati/chennai-vijayawada-hit-by-flight-cancellations-as-cyclone-murasu-approaches-andhra-pradesh-on-high-alert-ahead-of-midnight-landfall/articleshow/135449723.cms",
+    "source": "Times of India",
+    "date": "2 Nov",
     "outlets": 3,
     "also": [
-     "BBC",
-     "NDTV"
+     "Hindustan Times",
+     "The Hindu"
+    ],
+    "lean": "LC",
+    "sites": 3,
+    "wiki": false
+   },
+   {
+    "title": "India at Auckland's Eden Park: Wins, losses and record ahead of New Zealand ODI series",
+    "url": "https://timesofindia.indiatimes.com/sports/cricket/india-vs-new-zealand/india-at-aucklands-eden-park-wins-losses-and-record-ahead-of-new-zealand-odi-series/articleshow/135449520.cms",
+    "source": "Times of India",
+    "date": "2 Nov",
+    "outlets": 3,
+    "also": [
+     "AP",
+     "Indian Express"
     ],
     "lean": "LC",
     "sites": 17,
@@ -50,144 +49,133 @@
   ],
   "world": [
    {
-    "title": "FBI says North Korea behind $6 billion Binance crypto theft",
-    "url": "https://www.dw.com/en/fbi-says-north-korea-behind-6-billion-binance-crypto-theft/a-79819998?maca=en-rss-en-world-4025-rdf",
-    "source": "DW",
-    "date": "1 Nov",
-    "outlets": 7,
+    "title": "Nine killed as small jet crashes on Florida street",
+    "url": "https://www.bbc.co.uk/news/articles/cm369yy7lw73o?at_medium=RSS&at_campaign=rss",
+    "source": "BBC World",
+    "date": "2 Nov",
+    "outlets": 5,
     "also": [
+     "AP",
+     "NDTV",
+     "The Hindu"
+    ],
+    "lean": "LCR",
+    "sites": 44,
+    "wiki": true
+   },
+   {
+    "title": "Analysis: Republicans face a midterm reckoning of Trump’s making",
+    "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxOeEhuaWV6VlhRbkVoRWNyY3ktZVZ1ZEhvWFlMMkljaFE2TFlTS1JtMndHQ0ZFZzJIYWNwWS1zTEk1YVJzOTEtRE83Y0lOblB0b1FpeVpaVlNRYjNoMUs4UXAyVzNxeE5vOGJfaTVkNjkzdWNLem5yX3JGdmdPd21hQWFJLVV6TWNNVURxeEc2RGdORjFMUC1senMtSkk4TEtjN2FzYkpWVUp4WEh4?oc=5",
+    "source": "AP",
+    "date": "1 Nov",
+    "outlets": 4,
+    "also": [
+     "NDTV",
+     "The Hindu",
+     "WSJ"
+    ],
+    "lean": "LCR",
+    "sites": 4,
+    "wiki": false
+   },
+   {
+    "title": "How a Democrat in Michigan rocked the party days before the US midterms",
+    "url": "https://www.bbc.co.uk/news/videos/cqvgjljj74n8o?at_medium=RSS&at_campaign=rss",
+    "source": "BBC World",
+    "date": "2 Nov",
+    "outlets": 4,
+    "also": [
+     "AP",
      "Al Jazeera",
+     "Reuters"
+    ],
+    "lean": "LC",
+    "sites": 14,
+    "wiki": false
+   }
+  ],
+  "business": [
+   {
+    "title": "India's manufacturing sector activity growth eases in October on softer rise in output, new orders",
+    "url": "https://www.thehindu.com/business/Industry/indias-manufacturing-sector-activity-growth-eases-in-october-on-softer-rise-in-output-new-orders/article71655680.ece",
+    "source": "The Hindu Business",
+    "date": "2 Nov",
+    "outlets": 4,
+    "also": [
+     "Business Standard",
      "Mint",
-     "NPR"
+     "Reuters"
     ],
     "lean": "LCR",
     "sites": 32,
     "wiki": false
    },
    {
-    "title": "‘Epstein Files’: U.S. Judge dismisses Trump lawsuit against Wall Street Journal",
-    "url": "https://www.thehindu.com/news/international/epstein-files-us-judge-dismisses-trump-lawsuit-against-wall-street-journal-over-epstein-letter/article71652110.ece",
-    "source": "The Hindu World",
-    "date": "1 Nov",
-    "outlets": 4,
-    "also": [
-     "Economic Times",
-     "Reuters",
-     "The Telegraph"
-    ],
-    "lean": "LCR",
-    "sites": 13,
-    "wiki": false
-   },
-   {
-    "title": "Tusk accused of constitutional court takeover by Poland’s president",
-    "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxOTGNkZmtpN0JNM2Rka3BLSE82ZWhYZ21OaG80U1g2Vy1mRVhoX2Y5SEFXNE96OEtUcFpPVnVPNHdRTmNEc2d2QXNUQkZiUHVBbDJNLVZoVkVYbXk4UHJvZS05b2U3OV9QNEo1WFNhU19pYTBOdkVMbFJKMzRQUm9tY2ZESnVhLXBWUlJNcnV0UF9LeW9IR1FXRGJfZmVHZw?oc=5",
-    "source": "The Telegraph",
-    "date": "31 Oct",
-    "outlets": 3,
-    "also": [
-     "AP",
-     "Reuters"
-    ],
-    "lean": "CR",
-    "sites": 19,
-    "wiki": true
-   }
-  ],
-  "business": [
-   {
-    "title": "Crypto giant Binance attempting to recover $6.3bn stolen in hack linked to North Korea",
-    "url": "https://www.bbc.co.uk/news/articles/cwe8lp7zy07zo?at_medium=RSS&at_campaign=rss",
+    "title": "Binance users withdraw $3.6bn after largest-ever crypto hack",
+    "url": "https://www.bbc.co.uk/news/articles/cwj34gdmnly4o?at_medium=RSS&at_campaign=rss",
     "source": "BBC Business",
-    "date": "30 Oct",
+    "date": "2 Nov",
     "outlets": 5,
     "also": [
-     "Economic Times",
-     "Mint",
-     "Reuters"
+     "DW",
+     "NDTV",
+     "NPR"
     ],
     "lean": "LC",
-    "sites": 5,
+    "sites": 10,
     "wiki": false
    },
    {
-    "title": "OPEC+ agrees in principle to keep oil output targets steady in December, sources say",
-    "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOTk80ZVBzRVczc0hyRHU0RkJiTWx5ZDUwdnBHb0FWSmJyQWJzWHRYR0hZd0MzTW1INnFtSWRISVVRb1RncDltYW16eTYxRU9NcWJzanRqMmp4LWFXUVNTV2tzT3JCM0doS01hWDdGeUhNdHZ3WTdYXy14Q0luZTRmOWdQNlp2ZThtYlQ0cWhNSVk0c0ZkOUFyMExMUWRHMXRKamU2ZHRLa2pPMG9heUhzN2YwTnpCZw?oc=5",
+    "title": "India's Reliance set for best day since January 2024 as oil business, Jio Platforms lift outlook",
+    "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPU0NDNVVlWVpIN1dCT0JQN3ZVYWtBTHVQdkhKZjZwTVE5MmhGc2p6a2gtaF85LUVCY2ZlNlh2Sm5kSExna1ZsdTUyMmdhLXk1WS13U3BEbHVQejFJTVBOblIySFdHSFFRNEJtV1V1clVoSDk4NXE1blNTVEcxNV9MUi13RDZCajY5YnJVVEJPejBKNC1UTXI5dEpISXFzNk9FNEd5STFPOFczQzIteTJXUmthZC0zb29KQmIwUERoLUc?oc=5",
     "source": "Reuters Business",
-    "date": "31 Oct",
+    "date": "2 Nov",
     "outlets": 3,
     "also": [
-     "The Hindu",
+     "Business Standard",
      "WSJ"
     ],
-    "lean": "LCR",
-    "sites": 3,
-    "wiki": false
-   },
-   {
-    "title": "Was Ralph Nader right about (almost) everything? His challenge to Democrats ahead of the midterm elections",
-    "url": "https://www.theguardian.com/us-news/2026/oct/29/ralph-nader-midterm-elections",
-    "source": "The Guardian Business",
-    "date": "29 Oct",
-    "outlets": 4,
-    "also": [
-     "Mint",
-     "The Hindu",
-     "WSJ"
-    ],
-    "lean": "LR",
-    "sites": 1,
+    "lean": "CR",
+    "sites": 33,
     "wiki": false
    }
   ]
  },
  "explainer": [
   {
-   "title": "INDIA bloc’s ‘public impeachment’ of Gyanesh Kumar: What is the process to remove a CEC?",
-   "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxOUEJfRTJlR0ZZakNKc1BDdzU2WVBpWm94aHpPT3NNbFZJd1R2V0dSRkJwRm9maG1ZMVRTdWNPWXJBRXY0ZTBEd1I5UVkwUUxORkphb1M4bHpyWDZmdUhhcWc1UnR4V21xaHpDUmlQYXdiUlhEaGRQNWlLbWtmMHVPWExfdUQ4NS1rOXM5Z2lxUk5IU1Fua2sxVXJNcVVNU3lzME5naGcwWDdTSkJqaDEybHJWQVg1Wmg1WGx3aDlzeXMzRkp1ci1rQWR0MNIB0gFBVV95cUxNaHZ1RUdGZ0lCLVdCZVZmMjZkZVVUVW5PUGgxNjdsOW9GaUtSVVQ0NXpDaTFSdWo1eVV3X3JGdDJZdXdkMHRvbjBtVHNYdFMtQmUtRVlOWW9jdFlTdjIyai1LR2pNLXV3UExMcVlXTXlyWnpvT3RNdlB6UlROQzJ2bnFkQk9zSk91SWlUeTUtRjktQXF2bzF2UWFPR1FzbS1hLU5adlpmUHhESnAxN09ubVNBdktiMGhDQzlSbzZ3NURtbnMtVnNqa1h6NkpBUnl3WXc?oc=5",
+   "title": "Why India wants telecom operators to report critical AI cybersecurity incidents",
+   "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQTS1yNjN6NXpwRktlZzZEWXJsNzV3ZzA5OGhCVFk5b0pBMUVESkQtcDdWbkJ4SUNVMDFZUTZyVUFibHBLLVd3eV9wY3dfbVU5dWFBYURfdFdtdWtYOGZrSE9EaFFhUGJtTFZ1TEU1NUFvQ1MyRHBSWFFZMHhaam1vRkNwY1hkZ3F3NGE0azFIQThSa0VxRlM1REQydERWdEFSYlE1SldlVUlOcDcyNTB6M3QtcGtGRU5RYkHSAcABQVVfeXFMTl9SeDU1cnROV1JxN2R1YVkwSWh3SFZDRXlfT0FpUDh3RFRTVlNrN0k1RXFsV3hKanQwXzdQcjdURVdKYVVnbTJtVDVLVVlnQy1sZGFFNkd2ZExvSXRUYjRyT3pnVFpFdktPaXJCSjlMTlVjSG1jMTIwU040SVQtQ0Y0U200a2V3RjZYMC1KYlVuZUpWMXlGNkdUOGkwVnNCVGo2NmR5QWRHYm5tRHUyTGVsU1lLclZkdlpZbGs4ZExv?oc=5",
    "source": "Indian Express Explained",
-   "date": "31 Oct"
+   "date": "2 Nov"
   }
  ],
  "courses": {
   "FIN": [
    {
-    "title": "Vedanta Demerger: 5 Companies | Which is performing better? | CA Rachana Ranade",
-    "url": "https://www.youtube.com/watch?v=J9qIL5bVT0U",
-    "source": "CA Rachana Ranade",
-    "date": "29 Oct"
-   },
-   {
-    "title": "Why Lenskart rose 70% when the market fell? (Hindi) | CA Rachana Ranade",
-    "url": "https://www.youtube.com/watch?v=JROmixRrqxA",
-    "source": "CA Rachana Ranade",
-    "date": "27 Oct"
-   },
-   {
-    "title": "IDBI Bank strike on November 2, 3: Reason? Will customer banking services be affected? What account holders should know",
-    "url": "https://www.livemint.com/money/personal-finance/idbi-bank-strike-on-november-2-3-reason-will-customer-banking-services-be-affected-what-account-holders-should-know-11793517307308.html",
+    "title": "PM Surya Ghar Muft Bijli Yojana: How to get 300 units free electricity and up to ₹78,000 rooftop solar subsidy",
+    "url": "https://www.livemint.com/money/personal-finance/pm-surya-ghar-muft-bijli-yojana-how-to-get-300-units-free-electricity-and-up-to-rs-78-000-rooftop-solar-subsidy-11793605134766.html",
     "source": "Mint Money",
-    "date": "1 Nov"
+    "date": "2 Nov"
    },
    {
-    "title": "EPFO Foundation Day Quiz 2026: Full list of winners to be awarded today | What is EPF, EPS, PMVBRY, Vishwas 2026 scheme",
-    "url": "https://www.livemint.com/money/epfo-foundation-day-quiz-2026-full-list-of-winners-to-be-awarded-today-what-is-epf-eps-pmvbry-vishwas-2026-scheme-11793514101542.html",
+    "title": "Got a Diwali gift from your employer? Check the tax rules",
+    "url": "https://www.livemint.com/money/personal-finance/diwali-gift-tax-exemption-limit-rs-15000-employer-gifts-income-tax-11793597292822.html",
     "source": "Mint Money",
-    "date": "1 Nov"
+    "date": "2 Nov"
    }
   ],
   "PRD": [
+   {
+    "title": "How a 19-year-old intern built the growth engine behind this $2B AI company | Hector Serrano",
+    "url": "https://www.lennysnewsletter.com/p/how-a-19-year-old-intern-built-the",
+    "source": "Lenny's Newsletter",
+    "date": "1 Nov"
+   },
    {
     "title": "🧠 Community Wisdom: The biggest sources of interruptions for PMs, hiring junior PMs with case studies vs. behavioral interviews, building a product harness for AI-driven development, and more",
     "url": "https://www.lennysnewsletter.com/p/community-wisdom-the-biggest-sources",
     "source": "Lenny's Newsletter",
     "date": "31 Oct"
-   },
-   {
-    "title": "Grok vs. Dot vs. Muse vs. Claude Duet: which one crushes the competition?",
-    "url": "https://www.lennysnewsletter.com/p/grok-vs-dot-vs-muse-vs-claude-duet",
-    "source": "Lenny's Newsletter",
-    "date": "28 Oct"
    }
   ],
   "AI": [
@@ -202,18 +190,6 @@
     "url": "https://www.oneusefulthing.org/p/the-dot-and-the-swarm",
     "source": "One Useful Thing",
     "date": "1 Oct"
-   },
-   {
-    "title": "Parity of permutations, impossible puzzles and the magical determinant",
-    "url": "https://www.youtube.com/watch?v=rUiulWItECQ",
-    "source": "3Blue1Brown",
-    "date": "11 Apr"
-   },
-   {
-    "title": "I Built an Original One-Glance Proof from Dice",
-    "url": "https://www.youtube.com/watch?v=8q95eiq-y-Q",
-    "source": "3Blue1Brown",
-    "date": "11 Oct"
    }
   ],
   "FINAL": [
@@ -232,7 +208,7 @@
   ]
  },
  "audit": {
-  "wiki_items": 14,
+  "wiki_items": 20,
   "matched": 1,
   "total": 9,
   "by_section": {
@@ -274,16 +250,16 @@
    "The Guardian Business:15",
    "WSJ Business:15",
    "Indian Express Explained (via gnews):2",
-   "CA Rachana Ranade:2",
    "Mint Money:2",
    "Lenny's Newsletter:2",
-   "Exponent:0",
    "One Useful Thing:2",
-   "3Blue1Brown:2",
-   "Andrej Karpathy:2",
    "One Useful Thing:2"
   ],
   "feeds_failed": [
+   "CA Rachana Ranade: HTTPError",
+   "Exponent: HTTPError",
+   "3Blue1Brown: HTTPError",
+   "Andrej Karpathy: HTTPError",
    "Vinh Giang: HTTPError"
   ],
   "notes": []
