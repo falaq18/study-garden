@@ -1,163 +1,174 @@
 {
- "updated": "2026-11-04T07:45+00:00",
+ "updated": "2026-11-05T08:10+00:00",
  "method": "spectrum-v2",
  "news": {
   "india": [
    {
-    "title": "SIR: Don’t fear, Supreme Court tells Delhi voters struck off draft electoral roll",
-    "url": "https://www.hindustantimes.com/india-news/sir-don-t-fear-supreme-court-tells-delhi-voters-struck-off-draft-electoral-roll-101793776921886.html",
-    "source": "Hindustan Times",
+    "title": "Government looks at scrapping legal immunity for social media platforms",
+    "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxQT0lzZ0VjdkNHb3k2YnVBYkgzUmFma2t1aEhlT2dXalVKTzU3MkYya1JzUGQzbWlfZDZITUZQekJQbE9hcHhTRFFOYjJQY2V0aEZPVWFETUw0aVY3SzdoMjF5dTdHb0JoeHo5LUduNHNmZ3Zid0JvS0kwekp0bFRjUDNjckM0VTNfSUh6ZUl3eVp4QWVObVQwbFJFWjZ5VWRNOVNJVkZ5cjJIVDdwQ1U5SFZReTc0MDRSeXRYbGJQUGl4bVYz0gHLAUFVX3lxTE5oLXJ6OE5ZM0FQejZjejZEaXhtcnNxb19ZMjFQZE96MEpqSV9Cbm1yc2pueVlidVd5Ujk0ODd5bHNYV05GZk1XUWwwblRlQzFVcWNfTFNvcWhZMGZNVVdXZFVpLUpqMVFVbUUwNWpTbnlPYmtYWW1NdGVib3ZUNzN1YkZjRVVoUmVBLUpBcmVSWDJuZGhjVkdoSFZkRzA3ejE1eEpueHY4UVZsdHZpYS1kSy1XTHRObVlDUHFibHppY1pPdkFoeGxfLWQ4?oc=5",
+    "source": "Indian Express",
     "date": "4 Nov",
-    "outlets": 4,
+    "outlets": 3,
     "also": [
-     "DW",
-     "Indian Express",
+     "Business Standard",
+     "Hindustan Times"
+    ],
+    "lean": "LR",
+    "sites": 1,
+    "wiki": false
+   },
+   {
+    "title": "Cert-In warns banks, fintech firms of AI-driven fund transfer fraud",
+    "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxOZUZpb05qc2pSSjZxbUlVSlMxdXptZGlHN0N3SDFsdDMzREhRMjZoWV9QYWVGd1cwckc5dG5DQ211VVhGM1Nid0pDTUN1WjV0bXBBVmNPTkxwT05Ebk9PVTRJNnFqaHVfa19CMUtKNWtaYkhBT1ZCMlg0bEt1SjFMUWNNQWhCU3VBTk9wNEhVb3J1N19NVy1fLXRCa2gwMUxlTVVUekFQOTcwMWpKd1B5TEN5X2tJalFfMGc5Y1dXS2V2eHN1dHBiZTJNeUZiVlQtR3ZN0gHYAUFVX3lxTE5IeUw4ZVFGN1NyN05rNkdzaUI4aUJQNzU0UzgybDZOQjdmLVRaS1dlRVg5ZEl0V0tZN213QVFrOXZlc1BNUHI3NlhaanVjeVkyeEJHVmdQaHdjODRJT3hISTkzQ09XQWhHMzZrMExMUTd5ejI5WFZ0YkpEUFdZZFZzcGtMS0xsUnIzajAxWmlhS2RGcXBzSV9yZDBPSW1CMkVCT24xTjZFMjFod3k2UzJFdWstRGgySFVBUWQtV2hnZ3RQSDg3ekttTnZzTVZ1ZDZKdUl6S3ZVRw?oc=5",
+    "source": "Business Standard",
+    "date": "5 Nov",
+    "outlets": 2,
+    "also": [
+     "Indian Express"
+    ],
+    "lean": "LR",
+    "sites": 15,
+    "wiki": false
+   },
+   {
+    "title": "America’s 1st Muslim senator to Georgia’s 1st Black woman governor—the historic firsts in US midterms",
+    "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxQMjdzcWI5WE9PMjIxZUFmRW0wdWhmdXNFTWI3VTRtckw4Y3BJQlNfTnB1T0lqSmU0a0dnaW5ZUUxubWhhamNlWVFUb0xTdVhvb1Ytd2hiRzVENUsxNWVtZ2RHaS11QllCaDloMEs0UE84X1VnS3p3TXFWcE5qajNoWnBXd01CLXRxUWM4QzU0aEVVbER4Q2xuTEpSOVRtN3ZHTTNRaGVKTXpnNWNYNnBYU2hhYnRzYjVnWWpOOEcxdU41aDJDbFlUc0lmLUhVOHPSAdQBQVVfeXFMTk5tN1RoNXFfWjlWN2JDeG1ZeTluNlM5T0FZTE5pZDR2bXJ4UVI2SnRRRHBqQjNRdkV2QXVBUVBnb2tvVVVmYVY3TjVLODU1UEE4LW0wSkJBb296b2I4YVhhOG5BTHFsT2xiTEpkVm9WMExpZE4yVUxJam43SEpOOVhPeEo3VEk0TWlXUDlNcDBIeU1DdVBrXzdyQlZ4U3pLOFRJQnZiUWlzNFhjLVFxVWFRRHQyYWtJNHhsTUVMSWZQeUN4eDU4eFRzTWsyWlVZdDExbko?oc=5",
+    "source": "ThePrint",
+    "date": "4 Nov",
+    "outlets": 2,
+    "also": [
      "The Hindu"
     ],
-    "lean": "LC",
-    "sites": 16,
-    "wiki": false
-   },
-   {
-    "title": "Fairfax's $5.5 billion deal for India's IDBI Bank faces employee, political opposition",
-    "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxPdnYyd1d6NDhFVHN5Y2diNGdPa29fb1NwWVJrQkloMjlneFZyZTEyOUVLTFItb3o4STloUUxnOE55b2xZNUpJWDI5RXNDZjBpUFJPdXF4enE5WHpxaXYxY3ctRW8xdS0yTjYxd2lzem1sOF8zb2pUaGdvdWFFVE95V3ZOOE0xY0hmOFhFRUktXzRRd3BXTV9aZ3lEcUJSbWs5STlOalFOa1lwU2taYVBHMFdzTVZ2NjVEQ3FkeXU2cUFZdVk?oc=5",
-    "source": "Reuters India",
-    "date": "3 Nov",
-    "outlets": 3,
-    "also": [
-     "Times of India",
-     "WSJ"
-    ],
-    "lean": "CR",
-    "sites": 8,
-    "wiki": false
-   },
-   {
-    "title": "Indian stocks inch higher as investors assess foreign fund flows, US election results",
-    "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPT0tFa0Z0bnRlSFU3NTdYOFVXaGdid3Fad1NTRnViRDBTUWg2Um1BQ21RVlNkSWdjR2Y1Z2VXdV9fWXdjY19GZkJDZ2F0ZFFvckRQY2V0eDRwVzZJMkJ5a29mbGlLZUQyQkFzX1VwVThZdEQtZEdiUVJMRzJxeGFXQUxmclZST2l1RzN6elNobi1IZC11a2N2cFJDZEdQNVo1MmgxWlFBaHA3VXlLWHc?oc=5",
-    "source": "Reuters India",
-    "date": "4 Nov",
-    "outlets": 3,
-    "also": [
-     "NDTV",
-     "The Guardian"
-    ],
-    "lean": "LC",
-    "sites": 5,
+    "lean": "LR",
+    "sites": 25,
     "wiki": false
    }
   ],
   "world": [
    {
-    "title": "Democrat Amy Acton makes history in Ohio",
-    "url": "https://www.aljazeera.com/video/newsfeed/2026/11/4/democrat-amy-acton-makes-history-in-ohio?traffic_source=rss",
-    "source": "Al Jazeera",
-    "date": "4 Nov",
-    "outlets": 5,
+    "title": "Hong Kong activist Joshua Wong sentenced to 10 years in prison",
+    "url": "https://www.npr.org/2026/11/05/g-s1-152032/hong-kong-activist-wong-sentenced",
+    "source": "NPR",
+    "date": "5 Nov",
+    "outlets": 6,
+    "also": [
+     "Al Jazeera",
+     "BBC",
+     "The Guardian"
+    ],
+    "lean": "LCR",
+    "sites": 31,
+    "wiki": false
+   },
+   {
+    "title": "U.S. midterm elections 2026 LIVE: After midterm loss, Trump left to weigh his next move in Iran war",
+    "url": "https://www.thehindu.com/news/international/us-midterm-elections-2026-results-trump-senate-congress-races-winners-losers-live-updates-republicans-democrats/article71668404.ece",
+    "source": "The Hindu World",
+    "date": "5 Nov",
+    "outlets": 6,
     "also": [
      "AP",
-     "The Hindu",
-     "ThePrint"
+     "Business Standard",
+     "Mint"
     ],
     "lean": "LCR",
-    "sites": 29,
+    "sites": 3,
     "wiki": false
    },
    {
-    "title": "U.S. midterm elections 2026 LIVE: Donald Trump congratulates Democrats on victory, says Iran war played role",
-    "url": "https://www.thehindu.com/news/international/us-midterm-elections-2026-senate-governor-races-winners-lossers-live-updates-trump-republicans-democrats-news/article71660811.ece",
-    "source": "The Hindu World",
-    "date": "4 Nov",
-    "outlets": 3,
-    "also": [
-     "DW",
-     "The Telegraph"
-    ],
-    "lean": "LCR",
-    "sites": 41,
-    "wiki": false
-   },
-   {
-    "title": "Democrats win Congress: How they did it, and what it means",
-    "url": "https://www.aljazeera.com/news/2026/11/4/democrats-win-the-us-senate-what-does-this-mean?traffic_source=rss",
-    "source": "Al Jazeera",
-    "date": "4 Nov",
+    "title": "Bob Dylan comes knockin' on pope's door as Leo welcomes legend to Vatican",
+    "url": "https://www.npr.org/2026/11/05/g-s1-152035/vatican-pope-bob-dylan",
+    "source": "NPR",
+    "date": "5 Nov",
     "outlets": 4,
     "also": [
-     "AP",
-     "NDTV",
-     "The Hindu"
+     "BBC",
+     "The Telegraph",
+     "Times of India"
     ],
-    "lean": "LC",
-    "sites": 63,
+    "lean": "LCR",
+    "sites": 5,
     "wiki": false
    }
   ],
   "business": [
    {
-    "title": "Oil rises on Iran war uncertainty after Trump’s Republicans face election rout",
-    "url": "https://www.thehindu.com/business/Economy/oil-rises-on-iran-war-uncertainty-after-trumps-republicans-face-election-rout/article71664204.ece",
-    "source": "The Hindu Business",
+    "title": "Indian benchmarks near three-month highs as oil slides after US Democratic win",
+    "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxNVmJaMVVmaUE0cUtPUW9iRklDNUNCV2k4c1NXYzllRGYzeUdXOFJkeGVEOUNsdkhwc0pfc3pkSVdvb3Nwc3FMSE0xTVBnbEtiQ29Gd2NzbmFtMU9rVXNoNXF3MkRrMEtHczdSX0VGUExrTDkyNHAxYWI0SGFWbVRSZWhDaGlvNkhLdUtiZGdDaWVQaFJ0NkRkckJvQ0ZzSnM2dmFUd2tZXzdQaWZBaFN4Y3BNYXo0UkVZRGpQTkdTUQ?oc=5",
+    "source": "Reuters India Business",
+    "date": "5 Nov",
+    "outlets": 3,
+    "also": [
+     "Indian Express",
+     "The Hindu"
+    ],
+    "lean": "LC",
+    "sites": 19,
+    "wiki": false
+   },
+   {
+    "title": "US stocks rise, dollar slides as investors digest Democrats’ midterm victories",
+    "url": "https://www.theguardian.com/business/2026/nov/04/us-dollar-slides-democrats-midterm-election-win-growth-fears",
+    "source": "The Guardian Business",
     "date": "4 Nov",
     "outlets": 3,
     "also": [
-     "Mint",
-     "Reuters"
+     "Reuters",
+     "The Hindu"
     ],
     "lean": "LC",
-    "sites": 7,
+    "sites": 12,
     "wiki": false
    },
    {
-    "title": "Kotak Mahindra Bank gets CCI nod to acquire Deutsche Bank India's retail, private banking businesses",
-    "url": "https://www.thehindu.com/business/Industry/kotak-mahindra-bank-gets-cci-nod-to-acquire-deutsche-bank-indias-retail-private-banking-businesses/article71664408.ece",
-    "source": "The Hindu Business",
-    "date": "4 Nov",
-    "outlets": 2,
-    "also": [
-     "Reuters"
-    ],
-    "lean": "LC",
-    "sites": 33,
-    "wiki": false
-   },
-   {
-    "title": "Oil price falls amid hope of a breakthrough to end Iran war",
-    "url": "https://www.theguardian.com/business/2026/nov/02/oil-price-falls-amid-hope-of-a-breakthrough-to-end-iran-war",
-    "source": "The Guardian Business",
-    "date": "2 Nov",
+    "title": "Worst Samvat in 15 years! Sensex, Nifty crash up to 8%: Can investors expect a bull run in Samvat 2083? What experts say",
+    "url": "https://www.livemint.com/market/worst-samvat-in-15-years-sensex-nifty-crash-up-to-8-can-investors-expect-a-bull-run-in-samvat-2083-what-experts-say-11793860986454.html",
+    "source": "Mint",
+    "date": "5 Nov",
     "outlets": 3,
     "also": [
      "Business Standard",
-     "WSJ"
+     "The Hindu"
     ],
     "lean": "LR",
-    "sites": 0,
+    "sites": 2,
     "wiki": false
    }
   ]
  },
  "explainer": [
   {
-   "title": "Why AI has boosted Meta’s advertising revenue, but hurt Google search",
-   "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQSEplYktvRFN0eVhfQ25zYzdoaHFRemdWUmpINHVlN0lRejMwRXo5NUd6UG41Nm9YLTRsMUt5My1nRGRYbEs5M0kweGtod0FwTlhWRFBaTm1vdmpzXzk5ZHBJVksyMzB6akFXT3UyUm1zUU9YTFY0RDFObmMwM1dPd19GV1dJWEk2dWRYRjdHY2twWU9ZWnJBTy1IMkg5dGlrSnNxTUlsemxFSEtnNi1TX9IBtwFBVV95cUxOank2WGJsNkRXQmZwN1FGMXdqeUpRYTlxU09kTjk4bW5ZYUZodFVZdmpPVDZlMHZrdUo2UnZHRzl5NGRoRmYzcldncWpzVUIwNEV1QWQ0NnNxRnNMZmtlYU9BRHcxaUllLWMwZnpLVk41ZEFGMHRHdDk0MEhMaTJfbEZWU2VleGttWjZyWHVoUi1JM3diTGN5VmpkQ3pGMWZyLUo4OXlYdThxNWpKcTJEd3RGV0x4eDQ?oc=5",
+   "title": "Decoding the 2026 US midterms verdict: Why Delhi must rediscover and engage with the many Americas",
+   "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxORURQTnN0YUw3MGNDejFzeEJmd24tNHdVckhZN2dNMEdtTnh1THRkX3ZucHhabkZ2U09wWloxRDExNDM2Uktqc1pORGdNa3hJNVBTMUE2MDF1QVBBcXBfbUFGVmVTNmhrQ3JfRnVCUGhlRTlaaExXMnJYT3M4UlpxR2FqQUVIdzhERXVoclVfQ012azZnMVlBeXlsTk9wWk1CNHhQVnE1cG1ULU8yQXhyS1dYU1dQcmpFQUw0dFVyVHltTFZieGRV0gHOAUFVX3lxTFBGWWhRbkk5ekRUVEpyRkpzY3U1R092SnZYLWVadFRXRjZHUngyaVlmQnRrcGlZTmh1WkhiQS1vekxLRUlqU1FyYUFweWczWEhqY0o3TEtCaEFKYXczcXplVzBzM08zaGV3SUZzMG5GLTdCN3hhX212eHJaUlh6a2RzSkc4TkxmSS1SUmkyWHVSZm1ENWtUVW9oNzNTNkp4N3RuMl9HcmlTd1VXeWtqb09seVdxLVNlY3BldzdCQW9VenJuYTQ3RXZsb191THF3?oc=5",
    "source": "Indian Express Explained",
-   "date": "3 Nov"
+   "date": "4 Nov"
   }
  ],
  "courses": {
   "FIN": [
    {
-    "title": "Mutual fund 1, 3, 5 years returns battle 2026: Which large, mid, small-cap schemes delivered consistent money gains?",
-    "url": "https://www.livemint.com/money/personal-finance/mutual-fund-1-3-5-years-returns-battle-2026-which-large-mid-small-cap-schemes-delivered-consistent-money-gains-11793772095319.html",
-    "source": "Mint Money",
-    "date": "4 Nov"
+    "title": "Vedanta Demerger: 5 Companies | Which is performing better? | CA Rachana Ranade",
+    "url": "https://www.youtube.com/watch?v=J9qIL5bVT0U",
+    "source": "CA Rachana Ranade",
+    "date": "29 Oct"
    },
    {
-    "title": "Gold rate today Coimbatore Nov 4 Wednesday: Up or down? Latest price for investors ahead of Dhanteras, Diwali 2026",
-    "url": "https://www.livemint.com/money/gold-rate-today-coimbatore-nov-4-wednesday-up-down-latest-price-investors-dhanteras-diwali-2026-isha-city-silver-prices-11793771174098.html",
+    "title": "Why Lenskart rose 70% when the market fell? (Hindi) | CA Rachana Ranade",
+    "url": "https://www.youtube.com/watch?v=JROmixRrqxA",
+    "source": "CA Rachana Ranade",
+    "date": "27 Oct"
+   },
+   {
+    "title": "Gold rate today Sangli Nov 5: Check latest prices ahead of Dhanteras 2026 - Trump loss, US election results impact",
+    "url": "https://www.livemint.com/money/gold-rate-today-sangli-nov-5-check-latest-prices-ahead-of-dhanteras-2026-trump-loss-us-election-results-impact-11793864132014.html",
     "source": "Mint Money",
-    "date": "4 Nov"
+    "date": "5 Nov"
+   },
+   {
+    "title": "Gold rate today Kolhapur Nov 5: Check latest prices ahead of Dhanteras 2026 amid US midterm election results impact",
+    "url": "https://www.livemint.com/money/personal-finance/gold-rate-today-kolhapur-nov-5-check-latest-prices-ahead-of-dhanteras-2026-amid-us-midterm-election-results-impact-11793863763265.html",
+    "source": "Mint Money",
+    "date": "5 Nov"
    }
   ],
   "PRD": [
@@ -186,6 +197,18 @@
     "url": "https://www.oneusefulthing.org/p/the-dot-and-the-swarm",
     "source": "One Useful Thing",
     "date": "1 Oct"
+   },
+   {
+    "title": "Parity of permutations, impossible puzzles and the magical determinant",
+    "url": "https://www.youtube.com/watch?v=rUiulWItECQ",
+    "source": "3Blue1Brown",
+    "date": "11 Apr"
+   },
+   {
+    "title": "I Built an Original One-Glance Proof from Dice",
+    "url": "https://www.youtube.com/watch?v=8q95eiq-y-Q",
+    "source": "3Blue1Brown",
+    "date": "11 Oct"
    }
   ],
   "FINAL": [
@@ -204,7 +227,7 @@
   ]
  },
  "audit": {
-  "wiki_items": 14,
+  "wiki_items": 6,
   "matched": 0,
   "total": 9,
   "by_section": {
@@ -226,7 +249,7 @@
    "Reuters India:15",
    "Mint Politics:15",
    "BBC World:15",
-   "DW:11",
+   "DW:12",
    "Reuters World:15",
    "AP:15",
    "Al Jazeera:15",
@@ -246,16 +269,16 @@
    "The Guardian Business:15",
    "WSJ Business:15",
    "Indian Express Explained (via gnews):2",
+   "CA Rachana Ranade:2",
    "Mint Money:2",
    "Lenny's Newsletter:2",
+   "Exponent:0",
    "One Useful Thing:2",
+   "3Blue1Brown:2",
+   "Andrej Karpathy:2",
    "One Useful Thing:2"
   ],
   "feeds_failed": [
-   "CA Rachana Ranade: HTTPError",
-   "Exponent: HTTPError",
-   "3Blue1Brown: HTTPError",
-   "Andrej Karpathy: HTTPError",
    "Vinh Giang: HTTPError"
   ],
   "notes": []
