@@ -1,147 +1,148 @@
 {
- "updated": "2026-11-05T08:10+00:00",
+ "updated": "2026-11-06T08:15+00:00",
  "method": "spectrum-v2",
  "news": {
   "india": [
    {
-    "title": "Government looks at scrapping legal immunity for social media platforms",
-    "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxQT0lzZ0VjdkNHb3k2YnVBYkgzUmFma2t1aEhlT2dXalVKTzU3MkYya1JzUGQzbWlfZDZITUZQekJQbE9hcHhTRFFOYjJQY2V0aEZPVWFETUw0aVY3SzdoMjF5dTdHb0JoeHo5LUduNHNmZ3Zid0JvS0kwekp0bFRjUDNjckM0VTNfSUh6ZUl3eVp4QWVObVQwbFJFWjZ5VWRNOVNJVkZ5cjJIVDdwQ1U5SFZReTc0MDRSeXRYbGJQUGl4bVYz0gHLAUFVX3lxTE5oLXJ6OE5ZM0FQejZjejZEaXhtcnNxb19ZMjFQZE96MEpqSV9Cbm1yc2pueVlidVd5Ujk0ODd5bHNYV05GZk1XUWwwblRlQzFVcWNfTFNvcWhZMGZNVVdXZFVpLUpqMVFVbUUwNWpTbnlPYmtYWW1NdGVib3ZUNzN1YkZjRVVoUmVBLUpBcmVSWDJuZGhjVkdoSFZkRzA3ejE1eEpueHY4UVZsdHZpYS1kSy1XTHRObVlDUHFibHppY1pPdkFoeGxfLWQ4?oc=5",
-    "source": "Indian Express",
-    "date": "4 Nov",
-    "outlets": 3,
+    "title": "‘Hope you are enjoying Delhi weather’: CJI blames vehicles for air pollution",
+    "url": "https://timesofindia.indiatimes.com/india/hope-you-are-enjoying-delhi-weather-cjis-remark-as-sc-takes-up-delhi-ncr-pollution/articleshow/135597208.cms",
+    "source": "Times of India",
+    "date": "6 Nov",
+    "outlets": 5,
     "also": [
-     "Business Standard",
-     "Hindustan Times"
+     "BBC",
+     "Hindustan Times",
+     "Indian Express"
     ],
-    "lean": "LR",
+    "lean": "LC",
     "sites": 1,
     "wiki": false
    },
    {
-    "title": "Cert-In warns banks, fintech firms of AI-driven fund transfer fraud",
-    "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxOZUZpb05qc2pSSjZxbUlVSlMxdXptZGlHN0N3SDFsdDMzREhRMjZoWV9QYWVGd1cwckc5dG5DQ211VVhGM1Nid0pDTUN1WjV0bXBBVmNPTkxwT05Ebk9PVTRJNnFqaHVfa19CMUtKNWtaYkhBT1ZCMlg0bEt1SjFMUWNNQWhCU3VBTk9wNEhVb3J1N19NVy1fLXRCa2gwMUxlTVVUekFQOTcwMWpKd1B5TEN5X2tJalFfMGc5Y1dXS2V2eHN1dHBiZTJNeUZiVlQtR3ZN0gHYAUFVX3lxTE5IeUw4ZVFGN1NyN05rNkdzaUI4aUJQNzU0UzgybDZOQjdmLVRaS1dlRVg5ZEl0V0tZN213QVFrOXZlc1BNUHI3NlhaanVjeVkyeEJHVmdQaHdjODRJT3hISTkzQ09XQWhHMzZrMExMUTd5ejI5WFZ0YkpEUFdZZFZzcGtMS0xsUnIzajAxWmlhS2RGcXBzSV9yZDBPSW1CMkVCT24xTjZFMjFod3k2UzJFdWstRGgySFVBUWQtV2hnZ3RQSDg3ekttTnZzTVZ1ZDZKdUl6S3ZVRw?oc=5",
-    "source": "Business Standard",
+    "title": "Ramayana collection day 1 early report: Ranbir Kapoor’s epic likely to earn Rs 100 cr in India",
+    "url": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxQeFN5TzlkbHNKSFVkUjdVa1RLMWlJQkpXUGtESkVlVnZBRkdlLVlRNjR0UHBwamlQV3pNd3Y3WER3VVJORWNEWnZIVnF0TklUTWEtdTBsLVVCaGhWMzVlOW4tQ2luZVBWOFNaVGVMUF9iTl90SVVpT3o5N3VEMDQzRlV5SVNLNmVZS3ZaTG1UX1QzbGFJaXBndlBpbUt1MVFodzl3ZjZ5TWJHM0ExTWowVmdtNXRSdm5KUzEyTWp2VC1lXzZIakc1UzM3cERDUWlUWC1hXzliOHRNdE52WS1qbUVibmZ2RF9wUGfSAfABQVVfeXFMTUtNQTNZY09zOVRkd1RfN0lBT25OdTJxNkNqUzFDUTlZWHlyT08yZGZ1aDhkUGZ2OFFFZHlsSmxVY1lDbnNuOE5wTDhtNGNXM3dCZkFqQUtuUkFPTTdlY2dnOFFjcHZhYTdKMDFVczBha3pDU2R1MGNkcjFYejFKNUdQNXM5NGdpQlkzN0k1MjZRa0hLSXkzRmd2Y0xZX21tRkNXVF9QN2hFRTl4S2hOZEVrWVAxMGlPZWhMVldUQnpENTV2cnZOaDFjbzlmaGlNUW1naE81aU56RWpIVkFoRlhGU2VDQ1lvaTJoRlVCY2d0?oc=5",
+    "source": "Indian Express",
     "date": "5 Nov",
-    "outlets": 2,
+    "outlets": 3,
     "also": [
-     "Indian Express"
+     "BBC",
+     "ThePrint"
     ],
-    "lean": "LR",
-    "sites": 15,
+    "lean": "LCR",
+    "sites": 23,
     "wiki": false
    },
    {
-    "title": "America’s 1st Muslim senator to Georgia’s 1st Black woman governor—the historic firsts in US midterms",
-    "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxQMjdzcWI5WE9PMjIxZUFmRW0wdWhmdXNFTWI3VTRtckw4Y3BJQlNfTnB1T0lqSmU0a0dnaW5ZUUxubWhhamNlWVFUb0xTdVhvb1Ytd2hiRzVENUsxNWVtZ2RHaS11QllCaDloMEs0UE84X1VnS3p3TXFWcE5qajNoWnBXd01CLXRxUWM4QzU0aEVVbER4Q2xuTEpSOVRtN3ZHTTNRaGVKTXpnNWNYNnBYU2hhYnRzYjVnWWpOOEcxdU41aDJDbFlUc0lmLUhVOHPSAdQBQVVfeXFMTk5tN1RoNXFfWjlWN2JDeG1ZeTluNlM5T0FZTE5pZDR2bXJ4UVI2SnRRRHBqQjNRdkV2QXVBUVBnb2tvVVVmYVY3TjVLODU1UEE4LW0wSkJBb296b2I4YVhhOG5BTHFsT2xiTEpkVm9WMExpZE4yVUxJam43SEpOOVhPeEo3VEk0TWlXUDlNcDBIeU1DdVBrXzdyQlZ4U3pLOFRJQnZiUWlzNFhjLVFxVWFRRHQyYWtJNHhsTUVMSWZQeUN4eDU4eFRzTWsyWlVZdDExbko?oc=5",
-    "source": "ThePrint",
-    "date": "4 Nov",
-    "outlets": 2,
+    "title": "Cyclone Murasu: Search for five missing fishermen intensified, says Tamil Nadu Government",
+    "url": "https://www.thehindu.com/news/national/tamil-nadu/cyclone-murasu-search-for-five-missing-fishermen-intensified-says-tamil-nadu-government/article71673361.ece",
+    "source": "The Hindu",
+    "date": "6 Nov",
+    "outlets": 3,
     "also": [
-     "The Hindu"
+     "Hindustan Times",
+     "ThePrint"
     ],
     "lean": "LR",
-    "sites": 25,
+    "sites": 9,
     "wiki": false
    }
   ],
   "world": [
    {
-    "title": "Hong Kong activist Joshua Wong sentenced to 10 years in prison",
-    "url": "https://www.npr.org/2026/11/05/g-s1-152032/hong-kong-activist-wong-sentenced",
+    "title": "Paraguay's president is impeached minutes after resigning following a bank collapse",
+    "url": "https://www.npr.org/2026/11/05/nx-s1-6030842/paraguay-president-impeached-bank-collapse",
     "source": "NPR",
     "date": "5 Nov",
-    "outlets": 6,
+    "outlets": 9,
     "also": [
-     "Al Jazeera",
+     "AP",
      "BBC",
+     "Business Standard"
+    ],
+    "lean": "LCR",
+    "sites": 18,
+    "wiki": true
+   },
+   {
+    "title": "Americans voted against Trump's Iran war. Gulf countries hope that means an end to the conflict",
+    "url": "https://www.dw.com/en/americans-voted-against-trump-s-iran-war-gulf-countries-hope-that-means-an-end-to-the-conflict/a-79868398?maca=en-rss-en-world-4025-rdf",
+    "source": "DW",
+    "date": "5 Nov",
+    "outlets": 5,
+    "also": [
+     "Economic Times",
+     "Mint",
      "The Guardian"
     ],
     "lean": "LCR",
-    "sites": 31,
+    "sites": 7,
     "wiki": false
    },
    {
-    "title": "U.S. midterm elections 2026 LIVE: After midterm loss, Trump left to weigh his next move in Iran war",
-    "url": "https://www.thehindu.com/news/international/us-midterm-elections-2026-results-trump-senate-congress-races-winners-losers-live-updates-republicans-democrats/article71668404.ece",
-    "source": "The Hindu World",
-    "date": "5 Nov",
-    "outlets": 6,
-    "also": [
-     "AP",
-     "Business Standard",
-     "Mint"
-    ],
-    "lean": "LCR",
-    "sites": 3,
-    "wiki": false
-   },
-   {
-    "title": "Bob Dylan comes knockin' on pope's door as Leo welcomes legend to Vatican",
-    "url": "https://www.npr.org/2026/11/05/g-s1-152035/vatican-pope-bob-dylan",
+    "title": "Hong Kong activist Joshua Wong is sentenced to 10 more years in prison",
+    "url": "https://www.npr.org/2026/11/05/g-s1-152032/hong-kong-activist-wong-sentenced",
     "source": "NPR",
     "date": "5 Nov",
     "outlets": 4,
     "also": [
      "BBC",
-     "The Telegraph",
-     "Times of India"
+     "The Guardian",
+     "The Hindu"
     ],
-    "lean": "LCR",
-    "sites": 5,
-    "wiki": false
+    "lean": "LC",
+    "sites": 83,
+    "wiki": true
    }
   ],
   "business": [
    {
-    "title": "Indian benchmarks near three-month highs as oil slides after US Democratic win",
-    "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxNVmJaMVVmaUE0cUtPUW9iRklDNUNCV2k4c1NXYzllRGYzeUdXOFJkeGVEOUNsdkhwc0pfc3pkSVdvb3Nwc3FMSE0xTVBnbEtiQ29Gd2NzbmFtMU9rVXNoNXF3MkRrMEtHczdSX0VGUExrTDkyNHAxYWI0SGFWbVRSZWhDaGlvNkhLdUtiZGdDaWVQaFJ0NkRkckJvQ0ZzSnM2dmFUd2tZXzdQaWZBaFN4Y3BNYXo0UkVZRGpQTkdTUQ?oc=5",
-    "source": "Reuters India Business",
-    "date": "5 Nov",
+    "title": "Today’s Gold Rate in India November 6: Gold prices down in Coimbatore, Nagpur, Visakhapatnam, Surat, Jaipur",
+    "url": "https://www.thehindubusinessline.com/gold-rate-today/gold-price-today-in-coimbatore-nagpur-visakhapatnam-surat-jaipur-lucknow-chandigarh-gold-rates-other-cities-november-6-2026/article71673484.ece",
+    "source": "Hindu BusinessLine",
+    "date": "6 Nov",
     "outlets": 3,
     "also": [
-     "Indian Express",
-     "The Hindu"
+     "AP",
+     "Economic Times"
     ],
     "lean": "LC",
-    "sites": 19,
+    "sites": 0,
     "wiki": false
    },
    {
-    "title": "US stocks rise, dollar slides as investors digest Democrats’ midterm victories",
-    "url": "https://www.theguardian.com/business/2026/nov/04/us-dollar-slides-democrats-midterm-election-win-growth-fears",
-    "source": "The Guardian Business",
-    "date": "4 Nov",
-    "outlets": 3,
+    "title": "Stock markets trade higher in early session on sustained foreign fund inflows",
+    "url": "https://www.thehindu.com/business/Industry/stock-markets-trade-higher-in-early-session-on-sustained-foreign-fund-inflows/article71672872.ece",
+    "source": "The Hindu Business",
+    "date": "6 Nov",
+    "outlets": 2,
     "also": [
-     "Reuters",
-     "The Hindu"
+     "Reuters"
     ],
     "lean": "LC",
     "sites": 12,
     "wiki": false
    },
    {
-    "title": "Worst Samvat in 15 years! Sensex, Nifty crash up to 8%: Can investors expect a bull run in Samvat 2083? What experts say",
-    "url": "https://www.livemint.com/market/worst-samvat-in-15-years-sensex-nifty-crash-up-to-8-can-investors-expect-a-bull-run-in-samvat-2083-what-experts-say-11793860986454.html",
-    "source": "Mint",
-    "date": "5 Nov",
-    "outlets": 3,
+    "title": "Sensex today | Stock Market Live Updates: Sensex hits 80,000, Nifty above 24,700 as markets rally; M&M shares lead gainers",
+    "url": "https://www.thehindubusinessline.com/markets/sensex-nifty50-today-stock-market-live-updates-6-november-2026/article71669668.ece",
+    "source": "Hindu BusinessLine",
+    "date": "6 Nov",
+    "outlets": 2,
     "also": [
-     "Business Standard",
-     "The Hindu"
+     "Business Standard"
     ],
     "lean": "LR",
-    "sites": 2,
+    "sites": 5,
     "wiki": false
    }
   ]
  },
  "explainer": [
   {
-   "title": "Decoding the 2026 US midterms verdict: Why Delhi must rediscover and engage with the many Americas",
-   "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxORURQTnN0YUw3MGNDejFzeEJmd24tNHdVckhZN2dNMEdtTnh1THRkX3ZucHhabkZ2U09wWloxRDExNDM2Uktqc1pORGdNa3hJNVBTMUE2MDF1QVBBcXBfbUFGVmVTNmhrQ3JfRnVCUGhlRTlaaExXMnJYT3M4UlpxR2FqQUVIdzhERXVoclVfQ012azZnMVlBeXlsTk9wWk1CNHhQVnE1cG1ULU8yQXhyS1dYU1dQcmpFQUw0dFVyVHltTFZieGRV0gHOAUFVX3lxTFBGWWhRbkk5ekRUVEpyRkpzY3U1R092SnZYLWVadFRXRjZHUngyaVlmQnRrcGlZTmh1WkhiQS1vekxLRUlqU1FyYUFweWczWEhqY0o3TEtCaEFKYXczcXplVzBzM08zaGV3SUZzMG5GLTdCN3hhX212eHJaUlh6a2RzSkc4TkxmSS1SUmkyWHVSZm1ENWtUVW9oNzNTNkp4N3RuMl9HcmlTd1VXeWtqb09seVdxLVNlY3BldzdCQW9VenJuYTQ3RXZsb191THF3?oc=5",
+   "title": "The Presidential Midterm Curse I Explained",
+   "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxQVHJySzdpLVRxNmhRdnZ4UDRXbWIyUDVoQ1pSbEtIQVM4djJPcGZNLWlmd19kTTR0VWttbEJXUHBjNkZYTmlJbnRTOXcwUUt6NHBZdFNzTUxWdnJhZ3hsa3BEdVBWdzBheHJmcmtZbnplUFFMX3JyeG00Rmt4ckVCWWxVb28tWHJuSGl3X3hVaVnSAZcBQVVfeXFMT1lwb3lMdEVHa2Z3Uk9PTktvUnNPVnFIcUpGVDdDSHdaemhXc25nZ2E3SzgxcjdoSE43TTAydVVnNEF1R3c1QUhILVpMZTJJNkRuQ1ljeHhzSklJYzVtYkg0SGxtaElGQkhtRGFkYVk3TjRMMlhDQnd1Mmd6ZHNkZi1VczNsdVpyUV9Ra3VkREs0RFhNSEJ5UQ?oc=5",
    "source": "Indian Express Explained",
-   "date": "4 Nov"
+   "date": "5 Nov"
   }
  ],
  "courses": {
@@ -159,16 +160,16 @@
     "date": "27 Oct"
    },
    {
-    "title": "Gold rate today Sangli Nov 5: Check latest prices ahead of Dhanteras 2026 - Trump loss, US election results impact",
-    "url": "https://www.livemint.com/money/gold-rate-today-sangli-nov-5-check-latest-prices-ahead-of-dhanteras-2026-trump-loss-us-election-results-impact-11793864132014.html",
+    "title": "Dhanteras, Diwali 2026 shopping tips: Buying gold and silver jewellery? 3 hallmark checks and how to use BIS Care app",
+    "url": "https://www.livemint.com/money/personal-finance/dhanteras-diwali-2026-shopping-tips-buying-gold-and-silver-jewellery-3-hallmark-checks-and-how-to-use-bis-care-app-11793948934186.html",
     "source": "Mint Money",
-    "date": "5 Nov"
+    "date": "6 Nov"
    },
    {
-    "title": "Gold rate today Kolhapur Nov 5: Check latest prices ahead of Dhanteras 2026 amid US midterm election results impact",
-    "url": "https://www.livemint.com/money/personal-finance/gold-rate-today-kolhapur-nov-5-check-latest-prices-ahead-of-dhanteras-2026-amid-us-midterm-election-results-impact-11793863763265.html",
+    "title": "Diwali, Dhanteras shopping by credit card: 5 simple ways to keep your expenses under control this festive season - List",
+    "url": "https://www.livemint.com/money/personal-finance/diwali-dhanteras-shopping-by-credit-card-5-simple-ways-to-keep-your-expenses-under-control-this-festive-season-list-11793947320209.html",
     "source": "Mint Money",
-    "date": "5 Nov"
+    "date": "6 Nov"
    }
   ],
   "PRD": [
@@ -227,12 +228,12 @@
   ]
  },
  "audit": {
-  "wiki_items": 6,
-  "matched": 0,
+  "wiki_items": 19,
+  "matched": 2,
   "total": 9,
   "by_section": {
    "india": "0/3",
-   "world": "0/3",
+   "world": "2/3",
    "business": "0/3"
   },
   "note": "",
@@ -249,7 +250,7 @@
    "Reuters India:15",
    "Mint Politics:15",
    "BBC World:15",
-   "DW:12",
+   "DW:11",
    "Reuters World:15",
    "AP:15",
    "Al Jazeera:15",
