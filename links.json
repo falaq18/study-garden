@@ -1,175 +1,164 @@
 {
- "updated": "2026-11-06T08:15+00:00",
+ "updated": "2026-11-07T07:30+00:00",
  "method": "spectrum-v2",
  "news": {
   "india": [
    {
-    "title": "‘Hope you are enjoying Delhi weather’: CJI blames vehicles for air pollution",
-    "url": "https://timesofindia.indiatimes.com/india/hope-you-are-enjoying-delhi-weather-cjis-remark-as-sc-takes-up-delhi-ncr-pollution/articleshow/135597208.cms",
-    "source": "Times of India",
-    "date": "6 Nov",
+    "title": "Death Count In Assam Oil India Fire Rises To 2, 5 Injured Remain Critical",
+    "url": "https://www.ndtv.com/india-news/death-count-in-assam-oil-india-fire-rises-to-2-5-injured-remain-critical-12295904#publisher=newsstand",
+    "source": "NDTV",
+    "date": "7 Nov",
     "outlets": 5,
     "also": [
-     "BBC",
+     "Economic Times",
      "Hindustan Times",
-     "Indian Express"
+     "The Hindu"
     ],
-    "lean": "LC",
-    "sites": 1,
+    "lean": "LR",
+    "sites": 3,
     "wiki": false
    },
    {
-    "title": "Ramayana collection day 1 early report: Ranbir Kapoor’s epic likely to earn Rs 100 cr in India",
-    "url": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxQeFN5TzlkbHNKSFVkUjdVa1RLMWlJQkpXUGtESkVlVnZBRkdlLVlRNjR0UHBwamlQV3pNd3Y3WER3VVJORWNEWnZIVnF0TklUTWEtdTBsLVVCaGhWMzVlOW4tQ2luZVBWOFNaVGVMUF9iTl90SVVpT3o5N3VEMDQzRlV5SVNLNmVZS3ZaTG1UX1QzbGFJaXBndlBpbUt1MVFodzl3ZjZ5TWJHM0ExTWowVmdtNXRSdm5KUzEyTWp2VC1lXzZIakc1UzM3cERDUWlUWC1hXzliOHRNdE52WS1qbUVibmZ2RF9wUGfSAfABQVVfeXFMTUtNQTNZY09zOVRkd1RfN0lBT25OdTJxNkNqUzFDUTlZWHlyT08yZGZ1aDhkUGZ2OFFFZHlsSmxVY1lDbnNuOE5wTDhtNGNXM3dCZkFqQUtuUkFPTTdlY2dnOFFjcHZhYTdKMDFVczBha3pDU2R1MGNkcjFYejFKNUdQNXM5NGdpQlkzN0k1MjZRa0hLSXkzRmd2Y0xZX21tRkNXVF9QN2hFRTl4S2hOZEVrWVAxMGlPZWhMVldUQnpENTV2cnZOaDFjbzlmaGlNUW1naE81aU56RWpIVkFoRlhGU2VDQ1lvaTJoRlVCY2d0?oc=5",
-    "source": "Indian Express",
-    "date": "5 Nov",
-    "outlets": 3,
-    "also": [
-     "BBC",
-     "ThePrint"
-    ],
-    "lean": "LCR",
-    "sites": 23,
-    "wiki": false
-   },
-   {
-    "title": "Cyclone Murasu: Search for five missing fishermen intensified, says Tamil Nadu Government",
-    "url": "https://www.thehindu.com/news/national/tamil-nadu/cyclone-murasu-search-for-five-missing-fishermen-intensified-says-tamil-nadu-government/article71673361.ece",
-    "source": "The Hindu",
+    "title": "Karnataka minister alleges oil firms supplied petrol with over 20% ethanol",
+    "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxNc3pBR1IzMjVIOWF6THBRNnM4MVotMUhoUGdPeTRMVXNBazk2Y3l5Ml9XNE9FZWY4WlBsTndKdnpCM3JBQXd1UEFuQmxfZ2FPQzJUSl9WMTlQRTd5dEIwaXZuemNXWWk0SWZIZ1FtOUpGMTRvSHAta08tNjhDbEVxQkZPNnFpcEtJTzRFZGpHVDkxQlR4NlR0VmVOS3NvRjNlVS1fdUF2UzZ6dXdXZnhLTzl2eU9VelNrUmEwQm1OcnNVbHR4ZkhONVJNeTd5aGN3ZFFXaNIB2gFBVV95cUxQYi01ZHJHVkpaMDYya012ckVHbVlhdFliQXZ1WGh1S0FUR1dGakpLYkpPQld5RnF0MVJtd3IzTThVVV9Ld001Skw0V1pjVWFDdXR3UVBnY2xxTzdxSkZrX3VrRDhUVlQ0eVd2Q1ZjdU1GUl9MczFmYzR2R0cxNDRYQ29mSTNnVW9sM0pwSGdVX0h5bVlId1ZQc0lwaGhmOTNzd1hFLW1rZm1hUlBibEhudlBVWThCdmRsRXlKT0VDSHlfeEpXUG4xUkcyWW1NVVhTLUZXTTVVYk1aUQ?oc=5",
+    "source": "Business Standard",
     "date": "6 Nov",
     "outlets": 3,
     "also": [
-     "Hindustan Times",
-     "ThePrint"
+     "Economic Times",
+     "Hindustan Times"
     ],
     "lean": "LR",
-    "sites": 9,
+    "sites": 16,
+    "wiki": false
+   },
+   {
+    "title": "Netanyahu's Iran attack plan before Israel polls stopped after operative tipped off US",
+    "url": "https://timesofindia.indiatimes.com/world/middle-east/netanyahu-planned-iran-attack-before-israel-polls-operatives-mistaken-tip-to-us-stopped-it-report/articleshow/135628929.cms",
+    "source": "Times of India",
+    "date": "7 Nov",
+    "outlets": 3,
+    "also": [
+     "Mint",
+     "The Hindu"
+    ],
+    "lean": "LC",
+    "sites": 2,
     "wiki": false
    }
   ],
   "world": [
    {
-    "title": "Paraguay's president is impeached minutes after resigning following a bank collapse",
-    "url": "https://www.npr.org/2026/11/05/nx-s1-6030842/paraguay-president-impeached-bank-collapse",
-    "source": "NPR",
-    "date": "5 Nov",
-    "outlets": 9,
+    "title": "Paraguay's President Santiago Peña impeached and arrested after bank collapse",
+    "url": "https://www.bbc.co.uk/news/articles/c68jzzvjgdy9o?at_medium=RSS&at_campaign=rss",
+    "source": "BBC World",
+    "date": "7 Nov",
+    "outlets": 7,
     "also": [
-     "AP",
-     "BBC",
-     "Business Standard"
+     "Al Jazeera",
+     "DW",
+     "NPR"
     ],
-    "lean": "LCR",
-    "sites": 18,
+    "lean": "LC",
+    "sites": 25,
     "wiki": true
    },
    {
-    "title": "Americans voted against Trump's Iran war. Gulf countries hope that means an end to the conflict",
-    "url": "https://www.dw.com/en/americans-voted-against-trump-s-iran-war-gulf-countries-hope-that-means-an-end-to-the-conflict/a-79868398?maca=en-rss-en-world-4025-rdf",
-    "source": "DW",
-    "date": "5 Nov",
-    "outlets": 5,
+    "title": "Four midterms takeaways for 2028 White House race",
+    "url": "https://www.bbc.co.uk/news/articles/cq1m41n3v7mmo?at_medium=RSS&at_campaign=rss",
+    "source": "BBC World",
+    "date": "6 Nov",
+    "outlets": 4,
     "also": [
-     "Economic Times",
-     "Mint",
-     "The Guardian"
+     "AP",
+     "The Hindu",
+     "WSJ"
     ],
     "lean": "LCR",
-    "sites": 7,
+    "sites": 9,
     "wiki": false
    },
    {
-    "title": "Hong Kong activist Joshua Wong is sentenced to 10 more years in prison",
-    "url": "https://www.npr.org/2026/11/05/g-s1-152032/hong-kong-activist-wong-sentenced",
-    "source": "NPR",
-    "date": "5 Nov",
-    "outlets": 4,
+    "title": "Thomas Markle charged with possessing child abuse images",
+    "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1XWWRSOVZya19pTlI2VEF4UGN2ZUFMZVVDcnlkV2ZKdmJMNWFkcGwyV0ZJU0RDUVpiWVlfTEM4Z3Q5SXYyRjAwMzlDMkJEZVNYX01CaHpwWlhHcEFLeldZSWRTQUxqU21mTHpIcTZldXlRZ2lBXzIwR3BQZTFSblU?oc=5",
+    "source": "The Telegraph",
+    "date": "6 Nov",
+    "outlets": 3,
     "also": [
-     "BBC",
-     "The Guardian",
+     "Reuters",
      "The Hindu"
     ],
-    "lean": "LC",
-    "sites": 83,
+    "lean": "LCR",
+    "sites": 28,
     "wiki": true
    }
   ],
   "business": [
    {
-    "title": "Today’s Gold Rate in India November 6: Gold prices down in Coimbatore, Nagpur, Visakhapatnam, Surat, Jaipur",
-    "url": "https://www.thehindubusinessline.com/gold-rate-today/gold-price-today-in-coimbatore-nagpur-visakhapatnam-surat-jaipur-lucknow-chandigarh-gold-rates-other-cities-november-6-2026/article71673484.ece",
-    "source": "Hindu BusinessLine",
+    "title": "Tesla to wind down Cybertruck production as Elon Musk focuses on robotics and AI",
+    "url": "https://www.theguardian.com/technology/2026/nov/06/tesla-to-wind-down-cybertruck-production-as-elon-musk-focuses-on-robotics-and-ai",
+    "source": "The Guardian Business",
     "date": "6 Nov",
     "outlets": 3,
     "also": [
-     "AP",
-     "Economic Times"
+     "BBC",
+     "WSJ"
     ],
-    "lean": "LC",
-    "sites": 0,
+    "lean": "LCR",
+    "sites": 17,
     "wiki": false
    },
    {
-    "title": "Stock markets trade higher in early session on sustained foreign fund inflows",
-    "url": "https://www.thehindu.com/business/Industry/stock-markets-trade-higher-in-early-session-on-sustained-foreign-fund-inflows/article71672872.ece",
-    "source": "The Hindu Business",
-    "date": "6 Nov",
-    "outlets": 2,
+    "title": "Muhurat trading 2026: Ganesh Dongre of Anand Rathi sees Sensex at 1,00,000 next Diwali? Shares 3 Samvat 2083 stock picks",
+    "url": "https://www.livemint.com/market/stock-market-news/muhurat-trading-2026-ganesh-dongre-of-anand-rathi-sees-sensex-at-1-00-000-next-diwali-shares-3-samvat-2083-stock-picks-11794029018255.html",
+    "source": "Mint",
+    "date": "7 Nov",
+    "outlets": 3,
     "also": [
+     "Business Standard",
+     "The Hindu"
+    ],
+    "lean": "LR",
+    "sites": 1,
+    "wiki": false
+   },
+   {
+    "title": "Amid price rise, Centre mandates rice, paddy stock declaration",
+    "url": "https://www.thehindu.com/news/national/amid-price-rise-centre-mandates-rice-paddy-stock-declaration/article71675997.ece",
+    "source": "The Hindu Business",
+    "date": "7 Nov",
+    "outlets": 3,
+    "also": [
+     "Mint",
      "Reuters"
     ],
     "lean": "LC",
-    "sites": 12,
-    "wiki": false
-   },
-   {
-    "title": "Sensex today | Stock Market Live Updates: Sensex hits 80,000, Nifty above 24,700 as markets rally; M&M shares lead gainers",
-    "url": "https://www.thehindubusinessline.com/markets/sensex-nifty50-today-stock-market-live-updates-6-november-2026/article71669668.ece",
-    "source": "Hindu BusinessLine",
-    "date": "6 Nov",
-    "outlets": 2,
-    "also": [
-     "Business Standard"
-    ],
-    "lean": "LR",
-    "sites": 5,
+    "sites": 2,
     "wiki": false
    }
   ]
  },
  "explainer": [
   {
-   "title": "The Presidential Midterm Curse I Explained",
-   "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxQVHJySzdpLVRxNmhRdnZ4UDRXbWIyUDVoQ1pSbEtIQVM4djJPcGZNLWlmd19kTTR0VWttbEJXUHBjNkZYTmlJbnRTOXcwUUt6NHBZdFNzTUxWdnJhZ3hsa3BEdVBWdzBheHJmcmtZbnplUFFMX3JyeG00Rmt4ckVCWWxVb28tWHJuSGl3X3hVaVnSAZcBQVVfeXFMT1lwb3lMdEVHa2Z3Uk9PTktvUnNPVnFIcUpGVDdDSHdaemhXc25nZ2E3SzgxcjdoSE43TTAydVVnNEF1R3c1QUhILVpMZTJJNkRuQ1ljeHhzSklJYzVtYkg0SGxtaElGQkhtRGFkYVk3TjRMMlhDQnd1Mmd6ZHNkZi1VczNsdVpyUV9Ra3VkREs0RFhNSEJ5UQ?oc=5",
+   "title": "Why SC said ‘creamy layer’ verdict can’t reopen past appointments",
+   "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxNdC1nQVMyc3BKbzcyc3BteVk4OU9XcnBCbk5LM0pwSU9iaHdzTFlFZjVseHRsSUFBZUFTQnNlVXRWdU15eE9vV2puSmZGRVl3cTlUdGVUQTZXaVNka0JaN09HUmFTbGNYaDVwQjhqT0ZPSXVZNVNlWnltN0FpaXRISF9WMTlHcmRiQzBpck1JTFdjSzVKcVlMNnFUY2dtb3Y2QUtoMW9yM0ZrTUZHWVRZTWtoUmlReXROWHJaNzBaMTRlNEst0gHLAUFVX3lxTE5kT1drWFZOcGhSRDBkZWFqM25zbWdjbDRkQ3BkeVVHRC1OOExGNDZrcjdjRDJlb2pNRDFYNExPMVBWVmkxdElfa1pJWHNEalYtNlRuZGFKc3FTNWlxVXN4ZmV4X3lGb1djX3V5US0ya0V0YnNEY1paRXpodmQ2aEpBSzFrdjZ0cHNlLWhMMUhlZlpyeVZDM2dwX1VnNFJOc1RqdGhrN3AzSnRXR3ZEZ3VOU2QxdWhmRXZPS0tVTGxfQ1pEaURqUGdqSzJF?oc=5",
    "source": "Indian Express Explained",
-   "date": "5 Nov"
+   "date": "6 Nov"
   }
  ],
  "courses": {
   "FIN": [
    {
-    "title": "Vedanta Demerger: 5 Companies | Which is performing better? | CA Rachana Ranade",
-    "url": "https://www.youtube.com/watch?v=J9qIL5bVT0U",
-    "source": "CA Rachana Ranade",
-    "date": "29 Oct"
-   },
-   {
-    "title": "Why Lenskart rose 70% when the market fell? (Hindi) | CA Rachana Ranade",
-    "url": "https://www.youtube.com/watch?v=JROmixRrqxA",
-    "source": "CA Rachana Ranade",
-    "date": "27 Oct"
-   },
-   {
-    "title": "Dhanteras, Diwali 2026 shopping tips: Buying gold and silver jewellery? 3 hallmark checks and how to use BIS Care app",
-    "url": "https://www.livemint.com/money/personal-finance/dhanteras-diwali-2026-shopping-tips-buying-gold-and-silver-jewellery-3-hallmark-checks-and-how-to-use-bis-care-app-11793948934186.html",
+    "title": "Buying gold or silver Lakshmi-Ganesha idols for Diwali puja 2026? BIS hallmark rules; key checks to make before paying",
+    "url": "https://www.livemint.com/money/personal-finance/buying-gold-or-silver-lakshmi-ganesha-idols-for-diwali-puja-2026-bis-hallmark-rules-key-checks-to-make-before-paying-11794028437671.html",
     "source": "Mint Money",
-    "date": "6 Nov"
+    "date": "7 Nov"
    },
    {
-    "title": "Diwali, Dhanteras shopping by credit card: 5 simple ways to keep your expenses under control this festive season - List",
-    "url": "https://www.livemint.com/money/personal-finance/diwali-dhanteras-shopping-by-credit-card-5-simple-ways-to-keep-your-expenses-under-control-this-festive-season-list-11793947320209.html",
+    "title": "Gold loan rules 2026: What RBI changed on loan eligibility, valuation, repayment, and auction of pledged gold jewellery",
+    "url": "https://www.livemint.com/money/personal-finance/gold-loan-rules-2026-what-rbi-changed-on-loan-eligibility-valuation-repayment-and-auction-of-pledged-gold-jewellery-11794030749293.html",
     "source": "Mint Money",
-    "date": "6 Nov"
+    "date": "7 Nov"
    }
   ],
   "PRD": [
@@ -198,18 +187,6 @@
     "url": "https://www.oneusefulthing.org/p/the-dot-and-the-swarm",
     "source": "One Useful Thing",
     "date": "1 Oct"
-   },
-   {
-    "title": "Parity of permutations, impossible puzzles and the magical determinant",
-    "url": "https://www.youtube.com/watch?v=rUiulWItECQ",
-    "source": "3Blue1Brown",
-    "date": "11 Apr"
-   },
-   {
-    "title": "I Built an Original One-Glance Proof from Dice",
-    "url": "https://www.youtube.com/watch?v=8q95eiq-y-Q",
-    "source": "3Blue1Brown",
-    "date": "11 Oct"
    }
   ],
   "FINAL": [
@@ -250,7 +227,7 @@
    "Reuters India:15",
    "Mint Politics:15",
    "BBC World:15",
-   "DW:11",
+   "DW:12",
    "Reuters World:15",
    "AP:15",
    "Al Jazeera:15",
@@ -270,16 +247,16 @@
    "The Guardian Business:15",
    "WSJ Business:15",
    "Indian Express Explained (via gnews):2",
-   "CA Rachana Ranade:2",
    "Mint Money:2",
    "Lenny's Newsletter:2",
-   "Exponent:0",
    "One Useful Thing:2",
-   "3Blue1Brown:2",
-   "Andrej Karpathy:2",
    "One Useful Thing:2"
   ],
   "feeds_failed": [
+   "CA Rachana Ranade: HTTPError",
+   "Exponent: HTTPError",
+   "3Blue1Brown: HTTPError",
+   "Andrej Karpathy: HTTPError",
    "Vinh Giang: HTTPError"
   ],
   "notes": []
