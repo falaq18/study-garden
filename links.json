@@ -1,155 +1,154 @@
 {
- "updated": "2026-11-09T08:22+00:00",
+ "updated": "2026-11-10T08:39+00:00",
  "method": "spectrum-v2",
  "news": {
   "india": [
    {
-    "title": "Sheikh Hasina seeks new passport and ID card ahead of planned return to Bangladesh",
-    "url": "https://www.hindustantimes.com/india-news/sheikh-hasina-seeks-new-passport-and-id-card-ahead-of-planned-return-to-bangladesh-101794211501139.html",
-    "source": "Hindustan Times",
-    "date": "9 Nov",
+    "title": "Three workers die at Tata's India iPhone parts factory in latest safety incident",
+    "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxNNzVBU0RlVDBETXZNRDZhMHB0REwwZC1fMTNzdzc5VHZFc0pwZjl2ZW5mUGk2QXJ6Zmx4Q1puUUtoTXppdndSZl9iYUdaTXk1RlVBWEgwTTRObEpLdkpKbjJ1NUdGakxETkRrZUdyWENUa2c0VFRrcXVXUEszNm5hRzZ1UFRwTGdlV3poVlZTR051MTUxZElBZk1WbWRMaHViM0dfVnlsS05vajlQYWtqZU9IaTFiTTg4UXZHOGpodF9URHlLR004?oc=5",
+    "source": "Reuters India",
+    "date": "10 Nov",
     "outlets": 5,
     "also": [
-     "Al Jazeera",
+     "Business Standard",
+     "Hindustan Times",
+     "Indian Express"
+    ],
+    "lean": "LCR",
+    "sites": 10,
+    "wiki": false
+   },
+   {
+    "title": "Why Sonia Gandhi \"Did Not Resist\" Son Rahul's Political Plunge",
+    "url": "https://www.ndtv.com/india-news/sonia-gandhi-book-belonging-a-journey-of-love-when-sonia-gandhi-did-not-resist-son-rahuls-political-plunge-12306980#publisher=newsstand",
+    "source": "NDTV",
+    "date": "10 Nov",
+    "outlets": 5,
+    "also": [
+     "Hindustan Times",
      "Indian Express",
-     "Reuters"
+     "The Hindu"
+    ],
+    "lean": "LR",
+    "sites": 2,
+    "wiki": false
+   },
+   {
+    "title": "Delhi's toxic winter air is back - is the Indian capital prepared for pollution?",
+    "url": "https://www.bbc.co.uk/news/articles/cm78p0n09q3xo?at_medium=RSS&at_campaign=rss",
+    "source": "BBC India",
+    "date": "5 Nov",
+    "outlets": 5,
+    "also": [
+     "AP",
+     "Economic Times",
+     "NPR"
     ],
     "lean": "LC",
-    "sites": 19,
-    "wiki": false
-   },
-   {
-    "title": "Expert Explains | COP31: What’s at stake at UN climate summit in Antalya",
-    "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxNekk4LUZYaDNja3IxWGJWVkxWRUc5SFBoVHFhOE5XakxWVUszc2pkZUZYMjdhZjN0cWdlVTk5aW05OUVqYmdCRURWSEVseHp3NG5uaXpnSURFdkhWTHZuUFlnMWtzM0hKN3ZDTWhxSHc3U3VSZ0g2Tk5CaU5QWTY1SzdIRjdZTmZ2eWZwY3E2UHg4T3NGbnF4b2JmZXdmN2pqZ0dDNmJJLV9QOWtOYjVmOXN3WWlOVG5EWGVjZ3pOR0V4X1ZBSWlvS2lzT3VFV3piQVHSAdgBQVVfeXFMUEdzbV9Gb2toTnRBd05LNHU1dGpneXpsVzdBbWhRVkVaWW9GTnowdmJtTkJSTHM3bWw1R0tSOXIyQ0k4TUlncWVSQ1VrbHpLc2d5NjdETXNqMFBNWjhUTjhJY2hMVkFwWjN5SElXcWlXX0lMZGZkOFdUaGh3RU9vTFJqQjZKZmlQQXJReWJqekJ4NW1WSVM2RWNRSXJUdEV0M2hPUlphZjBJM0NWUF90TmItbU9VbHFaMHM4ekxRLS1CMDhqWTJwa2ViLXV2UzZIdVBnVmM4RF9E?oc=5",
-    "source": "Indian Express",
-    "date": "9 Nov",
-    "outlets": 4,
-    "also": [
-     "Al Jazeera",
-     "Reuters",
-     "ThePrint"
-    ],
-    "lean": "LCR",
-    "sites": 3,
-    "wiki": false
-   },
-   {
-    "title": "Delhi air quality deteriorates as revellers mark Diwali with illegal fireworks",
-    "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxOOGx1MWNEOVh3bHVlWE9rZl9JVFlHUnFSM2tLc3hTWUt3OElhOFRISUJEbTZLOFBwMHBqbU81ZGNaT2d5MmdCb0NrXzBxUHZIY0Y5a0FKRUo5UW1yZFBDdkhvUUcxbTY3SjIyOEN4Z21XXzJtRTdGMzAtclZkQU1DakxHU2RLczNXQVFNbzlEX2FpQzFyeldfZUNHOWJSSmtxWE9VeVpBZWtXY1I2X1NuOGVBdFVSYkdfSVJsRmlWU1ZvWjdiM1gtMDR3a24?oc=5",
-    "source": "Reuters India",
-    "date": "9 Nov",
-    "outlets": 4,
-    "also": [
-     "Al Jazeera",
-     "Business Standard",
-     "ThePrint"
-    ],
-    "lean": "LCR",
-    "sites": 4,
+    "sites": 1,
     "wiki": false
    }
   ],
   "world": [
    {
-    "title": "Israeli president tasks Gadi Eisenkot with forming government",
-    "url": "https://www.dw.com/en/israeli-president-tasks-gadi-eisenkot-with-forming-government/a-79888288?maca=en-rss-en-world-4025-rdf",
+    "title": "New trilateral talks on Ukraine war in Abu Dhabi: What to expect?",
+    "url": "https://www.dw.com/en/new-trilateral-talks-on-ukraine-war-in-abu-dhabi-what-to-expect/a-79905734?maca=en-rss-en-world-4025-rdf",
     "source": "DW",
-    "date": "7 Nov",
-    "outlets": 5,
+    "date": "9 Nov",
+    "outlets": 7,
     "also": [
      "AP",
      "Al Jazeera",
-     "NDTV"
+     "BBC"
     ],
     "lean": "LC",
-    "sites": 26,
+    "sites": 16,
     "wiki": false
    },
    {
-    "title": "Iconic Saudi Tower Hit as Yemen’s Houthis Target Riyadh",
-    "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPSUtxYmp1UFN6dHhjdnM2X24xYm05OVFCNWJGSWJ4V2t6bm80VDhVQXpmWnZ5TzE4Mk1FTHdBSnVFTlUxN3ZzVFF3cTUzYUNuMGVYYkwwbENfMmpXdy1GeTdpaUFFLUs0aFQzaU4tZVdYc0ZDX1N6Q0NEYkFsT25FdFc3dUl2X1FXd3RrZlpvajJyZFBkbXB0QXRBX1JqTVhyUElr?oc=5",
-    "source": "WSJ",
-    "date": "8 Nov",
-    "outlets": 5,
-    "also": [
-     "AP",
-     "BBC",
-     "The Hindu"
-    ],
-    "lean": "LCR",
-    "sites": 2,
-    "wiki": true
-   },
-   {
-    "title": "How a bank collapse left millions in limbo and toppled Paraguay's president",
-    "url": "https://www.npr.org/2026/11/09/nx-s1-6034066/paraguay-president-pena-ueno",
+    "title": "France accuses Iran of cyber 'sabotage' in fridge attacks",
+    "url": "https://www.npr.org/2026/11/09/g-s1-152724/france-iran-cyber-sabotage-fridge-attacks",
     "source": "NPR",
     "date": "9 Nov",
-    "outlets": 5,
+    "outlets": 4,
     "also": [
      "BBC",
-     "Reuters",
-     "The Guardian"
+     "The Hindu",
+     "WSJ"
+    ],
+    "lean": "LCR",
+    "sites": 6,
+    "wiki": false
+   },
+   {
+    "title": "What are the eight Articles of impeachment filed against U.S. Defence Secretary Pete Hegseth?",
+    "url": "https://www.thehindu.com/news/international/defence-secretary-pete-hegseth-thomas-massie-8-articles-of-impeachment-filed-united-states-war-power-resolution/article71684991.ece",
+    "source": "The Hindu World",
+    "date": "10 Nov",
+    "outlets": 3,
+    "also": [
+     "AP",
+     "BBC"
     ],
     "lean": "LC",
-    "sites": 3,
+    "sites": 32,
     "wiki": false
    }
   ],
   "business": [
    {
-    "title": "Nvidia investigating reports that CEO Jensen Huang was targeted by Chinese intelligence",
-    "url": "https://www.thehindu.com/sci-tech/technology/nvidia-investigating-reports-that-ceo-jensen-huang-was-targeted-by-chinese-intelligence/article71681239.ece",
-    "source": "The Hindu Business",
+    "title": "Trump says FBI investigating Nvidia boss's affair with alleged Chinese spy",
+    "url": "https://www.bbc.co.uk/news/articles/cqg7x7dpvym8o?at_medium=RSS&at_campaign=rss",
+    "source": "BBC Business",
+    "date": "10 Nov",
+    "outlets": 8,
+    "also": [
+     "Business Standard",
+     "Indian Express",
+     "Reuters"
+    ],
+    "lean": "LCR",
+    "sites": 8,
+    "wiki": false
+   },
+   {
+    "title": "Jensen Huang’s image has been shattered. Could he be pushed out at Nvidia?",
+    "url": "https://www.theguardian.com/technology/2026/nov/09/jensen-huang-image-nvidia",
+    "source": "The Guardian Business",
     "date": "9 Nov",
     "outlets": 8,
     "also": [
+     "AP",
      "BBC",
-     "Business Standard",
-     "Economic Times"
-    ],
-    "lean": "LCR",
-    "sites": 26,
-    "wiki": true
-   },
-   {
-    "title": "Today’s Gold Rate: Latest Gold prices in Coimbatore, Nagpur, Jaipur & Other Cities",
-    "url": "https://www.thehindubusinessline.com/gold-rate-today/gold-price-today-in-coimbatore-nagpur-visakhapatnam-surat-jaipur-lucknow-chandigarh-gold-rates-other-cities-november-9-2026/article71681862.ece",
-    "source": "Hindu BusinessLine",
-    "date": "9 Nov",
-    "outlets": 5,
-    "also": [
-     "Economic Times",
-     "Mint",
-     "Reuters"
+     "Business Standard"
     ],
     "lean": "LCR",
     "sites": 2,
     "wiki": false
    },
    {
-    "title": "Oil falls as Donald Trump says new Iran attacks ‘unlikely’",
-    "url": "https://www.thehindu.com/business/Economy/oil-falls-as-donald-trump-says-new-iran-attacks-unlikely/article71681302.ece",
+    "title": "Australia's Qantas to axe 850 jobs in offshoring deal with Accenture",
+    "url": "https://www.thehindu.com/business/Industry/australias-qantas-to-axe-850-jobs-in-offshoring-deal-with-accenture/article71685285.ece",
     "source": "The Hindu Business",
-    "date": "9 Nov",
+    "date": "10 Nov",
     "outlets": 4,
     "also": [
-     "AP",
-     "NDTV",
-     "Reuters"
+     "BBC",
+     "Reuters",
+     "WSJ"
     ],
-    "lean": "LC",
-    "sites": 31,
+    "lean": "LCR",
+    "sites": 10,
     "wiki": false
    }
   ]
  },
  "explainer": [
   {
-   "title": "Delhi’s AQI is 370, but some platforms show 1,000: Why do readings differ?",
-   "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxNQ3JwdXdWN0lxdzdPd1VNaklZNE1Ra3ZZSWU4V3ZKZnBZTVhET2dNSmtpbTVRM192cWI2QjdueHptWHNNbGZTZVhma0RGTDA2cktlaXRWQTBEeEx6eTNTQ2g4U0Q4Q3ZVN1daZGU2N0RSMHZLMDJZM3l6SXFuYWpDZHlqOEJ0ZzdSQjAyRlZXelljbDdBZ1ZJUnRpaTZNc3JWMHJtbndDajBDV3NfZnFqVHNUMHJ6d2NpNWtWdU5VQjYyQ2E4aVNSeGF2RdIB0gFBVV95cUxOMDRTSzVUMFBKTGlCS2d4MXlxdjlrUkowSm1hbFM1SWFYZGlPdklZdHNobW1aTHlwVmlJRktLeXpBRVk2Y1U5YnMyRXJzSFM5Vm1FdXpSMVRscW1BbWVPQWozY29tNVBORXdBaHNWYTl4bTFkV3V3YVJzMk81VGJzMjhET3NiaDM4VldZaXpGRklKUnVOUmRtODZKLUtqbi11MFA0R3dJcFlsNEdfWFFBdUUxeGdtTFBnVEV3UUNBMmZGZnBKSUdyMzJfR3QtVGhzeGc?oc=5",
+   "title": "US Congress lame-duck session explained: Key bills Republicans may push before January 2027",
+   "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQa2U4Z3IyR0J0a2s1VnNsNWstNldXeEJ4MGhDNDNOVEhZLUhEX2FCUnR0MlRWOGdBWkFZSXg5VzZLMnBkdllpTGtMMUJLNmZBcVNnazdRYnRNQkJ1aE80eXhZaVdTX3BocUFuamFfaEIyMlZyRDJFWS12ZnB4SDF2aWItcGFJR0oyd0F0OVdUWGVXdGlqaGYzLVZBUWFyUl9yY09ITjM4dWlVY19QT0g0c1dsSFp6ekXSAb4BQVVfeXFMTkJ3SDRSU3RTV25KY1QyMHIyNk1SNjRIRUNyVXlPNWItZUZHMU9UTWo2cVlpVnF5c3dkazlvSDR6SXNEbEhIMHp0Q3hSbGYtUkh6MFM5Q3g4bWh5aXZqVTVheTl6dTQwZzMwQjQ1VERkYkl1R0FjUzg4UXZmZEhZZ3lybTd4SHdDXzhiUGNOMFBaOHRFNDluVHdoQ0N5bWlsU3BqVWg4MDRUUm85VFhhVjhZYjRCazdEOFpBbHFldw?oc=5",
    "source": "Indian Express Explained",
-   "date": "9 Nov"
+   "date": "10 Nov"
   }
  ],
  "courses": {
@@ -167,44 +166,44 @@
     "date": "29 Oct"
    },
    {
-    "title": "UCO Bank paid widow’s pending pension arrears, but why did court still impose a ₹15,000 fine?",
-    "url": "https://www.livemint.com/money/uco-bank-paid-widow-s-pending-pension-arrears-but-why-did-court-still-impose-a-rs-15-000-fine-11794208209637.html",
+    "title": "Wrong details in PF account can delay your money; EPFO explains how to correct them online in 5 easy steps",
+    "url": "https://www.livemint.com/money/personal-finance/wrong-details-in-pf-account-can-delay-your-money-epfo-explains-how-to-correct-them-online-in-5-easy-steps-11794293434161.html",
     "source": "Mint Money",
-    "date": "9 Nov"
+    "date": "10 Nov"
    },
    {
-    "title": "8th Pay Commission: Expert explains report deadline, when revised salaries and pensions may take effect",
-    "url": "https://www.livemint.com/money/personal-finance/8th-pay-commission-expert-explains-report-deadline-and-when-revised-salaries-and-pensions-may-take-effect-for-all-11794206937413.html",
+    "title": "UPI charges after Diwali: Will customers pay extra on payments above ₹2,000? NPCI's MDR rollout likely in Nov",
+    "url": "https://www.livemint.com/money/personal-finance/upi-charges-after-diwali-will-customers-pay-extra-on-payments-above-2-000-npcis-mdr-rollout-likely-in-nov-11794289795387.html",
     "source": "Mint Money",
-    "date": "9 Nov"
+    "date": "10 Nov"
    }
   ],
   "PRD": [
    {
-    "title": "Why PMs are suddenly valuable again | Tulsee Doshi (Head of Product, Gemini)",
-    "url": "https://www.lennysnewsletter.com/p/what-it-actually-takes-to-build-frontier",
+    "title": "Claude Fable 5.2 review: fast, creative, and finally not annoying",
+    "url": "https://www.lennysnewsletter.com/p/claude-fable-52-review-fast-creative",
     "source": "Lenny's Newsletter",
-    "date": "8 Nov"
+    "date": "9 Nov"
    },
    {
-    "title": "Lenny’s Newsletter holiday gift guide 2026",
-    "url": "https://www.lennysnewsletter.com/p/lennys-newsletter-holiday-gift-guide-057",
+    "title": "🎙️ How I AI: How this founder built a better Duolingo with Codex",
+    "url": "https://www.lennysnewsletter.com/p/how-i-ai-how-this-founder-built-a",
     "source": "Lenny's Newsletter",
-    "date": "3 Nov"
+    "date": "9 Nov"
    }
   ],
   "AI": [
+   {
+    "title": "Fable 5.2 and Jagged AGI",
+    "url": "https://www.oneusefulthing.org/p/fable-52-and-jagged-agi",
+    "source": "One Useful Thing",
+    "date": "9 Nov"
+   },
    {
     "title": "30 Months on the Exponential (in Charts)",
     "url": "https://www.oneusefulthing.org/p/30-months-on-the-exponential-in-charts",
     "source": "One Useful Thing",
     "date": "20 Oct"
-   },
-   {
-    "title": "The Dot and the Swarm",
-    "url": "https://www.oneusefulthing.org/p/the-dot-and-the-swarm",
-    "source": "One Useful Thing",
-    "date": "1 Oct"
    },
    {
     "title": "Parity of permutations, impossible puzzles and the magical determinant",
@@ -221,27 +220,27 @@
   ],
   "FINAL": [
    {
+    "title": "Fable 5.2 and Jagged AGI",
+    "url": "https://www.oneusefulthing.org/p/fable-52-and-jagged-agi",
+    "source": "One Useful Thing",
+    "date": "9 Nov"
+   },
+   {
     "title": "30 Months on the Exponential (in Charts)",
     "url": "https://www.oneusefulthing.org/p/30-months-on-the-exponential-in-charts",
     "source": "One Useful Thing",
     "date": "20 Oct"
-   },
-   {
-    "title": "The Dot and the Swarm",
-    "url": "https://www.oneusefulthing.org/p/the-dot-and-the-swarm",
-    "source": "One Useful Thing",
-    "date": "1 Oct"
    }
   ]
  },
  "audit": {
-  "wiki_items": 22,
-  "matched": 2,
+  "wiki_items": 13,
+  "matched": 0,
   "total": 9,
   "by_section": {
    "india": "0/3",
-   "world": "1/3",
-   "business": "1/3"
+   "world": "0/3",
+   "business": "0/3"
   },
   "note": "",
   "feeds_ok": [
@@ -257,7 +256,7 @@
    "Reuters India:15",
    "Mint Politics:15",
    "BBC World:15",
-   "DW:11",
+   "DW:13",
    "Reuters World:15",
    "AP:15",
    "Al Jazeera:15",
