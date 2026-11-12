@@ -1,153 +1,149 @@
 {
- "updated": "2026-11-11T08:00+00:00",
+ "updated": "2026-11-12T08:38+00:00",
  "method": "spectrum-v2",
  "news": {
   "india": [
    {
-    "title": "Nvidia has no clear successor to Jensen Huang. Who could take over?",
-    "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxQTmVQY203ZDF2THdYZnNOZFg4R2l2UzNib3RRSVlUMkpLdGsxZl9VYWJid0tja01JTDlnZXlUYldOcGliazZBdG5LanoyRFhLMWxjYmJFREZjRUVreWxGRmE1TGhsVzR3Tlh3eV9Jd0lfTGdJNUc4Q0RvUWtYQndpSzBJTEpFZk8xeXg2WG9uelYweHA0alhqcThrWFJSMWYyN0dISS1PT2haTUpOc2xVZ0hZQ1c1d0NYZnlJMlBmelRUSlZITGFnZ1Rn0gHPAUFVX3lxTE85Y0E5QzVEdlhMcGpZZGc2b0dvME9jZlEtNk9HVmY4bGVDTkxxb1BzNDFxaW9wM3Y3dk1CQUtGYUR2Yk1sWktpMlZNcFdUUFJYOVpKRFBpTnI0aVFEWlE2RVN2Mk4tVXh5NTFmY0tYazZFMFRXZFJkV215V1Z4Z3NCVHNOT3QtZUxzTmktZ2o5a2UyTWFfcThOaE16XzZNang4YXZ2Ny0zRDJvTHdNNGx5bFRKYm13bk9VNnlnSXdZVDdsenJKMUNrVGs4VjlEQQ?oc=5",
-    "source": "Business Standard",
-    "date": "11 Nov",
-    "outlets": 7,
+    "title": "'Pay Rs 7 Crore': Arvind Kejriwal, His Daughter Get Death Threat",
+    "url": "https://www.ndtv.com/india-news/arvind-kejriwal-gets-death-threat-allegedly-from-lawrence-bishnoi-gang-12316084#publisher=newsstand",
+    "source": "NDTV",
+    "date": "12 Nov",
+    "outlets": 3,
     "also": [
-     "Mint",
-     "NDTV",
-     "The Guardian"
+     "Hindustan Times",
+     "Times of India"
     ],
-    "lean": "LR",
+    "lean": "LC",
     "sites": 17,
     "wiki": false
    },
    {
-    "title": "Pakistan blames India's Diwali fireworks for Lahore's toxic air",
-    "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQMGNZcGQ1Zm55NXM1YUV6OGVSNHliTDRITm9ncEQ3OWlCdVI5M3dEcVF6XzZoTjZ2RFFrd0phU1pxVnNYWkhPcUV5YXQ4RFB1cjlKMFdvVjMzX0FGWVNRS2JSUnJHU1JXSm01enB0a2pxRDhnMENseDlVLWJmRl9TTkpPelRQdl85MHZJSTZ2emdveFlaSWt6TFFMVF9Bc1RaVlNJOVhNNlYtZWJuYWFDaGZ4d2k?oc=5",
+    "title": "EXCLUSIVE: India ordered website takedowns on fake court orders, Reuters finds; police launch probe",
+    "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPVDR0QVdTSXBVU09DWk80R05TdzQ4ZF9LNVc1N3RWTjYzeGlaTjBzN0J0Y2ZEUHdPY2Y3RElqempwWEhQNGs3YlZaNUxEcTU3WmVVRmZaMlRCSjlCdHdFdDl3bUxONUxWNWk3UEZYdUd0WVJNRzZ1Q0RWMnIyQTN0cWgzWkdpR29QamdSTklBNGhWQ1J5Y0podndzaWJ6aEVQejh1SEtTdGw2bnJMc1pQblBZM0xoeW5XWHEw?oc=5",
     "source": "Reuters India",
-    "date": "10 Nov",
-    "outlets": 5,
+    "date": "11 Nov",
+    "outlets": 2,
     "also": [
-     "BBC",
-     "Hindustan Times",
-     "NDTV"
+     "The Hindu"
     ],
     "lean": "LC",
-    "sites": 7,
+    "sites": 6,
     "wiki": false
    },
    {
-    "title": "'They will kill you too': Sonia Gandhi's turbulent journey in Indian politics",
-    "url": "https://www.bbc.co.uk/news/articles/c687z7g4xr97o?at_medium=RSS&at_campaign=rss",
-    "source": "BBC India",
+    "title": "China visa rules: 6 documents Indian applicants need to keep ready",
+    "url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxQZXIzLS1DLUNfU1NiczNIWGFnc2p3QXpDYjBBbUswbU8zWG9xN1U0WnROYWtLQW1yYnA0aGZaUW4tTy1hZ1J2MkdhQ2lFNmRMQW9zcUJpNy1lcHo5WDNDRXJoRWplUktxcDBUUWR2ajJ6OHl5cWl2RmtnWjVSNzJIei1LMGh4UVVKMHVYaWpZeHVabnR4MVB6cUtrckNYM1djQU9JR1Y0Zml5M3pxX2g1TTBOZUFhMXAybTBqZVZfbDN2SmhWY0E1T1dLcGJnNmhLemxuMUpoemZNREXSAeIBQVVfeXFMUGtwS0Jpek5fMUQzOHBkU0dob1NQSFpaenY0U01ILTd1SFBLMmp6R3B0TjhwTGNFUDBQVHE0V0RHbnVUVUhqZnNCb0l6R3ZyWW5MTzR5VVBWaTN3aldhVWRNclpCQnpTUEZoQWd3eWYwaXdpemwtSktJZWlfbWJGSEpnRkZhU19xSWtab1Jydy1nYkxrX1ZFZk5TNGthZFBmcUtZbFBwOWlOd0pRTTBZUk9PeUJGZDVLdWZ2Tm5CRkRUbzlKR3IyRWNFQnhUOWZ1SzFQdGNpaHFrWG1DalZyQlJnZw?oc=5",
+    "source": "Indian Express",
     "date": "11 Nov",
-    "outlets": 4,
+    "outlets": 2,
     "also": [
-     "Indian Express",
-     "NDTV",
-     "ThePrint"
+     "Times of India"
     ],
-    "lean": "LCR",
-    "sites": 4,
+    "lean": "LC",
+    "sites": 14,
     "wiki": false
    }
   ],
   "world": [
    {
-    "title": "Russia and Ukraine hold nearly 4 hours of US-mediated talks in Abu Dhabi",
-    "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxOQWFsNkFITi02Z1V3NGtpMndYU1JJZ1RKOUNYWW9tbWJvcHRpdDAwNGJzQlg1bURIS2pzMXA0UWRNRF9WY25QM1ppRTR0T1lqRzNRSTlzanQyeUY2WC1uOFJWQ3Mwd3pyMVFQcl8zTkZZeERfSTJQQ0g4WXFlWmpvdlI5RzNFeDNnVUUtdnZsVURBN2JPMmpYSEJUa2pXOWM?oc=5",
-    "source": "AP",
-    "date": "10 Nov",
-    "outlets": 6,
+    "title": "Russia and Ukraine agree to a prisoner exchange as talks end with no big breakthrough",
+    "url": "https://www.npr.org/2026/11/11/g-s1-152954/russia-ukraine-war-talks",
+    "source": "NPR",
+    "date": "11 Nov",
+    "outlets": 5,
     "also": [
-     "Al Jazeera",
+     "AP",
      "BBC",
-     "DW"
+     "Business Standard"
     ],
-    "lean": "LC",
-    "sites": 12,
-    "wiki": true
+    "lean": "LCR",
+    "sites": 80,
+    "wiki": false
    },
    {
-    "title": "US House blocks bid to impeach Defence Secretary Pete Hegseth, for now",
-    "url": "https://www.bbc.co.uk/news/articles/cxly4y5jzl0qo?at_medium=RSS&at_campaign=rss",
-    "source": "BBC World",
+    "title": "Chinese AI firms rush to secure Nvidia chip capacity as spy scandal stirs fear of U.S. curbs",
+    "url": "https://www.thehindu.com/sci-tech/technology/chinese-ai-firms-rush-to-secure-nvidia-chip-capacity-as-spy-scandal-stirs-fear-of-us-curbs/article71692635.ece",
+    "source": "The Hindu World",
+    "date": "12 Nov",
+    "outlets": 4,
+    "also": [
+     "NDTV",
+     "Reuters",
+     "WSJ"
+    ],
+    "lean": "LCR",
+    "sites": 5,
+    "wiki": false
+   },
+   {
+    "title": "Nvidia CEO Jensen Huang Affair Strains Taiwan’s Devotion to Its Hometown Hero",
+    "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxONDdVMXRJZVFQaXZWOEY2d09ZTWswRGF0cjZrQkxYSjhVekRtc3lvYlRDQlhDc2YtVGR4ZHFGYXd6U290MTJ6Wk9CeXJET3FiYmFXSG94RzFGbHh3amJmcDI3aEcwSkdTbjRhRnpseXJvdjFBczRaS2hPbEpzYi1JRFN5LV9GT1d4M1h2TDgxV2luNF85ajlJd0xaLTMwOFRFYTI5OVo2Q1ZWZ2lTb2M0QjFZcw?oc=5",
+    "source": "WSJ",
     "date": "11 Nov",
     "outlets": 4,
     "also": [
      "AP",
-     "NPR",
-     "Reuters"
-    ],
-    "lean": "LC",
-    "sites": 68,
-    "wiki": false
-   },
-   {
-    "title": "Iran denies role in fridge hack, France summons ambassador",
-    "url": "https://www.dw.com/en/iran-denies-role-in-fridge-hack-france-summons-ambassador/a-79910206?maca=en-rss-en-world-4025-rdf",
-    "source": "DW",
-    "date": "10 Nov",
-    "outlets": 4,
-    "also": [
-     "NPR",
-     "Reuters",
-     "The Telegraph"
+     "The Guardian",
+     "The Hindu"
     ],
     "lean": "LCR",
-    "sites": 8,
+    "sites": 1,
     "wiki": false
    }
   ],
   "business": [
    {
-    "title": "Nvidia investigates alleged spy plot involving its CEO: What we know",
-    "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxNLXpXUlVJT1NCTXNibXJrMXpyWnBpeFNuamViUEZ6aXZXMHJJNXRJSkxSWGlFVy1RMWlPN3NjSVUwd3l1SjBuVzRxVVZRdHdqRkloc2k5Q1lzWm53aFoxQWdQVTdxOTFkNkQzUFpNWHEwWUJVQjZ4ajhGNFIyODRfVGs5MU9UaTMtbnhfWl9tNlJNc0lUQmtZVlpOWmhkVE02cXYwTEpaWk9mRFZIbG9JUWc4MlJuaXgxV1F4ZExXcXhXS1gtZ3kybW9uWE7SAdIBQVVfeXFMTzFfRXdRbWNtcmFONGVVeFRtd2VSTkpGV0dVTjVYY1R1WFkwWUlZOF96YTVjLXF4ZmI1czAzR28xX1dYZUlUenBZXzhmZ2txRG9UcG11Sk41N29tYzEteVUyNlRwdzZQNGhKdjhnVEU0amZUZmxETnpNcGJINF95QlhBTE5tTUg5NjlqMjFBTUZtQzJBWW5vaDlHODdIc3ZTYmN5TTJYTFNZV2NodUpvQU9SN3dadmdSODdmWGtOWWpyQk5EbDBrU0VEWTd1Tm45Q3JB?oc=5",
-    "source": "Business Standard",
+    "title": "India's Tata Power names Sanjay Banga as CEO, posts Q2 profit jump",
+    "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxQMEluQVg2T19WenBnMFNsbzc1bmRESVZCWlZwb3F3Tk9HT3lScFVOQmZkeTB1TVdKY1drYklnX1B6RkdURFpHQlBCTzBrTEhtY0NOXzR1cmFYbU85c2xJYjRoblIxbENsU2RXZk92ejhDTVBWT3JmcTR3Q2YweWN1OEFpSm1QOVZsOGpFWUpOVm9hQUdrOVFHU0t0cHNSV0FsZnpnMkJCeUxzRWJWRFhzY3lzRXBhd21EV0hBUmtQMkp0UQ?oc=5",
+    "source": "Reuters Business",
     "date": "11 Nov",
-    "outlets": 4,
-    "also": [
-     "AP",
-     "BBC",
-     "The Guardian"
-    ],
-    "lean": "LCR",
-    "sites": 7,
-    "wiki": false
-   },
-   {
-    "title": "Blackstone to buy about 16% of IIFL Finance in latest foreign bet on Indian lenders",
-    "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxOWkNjbDNXNHZZdWxCR2M1WnBJZmVhejhiWWx3OFNhSEMyVkUtMEZzZkRhRzBEMFFWZ2J3LXJveXBkclBZSHpCdXlqbmJYYkVOVlpVV0E5LTRPY2Zuc2xrX09RMi1sbko0ZlY0MHRoT3hvaFJ2SGJiNW41cGtGYTVpalZ3VWlKTFRhVVh3bGxCVDBCRXg5V2Z0emgzeFBuQkV6QmlmUnctWDcwMjBWTVE?oc=5",
-    "source": "Reuters India Business",
-    "date": "10 Nov",
-    "outlets": 3,
+    "outlets": 6,
     "also": [
      "Business Standard",
-     "The Hindu"
+     "Economic Times",
+     "Mint"
     ],
     "lean": "LCR",
-    "sites": 9,
+    "sites": 10,
     "wiki": false
    },
    {
-    "title": "Anthropic targets valuation of up to $1.4tn in stock market flotation",
-    "url": "https://www.theguardian.com/technology/2026/nov/10/anthropic-valuation-stock-market-flotation-ipo-wall-street-ai",
+    "title": "Nvidia and Jensen Huang sued in US over affair with alleged Chinese spy",
+    "url": "https://www.theguardian.com/technology/2026/nov/10/nvidia-jensen-huang-sued-donald-trump-fbi",
     "source": "The Guardian Business",
     "date": "10 Nov",
+    "outlets": 4,
+    "also": [
+     "BBC",
+     "NDTV",
+     "ThePrint"
+    ],
+    "lean": "LCR",
+    "sites": 18,
+    "wiki": false
+   },
+   {
+    "title": "Nvidia hires leading US law firm to investigate Jensen Huang’s relationship",
+    "url": "https://www.theguardian.com/technology/2026/nov/11/nvidia-hires-leading-us-law-firm-to-investigate-jensen-huang-relationship",
+    "source": "The Guardian Business",
+    "date": "11 Nov",
     "outlets": 3,
     "also": [
      "Reuters",
-     "WSJ"
+     "ThePrint"
     ],
     "lean": "LCR",
-    "sites": 9,
+    "sites": 23,
     "wiki": false
    }
   ]
  },
  "explainer": [
   {
-   "title": "How worker deaths at Tata plant underline Apple’s India troubles",
-   "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxOU0s3SnB3UGxKQkRpOHVDVmFJbDVYaTVJTGw0REYxNVo3cDRONDY1TnNvTnFSeVQyMW5ZdE9WWEEzcWwtUjlXNGhHRkpYX2gtcWdyLVV3WWloQ1M5TjRZQmJpa1EwWUdLRXBBbGNoREFXQlRpMVdieGVqaVVzT3RsTkpYbndGZVEzTHVudndkcndzOVpoTFpTbERHX3lyZVXSAaYBQVVfeXFMUENjRjB6S2p4a21nNnQtRm9rWEw3cDNDRWY1dF9GZ3pqajVKZXlMZnZjUGZyZVlDZ3ZTdDhrWHBiVjdvQWpUak5uNWgtWmd2NmtjRTAzVTQ5RTVSYXpKMXJjMVgwbVlTelBzZmFPLUhEWTBQYlc1bUtudVVGVHBOeFpXQTdlekhKQmp1SC1zd0tKakNtbHloRVEyQzhxZm01TTRBSHFMUQ?oc=5",
+   "title": "Gokul dairy: The controversy over elections to Maharashtra’s largest milk cooperative",
+   "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxNTm8zXzlwcnJhb1g1STZUcnp2ckMtVEZ5cHFwS1IxVXQ1WTBuWE9Hd1hySVp0QWFDeUR6VlJKdnZEQTE0elRaT2JFRUZXV2s1bVVGX2dBOUJnYzJXMHNhMXpwUlhBZ3JmYnhIQnVyNkZtUTcxc0lwMGVUeWkwb1NVbjJTSlZMTXhNSmlOVDNyU3BIS0JwOC1xRS02VDF6bDVqYWJkSDVGa19ObFRSR3ZLdXpWaVhPUnF4LTlMTkd6X2xLM2RJRmtRT0tB0gHKAUFVX3lxTE1ObzNfOXBycmFvWDVJNlRyenZyQy1URnlwcXBLUjFVdDVZMG5YT0d3WHJJWnRBYUN5RHpWUkp2dkRBMTR6VFpPYkVFRldXazVtVUZfZ0E5QmdjMlcwc2ExenBSWEFncmZieEhCdXI2Rm1RNzFzSXAwZVR5aTBvU1VuMlNKVkxNeE1KaU5UM3JTcEhLQnA4LXFFLTZUMXpsNWphYmRINUZrX05sVFJHdkt1elZpWE9ScXgtOUxOR3pfbEszZElGa1FPS0E?oc=5",
    "source": "Indian Express Explained",
-   "date": "10 Nov"
+   "date": "12 Nov"
   }
  ],
  "courses": {
@@ -165,30 +161,30 @@
     "date": "29 Oct"
    },
    {
-    "title": "Amex makes U-turn on reward points deductions after complaints from cardholders",
-    "url": "https://www.livemint.com/money/personal-finance/amex-credit-card-reward-points-deducted-restored-november-2026-11794376350635.html",
+    "title": "Best fixed deposit rates, 11 Nov 2026: Earn up to 8.25%; check FD returns of top 5 small finance, private, public banks",
+    "url": "https://www.livemint.com/money/personal-finance/best-fixed-deposit-rates-11-nov-2026-earn-up-to-8-25-check-fd-returns-of-top-5-small-finance-private-public-banks-11794466088256.html",
     "source": "Mint Money",
-    "date": "11 Nov"
+    "date": "12 Nov"
    },
    {
-    "title": "HDFC Defence Fund October 2026 portfolio: Active mutual fund adds 3 stocks; raises stake in BEL, Tata Motors and others",
-    "url": "https://www.livemint.com/money/personal-finance/hdfc-defence-fund-october-2026-portfolio-active-mutual-fund-adds-3-stocks-raises-stake-in-bel-tata-motors-and-others-11794378555412.html",
+    "title": "Who is Wing Commander Namrita Chandi? How did she win pension battle 15 years after retiring from Indian Air Force?",
+    "url": "https://www.livemint.com/money/personal-finance/who-is-wing-commander-namrita-chandi-how-did-she-win-pension-battle-15-years-after-retiring-from-indian-air-force-11794461602294.html",
     "source": "Mint Money",
-    "date": "11 Nov"
+    "date": "12 Nov"
    }
   ],
   "PRD": [
+   {
+    "title": "Claude Code + Obsidian: My family’s AI brain | Scott Farrar",
+    "url": "https://www.lennysnewsletter.com/p/claude-code-obsidian-my-familys-ai",
+    "source": "Lenny's Newsletter",
+    "date": "11 Nov"
+   },
    {
     "title": "State of the tech job market: late 2026",
     "url": "https://www.lennysnewsletter.com/p/state-of-the-tech-job-market-late",
     "source": "Lenny's Newsletter",
     "date": "10 Nov"
-   },
-   {
-    "title": "Claude Fable 5.2 review: fast, creative, and finally not annoying",
-    "url": "https://www.lennysnewsletter.com/p/claude-fable-52-review-fast-creative",
-    "source": "Lenny's Newsletter",
-    "date": "9 Nov"
    }
   ],
   "AI": [
@@ -233,12 +229,12 @@
   ]
  },
  "audit": {
-  "wiki_items": 24,
-  "matched": 1,
+  "wiki_items": 36,
+  "matched": 0,
   "total": 9,
   "by_section": {
    "india": "0/3",
-   "world": "1/3",
+   "world": "0/3",
    "business": "0/3"
   },
   "note": "",
@@ -255,7 +251,7 @@
    "Reuters India:15",
    "Mint Politics:15",
    "BBC World:15",
-   "DW:12",
+   "DW:11",
    "Reuters World:15",
    "AP:15",
    "Al Jazeera:15",
