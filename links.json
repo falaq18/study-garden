@@ -1,149 +1,151 @@
 {
- "updated": "2026-11-12T08:38+00:00",
+ "updated": "2026-11-13T08:28+00:00",
  "method": "spectrum-v2",
  "news": {
   "india": [
    {
-    "title": "'Pay Rs 7 Crore': Arvind Kejriwal, His Daughter Get Death Threat",
-    "url": "https://www.ndtv.com/india-news/arvind-kejriwal-gets-death-threat-allegedly-from-lawrence-bishnoi-gang-12316084#publisher=newsstand",
+    "title": "PM Modi Inaugurates Bengaluru Metro's Pink Line, Takes Ride With DK Shivakumar",
+    "url": "https://www.ndtv.com/bangalore-news/pm-modi-inaugurates-bengaluru-metros-pink-line-takes-ride-with-dk-shivakumar-12321314#publisher=newsstand",
     "source": "NDTV",
-    "date": "12 Nov",
+    "date": "13 Nov",
+    "outlets": 6,
+    "also": [
+     "Economic Times",
+     "Hindustan Times",
+     "Indian Express"
+    ],
+    "lean": "LC",
+    "sites": 7,
+    "wiki": false
+   },
+   {
+    "title": "Nifty Bank, Auto, Realty skid 1% as inflation stokes RBI rate hike fears",
+    "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxQSzZ5WEgzdkNwNXhfWEVQNzFGaEd4YnZ0OEoxbDRMMXI0Zl8xTlhZZXRQOWtUU3FfMkRxcmxvOC1aUG53ZU9jcEluNHo2bDJaYzcxMGE0ZHpwb3RGTGE2a01TQzdzWWpRSzh2ZDZtR3lraG9FUklCaEp6R2lrYnk3aDJKakxPMEhhTUhlVTJPWUdQTmFtb1lYU1pTRE5vMDY3dVprbVRLSVlpai01M0JsaFpHdUlvX2ZRejYxYXRxSVBZWW9TMzBBTl9iVlhsRHR0YlHSAdcBQVVfeXFMT3daUENGcC1jOF9keHJyV05PTFEwdUpKS1BtaGd3YWFxR2hweDVrWmJWandkWTlBSmhDbm5PVGJ4cnJ4LWNMWTFtbTU1VTJ5aEMwNkpCaGRjODRQNjZNS3VrekhZY0UtRGdYRG1Jek03ektGeUNtN2xKMjlrUU9oLVV0ZE8wTFNUdDBucXVZS2p1YzZqajY0WHlEUXBUbTFaYzQxMjZmYUdhcm9hSHlqU1BLQUUyLVdJSGFjRW54RXZNckJ0dkJtY3hhMDl2WUhtQlRNalRtT00?oc=5",
+    "source": "Business Standard",
+    "date": "13 Nov",
     "outlets": 3,
     "also": [
-     "Hindustan Times",
-     "Times of India"
+     "NDTV",
+     "Reuters"
     ],
-    "lean": "LC",
-    "sites": 17,
+    "lean": "LCR",
+    "sites": 1,
     "wiki": false
    },
    {
-    "title": "EXCLUSIVE: India ordered website takedowns on fake court orders, Reuters finds; police launch probe",
-    "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPVDR0QVdTSXBVU09DWk80R05TdzQ4ZF9LNVc1N3RWTjYzeGlaTjBzN0J0Y2ZEUHdPY2Y3RElqempwWEhQNGs3YlZaNUxEcTU3WmVVRmZaMlRCSjlCdHdFdDl3bUxONUxWNWk3UEZYdUd0WVJNRzZ1Q0RWMnIyQTN0cWgzWkdpR29QamdSTklBNGhWQ1J5Y0podndzaWJ6aEVQejh1SEtTdGw2bnJMc1pQblBZM0xoeW5XWHEw?oc=5",
+    "title": "Indian PM Modi to attend ASEAN summit in Manila from November 16 to 18",
+    "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxOaTd6ZmE1VGk5N3o2dUpJNG9Tbmh0U3o5MHlrWFRvdmxqcTFmSURtV3liZXlvWWJKZmFxczMwNWNFTGp0alYyZ25KTFJPOTlTZVNselhfY2lLWkl6dWlvSERDVmppeTFNWjV0aHZYdmNWS0d4T1BVSGtvLWNaY0I2Wm9kakNhRFBjOWdaUnh1eGl0UEIxblRPR2dpcXY4ZVI5NVdWU0hPQQ?oc=5",
     "source": "Reuters India",
-    "date": "11 Nov",
+    "date": "12 Nov",
     "outlets": 2,
     "also": [
-     "The Hindu"
+     "NDTV"
     ],
     "lean": "LC",
-    "sites": 6,
-    "wiki": false
-   },
-   {
-    "title": "China visa rules: 6 documents Indian applicants need to keep ready",
-    "url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxQZXIzLS1DLUNfU1NiczNIWGFnc2p3QXpDYjBBbUswbU8zWG9xN1U0WnROYWtLQW1yYnA0aGZaUW4tTy1hZ1J2MkdhQ2lFNmRMQW9zcUJpNy1lcHo5WDNDRXJoRWplUktxcDBUUWR2ajJ6OHl5cWl2RmtnWjVSNzJIei1LMGh4UVVKMHVYaWpZeHVabnR4MVB6cUtrckNYM1djQU9JR1Y0Zml5M3pxX2g1TTBOZUFhMXAybTBqZVZfbDN2SmhWY0E1T1dLcGJnNmhLemxuMUpoemZNREXSAeIBQVVfeXFMUGtwS0Jpek5fMUQzOHBkU0dob1NQSFpaenY0U01ILTd1SFBLMmp6R3B0TjhwTGNFUDBQVHE0V0RHbnVUVUhqZnNCb0l6R3ZyWW5MTzR5VVBWaTN3aldhVWRNclpCQnpTUEZoQWd3eWYwaXdpemwtSktJZWlfbWJGSEpnRkZhU19xSWtab1Jydy1nYkxrX1ZFZk5TNGthZFBmcUtZbFBwOWlOd0pRTTBZUk9PeUJGZDVLdWZ2Tm5CRkRUbzlKR3IyRWNFQnhUOWZ1SzFQdGNpaHFrWG1DalZyQlJnZw?oc=5",
-    "source": "Indian Express",
-    "date": "11 Nov",
-    "outlets": 2,
-    "also": [
-     "Times of India"
-    ],
-    "lean": "LC",
-    "sites": 14,
+    "sites": 30,
     "wiki": false
    }
   ],
   "world": [
    {
-    "title": "Russia and Ukraine agree to a prisoner exchange as talks end with no big breakthrough",
-    "url": "https://www.npr.org/2026/11/11/g-s1-152954/russia-ukraine-war-talks",
-    "source": "NPR",
-    "date": "11 Nov",
-    "outlets": 5,
+    "title": "Ex-Nvidia CEO Jensen Huang summoned to testify before Congress about affair with alleged Chinese spy",
+    "url": "https://www.bbc.co.uk/news/articles/cmq5vd1wdgz6o?at_medium=RSS&at_campaign=rss",
+    "source": "BBC World",
+    "date": "13 Nov",
+    "outlets": 11,
+    "also": [
+     "AP",
+     "Business Standard",
+     "DW"
+    ],
+    "lean": "LCR",
+    "sites": 11,
+    "wiki": true
+   },
+   {
+    "title": "Russia says four killed in major Ukraine drone barrage",
+    "url": "https://www.thehindu.com/news/international/russia-says-four-killed-in-major-ukraine-drone-barrage/article71697111.ece",
+    "source": "The Hindu World",
+    "date": "13 Nov",
+    "outlets": 6,
     "also": [
      "AP",
      "BBC",
-     "Business Standard"
+     "DW"
     ],
-    "lean": "LCR",
-    "sites": 80,
+    "lean": "LC",
+    "sites": 1,
     "wiki": false
    },
    {
-    "title": "Chinese AI firms rush to secure Nvidia chip capacity as spy scandal stirs fear of U.S. curbs",
-    "url": "https://www.thehindu.com/sci-tech/technology/chinese-ai-firms-rush-to-secure-nvidia-chip-capacity-as-spy-scandal-stirs-fear-of-us-curbs/article71692635.ece",
-    "source": "The Hindu World",
+    "title": "Wall Street shakes with swings for Nvidia and oil prices but recovers most of its early losses",
+    "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPVFFiZmRWVmxZNDlVRnR1NHVQNkprRUhWMnNLMHFLWC1qdGljTm9ON2Z3U2FuXzNUcjRwRmNqMFZVemE4TVA1RVhRdl9paUtyMXJoYWhHbVl5d1FfNWZIZTVVU0IwcDQ0eHlnWGxxWEFhZjdkVko1a1hwY25XWE9uc3Q0MkIyaHpCWkNuZk05SGs1ck5DTFV4ZktQNWo?oc=5",
+    "source": "AP",
     "date": "12 Nov",
     "outlets": 4,
     "also": [
-     "NDTV",
      "Reuters",
+     "The Guardian",
      "WSJ"
     ],
     "lean": "LCR",
     "sites": 5,
     "wiki": false
-   },
-   {
-    "title": "Nvidia CEO Jensen Huang Affair Strains Taiwan’s Devotion to Its Hometown Hero",
-    "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxONDdVMXRJZVFQaXZWOEY2d09ZTWswRGF0cjZrQkxYSjhVekRtc3lvYlRDQlhDc2YtVGR4ZHFGYXd6U290MTJ6Wk9CeXJET3FiYmFXSG94RzFGbHh3amJmcDI3aEcwSkdTbjRhRnpseXJvdjFBczRaS2hPbEpzYi1JRFN5LV9GT1d4M1h2TDgxV2luNF85ajlJd0xaLTMwOFRFYTI5OVo2Q1ZWZ2lTb2M0QjFZcw?oc=5",
-    "source": "WSJ",
-    "date": "11 Nov",
-    "outlets": 4,
-    "also": [
-     "AP",
-     "The Guardian",
-     "The Hindu"
-    ],
-    "lean": "LCR",
-    "sites": 1,
-    "wiki": false
    }
   ],
   "business": [
    {
-    "title": "India's Tata Power names Sanjay Banga as CEO, posts Q2 profit jump",
-    "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxQMEluQVg2T19WenBnMFNsbzc1bmRESVZCWlZwb3F3Tk9HT3lScFVOQmZkeTB1TVdKY1drYklnX1B6RkdURFpHQlBCTzBrTEhtY0NOXzR1cmFYbU85c2xJYjRoblIxbENsU2RXZk92ejhDTVBWT3JmcTR3Q2YweWN1OEFpSm1QOVZsOGpFWUpOVm9hQUdrOVFHU0t0cHNSV0FsZnpnMkJCeUxzRWJWRFhzY3lzRXBhd21EV0hBUmtQMkp0UQ?oc=5",
-    "source": "Reuters Business",
-    "date": "11 Nov",
-    "outlets": 6,
+    "title": "Microsoft Outage LIVE: Microsoft outage enters second day; company says not aware of malicious activity",
+    "url": "https://www.thehindu.com/sci-tech/technology/microsoft-outage-live-updates-november-13-2026-steps-to-fix-outlook-and-other-apps-ongoing/article71696624.ece",
+    "source": "The Hindu Business",
+    "date": "13 Nov",
+    "outlets": 9,
     "also": [
+     "BBC",
      "Business Standard",
-     "Economic Times",
-     "Mint"
+     "Economic Times"
     ],
     "lean": "LCR",
-    "sites": 10,
+    "sites": 14,
     "wiki": false
    },
    {
-    "title": "Nvidia and Jensen Huang sued in US over affair with alleged Chinese spy",
-    "url": "https://www.theguardian.com/technology/2026/nov/10/nvidia-jensen-huang-sued-donald-trump-fbi",
-    "source": "The Guardian Business",
-    "date": "10 Nov",
+    "title": "After IPO listing, NSE shares hit ₹2,000 mark for the first time - Buy, sell or hold? What stock market experts say",
+    "url": "https://www.livemint.com/market/stock-market-news/after-ipo-listing-nse-shares-hit-rs-2-000-mark-for-the-first-time-buy-sell-or-hold-what-stock-market-experts-say-11794550519441.html",
+    "source": "Mint",
+    "date": "13 Nov",
     "outlets": 4,
     "also": [
      "BBC",
-     "NDTV",
-     "ThePrint"
+     "The Hindu",
+     "Times of India"
     ],
-    "lean": "LCR",
-    "sites": 18,
+    "lean": "LC",
+    "sites": 9,
     "wiki": false
    },
    {
-    "title": "Nvidia hires leading US law firm to investigate Jensen Huang’s relationship",
-    "url": "https://www.theguardian.com/technology/2026/nov/11/nvidia-hires-leading-us-law-firm-to-investigate-jensen-huang-relationship",
-    "source": "The Guardian Business",
-    "date": "11 Nov",
+    "title": "VIEW India's October retail inflation at 6.09% on-year",
+    "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPREdNUGJpdVdzdFc0aWVJQ2dFU21LNTdob0R6QXFwS1I0amswSzdzZC1TbWJrRm95ZFFMU3k2STdocmxMWHJETUpXSU1QeWtwY05mR2p3eFlRTkJUYjloTlN3QlYzWDhCWElxci1rU2FwNldyUG9jSkc3OWtnWjRJUjhyLVR5YTJnNkJROFlQZjZiNG52a0FzdWhMYlE?oc=5",
+    "source": "Reuters India Business",
+    "date": "12 Nov",
     "outlets": 3,
     "also": [
-     "Reuters",
-     "ThePrint"
+     "BBC",
+     "The Guardian"
     ],
-    "lean": "LCR",
-    "sites": 23,
+    "lean": "LC",
+    "sites": 20,
     "wiki": false
    }
   ]
  },
  "explainer": [
   {
-   "title": "Gokul dairy: The controversy over elections to Maharashtra’s largest milk cooperative",
-   "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxNTm8zXzlwcnJhb1g1STZUcnp2ckMtVEZ5cHFwS1IxVXQ1WTBuWE9Hd1hySVp0QWFDeUR6VlJKdnZEQTE0elRaT2JFRUZXV2s1bVVGX2dBOUJnYzJXMHNhMXpwUlhBZ3JmYnhIQnVyNkZtUTcxc0lwMGVUeWkwb1NVbjJTSlZMTXhNSmlOVDNyU3BIS0JwOC1xRS02VDF6bDVqYWJkSDVGa19ObFRSR3ZLdXpWaVhPUnF4LTlMTkd6X2xLM2RJRmtRT0tB0gHKAUFVX3lxTE1ObzNfOXBycmFvWDVJNlRyenZyQy1URnlwcXBLUjFVdDVZMG5YT0d3WHJJWnRBYUN5RHpWUkp2dkRBMTR6VFpPYkVFRldXazVtVUZfZ0E5QmdjMlcwc2ExenBSWEFncmZieEhCdXI2Rm1RNzFzSXAwZVR5aTBvU1VuMlNKVkxNeE1KaU5UM3JTcEhLQnA4LXFFLTZUMXpsNWphYmRINUZrX05sVFJHdkt1elZpWE9ScXgtOUxOR3pfbEszZElGa1FPS0E?oc=5",
+   "title": "How does Parliament convene special sessions, and what sets them apart?",
+   "url": "https://indianexpress.com/article/explained/explained-politics/parliament-special-session-features-process-delimitation-10961393/",
    "source": "Indian Express Explained",
-   "date": "12 Nov"
+   "date": "13 Nov"
   }
  ],
  "courses": {
@@ -161,16 +163,16 @@
     "date": "29 Oct"
    },
    {
-    "title": "Best fixed deposit rates, 11 Nov 2026: Earn up to 8.25%; check FD returns of top 5 small finance, private, public banks",
-    "url": "https://www.livemint.com/money/personal-finance/best-fixed-deposit-rates-11-nov-2026-earn-up-to-8-25-check-fd-returns-of-top-5-small-finance-private-public-banks-11794466088256.html",
+    "title": "Astro-tourism is on the rise in India: Travellers look beyond hills and beaches; how much does a ‘cosmic trip’ cost?",
+    "url": "https://www.livemint.com/money/astrotourism-is-on-the-rise-in-india-travellers-look-beyond-hills-and-beaches-how-much-does-a-cosmic-trip-cost-11794555785112.html",
     "source": "Mint Money",
-    "date": "12 Nov"
+    "date": "13 Nov"
    },
    {
-    "title": "Who is Wing Commander Namrita Chandi? How did she win pension battle 15 years after retiring from Indian Air Force?",
-    "url": "https://www.livemint.com/money/personal-finance/who-is-wing-commander-namrita-chandi-how-did-she-win-pension-battle-15-years-after-retiring-from-indian-air-force-11794461602294.html",
+    "title": "List: Which everyday expenses are hitting your pocket harder as CPI crosses 6%, food inflation nears 9% in Oct 2026?",
+    "url": "https://www.livemint.com/money/personal-finance/list-which-everyday-expenses-are-hitting-your-pocket-harder-as-cpi-crosses-6-food-inflation-nears-9-in-oct-2026-11794553476062.html",
     "source": "Mint Money",
-    "date": "12 Nov"
+    "date": "13 Nov"
    }
   ],
   "PRD": [
@@ -229,18 +231,18 @@
   ]
  },
  "audit": {
-  "wiki_items": 36,
-  "matched": 0,
+  "wiki_items": 20,
+  "matched": 1,
   "total": 9,
   "by_section": {
    "india": "0/3",
-   "world": "0/3",
+   "world": "1/3",
    "business": "0/3"
   },
   "note": "",
   "feeds_ok": [
    "The Hindu:15",
-   "Indian Express (via gnews):15",
+   "Indian Express:15",
    "Hindustan Times:15",
    "NDTV:15",
    "Times of India:15",
@@ -270,7 +272,7 @@
    "Reuters Business:15",
    "The Guardian Business:15",
    "WSJ Business:15",
-   "Indian Express Explained (via gnews):2",
+   "Indian Express Explained:2",
    "CA Rachana Ranade:2",
    "Mint Money:2",
    "Lenny's Newsletter:2",
