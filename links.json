@@ -1,154 +1,150 @@
 {
- "updated": "2026-11-15T08:08+00:00",
+ "updated": "2026-11-16T08:16+00:00",
  "method": "spectrum-v2",
  "news": {
   "india": [
    {
-    "title": "Watch: Denied chance to speak from stage, Congress MLA creates ruckus",
-    "url": "https://timesofindia.indiatimes.com/city/dehradun/i-am-the-chairperson-not-allowed-to-speak-from-stage-in-cms-presence-cong-mla-creates-ruckus-at-pithoragarh-fair-watch/articleshow/135845389.cms",
-    "source": "Times of India",
-    "date": "15 Nov",
-    "outlets": 4,
+    "title": "‘Anti-India Summit’: BJP accuses Rahul of providing platform to anti-India forces in Hyderabad",
+    "url": "https://www.thehindu.com/news/national/anti-india-summit-bjp-accuses-rahul-of-providing-platform-to-anti-india-forces-in-hyderabad/article71707146.ece",
+    "source": "The Hindu",
+    "date": "16 Nov",
+    "outlets": 3,
     "also": [
-     "Al Jazeera",
-     "Hindustan Times",
+     "ThePrint",
+     "Times of India"
+    ],
+    "lean": "LCR",
+    "sites": 17,
+    "wiki": false
+   },
+   {
+    "title": "Kushner Wants Direct Russia-Europe Talks in Ukraine Peace Push",
+    "url": "https://www.livemint.com/politics/kushner-wants-direct-russia-europe-talks-in-ukraine-peace-push-11794694798202.html",
+    "source": "Mint Politics",
+    "date": "15 Nov",
+    "outlets": 3,
+    "also": [
+     "Reuters",
      "The Hindu"
     ],
     "lean": "LC",
-    "sites": 3,
+    "sites": 8,
     "wiki": false
    },
    {
-    "title": "Who is Nageshwar Rao? Ex-CBI chief’s Sarvajan Sanatan Party seeks candidates for all 403 seats for UP Polls 2027",
-    "url": "https://www.livemint.com/politics/news/who-is-m-nageshwar-rao-ex-cbi-chief-s-sarvajan-sanatan-party-seeks-candidates-for-all-403-seats-for-up-polls-2027-11794377641957.html",
-    "source": "Mint Politics",
-    "date": "11 Nov",
-    "outlets": 4,
-    "also": [
-     "Business Standard",
-     "Indian Express",
-     "The Hindu"
-    ],
-    "lean": "LR",
-    "sites": 0,
-    "wiki": false
-   },
-   {
-    "title": "Uttar Pradesh | Yogi's quest for a third term",
-    "url": "https://www.indiatoday.in/magazine/nation/story/20261123-uttar-pradesh-yogi-adityanaths-quest-for-a-third-term-3038080-2026-11-13?utm_source=rss",
-    "source": "India Today",
-    "date": "13 Nov",
+    "title": "Sonia Gandhi’s father, the Holocaust and the history her book chooses to forget",
+    "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPaWo0RFZyZjM5MjVfdnEyTlVLQUdzWTdlbjhySkcxQ2xZVGhRUGl3a2tjaDlHZm5KQmVDLV8ydC0wVExEcHl0d25ZQ1J1SHoyWVpFTEJ5dUVZcUVwU1djYzdQRkgzSWc4U0NXeDBxYmFvT0VTelJqVzFHVm1TbFVYWWlzV1Q2S1JsVUpoQjBsSDNueVdWRHFPNWZzNi1iblFXRnV30gGoAUFVX3lxTFBsNjhoNG00ZzlrZFZaSDZ2OGllaFlBb2hGWmpaN2hIUG1MelUwWkxkdzRRaE93VHhqLUtZWHBUS0s1UWp5cFFNdXg0VWh1dGlBY0NWeHZYUG1nSEhjVEh1WGdBSU81VWkwUXgwaUUzQ0FYTzNFckVOSk1rRDZtQ0dtOXpxR2tDNEJPTWp6ZXZwYmc1OWh4WGpGVjlCZG85dWRjQUNqZWRxZQ?oc=5",
+    "source": "ThePrint",
+    "date": "16 Nov",
     "outlets": 3,
     "also": [
-     "Hindustan Times",
-     "ThePrint"
+     "BBC",
+     "Hindustan Times"
     ],
-    "lean": "LR",
-    "sites": 0,
+    "lean": "LCR",
+    "sites": 1,
     "wiki": false
    }
   ],
   "world": [
    {
-    "title": "A new 'Yalta'? Trump and Putin push for a meeting that Xi is wary of hosting",
-    "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPNHV6OEE3TG9DMmR2b2N2OEpUX2IxMlZLTHUyc3FwaTRZbDZ1RWtPaUl3Q2N6c1JOYl9FQ1k4OGxFeTM1czMzV3R2TE5ueXdQdThyZXhWTHJPUEJVLXh4aVhRVGI5Ri1VcEhMREJWbGdtdVcxNjlBYjRsVHhkYktoU2JERjBmRUctUTkzdm9JcTZLdEpwSFM2TXV5WU5LbV9hZlhNMS1ZdXY4QQ?oc=5",
+    "title": "Britain’s Prince William and Princess Catherine arrive in India for 3-day visit",
+    "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPZGJkRHhDVG91MUl0X1JlRkdvUHdyVWF6WUQ1Vmt4TXNEZkhOTzZaLUtiQmJQQlJVV3NSRWpoRGhoVVB1UFVRNmgtdmdZT2l0X2lyUDBiemdOczg4Mi1lMTh4RjF6R3RfRFpwbXd4NzU3Y2Q3aDJ1RGFzZVBQV05VNUpEbmlmaFNTR0VRVlRUT3pVYXliV3o4UFYzWEcyNFh3YjcwOU1YVk5LSUR5Z1ZKb09zNA?oc=5",
+    "source": "AP",
+    "date": "16 Nov",
+    "outlets": 4,
+    "also": [
+     "Reuters",
+     "The Hindu",
+     "Times of India"
+    ],
+    "lean": "LC",
+    "sites": 13,
+    "wiki": false
+   },
+   {
+    "title": "Suspected China spy linked to Nvidia's ex-boss left in 2025, Megaspeed says",
+    "url": "https://www.bbc.co.uk/news/articles/cmdx1vpprk9vo?at_medium=RSS&at_campaign=rss",
+    "source": "BBC World",
+    "date": "16 Nov",
+    "outlets": 4,
+    "also": [
+     "Al Jazeera",
+     "Reuters",
+     "The Guardian"
+    ],
+    "lean": "LC",
+    "sites": 6,
+    "wiki": false
+   },
+   {
+    "title": "Jordan sentences three men to death over deadly church attack",
+    "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOSW5qZzl5QmYwRkpOaUNfQlVXU1FOdEhVX0RUWEtsYjU5a3ZfWEJGS3R4MjVRYlVha3ZrcWpnQVV1SHQ0c09qY0V2U2RscnZUNjlaVjUwYW1GN2pfMjNHNE1LemRjUEZTSGlQY3JhcUNFTjhOYlNDZkVQTzFVbHZ1elgzX01md3BoRG0tam4zVEFha2tnUjU5TlllRmtrb09PMHFQVFZmNXNWSm9wTVRPYUFn?oc=5",
     "source": "Reuters World",
-    "date": "14 Nov",
-    "outlets": 5,
+    "date": "15 Nov",
+    "outlets": 3,
     "also": [
      "AP",
-     "BBC",
-     "NPR"
-    ],
-    "lean": "LCR",
-    "sites": 4,
-    "wiki": false
-   },
-   {
-    "title": "Beijing faces its Russia dilemma amid talk of Xi-Trump-Putin summit",
-    "url": "https://www.dw.com/en/beijing-faces-its-russia-dilemma-amid-talk-of-xi-trump-putin-summit/a-79942427?maca=en-rss-en-world-4025-rdf",
-    "source": "DW",
-    "date": "15 Nov",
-    "outlets": 4,
-    "also": [
-     "Mint",
-     "NPR",
      "The Telegraph"
     ],
-    "lean": "LCR",
-    "sites": 2,
-    "wiki": false
-   },
-   {
-    "title": "Trump tells advisers he may hold off on Iran attacks barring new provocations, sources say",
-    "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxPR2NiU2RGMHprbUFIMnNuTGJheHdpTzhuZFRCSWVGcl9HZF9raUd2VXQxNHE1WldRVzNaZWx6YnlRZFpueGZlb05DMElhZ3FEOVdLakpQWkNLaGktQWh6THRxT3V0aGVPaXI0dW9LVm9DeTJRekF1enJaamZ5bEd2SFZtSVNtTFd5VEp0WFl6U2VWX3BCRkYzbnB1c25QRnU2M3FBbDJBMHRTVWU5T0hyZG5sWFRPWUFIYVhuT1BMWTBkUVdNbDlF?oc=5",
-    "source": "Reuters World",
-    "date": "14 Nov",
-    "outlets": 4,
-    "also": [
-     "NDTV",
-     "The Hindu",
-     "WSJ"
-    ],
-    "lean": "LCR",
-    "sites": 3,
-    "wiki": false
+    "lean": "CR",
+    "sites": 36,
+    "wiki": true
    }
   ],
   "business": [
    {
-    "title": "The 31-Year-Old Trader Who Called Out Jensen Huang’s ‘China Problem’—and Shorted Nvidia",
-    "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxPU3B0dEx6NFJNd3BrRERfNktKdUdWN3U2MWRFc29LNExfVWgxcXhQcHhMQ2otRFV0SVRnVmZRVENUVTR1ai11TzZCaVdfNmM4ay10VFRZOUplOHUzam9jbXJEZzJJRHZOcngwdUNFSHJPelVZaEs3M3NnOXhvQUt1XzVsOA?oc=5",
+    "title": "How Jensen Huang Built a Business to Feed Chinese Appetite for American Chips",
+    "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQTFJYdnc1enJkNHlnR1AwRGlNUTNCT09IeTVDbzBBd1FGYnpBYUFSemtpUUROOVEzQ29WTTBwbXZuc3ZFTWhiU01vTGExNDQySnVHUG9IRVRpQW1FdE5WOVNqbUJfQ3dNNFZ0cUVaQmw4NmQycENqY2VNbThmNmZaTjJ2OVRkXzJUbV9XNWNDMGJtMlJjcW5HRjlwLU1qMng2TGNzdVNnX2pmYUN4NS1rUk5XMklVUQ?oc=5",
     "source": "WSJ Business",
     "date": "15 Nov",
-    "outlets": 7,
+    "outlets": 6,
     "also": [
      "BBC",
+     "Business Standard",
+     "Reuters"
+    ],
+    "lean": "LCR",
+    "sites": 1,
+    "wiki": false
+   },
+   {
+    "title": "Sensex today | Stock Market Live: Sensex, Nifty pare early gains as investors assess sustainability of market rally",
+    "url": "https://www.thehindubusinessline.com/markets/sensex-nifty50-today-stock-market-live-updates-16th-november-2026/article71705118.ece",
+    "source": "Hindu BusinessLine",
+    "date": "16 Nov",
+    "outlets": 4,
+    "also": [
+     "Business Standard",
      "Mint",
      "NDTV"
     ],
-    "lean": "LCR",
+    "lean": "LR",
     "sites": 0,
     "wiki": false
    },
    {
-    "title": "Microsoft outage shakes up companies, schools and local governments across US",
-    "url": "https://www.theguardian.com/technology/2026/nov/13/microsoft-outage-shakes-up-companies-local-governments",
-    "source": "The Guardian Business",
-    "date": "13 Nov",
-    "outlets": 6,
-    "also": [
-     "BBC",
-     "DW",
-     "Mint"
-    ],
-    "lean": "LCR",
-    "sites": 2,
-    "wiki": false
-   },
-   {
-    "title": "Bitcoin tumbles to four-month low as leveraged bets face mass liquidations",
-    "url": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxOTEJERDlsVHBaY3JEVlozZE44RUUxdXBpSXpfNkROcGxPYUdDclhsUXZIZ2lGWlpQUHdzR1hsbEZRejhRZ0tjZnBxbHVteUhyZzRPamFnZ1VlY1VLU3h3SkNYS2tYYVdtdktvRnQtU2NHQndlMlFyVnZVNlJialRQOFpQT0ZhNk5vUEVTRUg3dlJ6Ry0tTkdGalBtSDkzSjJmbkp0TEJYVWo2dm1FWEtDaHBCdGY5ZDhXRFhnZEtnX0hxQld1alFSVHh5cGV2MUp3Q1BZRG1QQzhGeDdoVk9ZbHJqYVlnd9IB6wFBVV95cUxPZ1lQelZTS01yM3JXRURUU2xLRDFHdkl5YmZCSmM1VDZJbVdoQVlYMG5QY0dZQlUzcFBQUEV5RTg3c3MzRFpuRHdrYzZTQ1gybno2MTVIOWpDU2hxcklrdkdqR0NwSHcteld0clRodVNyRE1EMXpycEEwaFE0LUpWcDljTE5XNGlScVpQVWhFVnJHNzlGcTc4STdxbms5UDl5bngyc2VvT29reGRQaE5aZEZvc1JjeU5JMlRQbk5GaXdNel93LUtLNGQ2RTNRMDJybjgtUF9mZi1hbkcwTjdCZmZWbnh4aExpV1cw?oc=5",
-    "source": "Business Standard",
-    "date": "15 Nov",
-    "outlets": 4,
+    "title": "Coal India unit Mahanadi seeks $9.6 billion valuation in IPO",
+    "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQcmItdko4YXY5SlBHb2MxYXQ3a190cG9xWU02X2tLM1IyVFVoajgtbE5LUkhJNUl1aWFNdFFwY0VLbUk2Nk1zM2gzUUtvZnZsenE4b2NrM05iTjlCLW51VzUzbGRWTnBUVnhMaGJPUVMyREZieFczWG0xNzFZZjJoVXZHUjdHN2poY0thblBpSVNWSFkwUER6cDlYcG9odEtRMzZxblNBcWg1S01MYl9PWVB1Sk0?oc=5",
+    "source": "Reuters India Business",
+    "date": "16 Nov",
+    "outlets": 3,
     "also": [
      "Mint",
-     "Reuters",
      "The Hindu"
     ],
-    "lean": "LCR",
-    "sites": 1,
+    "lean": "LC",
+    "sites": 9,
     "wiki": false
    }
   ]
  },
  "explainer": [
   {
-   "title": "Berlin Conference 1884-85: How Europe’s colonial ambitions shaped the partition of Africa",
-   "url": "https://indianexpress.com/article/explained/explained-history/berlin-conference-1884-85-partition-of-africa-10963172/",
+   "title": "In graphics: Missing 8-km of Mumbai-Goa highway, Rs 2,000 crore cost overrun",
+   "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOYm5oS1V4QWpGbHQxaUhqc1ZCTk12Qm5KNGJUZ3JlbHpZeVM3V1AxaHRPMnNVNmJaeEhuQV9oaU1kYnFpNl9xazNfN2R4cjRwQ0JhRkp4WDRBSDdXQlp2Tk95Sktoc1Zzd3cyM2s4bk5xcGR2OVJOTVNpaGZDUmxnaGdHelBoZXN0czJEYTR4Z0lIVmp4S3hGeF8wVVlOMk9QanV0a195LXdvcDJvMm84cXJ30gG4AUFVX3lxTE1sVEJmVUd1WE5UTDFfRGNQZUM0RHMwVkpmYXpPOWc1bFUya1hrVUROdEtuRWp1WHg0N0tMMGxaeDBBZVFZdURMcmdOcG1QaWF6Y0tqb3ZONHlYVi00NUlMMC1CcTZXZUNkUzhCS2k5NFBlaG1tUk5mX2FNR0VUdlBlUFg1UUdqa2F5ZXQ5eURQTjd0M28yUGRCQ3M1Um0tVVViOXY0SUc0MFpaOXQwNXNDNlpPcFlKcTI?oc=5",
    "source": "Indian Express Explained",
-   "date": "15 Nov"
+   "date": "16 Nov"
   }
  ],
  "courses": {
@@ -166,30 +162,30 @@
     "date": "29 Oct"
    },
    {
-    "title": "Small finance banks offer up to 8.25% FD interest: Compare Suryoday, Ujjivan and Utkarsh rates with large banks",
-    "url": "https://www.livemint.com/money/personal-finance/small-finance-banks-offer-up-to-8-25-fd-interest-compare-suryoday-ujjivan-and-utkarsh-rates-with-large-banks-11794724794627.html",
+    "title": "How credit card rewards can help you save lakhs on your next holiday",
+    "url": "https://www.livemint.com/money/personal-finance/credit-card-rewards-points-save-money-on-flights-hotels-holidays-11794806671668.html",
     "source": "Mint Money",
-    "date": "15 Nov"
+    "date": "16 Nov"
    },
    {
-    "title": "Gold rate in this UP city sees major crash; price plunges over ₹6,611 in just 3 days, slips below ₹1.36 lakh mark",
-    "url": "https://www.livemint.com/money/gold-rate-up-city-meerut-sees-major-crash-price-plunges-over-rs-6611-in-just-3-days-slips-below-rs-1-36-lakh-mark-silver-11794721026951.html",
+    "title": "Why investing has become more confusing than ever",
+    "url": "https://www.livemint.com/money/personal-finance/why-investing-has-become-more-confusing-than-ever-11794751224390.html",
     "source": "Mint Money",
-    "date": "15 Nov"
+    "date": "16 Nov"
    }
   ],
   "PRD": [
+   {
+    "title": "Meta’s Muse: How we launched the most successful consumer product this year | Mona Sarantakos",
+    "url": "https://www.lennysnewsletter.com/p/metas-muse-how-we-launched-the-most",
+    "source": "Lenny's Newsletter",
+    "date": "15 Nov"
+   },
    {
     "title": "🧠 Community Wisdom: When you become the bottleneck for your AI agents, the PULL framework for PMs, product growth vs. growth marketing, boosting feedback response rates, and more",
     "url": "https://www.lennysnewsletter.com/p/community-wisdom-when-you-become",
     "source": "Lenny's Newsletter",
     "date": "14 Nov"
-   },
-   {
-    "title": "Claude Code + Obsidian: My family’s AI brain | Scott Farrar",
-    "url": "https://www.lennysnewsletter.com/p/claude-code-obsidian-my-familys-ai",
-    "source": "Lenny's Newsletter",
-    "date": "11 Nov"
    }
   ],
   "AI": [
@@ -234,18 +230,18 @@
   ]
  },
  "audit": {
-  "wiki_items": 15,
-  "matched": 0,
+  "wiki_items": 32,
+  "matched": 1,
   "total": 9,
   "by_section": {
    "india": "0/3",
-   "world": "0/3",
+   "world": "1/3",
    "business": "0/3"
   },
   "note": "",
   "feeds_ok": [
    "The Hindu:15",
-   "Indian Express:15",
+   "Indian Express (via gnews):15",
    "Hindustan Times:15",
    "NDTV:15",
    "Times of India:15",
@@ -256,7 +252,7 @@
    "Reuters India:15",
    "Mint Politics:15",
    "BBC World:15",
-   "DW:11",
+   "DW:12",
    "Reuters World:15",
    "AP:15",
    "Al Jazeera:15",
@@ -275,7 +271,7 @@
    "Reuters Business:15",
    "The Guardian Business:15",
    "WSJ Business:15",
-   "Indian Express Explained:2",
+   "Indian Express Explained (via gnews):2",
    "CA Rachana Ranade:2",
    "Mint Money:2",
    "Lenny's Newsletter:2",
