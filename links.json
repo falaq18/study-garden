@@ -1,150 +1,151 @@
 {
- "updated": "2026-11-16T08:16+00:00",
+ "updated": "2026-11-17T09:30+00:00",
  "method": "spectrum-v2",
  "news": {
   "india": [
    {
-    "title": "‘Anti-India Summit’: BJP accuses Rahul of providing platform to anti-India forces in Hyderabad",
-    "url": "https://www.thehindu.com/news/national/anti-india-summit-bjp-accuses-rahul-of-providing-platform-to-anti-india-forces-in-hyderabad/article71707146.ece",
+    "title": "ASEAN Summit LIVE updates: PM Modi at ASEAN-India Summit; Quad meeting likely after President Trump arrives",
+    "url": "https://www.thehindu.com/news/international/asean-india-summit-manila-november-2026-quad-live-updates-pm-modi-trump-meeting-latest-news/article71710382.ece",
     "source": "The Hindu",
-    "date": "16 Nov",
-    "outlets": 3,
-    "also": [
-     "ThePrint",
-     "Times of India"
-    ],
-    "lean": "LCR",
-    "sites": 17,
-    "wiki": false
-   },
-   {
-    "title": "Kushner Wants Direct Russia-Europe Talks in Ukraine Peace Push",
-    "url": "https://www.livemint.com/politics/kushner-wants-direct-russia-europe-talks-in-ukraine-peace-push-11794694798202.html",
-    "source": "Mint Politics",
-    "date": "15 Nov",
-    "outlets": 3,
-    "also": [
-     "Reuters",
-     "The Hindu"
-    ],
-    "lean": "LC",
-    "sites": 8,
-    "wiki": false
-   },
-   {
-    "title": "Sonia Gandhi’s father, the Holocaust and the history her book chooses to forget",
-    "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPaWo0RFZyZjM5MjVfdnEyTlVLQUdzWTdlbjhySkcxQ2xZVGhRUGl3a2tjaDlHZm5KQmVDLV8ydC0wVExEcHl0d25ZQ1J1SHoyWVpFTEJ5dUVZcUVwU1djYzdQRkgzSWc4U0NXeDBxYmFvT0VTelJqVzFHVm1TbFVYWWlzV1Q2S1JsVUpoQjBsSDNueVdWRHFPNWZzNi1iblFXRnV30gGoAUFVX3lxTFBsNjhoNG00ZzlrZFZaSDZ2OGllaFlBb2hGWmpaN2hIUG1MelUwWkxkdzRRaE93VHhqLUtZWHBUS0s1UWp5cFFNdXg0VWh1dGlBY0NWeHZYUG1nSEhjVEh1WGdBSU81VWkwUXgwaUUzQ0FYTzNFckVOSk1rRDZtQ0dtOXpxR2tDNEJPTWp6ZXZwYmc1OWh4WGpGVjlCZG85dWRjQUNqZWRxZQ?oc=5",
-    "source": "ThePrint",
-    "date": "16 Nov",
-    "outlets": 3,
-    "also": [
-     "BBC",
-     "Hindustan Times"
-    ],
-    "lean": "LCR",
-    "sites": 1,
-    "wiki": false
-   }
-  ],
-  "world": [
-   {
-    "title": "Britain’s Prince William and Princess Catherine arrive in India for 3-day visit",
-    "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPZGJkRHhDVG91MUl0X1JlRkdvUHdyVWF6WUQ1Vmt4TXNEZkhOTzZaLUtiQmJQQlJVV3NSRWpoRGhoVVB1UFVRNmgtdmdZT2l0X2lyUDBiemdOczg4Mi1lMTh4RjF6R3RfRFpwbXd4NzU3Y2Q3aDJ1RGFzZVBQV05VNUpEbmlmaFNTR0VRVlRUT3pVYXliV3o4UFYzWEcyNFh3YjcwOU1YVk5LSUR5Z1ZKb09zNA?oc=5",
-    "source": "AP",
-    "date": "16 Nov",
+    "date": "17 Nov",
     "outlets": 4,
     "also": [
-     "Reuters",
-     "The Hindu",
-     "Times of India"
+     "DW",
+     "Hindustan Times",
+     "NDTV"
     ],
     "lean": "LC",
     "sites": 13,
     "wiki": false
    },
    {
-    "title": "Suspected China spy linked to Nvidia's ex-boss left in 2025, Megaspeed says",
-    "url": "https://www.bbc.co.uk/news/articles/cmdx1vpprk9vo?at_medium=RSS&at_campaign=rss",
-    "source": "BBC World",
-    "date": "16 Nov",
+    "title": "Gujarat riots gang-rape survivor 'heartbroken' after bail for two convicts",
+    "url": "https://www.bbc.co.uk/news/articles/cr868wd2qg18o?at_medium=RSS&at_campaign=rss",
+    "source": "BBC India",
+    "date": "17 Nov",
     "outlets": 4,
     "also": [
-     "Al Jazeera",
-     "Reuters",
-     "The Guardian"
+     "Hindustan Times",
+     "Indian Express",
+     "Times of India"
     ],
     "lean": "LC",
-    "sites": 6,
+    "sites": null,
     "wiki": false
    },
    {
-    "title": "Jordan sentences three men to death over deadly church attack",
-    "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOSW5qZzl5QmYwRkpOaUNfQlVXU1FOdEhVX0RUWEtsYjU5a3ZfWEJGS3R4MjVRYlVha3ZrcWpnQVV1SHQ0c09qY0V2U2RscnZUNjlaVjUwYW1GN2pfMjNHNE1LemRjUEZTSGlQY3JhcUNFTjhOYlNDZkVQTzFVbHZ1elgzX01md3BoRG0tam4zVEFha2tnUjU5TlllRmtrb09PMHFQVFZmNXNWSm9wTVRPYUFn?oc=5",
-    "source": "Reuters World",
-    "date": "15 Nov",
+    "title": "Testing Justice Sanjay Kaul’s charge—what data reveals about the Supreme Court’s roster master",
+    "url": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxNaGh6cjd2aHNialRSNlh2MXZ1REZ6c2ppNVZaS2tnNXBJLU9Zd0lvbE9mckl4VFNaVHZTM3dxMUZsT0Q4TDd4X056cDFUcW9vUUNCVmFsaTBZOUtlYnplVWRwYllrQUtTc01EQmxaYmFNalB3Z2VFTU95TGd2OGZJemRlNWdhWHczODJpUkdFR1BDenJFbmJEZW5SM1UyNFNBSFh0QjA5SV9KQV9USy1RNjlWZk5YdnJMUzF6RjFsQ2V6VVRCR3NSWmZhaDI1TWVhWDVrZi1IandDcUlUenfSAeMBQVVfeXFMUEJaTlYxTFhBT2hYeU5vY0psSENqRVFZTVoyTTMzTWZfdTRXemJKQm14bkFsNWtLTW92SHBiX2ROQXBFSWl4QU5ST1FaWHJjejRSXzNjUFZaM3lkVlM2dHJfWDJMdXQ4SkdYdFRWNDJsbjh5SnQ1bm15RElHbER4QW1OQlBxcFJuSHV2VzBMWldXZVhPSVhOZGRnTnU3LVNQMGRsYXJQQm1yRHBORXk3bWlWOVNBZkFiZmpLQUp4dkVtTG5zV2llX0FOdWpHUWkxYVVIYnEtSkw1V0xDOHhIQ0xUWHc?oc=5",
+    "source": "ThePrint",
+    "date": "17 Nov",
     "outlets": 3,
     "also": [
-     "AP",
-     "The Telegraph"
+     "Reuters",
+     "The Hindu"
     ],
-    "lean": "CR",
-    "sites": 36,
-    "wiki": true
+    "lean": "LCR",
+    "sites": null,
+    "wiki": false
+   }
+  ],
+  "world": [
+   {
+    "title": "A technical issue at JPMorgan Chase triggers online banking delays for major US banks",
+    "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPT2I5X1NCMDRQZURDMlVFTTY4TmJ1TFVCeUIyWFRuenhhUmV4QTd5ZW9ydEdUaUFXb0dGTVFjR3VubUxvaExsZ3pfWUd2dUw1dEdFbDg5TWhkbEFxNEJydHNtaTgxRnJ1VXRNdjJQY25GSU1NdEZRcG9wUlN0NTJlRHk4QW5WbHk1eV9XOTROU2M3M3N4ZU0wbkxBSTY?oc=5",
+    "source": "AP",
+    "date": "17 Nov",
+    "outlets": 5,
+    "also": [
+     "BBC",
+     "The Guardian",
+     "The Hindu"
+    ],
+    "lean": "LCR",
+    "sites": null,
+    "wiki": false
+   },
+   {
+    "title": "Trump’s Asia trip: Deals in Manila and Shenzhen, nuclear summit with Xi and Putin, maybe Kim meeting",
+    "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxOcGw5a2lMb1B2bEtyYWotSkJYcWhXNHN2R3lwQlNuSUxfSHB5VzJ4Y25wNjZvcnVMLWhlN01rNnM3LXo2OHVScndJZm5VRWhjVFNrNnJZZDRhdEpoSThDelpzbDJlMTB0QXZ2al9FLWFkS3JTU1FfaFpBVkp1X2lrMU93bU5FbzlIQl9qbzFQLXE?oc=5",
+    "source": "AP",
+    "date": "17 Nov",
+    "outlets": 5,
+    "also": [
+     "Economic Times",
+     "Hindustan Times",
+     "Indian Express"
+    ],
+    "lean": "LC",
+    "sites": null,
+    "wiki": false
+   },
+   {
+    "title": "Carney says Canada could turn to Chinese automakers if Trump trade talks fail",
+    "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxNZTR5N1M3UjBmMW5oTkdUWERHYUFPWFFNU3lHeEVyUlo0VE1KLU5hVXIxMGkxSE5ySlZjdjJWcEZhd1JrYnhvWDFNTFUybU5IRWY1SE55RHU2ZWdOQnY2ejBPLWpscTFCb2dUNDc4SE9iUHFmTUlpMzdsWWNTYlh3emhsTlM3SXljbWxEZVNNWXJwUE9TQjFYVE1GMzRXZw?oc=5",
+    "source": "AP",
+    "date": "16 Nov",
+    "outlets": 4,
+    "also": [
+     "Mint",
+     "The Guardian",
+     "The Hindu"
+    ],
+    "lean": "LC",
+    "sites": null,
+    "wiki": false
    }
   ],
   "business": [
    {
-    "title": "How Jensen Huang Built a Business to Feed Chinese Appetite for American Chips",
-    "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQTFJYdnc1enJkNHlnR1AwRGlNUTNCT09IeTVDbzBBd1FGYnpBYUFSemtpUUROOVEzQ29WTTBwbXZuc3ZFTWhiU01vTGExNDQySnVHUG9IRVRpQW1FdE5WOVNqbUJfQ3dNNFZ0cUVaQmw4NmQycENqY2VNbThmNmZaTjJ2OVRkXzJUbV9XNWNDMGJtMlJjcW5HRjlwLU1qMng2TGNzdVNnX2pmYUN4NS1rUk5XMklVUQ?oc=5",
-    "source": "WSJ Business",
-    "date": "15 Nov",
-    "outlets": 6,
-    "also": [
-     "BBC",
-     "Business Standard",
-     "Reuters"
-    ],
-    "lean": "LCR",
-    "sites": 1,
-    "wiki": false
-   },
-   {
-    "title": "Sensex today | Stock Market Live: Sensex, Nifty pare early gains as investors assess sustainability of market rally",
-    "url": "https://www.thehindubusinessline.com/markets/sensex-nifty50-today-stock-market-live-updates-16th-november-2026/article71705118.ece",
-    "source": "Hindu BusinessLine",
+    "title": "Trump backs calls for reinstatement of Jensen Huang as Nvidia CEO",
+    "url": "https://www.theguardian.com/technology/2026/nov/16/trump-backs-calls-for-reinstatement-of-jensen-huang-as-nvidia-ceo",
+    "source": "The Guardian Business",
     "date": "16 Nov",
     "outlets": 4,
     "also": [
      "Business Standard",
-     "Mint",
-     "NDTV"
+     "Reuters",
+     "Times of India"
     ],
-    "lean": "LR",
-    "sites": 0,
+    "lean": "LCR",
+    "sites": null,
     "wiki": false
    },
    {
-    "title": "Coal India unit Mahanadi seeks $9.6 billion valuation in IPO",
-    "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQcmItdko4YXY5SlBHb2MxYXQ3a190cG9xWU02X2tLM1IyVFVoajgtbE5LUkhJNUl1aWFNdFFwY0VLbUk2Nk1zM2gzUUtvZnZsenE4b2NrM05iTjlCLW51VzUzbGRWTnBUVnhMaGJPUVMyREZieFczWG0xNzFZZjJoVXZHUjdHN2poY0thblBpSVNWSFkwUER6cDlYcG9odEtRMzZxblNBcWg1S01MYl9PWVB1Sk0?oc=5",
-    "source": "Reuters India Business",
-    "date": "16 Nov",
+    "title": "Microsoft outage shakes up companies, schools and local governments across US",
+    "url": "https://www.theguardian.com/technology/2026/nov/13/microsoft-outage-shakes-up-companies-local-governments",
+    "source": "The Guardian Business",
+    "date": "13 Nov",
     "outlets": 3,
     "also": [
-     "Mint",
-     "The Hindu"
+     "AP",
+     "BBC"
     ],
     "lean": "LC",
-    "sites": 9,
+    "sites": null,
+    "wiki": false
+   },
+   {
+    "title": "Head of China’s Baidu warns of AI ‘bubble’ ahead of APEC talks",
+    "url": "https://www.thehindu.com/news/international/head-of-chinas-baidu-warns-of-ai-bubble-ahead-of-apec-talks/article71710928.ece",
+    "source": "The Hindu Business",
+    "date": "17 Nov",
+    "outlets": 2,
+    "also": [
+     "Reuters"
+    ],
+    "lean": "LC",
+    "sites": null,
     "wiki": false
    }
   ]
  },
  "explainer": [
   {
-   "title": "In graphics: Missing 8-km of Mumbai-Goa highway, Rs 2,000 crore cost overrun",
-   "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOYm5oS1V4QWpGbHQxaUhqc1ZCTk12Qm5KNGJUZ3JlbHpZeVM3V1AxaHRPMnNVNmJaeEhuQV9oaU1kYnFpNl9xazNfN2R4cjRwQ0JhRkp4WDRBSDdXQlp2Tk95Sktoc1Zzd3cyM2s4bk5xcGR2OVJOTVNpaGZDUmxnaGdHelBoZXN0czJEYTR4Z0lIVmp4S3hGeF8wVVlOMk9QanV0a195LXdvcDJvMm84cXJ30gG4AUFVX3lxTE1sVEJmVUd1WE5UTDFfRGNQZUM0RHMwVkpmYXpPOWc1bFUya1hrVUROdEtuRWp1WHg0N0tMMGxaeDBBZVFZdURMcmdOcG1QaWF6Y0tqb3ZONHlYVi00NUlMMC1CcTZXZUNkUzhCS2k5NFBlaG1tUk5mX2FNR0VUdlBlUFg1UUdqa2F5ZXQ5eURQTjd0M28yUGRCQ3M1Um0tVVViOXY0SUc0MFpaOXQwNXNDNlpPcFlKcTI?oc=5",
+   "title": "What is surveillance pricing, and why does New York want to ban it?",
+   "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxQSWdlWHg0VE1pYzdPd290N3VHYk9FZDJ4MkJENDByR1lRdFFRQkFLN2JIUWs4Mk12VnNFX1VoLURDb3RBaGtPdHM4TGJkdUVaajNTQmcwSGNzUHBkX1lwUDhjMTZ2cW1CaWF1MGxmQ014ZzAwT1RKWkp2LXIxZnlCelQ5dnVZOUtqYzlEbTZMVERjdHZNVVV5NXJDOG5ZTk5wX25Vd0stR0VlYWN0cWFEa2I5eEpXREVEUFN4emtLV25xUnpaNFpxenU2T09YME9nWVHSAdgBQVVfeXFMT2dGNUdLbUVWRmpmTmwxWjA2MFpQOGNJeWs5V2U0UG1tVTl4Zkh5NTlLVWMtSU9vTU9XZmNFc05JUk0xdVdLeHhOemppa2MzS0hhOTEzSnc1c3pNSWpWUkZFR1hDcnJ2TzRSQW1tdEp2UmVlVWoyc3BpZExrZE03dlY3dTgwcUZWRjl4bWtxalpvb3kxdHlIdmM3RFZPcm5rV0w1M3B3OTk2bzhYaWV5R0FGRWlESExEdmxIT2YwOXpvT05ueUVOQ3AxSlVnNVNNZzUxZGZ4UGFx?oc=5",
    "source": "Indian Express Explained",
-   "date": "16 Nov"
+   "date": "17 Nov"
   }
  ],
  "courses": {
@@ -162,30 +163,30 @@
     "date": "29 Oct"
    },
    {
-    "title": "How credit card rewards can help you save lakhs on your next holiday",
-    "url": "https://www.livemint.com/money/personal-finance/credit-card-rewards-points-save-money-on-flights-hotels-holidays-11794806671668.html",
+    "title": "India's 3rd-largest mutual fund house enters SIF space: Check long-short hybrid NFO details; how existing schemes fared",
+    "url": "https://www.livemint.com/money/personal-finance/indias-3rd-largest-mutual-fund-house-enters-sif-space-check-long-short-hybrid-nfo-details-how-existing-schemes-fared-11794903836844.html",
     "source": "Mint Money",
-    "date": "16 Nov"
+    "date": "17 Nov"
    },
    {
-    "title": "Why investing has become more confusing than ever",
-    "url": "https://www.livemint.com/money/personal-finance/why-investing-has-become-more-confusing-than-ever-11794751224390.html",
+    "title": "Prepay 7.9% car loan or buy mutual funds? 24-year-old’s ₹1.27 lakh salary, ₹21 lakh portfolio dilemma sparks debate",
+    "url": "https://www.livemint.com/money/personal-finance/prepay-7-9-car-loan-or-buy-mutual-funds-24-year-old-s-1-27-lakh-salary-21-lakh-portfolio-dilemma-sparks-debate-11794902175803.html",
     "source": "Mint Money",
-    "date": "16 Nov"
+    "date": "17 Nov"
    }
   ],
   "PRD": [
    {
-    "title": "Meta’s Muse: How we launched the most successful consumer product this year | Mona Sarantakos",
-    "url": "https://www.lennysnewsletter.com/p/metas-muse-how-we-launched-the-most",
+    "title": "🎙️ How I AI: Fable 5.2 Review + How I fight token fraud as a solo founder + Building a Claude Code family OS",
+    "url": "https://www.lennysnewsletter.com/p/how-i-ai-fable-52-review-how-i-fight",
     "source": "Lenny's Newsletter",
-    "date": "15 Nov"
+    "date": "16 Nov"
    },
    {
-    "title": "🧠 Community Wisdom: When you become the bottleneck for your AI agents, the PULL framework for PMs, product growth vs. growth marketing, boosting feedback response rates, and more",
-    "url": "https://www.lennysnewsletter.com/p/community-wisdom-when-you-become",
+    "title": "How I fight token fraud as a solo founder",
+    "url": "https://www.lennysnewsletter.com/p/how-i-fight-token-fraud-as-a-solo",
     "source": "Lenny's Newsletter",
-    "date": "14 Nov"
+    "date": "16 Nov"
    }
   ],
   "AI": [
@@ -230,12 +231,12 @@
   ]
  },
  "audit": {
-  "wiki_items": 32,
-  "matched": 1,
+  "wiki_items": 18,
+  "matched": 0,
   "total": 9,
   "by_section": {
    "india": "0/3",
-   "world": "1/3",
+   "world": "0/3",
    "business": "0/3"
   },
   "note": "",
@@ -252,7 +253,7 @@
    "Reuters India:15",
    "Mint Politics:15",
    "BBC World:15",
-   "DW:12",
+   "DW:11",
    "Reuters World:15",
    "AP:15",
    "Al Jazeera:15",
@@ -284,6 +285,8 @@
   "feeds_failed": [
    "Vinh Giang: HTTPError"
   ],
-  "notes": []
+  "notes": [
+   "pickup off: HTTPError HTTP Error 429: Too Many Requests"
+  ]
  }
 }
