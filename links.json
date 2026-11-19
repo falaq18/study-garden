@@ -1,150 +1,154 @@
 {
- "updated": "2026-11-18T08:50+00:00",
+ "updated": "2026-11-19T09:05+00:00",
  "method": "spectrum-v2",
  "news": {
   "india": [
    {
-    "title": "Amazon to invest $7 billion in renewable energy in India",
-    "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQX2VQM2lmenVrZWFWR0hYWjNMUWlkdTVBOGVpSERjX05QZldrcnZGWE0ybHJxeE5Id3VSblZwU1A0Vmx2VkkzN0RyanlrN2R6R2xOcGpwemVVZ0owMTdwNW9WUzFTRkdVNlQzRG5lYXNQclJ1eGNyT0ZlZDJrOFpDcGtPTmNTTmlpLTdxRHk0SFpCX0V5MzJyZVNpVkhuc0U?oc=5",
-    "source": "Reuters India",
-    "date": "17 Nov",
-    "outlets": 3,
-    "also": [
-     "NDTV",
-     "The Hindu"
-    ],
-    "lean": "LC",
-    "sites": 84,
-    "wiki": false
-   },
-   {
-    "title": "Delhi court orders cops to file action taken report on complaint against Sonia Gandhi",
-    "url": "https://www.hindustantimes.com/india-news/delhi-court-orders-cops-to-file-action-taken-report-on-complaint-against-sonia-gandhi-101794987243563.html",
-    "source": "Hindustan Times",
-    "date": "18 Nov",
-    "outlets": 3,
+    "title": "Melinda French Gates' $240 million fund distributes nearly all grants, report reveals",
+    "url": "https://timesofindia.indiatimes.com/world/us/in-2024-melinda-french-gates-gave-12-leaders-20-million-each-to-distribute-a-november-18-report-says-nearly-all-240-million-has-been-given-out-with-91-of-grants-going-to-groups-new-to-pivotal/articleshow/135981702.cms",
+    "source": "Times of India",
+    "date": "19 Nov",
+    "outlets": 5,
     "also": [
      "BBC",
+     "The Guardian",
      "The Hindu"
     ],
-    "lean": "LC",
-    "sites": 25,
+    "lean": "LCR",
+    "sites": null,
     "wiki": false
    },
    {
-    "title": "Delhi court orders framing of charges against 14 accused in NEET-UG paper leak case",
-    "url": "https://www.hindustantimes.com/india-news/delhi-court-orders-framing-of-charges-against-14-accused-in-neet-ug-paper-leak-case-101794983746419.html",
-    "source": "Hindustan Times",
-    "date": "18 Nov",
-    "outlets": 3,
+    "title": "India's religious make-up - what a new Pew study says about Hindus and Muslims",
+    "url": "https://www.bbc.co.uk/news/articles/cqd01epyrz1do?at_medium=RSS&at_campaign=rss",
+    "source": "BBC India",
+    "date": "19 Nov",
+    "outlets": 4,
     "also": [
+     "AP",
      "The Hindu",
      "ThePrint"
     ],
-    "lean": "LR",
-    "sites": 19,
+    "lean": "LCR",
+    "sites": null,
+    "wiki": false
+   },
+   {
+    "title": "India-US ties at historic high, working towards fair, reciprocal trade relationship: US envoy",
+    "url": "https://www.hindustantimes.com/india-news/indiaus-ties-at-historic-high-working-towards-fair-reciprocal-trade-relationship-us-envoy-101795074945889.html",
+    "source": "Hindustan Times",
+    "date": "19 Nov",
+    "outlets": 3,
+    "also": [
+     "DW",
+     "The Hindu"
+    ],
+    "lean": "LC",
+    "sites": null,
     "wiki": false
    }
   ],
   "world": [
    {
-    "title": "Classified communications network at the National Security Agency goes down, defense official says",
-    "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNMktLaW5kdHVTN3VMZTk4bGp1WWZZZGVJLXFWa2QxOExBN25NdXNYd0F6RW1wZER4QTFDZHlZaWNpbURDdVk1UFBoT3N2ME5UcnIybFRyb0dsemJJbzNHQlJnd0lTSEs3LVJibVRCQjk1c2xNNFpHSTlia0VhRUNCbktOaWtOQlNhNzBvZURB?oc=5",
+    "title": "Xi, Trump, Putin exchange greetings before historic China summit",
+    "url": "https://www.thehindu.com/news/international/xi-trump-putin-exchange-greetings-before-historic-china-summit/article71718490.ece",
+    "source": "The Hindu World",
+    "date": "19 Nov",
+    "outlets": 6,
+    "also": [
+     "Al Jazeera",
+     "DW",
+     "NPR"
+    ],
+    "lean": "LCR",
+    "sites": null,
+    "wiki": false
+   },
+   {
+    "title": "Nuclear arms and ending wars in Iran and Ukraine will top the agenda at Trump-Xi-Putin meeting",
+    "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOZko0TjU0LUdSMUxlTkNVcnJsSThoSFo5Y2ZuamRVQ2tidnZQa2M5N1o0dlpndmptSGxNTGhYYS1IUXVKMjZibjFPcWVURHJRaHNfclhIMHlSVFdIN3VkZUxFVEo5Z1JoZFR0bkdHOUd1UUNuNXRCVDBKUlhPaGItcmVfY09NQ1U5WmhHYzRNZHdtWDVVay1JalhlNA?oc=5",
     "source": "AP",
-    "date": "18 Nov",
+    "date": "19 Nov",
+    "outlets": 5,
+    "also": [
+     "Al Jazeera",
+     "Economic Times",
+     "NDTV"
+    ],
+    "lean": "LC",
+    "sites": null,
+    "wiki": false
+   },
+   {
+    "title": "Islam forecast to soon exceed Christianity as world's biggest faith",
+    "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPZzhzMHplMEVtRTFScDNDeERNU05DOVY1TXVIeDl3Uko3bkcyU3NLYlJPRTVITEIyNHg1TGtZVVJhOWVlUFNYU1hTUk5CaldhMW04UXM4MEJsNjJ2WG02bG56bGJjQW91b2dBUDlHSm5WMnpxbkp6WkFqbjBiUk1tLXczSm9FWEMzZE1YNDRCdU54ME1LS3B5YmhZNVBSeUZ4WXZwN2hvbTBvcjRsQUpCNjBjNDM?oc=5",
+    "source": "Reuters World",
+    "date": "19 Nov",
     "outlets": 4,
     "also": [
-     "DW",
-     "The Guardian",
+     "Al Jazeera",
+     "NPR",
      "WSJ"
     ],
     "lean": "LCR",
-    "sites": 46,
-    "wiki": false
-   },
-   {
-    "title": "APEC summit: What Trump, Xi and Putin want",
-    "url": "https://www.dw.com/en/apec-summit-what-trump-xi-and-putin-want/a-79970462?maca=en-rss-en-world-4025-rdf",
-    "source": "DW",
-    "date": "18 Nov",
-    "outlets": 4,
-    "also": [
-     "NPR",
-     "The Guardian",
-     "The Telegraph"
-    ],
-    "lean": "LCR",
-    "sites": 13,
-    "wiki": false
-   },
-   {
-    "title": "Ukraine cripples Crimean road bridge in blow to Putin before meeting with Xi and Trump",
-    "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPaEg3anV0Q2ZiXzRhYjVfZkhyTlM2Q3RnX3ZFUExIQ0xQWjZqbkRmXy1mSVY5N1E2dXI0Q2s5WE5oQmNnLXZia24zNU5nUF9FNnZQMENHcFhYMUlhVklwT1RBczRnWFRiXzl3MHRoTWpPRlZJQUNlSjBHeGl5akprVmlNNnFYNmRiNEFqZUlzbUxnRU9FWGRxRGdUTU93QTQ3S3prbktDSUxQbHM2MjFsWWtpLXNOWWFC?oc=5",
-    "source": "Reuters World",
-    "date": "17 Nov",
-    "outlets": 4,
-    "also": [
-     "BBC",
-     "The Hindu",
-     "The Telegraph"
-    ],
-    "lean": "LCR",
-    "sites": 4,
+    "sites": null,
     "wiki": false
    }
   ],
   "business": [
    {
+    "title": "Dubai Airport Traffic Falls But Shows Signs of Recovery Amid Iran War",
+    "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQLVd5WHpYWkp6em1GSHRQSlBIang3ZmVGckJDNFladmRUa1I0dDlOeEdVakxzcXVFOGx4M2Z2ZXo3Zk9NZ1FhaUYzU1Ffd0NPdTg4aVoxM3Y1WXliUklPMXBPeDBNMHZ6X25pdjd5RkF0RThERVQ1Q0tneU5PdkJEU09KWHZ6TkZwWDR0YmFOVnh1azJ0dXR0Tko1dlhBUDJkZnJ1Xy01eGxBQnhzTDdFQXpEY0Y4OVk?oc=5",
+    "source": "WSJ Business",
+    "date": "19 Nov",
+    "outlets": 4,
+    "also": [
+     "AP",
+     "NDTV",
+     "The Guardian"
+    ],
+    "lean": "LCR",
+    "sites": null,
+    "wiki": false
+   },
+   {
+    "title": "Gold edges up from 14-month low as markets assess Fed rate outlook",
+    "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPZ0RVRVVhd0g1djYyRGpzbTcyZXFtSXd3cTV1T0REekJaYm9FOTlzblJzU3hlMmsxSkF0UmtzZ1gwWVFiUzI3VXdGNzJLTndoZC1oVkpXSnRmZ0ZmNkEybVRFSnhIVzFCNnlTS2hQRGV2bnNGTHVsaUZ5RmllU0otWWcxV2wwejMwcXpTOWFxam1xb2dRMXMyQ1c0T0RkZy1SX09YR3lYdmxkQQ?oc=5",
+    "source": "Reuters India Business",
+    "date": "19 Nov",
+    "outlets": 4,
+    "also": [
+     "AP",
+     "Mint",
+     "The Hindu"
+    ],
+    "lean": "LC",
+    "sites": null,
+    "wiki": false
+   },
+   {
     "title": "Nvidia doubles revenue as board says it does not intend to reinstate Jensen Huang",
     "url": "https://www.theguardian.com/technology/2026/nov/17/nvidia-third-quarter-revenue-jensen-huang",
     "source": "The Guardian Business",
     "date": "17 Nov",
-    "outlets": 8,
+    "outlets": 4,
     "also": [
      "AP",
      "BBC",
-     "Mint"
-    ],
-    "lean": "LCR",
-    "sites": 15,
-    "wiki": false
-   },
-   {
-    "title": "Today’s Gold Rate in India November 18: Gold prices down in Coimbatore, Nagpur, Visakhapatnam, Surat, Jaipur",
-    "url": "https://www.thehindubusinessline.com/gold-rate-today/gold-price-today-in-coimbatore-nagpur-visakhapatnam-surat-jaipur-lucknow-chandigarh-gold-rates-other-cities-november-18-2026/article71715011.ece",
-    "source": "Hindu BusinessLine",
-    "date": "18 Nov",
-    "outlets": 3,
-    "also": [
-     "Economic Times",
-     "Reuters"
+     "NPR"
     ],
     "lean": "LC",
-    "sites": 1,
-    "wiki": false
-   },
-   {
-    "title": "Metal stocks to buy! APL Apollo Tubes, Hindalco: Axis Sec lists 2 conviction picks post Q2 results 2026; check targets",
-    "url": "https://www.livemint.com/market/metal-stocks-to-buy-apl-apollo-tubes-hindalco-axis-sec-lists-2-conviction-picks-post-q2-results-2026-check-targets-11794986876146.html",
-    "source": "Mint",
-    "date": "18 Nov",
-    "outlets": 3,
-    "also": [
-     "Business Standard",
-     "The Hindu"
-    ],
-    "lean": "LR",
-    "sites": 1,
+    "sites": null,
     "wiki": false
    }
   ]
  },
  "explainer": [
   {
-   "title": "Quad leaders meet in Manila: Why the grouping matters amid Indo-Pacific tensions",
-   "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxNSnRhY095MlJCQjUtMXc0bGNIOEZMX0p1bjVGQ0s1RkdGRDc3RWtiZHFTWTVja2tScVhzRm9YeFc3V1FJcEZybWJ3dUs4aEJ3eHpmSjVrc1JJN3ZzWld0WmtTZ01zZlRqcVBqbWl0ejZzQXBscXd1YUhpWlpmUGlsSEhodkhndUNUbjFkR0JBOFFsRVlvZ3pTTUpvdmpnQTNONFdCcXFUZXcxSnFIdFhnaF8tbnUxVWFmeTdfaWozY2FoUHBPa2fSAcwBQVVfeXFMUDVxZzlUUmxHRzJlNFBrY2ZsT1FYYXRYXzNuaHlNd0syUVF4d0tKbHVDRFZRWDdjUEZ2TEltYy1yd1R2cU9ITm5UbVRnRld0bTN0OEVNS1hmTHNXZndCeWtTYTZKaVhjTzhkTXhqOTAzbExuWGZ6bnAtdXY4ZGMweURlZ1c2aXFsbGNTR21QODZ6M012ZDFsWkkzUEZ4QUl4em80Q1NpTmREMFYwT01Xdy1uQTJRclZueUlzLU1FVzFSbV9aLTYxSmg0RG5L?oc=5",
+   "title": "Why a Japanese animated Ramayana faced opposition in India, but found an audience decades later",
+   "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxQQUcwdk1uc3Y0T0I3eWlNcFgyMUpzSkNiRW1kdFpVZ2ExQ3o0aTJENElwWU9mc3pfQWZnVUhCS0JCRTFXN3l5d3ItQnlidFFZUU56YUZkVkNvbGlzU2xINWFUX050aDkwY2NwUlc3WUpKXzM4Z25mUHQxQTdpanNQcFVrZEI0Mno1ZGJVODZQNFBFSjl0YS12Q3BLamZ2RXVDbFRoQ0ZCSnhLSlRfWTRzdFVYT2hZRHYtbWxxQ3RFTFoxaTR5T1HSAcwBQVVfeXFMT1kyazdZWl84UF9KSTlfZmlUcGRLdUhnMHhPZFlyRXdyeHRKbzdjUWlTenFyREpJeEctNW1DQ0ZhSHA0djM1Z2VWVUpHLU03cHFMZWo5MjY5UmtQRnRLMllndmoxREJYb1paQTkzdW5EWjhhdXhicjBPcXpvYlBfeHpWVHoydC0wYzBqLS1icWxucnNjbTZzWEZCbVY1LWdWelZtZTM1VzBVZWFHdjYybTNHT1JWMjF2dXVGSFdadkFhZERPb1FOdDZwNjRk?oc=5",
    "source": "Indian Express Explained",
-   "date": "17 Nov"
+   "date": "18 Nov"
   }
  ],
  "courses": {
@@ -162,16 +166,16 @@
     "date": "6 Nov"
    },
    {
-    "title": "50% STT cut, LTCG and STCG tax relief: What the government is considering ahead of Union Budget 2027",
-    "url": "https://www.livemint.com/money/personal-finance/50-stt-cut-ltcg-and-stcg-tax-relief-what-the-government-is-considering-ahead-of-union-budget-2027-11794987742451.html",
+    "title": "Bengal enhances benefits for state cadre IPS officers: From HRA to education loans and sumptuary allowance—Check details",
+    "url": "https://www.livemint.com/money/west-bengal-enhance-benefits-state-cadre-ips-officers-hra-education-loan-child-sumptuary-allowance-foreign-travel-detail-11795074737717.html",
     "source": "Mint Money",
-    "date": "18 Nov"
+    "date": "19 Nov"
    },
    {
-    "title": "Failed ATM, UPI or cheque transaction? Know when banks can charge you and how to seek redressal under RBI rules",
-    "url": "https://www.livemint.com/money/personal-finance/failed-atm-upi-or-cheque-transaction-know-when-banks-can-charge-you-and-how-to-seek-redressal-under-rbi-rules-11794985583074.html",
+    "title": "LTCG vs STT: How are investors taxed on stocks, equity mutual funds and gold ETFs? Applicability and tax rules explained",
+    "url": "https://www.livemint.com/money/personal-finance/ltcg-vs-stt-how-are-investors-taxed-on-stocks-equity-mutual-funds-and-gold-etfs-applicability-and-tax-rules-explained-11795057879157.html",
     "source": "Mint Money",
-    "date": "18 Nov"
+    "date": "19 Nov"
    }
   ],
   "PRD": [
@@ -230,7 +234,7 @@
   ]
  },
  "audit": {
-  "wiki_items": 34,
+  "wiki_items": 18,
   "matched": 0,
   "total": 9,
   "by_section": {
@@ -252,7 +256,7 @@
    "Reuters India:15",
    "Mint Politics:15",
    "BBC World:15",
-   "DW:13",
+   "DW:12",
    "Reuters World:15",
    "AP:15",
    "Al Jazeera:15",
@@ -284,6 +288,8 @@
   "feeds_failed": [
    "Vinh Giang: HTTPError"
   ],
-  "notes": []
+  "notes": [
+   "pickup off: HTTPError HTTP Error 429: Too Many Requests"
+  ]
  }
 }
