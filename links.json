@@ -1,181 +1,173 @@
 {
- "updated": "2026-11-19T09:05+00:00",
+ "updated": "2026-11-20T08:51+00:00",
  "method": "spectrum-v2",
  "news": {
   "india": [
    {
-    "title": "Melinda French Gates' $240 million fund distributes nearly all grants, report reveals",
-    "url": "https://timesofindia.indiatimes.com/world/us/in-2024-melinda-french-gates-gave-12-leaders-20-million-each-to-distribute-a-november-18-report-says-nearly-all-240-million-has-been-given-out-with-91-of-grants-going-to-groups-new-to-pivotal/articleshow/135981702.cms",
-    "source": "Times of India",
-    "date": "19 Nov",
-    "outlets": 5,
-    "also": [
-     "BBC",
-     "The Guardian",
-     "The Hindu"
-    ],
-    "lean": "LCR",
-    "sites": null,
-    "wiki": false
-   },
-   {
-    "title": "India's religious make-up - what a new Pew study says about Hindus and Muslims",
-    "url": "https://www.bbc.co.uk/news/articles/cqd01epyrz1do?at_medium=RSS&at_campaign=rss",
+    "title": "At least 24 killed after bus collides with truck in north-east India",
+    "url": "https://www.bbc.co.uk/news/articles/c6r7g5lp1zrxo?at_medium=RSS&at_campaign=rss",
     "source": "BBC India",
-    "date": "19 Nov",
-    "outlets": 4,
-    "also": [
-     "AP",
-     "The Hindu",
-     "ThePrint"
-    ],
-    "lean": "LCR",
-    "sites": null,
-    "wiki": false
-   },
-   {
-    "title": "India-US ties at historic high, working towards fair, reciprocal trade relationship: US envoy",
-    "url": "https://www.hindustantimes.com/india-news/indiaus-ties-at-historic-high-working-towards-fair-reciprocal-trade-relationship-us-envoy-101795074945889.html",
-    "source": "Hindustan Times",
-    "date": "19 Nov",
+    "date": "13 Nov",
     "outlets": 3,
     "also": [
-     "DW",
-     "The Hindu"
+     "Hindustan Times",
+     "Indian Express"
     ],
     "lean": "LC",
-    "sites": null,
+    "sites": 13,
+    "wiki": false
+   },
+   {
+    "title": "Odisha Assembly adjourned till Nov 23 morning due to Cyclone Akvan",
+    "url": "https://www.hindustantimes.com/india-news/odisha-assembly-adjourned-till-nov-23-morning-due-to-cyclone-akvan-101795163112963.html",
+    "source": "Hindustan Times",
+    "date": "20 Nov",
+    "outlets": 2,
+    "also": [
+     "ThePrint"
+    ],
+    "lean": "LR",
+    "sites": 7,
+    "wiki": false
+   },
+   {
+    "title": "Punjab records 23.5% decline despite 22.4% spike in stubble burning incidents",
+    "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxOT18xS0JtUWdOcFJCQW1pNFYzb2VIWTBFOHJEU2RTX3JiRERUMHFSRlRDVVloZ1JJS0lFbXozZWdqVWM4SWN3cERlZDBLbDBUZTNpXzBSN1JlNTdURktwUkU4clJZWHhyaG5pT1FvOFA5bXd0ZERWX0l3Y0d3WlBzRFdRYmJXWW9PZjJ1ckRUX0xfNWdzakh3dDhZcWtHWjRrUTFPQ2pyejM0WFNTd1Q0bkdETVZ0bmEzZWJ6QdIBwwFBVV95cUxQM3JhdF90X283aDZVWWxtRTNPQVpzZTJkaXQzU1RGZ0ZZUjBBMnFUdndKM3dncjhzSXBLeVRjLXpiR2JmMThqMVUwb2xQT1FIczltazNqeERsY2RuN2tkelBGbThmUUQ1R1dTQVI3dG43WHRRRGFkVTJjZWxZMzhEWlZDZGVEY3A1dDBNTVZOdjlaQXJVSm40R01jZG1SNzVEb0ZOdjRYTWZ2amR6RUNVcDVrTUZBYWhPblJFOGt5MENmbm8?oc=5",
+    "source": "Indian Express",
+    "date": "20 Nov",
+    "outlets": 2,
+    "also": [
+     "AP"
+    ],
+    "lean": "LC",
+    "sites": 3,
     "wiki": false
    }
   ],
   "world": [
    {
-    "title": "Xi, Trump, Putin exchange greetings before historic China summit",
-    "url": "https://www.thehindu.com/news/international/xi-trump-putin-exchange-greetings-before-historic-china-summit/article71718490.ece",
-    "source": "The Hindu World",
-    "date": "19 Nov",
-    "outlets": 6,
-    "also": [
-     "Al Jazeera",
-     "DW",
-     "NPR"
-    ],
-    "lean": "LCR",
-    "sites": null,
-    "wiki": false
-   },
-   {
-    "title": "Nuclear arms and ending wars in Iran and Ukraine will top the agenda at Trump-Xi-Putin meeting",
+    "title": "Trump, Xi and Putin hold rare 3-way talks on nuclear risks but deliver no breakthroughs",
     "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOZko0TjU0LUdSMUxlTkNVcnJsSThoSFo5Y2ZuamRVQ2tidnZQa2M5N1o0dlpndmptSGxNTGhYYS1IUXVKMjZibjFPcWVURHJRaHNfclhIMHlSVFdIN3VkZUxFVEo5Z1JoZFR0bkdHOUd1UUNuNXRCVDBKUlhPaGItcmVfY09NQ1U5WmhHYzRNZHdtWDVVay1JalhlNA?oc=5",
     "source": "AP",
     "date": "19 Nov",
-    "outlets": 5,
+    "outlets": 7,
     "also": [
-     "Al Jazeera",
-     "Economic Times",
-     "NDTV"
-    ],
-    "lean": "LC",
-    "sites": null,
-    "wiki": false
-   },
-   {
-    "title": "Islam forecast to soon exceed Christianity as world's biggest faith",
-    "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPZzhzMHplMEVtRTFScDNDeERNU05DOVY1TXVIeDl3Uko3bkcyU3NLYlJPRTVITEIyNHg1TGtZVVJhOWVlUFNYU1hTUk5CaldhMW04UXM4MEJsNjJ2WG02bG56bGJjQW91b2dBUDlHSm5WMnpxbkp6WkFqbjBiUk1tLXczSm9FWEMzZE1YNDRCdU54ME1LS3B5YmhZNVBSeUZ4WXZwN2hvbTBvcjRsQUpCNjBjNDM?oc=5",
-    "source": "Reuters World",
-    "date": "19 Nov",
-    "outlets": 4,
-    "also": [
-     "Al Jazeera",
-     "NPR",
-     "WSJ"
+     "BBC",
+     "DW",
+     "Mint"
     ],
     "lean": "LCR",
-    "sites": null,
+    "sites": 4,
+    "wiki": true
+   },
+   {
+    "title": "Rohingya in Bangladesh welcome UN court’s genocide verdict but say they want to go home to Myanmar",
+    "url": "https://www.thehindu.com/news/international/rohingya-in-bangladesh-welcome-un-courts-genocide-verdict-but-say-they-want-to-go-home-to-myanmar/article71723495.ece",
+    "source": "The Hindu World",
+    "date": "20 Nov",
+    "outlets": 9,
+    "also": [
+     "AP",
+     "Al Jazeera",
+     "BBC"
+    ],
+    "lean": "LC",
+    "sites": 6,
+    "wiki": true
+   },
+   {
+    "title": "Europe ready for talks with Russia on ending war in Ukraine, leaders say",
+    "url": "https://www.bbc.co.uk/news/articles/ckzd9nln5e6go?at_medium=RSS&at_campaign=rss",
+    "source": "BBC World",
+    "date": "20 Nov",
+    "outlets": 5,
+    "also": [
+     "AP",
+     "Al Jazeera",
+     "Mint"
+    ],
+    "lean": "LC",
+    "sites": 7,
     "wiki": false
    }
   ],
   "business": [
    {
-    "title": "Dubai Airport Traffic Falls But Shows Signs of Recovery Amid Iran War",
-    "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQLVd5WHpYWkp6em1GSHRQSlBIang3ZmVGckJDNFladmRUa1I0dDlOeEdVakxzcXVFOGx4M2Z2ZXo3Zk9NZ1FhaUYzU1Ffd0NPdTg4aVoxM3Y1WXliUklPMXBPeDBNMHZ6X25pdjd5RkF0RThERVQ1Q0tneU5PdkJEU09KWHZ6TkZwWDR0YmFOVnh1azJ0dXR0Tko1dlhBUDJkZnJ1Xy01eGxBQnhzTDdFQXpEY0Y4OVk?oc=5",
-    "source": "WSJ Business",
+    "title": "Anthropic's blockbuster debut tests Wall Street's faith in AI boom",
+    "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPVmU0cXVPRUhwcDZpRkRudEI3bjNfMllQVEN3M09VWFNmQUJTck1UUE9mVERRbmFicElZMWxKVnd3UWpTNGY3R1JiZ0NnRnNBRHhLMkxkVC1vUWVOVzQ3NzcwMkoycTR0MC1LUnBfdUIyWl9OZE5xYnlVVmQ5bzdVZmdnVHFjUjh6dHZrbVVQdEFPaDNCUC1KSkZEMUlhcU9OeWFiWi10SGwxNTBpNE16aTd1MA?oc=5",
+    "source": "Reuters Business",
     "date": "19 Nov",
-    "outlets": 4,
+    "outlets": 3,
     "also": [
-     "AP",
-     "NDTV",
-     "The Guardian"
+     "The Hindu",
+     "WSJ"
     ],
     "lean": "LCR",
-    "sites": null,
+    "sites": 6,
     "wiki": false
    },
    {
-    "title": "Gold edges up from 14-month low as markets assess Fed rate outlook",
-    "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPZ0RVRVVhd0g1djYyRGpzbTcyZXFtSXd3cTV1T0REekJaYm9FOTlzblJzU3hlMmsxSkF0UmtzZ1gwWVFiUzI3VXdGNzJLTndoZC1oVkpXSnRmZ0ZmNkEybVRFSnhIVzFCNnlTS2hQRGV2bnNGTHVsaUZ5RmllU0otWWcxV2wwejMwcXpTOWFxam1xb2dRMXMyQ1c0T0RkZy1SX09YR3lYdmxkQQ?oc=5",
+    "title": "Sensex today | Stock Market Live: Sensex jumps 700 pts, Nifty touches fresh 10-month high at 25,730",
+    "url": "https://www.thehindubusinessline.com/markets/sensex-nifty50-today-stock-market-live-updates-20th-november-2026/article71720685.ece",
+    "source": "Hindu BusinessLine",
+    "date": "20 Nov",
+    "outlets": 3,
+    "also": [
+     "Mint",
+     "Reuters"
+    ],
+    "lean": "LC",
+    "sites": 25,
+    "wiki": false
+   },
+   {
+    "title": "India's October crude oil imports rise over 4% month-on-month",
+    "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNaC1ES29YSWdoUk4wWEo0X0o5bWgzQlZ4dnpyWi1XaUJCUlZmemFBNi1WUVVsVEIyX25uRlZrODM0R1BYVDlKc3MweWo2LWxEcDlzNWRuVm9sQmNPa2hMNVU3aHhoaHZ1ZktkUDctVnd2QldwalNyZ3NzSGY1OE1ndmo0RWw4aWJUNERPTmhqWUZoZUtHUFo0TXFRSUpjMGRhTTIwcUxyWEw2VE0?oc=5",
     "source": "Reuters India Business",
     "date": "19 Nov",
-    "outlets": 4,
+    "outlets": 2,
     "also": [
-     "AP",
-     "Mint",
      "The Hindu"
     ],
     "lean": "LC",
-    "sites": null,
-    "wiki": false
-   },
-   {
-    "title": "Nvidia doubles revenue as board says it does not intend to reinstate Jensen Huang",
-    "url": "https://www.theguardian.com/technology/2026/nov/17/nvidia-third-quarter-revenue-jensen-huang",
-    "source": "The Guardian Business",
-    "date": "17 Nov",
-    "outlets": 4,
-    "also": [
-     "AP",
-     "BBC",
-     "NPR"
-    ],
-    "lean": "LC",
-    "sites": null,
+    "sites": 18,
     "wiki": false
    }
   ]
  },
  "explainer": [
   {
-   "title": "Why a Japanese animated Ramayana faced opposition in India, but found an audience decades later",
-   "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxQQUcwdk1uc3Y0T0I3eWlNcFgyMUpzSkNiRW1kdFpVZ2ExQ3o0aTJENElwWU9mc3pfQWZnVUhCS0JCRTFXN3l5d3ItQnlidFFZUU56YUZkVkNvbGlzU2xINWFUX050aDkwY2NwUlc3WUpKXzM4Z25mUHQxQTdpanNQcFVrZEI0Mno1ZGJVODZQNFBFSjl0YS12Q3BLamZ2RXVDbFRoQ0ZCSnhLSlRfWTRzdFVYT2hZRHYtbWxxQ3RFTFoxaTR5T1HSAcwBQVVfeXFMT1kyazdZWl84UF9KSTlfZmlUcGRLdUhnMHhPZFlyRXdyeHRKbzdjUWlTenFyREpJeEctNW1DQ0ZhSHA0djM1Z2VWVUpHLU03cHFMZWo5MjY5UmtQRnRLMllndmoxREJYb1paQTkzdW5EWjhhdXhicjBPcXpvYlBfeHpWVHoydC0wYzBqLS1icWxucnNjbTZzWEZCbVY1LWdWelZtZTM1VzBVZWFHdjYybTNHT1JWMjF2dXVGSFdadkFhZERPb1FOdDZwNjRk?oc=5",
+   "title": "Why flight delays make up most travel claims, yet medical bills take 80% of payouts",
+   "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOUUFBRHNHXzVXZl9TbUs5OVNvRmNyREppWjhGOTM5WHI1OXo4dGJzb0haZWlBTWNXT015Qkpva1d5aS1QWXJHS2l0VHpUSm1NRVBSZWt1ZXh4eElRNGlIcUJ1RFdnY3lQazRLa0F0Tm9TS0NUNEJ1RkVIY0JheVRMZThsSHhBOG5hc1NmcENlX05xcDRJUmllUzl6b9IBogFBVV95cUxQVENoaDl1S04yZzgycERlZzZ4anFzZUJ1VUxrWmxITHVVNFBickltSVhqUTlWYkJuZVVvUVVmWWFqekd2VUdVVktZaXpERVYxc1htcUY1N2pTRXJOd0xqUG94VGk1dTJ0eGkzcXh1cEkyQTdQdHR2aTZLTGpLUXRRLUFWMy0zTVdDU21ORkVST3JLUk1nNG5LR21WVzdHbW9pVmc?oc=5",
    "source": "Indian Express Explained",
-   "date": "18 Nov"
+   "date": "20 Nov"
   }
  ],
  "courses": {
   "FIN": [
    {
-    "title": "Nifty fell 12%, this fund rose 9.5%. How? | Multi-Asset Funds Explained | CA Rachana Ranade",
-    "url": "https://www.youtube.com/watch?v=2tBh-NLCqvw",
+    "title": "Which Sectors Could Win in the Next 12 Months? (Hindi)| CA Rachana Ranade",
+    "url": "https://www.youtube.com/watch?v=4xHebHrR870",
     "source": "CA Rachana Ranade",
-    "date": "18 Nov"
+    "date": "20 Nov"
    },
    {
-    "title": "Gold & Silver Crash: Is This Fall Normal? (Hindi) | Dhanteras 2026 | CA Rachana Ranade",
-    "url": "https://www.youtube.com/watch?v=EqYahyAgTEs",
+    "title": "Anthropic's $81 Billion IPO:What It Means for India's IT Industry(Hindi)|CA Rachana Ranade|#shorts",
+    "url": "https://www.youtube.com/shorts/vUof1ccWE4E",
     "source": "CA Rachana Ranade",
-    "date": "6 Nov"
-   },
-   {
-    "title": "Bengal enhances benefits for state cadre IPS officers: From HRA to education loans and sumptuary allowance—Check details",
-    "url": "https://www.livemint.com/money/west-bengal-enhance-benefits-state-cadre-ips-officers-hra-education-loan-child-sumptuary-allowance-foreign-travel-detail-11795074737717.html",
-    "source": "Mint Money",
     "date": "19 Nov"
    },
    {
-    "title": "LTCG vs STT: How are investors taxed on stocks, equity mutual funds and gold ETFs? Applicability and tax rules explained",
-    "url": "https://www.livemint.com/money/personal-finance/ltcg-vs-stt-how-are-investors-taxed-on-stocks-equity-mutual-funds-and-gold-etfs-applicability-and-tax-rules-explained-11795057879157.html",
+    "title": "SBI alerts pensioners to fake PPO update messages; warns against clicking suspicious links and sharing personal details",
+    "url": "https://www.livemint.com/money/personal-finance/sbi-alerts-pensioners-to-fake-ppo-update-messages-warns-against-clicking-suspicious-links-and-sharing-personal-details-11795160041500.html",
     "source": "Mint Money",
-    "date": "19 Nov"
+    "date": "20 Nov"
+   },
+   {
+    "title": "Working in Maharashtra? Check latest wage rules on 48-hour workweek, double overtime pay, salary deduction cap and more",
+    "url": "https://www.livemint.com/money/personal-finance/working-in-maharashtra-check-latest-wage-rules-on-48-hour-workweek-double-overtime-pay-salary-deduction-cap-and-more-11795159289872.html",
+    "source": "Mint Money",
+    "date": "20 Nov"
    }
   ],
   "PRD": [
@@ -234,12 +226,12 @@
   ]
  },
  "audit": {
-  "wiki_items": 18,
-  "matched": 0,
+  "wiki_items": 26,
+  "matched": 2,
   "total": 9,
   "by_section": {
    "india": "0/3",
-   "world": "0/3",
+   "world": "2/3",
    "business": "0/3"
   },
   "note": "",
@@ -288,8 +280,6 @@
   "feeds_failed": [
    "Vinh Giang: HTTPError"
   ],
-  "notes": [
-   "pickup off: HTTPError HTTP Error 429: Too Many Requests"
-  ]
+  "notes": []
  }
 }
