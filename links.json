@@ -1,36 +1,36 @@
 {
- "updated": "2026-11-21T08:33+00:00",
+ "updated": "2026-11-22T08:28+00:00",
  "method": "spectrum-v2",
  "news": {
   "india": [
    {
-    "title": "Odisha steps up flood preparedness as Cyclone Akvan weakens",
-    "url": "https://www.hindustantimes.com/india-news/odisha-steps-up-flood-preparedness-as-cyclone-akvan-weakens-101795246117718.html",
-    "source": "Hindustan Times",
-    "date": "21 Nov",
-    "outlets": 4,
+    "title": "Over 100 children, 12 adults hospitalised after eating ‘chowmein’ at village fair in Madhya Pradesh",
+    "url": "https://www.thehindu.com/news/national/madhya-pradesh/over-100-children-12-adults-hospitalised-after-eating-chowmein-at-village-fair-in-madhya-pradesh/article71730680.ece",
+    "source": "The Hindu",
+    "date": "22 Nov",
+    "outlets": 5,
     "also": [
+     "Hindustan Times",
      "India Today",
-     "Indian Express",
-     "The Hindu"
+     "Indian Express"
     ],
     "lean": "LR",
-    "sites": 31,
+    "sites": 3,
     "wiki": false
    },
    {
-    "title": "Meta's India offices hit by opposition protests over account removals",
-    "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNTmdhX3h3bjctYVFyRXFLZHQ5Zm9aTmQ3cS15R01pWHFxdnRySDBDa1JJbFBHVEZmMm9scHV0VW1xOVlHT19FWlpWaWcxN25aZ3NUQjR6SkFRU2RwQ3Y0YVg5X3A3bTZDT0FXV0JBeEF0SHRjUUM5UWg0cm80YVNyT2JlWHVYR0Iwc2pDZGZKcFNyaG1EWmEtenViMnBDajltODNOUUg2QWo4Yk5sdTllelNGUEdiNGxPWjNKYkthdkg?oc=5",
-    "source": "Reuters India",
-    "date": "21 Nov",
+    "title": "BJP Rajya Sabha MP Ramrao Wadkute dies of cardiac arrest in Delhi",
+    "url": "https://www.thehindu.com/news/national/bjp-maharashtra-rajya-sabha-mp-ramrao-wadkute-dies-of-cardiac-arrest-in-delhi/article71730872.ece",
+    "source": "The Hindu",
+    "date": "22 Nov",
     "outlets": 4,
     "also": [
      "Economic Times",
-     "Indian Express",
-     "NDTV"
+     "Hindustan Times",
+     "ThePrint"
     ],
-    "lean": "LC",
-    "sites": 6,
+    "lean": "LR",
+    "sites": 9,
     "wiki": false
    },
    {
@@ -40,111 +40,109 @@
     "date": "20 Nov",
     "outlets": 3,
     "also": [
-     "Reuters",
-     "The Hindu"
+     "Hindustan Times",
+     "NDTV"
     ],
     "lean": "LC",
-    "sites": 3,
+    "sites": 14,
     "wiki": false
    }
   ],
   "world": [
    {
-    "title": "Myanmar genocide judgment may bolster Gaza case against Israel",
-    "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxOVXpvX3JTUmpQTWxpbnp3ZFFxaVFmd3ZEUjhSbmFlNDBwbG4tcWNmTzNnSkZXVks3YzlsSUNqOXk3QThrZXRONnBaSlh6RXp1YndKOFhKcEhQeHJGdjFzYlhKdnBnLXR6clpkQkl2ejh4UzJmaVhNbXc3My1ucEpqS0UzNTFmYzhNY2F6UV9sTHJ3RWlsdUFrWUxtQ2pPRHJUYWV3RlI2eVB3Q2N3bnVhMkUtenBUcXlq?oc=5",
-    "source": "Reuters World",
-    "date": "20 Nov",
+    "title": "Mexican drug lord on FBI's 10 most wanted list arrested in shoot-out",
+    "url": "https://www.bbc.co.uk/news/articles/ckz749ey0r75o?at_medium=RSS&at_campaign=rss",
+    "source": "BBC World",
+    "date": "22 Nov",
+    "outlets": 5,
+    "also": [
+     "Al Jazeera",
+     "Reuters",
+     "The Guardian"
+    ],
+    "lean": "LCR",
+    "sites": 15,
+    "wiki": false
+   },
+   {
+    "title": "New draft deal aims to avert collapse of talks at COP31 climate summit",
+    "url": "https://www.bbc.co.uk/news/articles/cq7827z2841zo?at_medium=RSS&at_campaign=rss",
+    "source": "BBC World",
+    "date": "22 Nov",
     "outlets": 5,
     "also": [
      "AP",
-     "DW",
-     "NPR"
+     "Al Jazeera",
+     "Reuters"
     ],
     "lean": "LC",
-    "sites": 3,
+    "sites": 4,
     "wiki": false
    },
    {
-    "title": "Trump says he still backs Lutnick, urges Nvidia's Huang to apologize",
-    "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNSGQwWUVrODhUa2V5cklXNHcxR3pRbVlPaWxkRlJqV1JYZ3JaV200OHUyZ2JhMUNKbTdFMjlEWEJNNUZPQjFDSG1ZLTlMWGJQZUJSalNuVXVDU0pBRkZERkpTOGZ0SkpHYWlWcGJJUmhMeG9JMmphSk5QSkl0ZlNaaGF4TndiT3FKbUZWbUhzbkdrellveFBtQTdoc2loWHdkREt1NzhfXzI0djg4?oc=5",
-    "source": "Reuters World",
-    "date": "20 Nov",
-    "outlets": 4,
+    "title": "Dozens missing as deadly fire hits Indonesian candy factory",
+    "url": "https://www.dw.com/en/dozens-missing-as-deadly-fire-hits-indonesian-candy-factory/a-80012342?maca=en-rss-en-world-4025-rdf",
+    "source": "DW",
+    "date": "22 Nov",
+    "outlets": 6,
     "also": [
      "Al Jazeera",
-     "The Guardian",
-     "WSJ"
-    ],
-    "lean": "LCR",
-    "sites": 7,
-    "wiki": false
-   },
-   {
-    "title": "Anthropic Mathematician Says AI Has Solved the Most Famous Problem in Math",
-    "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQd2R1UU5HMEVNTGhtYWxQaTNBMjVRZnZxZjJVU0U1MVk0U2dIRHh6akhYNV9tNWxXYjNmeU16UzdqZDM3bUpDS1BxOEd2b3oySzVMako4Z25JMmNFUVd5ZlFWNTZ4WmJ6d2NXT0R5Z1JsNVNGMi04MGowVF9CQkl4dEEtXzJNYWRDeHA3Rk1hV250dEZWQjNRLW5RZHZPQ0ZMMlNLSDdkejFKTklvZW1ZNDZZalFOQQ?oc=5",
-    "source": "WSJ",
-    "date": "20 Nov",
-    "outlets": 3,
-    "also": [
      "BBC",
-     "The Hindu"
+     "NDTV"
     ],
-    "lean": "LCR",
-    "sites": 32,
-    "wiki": false
+    "lean": "LC",
+    "sites": 1,
+    "wiki": true
    }
   ],
   "business": [
    {
-    "title": "Tech stock sell-off drags markets down as Anthropic shares slide",
-    "url": "https://www.bbc.co.uk/news/articles/c6808ym10vzgo?at_medium=RSS&at_campaign=rss",
-    "source": "BBC Business",
-    "date": "20 Nov",
+    "title": "Maruti Suzuki hikes select model prices amid cost pressures",
+    "url": "https://www.thehindu.com/business/Industry/maruti-suzuki-hikes-select-model-prices-amid-cost-pressures/article71730848.ece",
+    "source": "The Hindu Business",
+    "date": "22 Nov",
     "outlets": 4,
     "also": [
-     "Mint",
-     "Reuters",
+     "BBC",
+     "ThePrint",
      "WSJ"
     ],
-    "lean": "CR",
-    "sites": 17,
-    "wiki": false
-   },
-   {
-    "title": "IndusInd Bank terminates former CEO Sumant Kathpalia’s employment, seeks recovery of pay since 2020",
-    "url": "https://www.thehindubusinessline.com/money-and-banking/indusind-bank-terminates-former-ceo-sumant-kathpalia-seeks-recovery-of-pay-since-2020/article71727165.ece",
-    "source": "Hindu BusinessLine",
-    "date": "21 Nov",
-    "outlets": 3,
-    "also": [
-     "Business Standard",
-     "Reuters"
-    ],
     "lean": "LCR",
-    "sites": 14,
+    "sites": 15,
     "wiki": false
    },
    {
-    "title": "Nasdaq erases all 2026 gains as AI sell-off dampens Anthropic’s second day of trading",
-    "url": "https://www.theguardian.com/business/2026/nov/20/global-stock-markets-slump-anthropic-ipo-ai-sell-off",
-    "source": "The Guardian Business",
-    "date": "20 Nov",
-    "outlets": 4,
+    "title": "Oil, gas import bill up 60% in Oct as Brent surges, LPG use declines",
+    "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxOZm5ueWI0VFl1WVJrVUF1SGw5Sy1WU3hmdFotOU5Ld2toSVBnYlBXYVlPMk1GYm9fcXJFSnRJYnBtVGdiMkN5VDYzUnE0RTR5M19hdGwyTUFtaHExYlJxcjFmTFdYOV9kYlRMOS1WUzNnb1lZY2dHVHB0MWhEVmFkVDlsRE01Q1ZQQmMyOWItQUtVZTNBTjNDOVRwTWdqTVhYY2FFdEFuY3ZmOURlZnZpZkdQaEVMTEx3dlZNNFBPbzlvSjNfMkd4LXdHRVrSAdIBQVVfeXFMTnZhMkQxTHBaN2ZQd0R5ODFFc3JmWEZTbzlMTGx1eXZ0NWhtbG0zWGxXYTdnZTg5ajFmU1k3cy10eDJfdHk3Rm5rMS12aGRpQlB0M0lJbUVWU0U5anZtem1FZVZVSzFmdmxuR2puQWJlVWR2cEtvNjhUSnltSURZclJwMlNfeFdHX0lySU4tVHcxUEdVNk55YVBLUmVfUnp1VmpKRjdnMi03UF9CU2FJTHZhNXBzdFNfUHp6elV1UktsV1pIaDBtUWgyYUdtb0NLSHNR?oc=5",
+    "source": "Business Standard",
+    "date": "22 Nov",
+    "outlets": 2,
     "also": [
-     "AP",
-     "Mint",
      "The Hindu"
     ],
+    "lean": "LR",
+    "sites": 5,
+    "wiki": false
+   },
+   {
+    "title": "Myanmar's army-backed government calls ASEAN decision 'unfair and imbalanced'",
+    "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxPS1FENS0tc2xfZjRuaEUtTU5Fa1pYZXYtUm1BcXl5TldHOXdaSGM0VE5IaHgzcENjVDlnTmNJN0VEazRhWHU5ZHl3eG5VU1pLZkZxMy1wekcwdW5yanBFdEJNV3dGdVB0OGlJVFF5bTBkQ0JVbGUxcm1tQnBRT1JpZ3Q0a0lvV2poTUluZzBoZFdGOHYtQkh6Uy0xUk81Ty1Bb0h2Zi0teWpNTWJPOVl2VG0wb3dqQzljVGhtU1BKNkM1UHM?oc=5",
+    "source": "Reuters Business",
+    "date": "22 Nov",
+    "outlets": 2,
+    "also": [
+     "The Guardian"
+    ],
     "lean": "LC",
-    "sites": 1,
+    "sites": 5,
     "wiki": false
    }
   ]
  },
  "explainer": [
   {
-   "title": "Why Myanmar’s genocide verdict matters, including for Israel’s case",
-   "url": "https://indianexpress.com/article/explained/explained-global/why-myanmars-genocide-verdict-matters-including-for-israels-case-10972612/",
+   "title": "How Grand Theft Auto changed gaming, and why GTA VI has so much to live up to",
+   "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxOLWFNZGV3Q2h3RDlDRVg0OHNxTmlRbjVvMVIxeEhvYVltNzZrd2MzSkszbl82YVV2MHBrZHF1Q3QzcXhpVzFYek5wejhZWGRGYURHdjM2NjhnU2ZieWRoenFVd0UzQ3ZOM1lhaUViNGtLQmszTFh5QVFocHpKdFBKNkY4czJma2tLUHFPWnBnbmdSLUduWlIwbVozakRkd1UwRWtjaEZ3Smt5R0tpcWIzYm5vVHBJdFhhLTZwNWRTVFpMMEh1WWxRUGlsY01FOW5VX1HSAdIBQVVfeXFMTi1hTWRld0Nod0Q5Q0VYNDhzcU5pUW41bzFSMXhIb2FZbTc2a3djM0pLM25fNmFVdjBwa2RxdUN0M3F4aVcxWHpOcHo4WVhkRmFER3YzNjY4Z1NmYnlkaHpxVXdFM0N2TjNZYWlFYjRrS0JrM0xYeUFRaHB6SnRQSjZGOHMyZmtrS1BxT1pwZ25nUi1HblpSMG1aM2pEZHdVMEVrY2hGd0preUdLaXFiM2Jub1RwSXRYYS02cDVkU1RaTDBIdVlsUVBpbGNNRTluVV9R?oc=5",
    "source": "Indian Express Explained",
    "date": "21 Nov"
   }
@@ -164,30 +162,30 @@
     "date": "19 Nov"
    },
    {
-    "title": "NRE FD interest rates in November 2026: PNB, Kotak, Federal Bank offer up to 6.80%; compare top bank rates for NRIs now",
-    "url": "https://www.livemint.com/money/personal-finance/nre-fd-interest-rates-in-november-2026-pnb-kotak-federal-bank-offer-up-to-6-80-compare-top-bank-rates-for-nris-now-11795230455215.html",
+    "title": "NFO alert! Motilal Oswal Mutual Fund to re-open five new schemes for continuous sale and repurchase on 26 Nov — Details",
+    "url": "https://www.livemint.com/money/nfo-alert-motilal-oswal-mutual-fund-re-open-five-new-schemes-continuous-sale-and-repurchase-on-26-november-offer-details-11795330891657.html",
     "source": "Mint Money",
-    "date": "21 Nov"
+    "date": "22 Nov"
    },
    {
-    "title": "Golden lessons from past gold price fluctuations amid current gold price crash — 32% down from its peak in 2026",
-    "url": "https://www.livemint.com/money/personal-finance/golden-lessons-from-past-gold-price-fluctuations-amid-current-gold-price-crash-32-down-from-its-peak-in-2026-11795234156396.html",
+    "title": "8th Pay Commission: FNPO seeks maximum four-year promotion wait for postal staff, flags vacancies and career stagnation",
+    "url": "https://www.livemint.com/money/personal-finance/8th-pay-commission-fnpo-seeks-maximum-four-year-promotion-wait-for-postal-staff-flags-vacancies-and-career-stagnation-11795332754011.html",
     "source": "Mint Money",
-    "date": "21 Nov"
+    "date": "22 Nov"
    }
   ],
   "PRD": [
+   {
+    "title": "🧠 Community Wisdom: Handling context switching with multiple agents, giving feedback on AI-generated designs, getting AI to write less like AI, why PMs don’t share what they’re really working on",
+    "url": "https://www.lennysnewsletter.com/p/community-wisdom-handling-context",
+    "source": "Lenny's Newsletter",
+    "date": "21 Nov"
+   },
    {
     "title": "35 premium tools free for a year—now with OpenRouter, LangChain, Sentry, TextExpander, and Ploy 💥",
     "url": "https://www.lennysnewsletter.com/p/35-premium-tools-free-for-a-yearnow",
     "source": "Lenny's Newsletter",
     "date": "17 Nov"
-   },
-   {
-    "title": "🎙️ How I AI: Fable 5.2 Review + How I fight token fraud as a solo founder + Building a Claude Code family OS",
-    "url": "https://www.lennysnewsletter.com/p/how-i-ai-fable-52-review-how-i-fight",
-    "source": "Lenny's Newsletter",
-    "date": "16 Nov"
    }
   ],
   "AI": [
@@ -232,18 +230,18 @@
   ]
  },
  "audit": {
-  "wiki_items": 14,
-  "matched": 0,
+  "wiki_items": 16,
+  "matched": 1,
   "total": 9,
   "by_section": {
    "india": "0/3",
-   "world": "0/3",
+   "world": "1/3",
    "business": "0/3"
   },
   "note": "",
   "feeds_ok": [
    "The Hindu:15",
-   "Indian Express:15",
+   "Indian Express (via gnews):15",
    "Hindustan Times:15",
    "NDTV:15",
    "Times of India:15",
@@ -254,7 +252,7 @@
    "Reuters India:15",
    "Mint Politics:15",
    "BBC World:15",
-   "DW:13",
+   "DW:12",
    "Reuters World:15",
    "AP:15",
    "Al Jazeera:15",
@@ -273,7 +271,7 @@
    "Reuters Business:15",
    "The Guardian Business:15",
    "WSJ Business:15",
-   "Indian Express Explained:2",
+   "Indian Express Explained (via gnews):2",
    "CA Rachana Ranade:2",
    "Mint Money:2",
    "Lenny's Newsletter:2",
