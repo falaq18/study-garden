@@ -1,150 +1,152 @@
 {
- "updated": "2026-11-22T08:28+00:00",
+ "updated": "2026-11-23T09:27+00:00",
  "method": "spectrum-v2",
  "news": {
   "india": [
    {
-    "title": "Over 100 children, 12 adults hospitalised after eating ‘chowmein’ at village fair in Madhya Pradesh",
-    "url": "https://www.thehindu.com/news/national/madhya-pradesh/over-100-children-12-adults-hospitalised-after-eating-chowmein-at-village-fair-in-madhya-pradesh/article71730680.ece",
+    "title": "South Korea’s education minister quits over exam cheating chaos",
+    "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxPX0pCSnVWcFNuaHVHSThYMURDYkQ4Ym5mODVRLTE5cVRfRnN4S0Y1bnB4Nm9xNTBWU0VYZHNPM0FxTHF0ZWtjYjEwTnR6QXJMZFVMLUVvQ0s1cVpIcXg0RE5hTElWb1IxQnQ3S2RiY0JfTkVkdHdUUElVcFFrUVR0TDI2MUY5ZVVUWGpwRDZzei0zSEFpT0hJamVrYWZ6Z9IBowFBVV95cUxPMWJtT3duVnJ3UUFuSzBCQnVqbzBrSUY1djJ0RnY4cTd3X3cwcUg4Y1BJSHdwT0dINm9ZRnJJRThMdzdYZGc4MWg3bjAwanRnbm9GcmxIaWZob2x5N0lqc3doT2twMThxVHhIYlRXMlktQ0tlWktYNXBZalluQkRDSHdsbDhFVTdISW4xV3hJbGFqNUdWZnVUQ0N2TXFKQzdpSDY0?oc=5",
+    "source": "ThePrint",
+    "date": "23 Nov",
+    "outlets": 4,
+    "also": [
+     "BBC",
+     "Reuters",
+     "The Guardian"
+    ],
+    "lean": "LCR",
+    "sites": 9,
+    "wiki": true
+   },
+   {
+    "title": "PM Modi meets Nepal PM Balendra Shah, both exchange gifts including Gangajal and Rudraksha in Delhi",
+    "url": "https://www.thehindu.com/videos/shorts/pm-modi-meets-nepal-pm-balendra-shah-both-exchange-gifts-including-gangajal-and-rudraksha-in-delhi/article71733938.ece",
     "source": "The Hindu",
-    "date": "22 Nov",
+    "date": "23 Nov",
     "outlets": 5,
     "also": [
      "Hindustan Times",
-     "India Today",
-     "Indian Express"
+     "Indian Express",
+     "NDTV"
     ],
-    "lean": "LR",
+    "lean": "LC",
     "sites": 3,
     "wiki": false
    },
    {
-    "title": "BJP Rajya Sabha MP Ramrao Wadkute dies of cardiac arrest in Delhi",
-    "url": "https://www.thehindu.com/news/national/bjp-maharashtra-rajya-sabha-mp-ramrao-wadkute-dies-of-cardiac-arrest-in-delhi/article71730872.ece",
+    "title": "Bisleri says it’s water ‘safe for consumption’ after FSSAI sanctions prosecution, says it has received no notice",
+    "url": "https://www.thehindu.com/sci-tech/health/bisleri-says-its-water-safe-for-consumption-after-fssai-sanctions-prosecution-says-it-has-received-no-notice/article71733517.ece",
     "source": "The Hindu",
-    "date": "22 Nov",
+    "date": "23 Nov",
     "outlets": 4,
     "also": [
      "Economic Times",
-     "Hindustan Times",
-     "ThePrint"
-    ],
-    "lean": "LR",
-    "sites": 9,
-    "wiki": false
-   },
-   {
-    "title": "A new Nepal, an old neighbour - Balendra Shah's India test on first visit",
-    "url": "https://www.bbc.co.uk/news/articles/c6jre8xd83qgo?at_medium=RSS&at_campaign=rss",
-    "source": "BBC India",
-    "date": "20 Nov",
-    "outlets": 3,
-    "also": [
-     "Hindustan Times",
-     "NDTV"
+     "Indian Express",
+     "Times of India"
     ],
     "lean": "LC",
-    "sites": 14,
+    "sites": 16,
     "wiki": false
    }
   ],
   "world": [
    {
-    "title": "Mexican drug lord on FBI's 10 most wanted list arrested in shoot-out",
-    "url": "https://www.bbc.co.uk/news/articles/ckz749ey0r75o?at_medium=RSS&at_campaign=rss",
-    "source": "BBC World",
+    "title": "Russian warship sinks in Benghazi after suspected Ukrainian drone attack",
+    "url": "https://www.theguardian.com/world/2026/nov/22/blast-russian-ship-suspected-drone-attack-benghazi-libya",
+    "source": "The Guardian",
     "date": "22 Nov",
-    "outlets": 5,
-    "also": [
-     "Al Jazeera",
-     "Reuters",
-     "The Guardian"
-    ],
-    "lean": "LCR",
-    "sites": 15,
-    "wiki": false
-   },
-   {
-    "title": "New draft deal aims to avert collapse of talks at COP31 climate summit",
-    "url": "https://www.bbc.co.uk/news/articles/cq7827z2841zo?at_medium=RSS&at_campaign=rss",
-    "source": "BBC World",
-    "date": "22 Nov",
-    "outlets": 5,
+    "outlets": 10,
     "also": [
      "AP",
      "Al Jazeera",
-     "Reuters"
+     "BBC"
+    ],
+    "lean": "LCR",
+    "sites": 63,
+    "wiki": true
+   },
+   {
+    "title": "Five takeaways from the failed climate talks COP31",
+    "url": "https://www.bbc.co.uk/news/articles/cm75237wlp3lo?at_medium=RSS&at_campaign=rss",
+    "source": "BBC World",
+    "date": "23 Nov",
+    "outlets": 6,
+    "also": [
+     "AP",
+     "Indian Express",
+     "NPR"
+    ],
+    "lean": "LC",
+    "sites": 8,
+    "wiki": true
+   },
+   {
+    "title": "Democrats clinch a historic House majority of at least 258 seats, the largest since 1992",
+    "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNN0ZaSUxXY2RGTWZBcXdNRjV0eWhIZUdfWjFBSmI1OHBGZy1qRWFpNnJxZDJVOC14dVFGZGdSS3NfeFNsQm1IcmJIWGs4M0l5alZQZVhDek80S1lnQ3plUkRrbm9uaE44RWtNMTBDTWRLUmdGLWVVUDRJZ1J5TmR4QU5vWW5qT2NvOHB3dklzcFZ2ZFltMy1SYVdJQnNRZFBiaURJN2t0bjExaE0?oc=5",
+    "source": "AP",
+    "date": "22 Nov",
+    "outlets": 4,
+    "also": [
+     "BBC",
+     "The Hindu",
+     "The Telegraph"
+    ],
+    "lean": "LCR",
+    "sites": 11,
+    "wiki": false
+   }
+  ],
+  "business": [
+   {
+    "title": "Tata Steel to sell tubes business, Tata Steel Colors stake to APL Apollo for up to $3 billion",
+    "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxOcVpWcGJLY3JCOXlyRUZaR3p4MmNSU3V3Qm12b0N1aG5IcC00dDVJSnVsUFZ6dnU3VE5CWVZFVUc0ajhjZEgtRHFXRWVjUDQwTkwzTnJPVFlsZzJ3MVFOVXRPM3Rmc3o5ekZJci1QQ21jQWR4Z2dLQjdsSTZsRU8xNS1JMThzZTJ5SnZ3alpINjhUT05Hb0ZWNUdBUXNCc3l0OUZSZDlveW5pV0s4dTE0ZC1NeG9nS21zUGw2ZE94MA?oc=5",
+    "source": "Reuters Business",
+    "date": "22 Nov",
+    "outlets": 3,
+    "also": [
+     "Business Standard",
+     "The Hindu"
+    ],
+    "lean": "LCR",
+    "sites": 18,
+    "wiki": false
+   },
+   {
+    "title": "Financials drag Indian shares down on profit-taking after four-week rally",
+    "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQdDVfby1VRHZ6aGZYVDB2dU9SSjlQRGlJcUUxQm5Gdk9vWkU4UG15RFdHeTZxVjZQUzVNLXRmX3FjVndPRFJQQzdoNWNsUlRMeEQzdWVxWE1RVWp3TUM2WnJRc2lqamVnM1Vlek5LdU1rZjVRNEdVOUNkMVpoNTRLQlMxRFlfUXZzd1JOQ2J2QUI2S0wzMTRUWnN5aVhrTG5qSmk0Mzc0NFEwU1owcEpPNlljaw?oc=5",
+    "source": "Reuters India Business",
+    "date": "23 Nov",
+    "outlets": 3,
+    "also": [
+     "Mint",
+     "The Hindu"
     ],
     "lean": "LC",
     "sites": 4,
     "wiki": false
    },
    {
-    "title": "Dozens missing as deadly fire hits Indonesian candy factory",
-    "url": "https://www.dw.com/en/dozens-missing-as-deadly-fire-hits-indonesian-candy-factory/a-80012342?maca=en-rss-en-world-4025-rdf",
-    "source": "DW",
-    "date": "22 Nov",
-    "outlets": 6,
-    "also": [
-     "Al Jazeera",
-     "BBC",
-     "NDTV"
-    ],
-    "lean": "LC",
-    "sites": 1,
-    "wiki": true
-   }
-  ],
-  "business": [
-   {
-    "title": "Maruti Suzuki hikes select model prices amid cost pressures",
-    "url": "https://www.thehindu.com/business/Industry/maruti-suzuki-hikes-select-model-prices-amid-cost-pressures/article71730848.ece",
-    "source": "The Hindu Business",
-    "date": "22 Nov",
-    "outlets": 4,
-    "also": [
-     "BBC",
-     "ThePrint",
-     "WSJ"
-    ],
-    "lean": "LCR",
-    "sites": 15,
-    "wiki": false
-   },
-   {
-    "title": "Oil, gas import bill up 60% in Oct as Brent surges, LPG use declines",
-    "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxOZm5ueWI0VFl1WVJrVUF1SGw5Sy1WU3hmdFotOU5Ld2toSVBnYlBXYVlPMk1GYm9fcXJFSnRJYnBtVGdiMkN5VDYzUnE0RTR5M19hdGwyTUFtaHExYlJxcjFmTFdYOV9kYlRMOS1WUzNnb1lZY2dHVHB0MWhEVmFkVDlsRE01Q1ZQQmMyOWItQUtVZTNBTjNDOVRwTWdqTVhYY2FFdEFuY3ZmOURlZnZpZkdQaEVMTEx3dlZNNFBPbzlvSjNfMkd4LXdHRVrSAdIBQVVfeXFMTnZhMkQxTHBaN2ZQd0R5ODFFc3JmWEZTbzlMTGx1eXZ0NWhtbG0zWGxXYTdnZTg5ajFmU1k3cy10eDJfdHk3Rm5rMS12aGRpQlB0M0lJbUVWU0U5anZtem1FZVZVSzFmdmxuR2puQWJlVWR2cEtvNjhUSnltSURZclJwMlNfeFdHX0lySU4tVHcxUEdVNk55YVBLUmVfUnp1VmpKRjdnMi03UF9CU2FJTHZhNXBzdFNfUHp6elV1UktsV1pIaDBtUWgyYUdtb0NLSHNR?oc=5",
+    "title": "Business can't be usual as tech outages pinch, firms reassess risks",
+    "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxORmloU0pCWXAwM1dGeU1mLWVIWGN0ZFdYZk1nNVM5ZEJ1SXJTMkphcTFEeTMyYlg0SlhXbUJBSGtrV0phdm1BbGw3Mjd0UEJGVjdRbVVrWlJveVh2SGx3NEVTcGg3X2h2QTJvazB1cnVQTWFpcDlQeVBoR0c4Nml6UTQxb1NnZHVXVkprRGNCN3dwRnl0VDcyT25iWG1ZcTYtRy1EZlRNV2VmeVdRdDJLRXdFa2NHLTRKTDNnQUFvZWVFMUJ4NkdLdExRRnJvMEYwcElmNUpjNC3SAd4BQVVfeXFMT1VGTEpkd2piR1FnQmxqeGRtYXJ3NGx5Y29ZLUdwVTNUck1WUEJIOHFsZFdfT3JFT3Zyd3RNb0RZTVlvVEtfZUkyUUlBV1NWYk5PLUk0QURsZWk2cFhrQ0ZYaTJBM1pZZHctRUZmbnJxdkx1ZDFMU1ZUWGpDMHNGRWVZdGlLN3RDVmpXdXl0QTRoN0NtekhxMTNBNE4tRllLRFNFSVdrc1BYNUhuUHp5VkdVLVl4M1Z6Ym5JRUc4cXA1dUpvNjRxem1jQjRhc0xNUGYySm9LNjFibjI2aGlR?oc=5",
     "source": "Business Standard",
     "date": "22 Nov",
-    "outlets": 2,
+    "outlets": 3,
     "also": [
-     "The Hindu"
-    ],
-    "lean": "LR",
-    "sites": 5,
-    "wiki": false
-   },
-   {
-    "title": "Myanmar's army-backed government calls ASEAN decision 'unfair and imbalanced'",
-    "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxPS1FENS0tc2xfZjRuaEUtTU5Fa1pYZXYtUm1BcXl5TldHOXdaSGM0VE5IaHgzcENjVDlnTmNJN0VEazRhWHU5ZHl3eG5VU1pLZkZxMy1wekcwdW5yanBFdEJNV3dGdVB0OGlJVFF5bTBkQ0JVbGUxcm1tQnBRT1JpZ3Q0a0lvV2poTUluZzBoZFdGOHYtQkh6Uy0xUk81Ty1Bb0h2Zi0teWpNTWJPOVl2VG0wb3dqQzljVGhtU1BKNkM1UHM?oc=5",
-    "source": "Reuters Business",
-    "date": "22 Nov",
-    "outlets": 2,
-    "also": [
+     "Reuters",
      "The Guardian"
     ],
-    "lean": "LC",
-    "sites": 5,
+    "lean": "LCR",
+    "sites": 1,
     "wiki": false
    }
   ]
  },
  "explainer": [
   {
-   "title": "How Grand Theft Auto changed gaming, and why GTA VI has so much to live up to",
-   "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxOLWFNZGV3Q2h3RDlDRVg0OHNxTmlRbjVvMVIxeEhvYVltNzZrd2MzSkszbl82YVV2MHBrZHF1Q3QzcXhpVzFYek5wejhZWGRGYURHdjM2NjhnU2ZieWRoenFVd0UzQ3ZOM1lhaUViNGtLQmszTFh5QVFocHpKdFBKNkY4czJma2tLUHFPWnBnbmdSLUduWlIwbVozakRkd1UwRWtjaEZ3Smt5R0tpcWIzYm5vVHBJdFhhLTZwNWRTVFpMMEh1WWxRUGlsY01FOW5VX1HSAdIBQVVfeXFMTi1hTWRld0Nod0Q5Q0VYNDhzcU5pUW41bzFSMXhIb2FZbTc2a3djM0pLM25fNmFVdjBwa2RxdUN0M3F4aVcxWHpOcHo4WVhkRmFER3YzNjY4Z1NmYnlkaHpxVXdFM0N2TjNZYWlFYjRrS0JrM0xYeUFRaHB6SnRQSjZGOHMyZmtrS1BxT1pwZ25nUi1HblpSMG1aM2pEZHdVMEVrY2hGd0preUdLaXFiM2Jub1RwSXRYYS02cDVkU1RaTDBIdVlsUVBpbGNNRTluVV9R?oc=5",
+   "title": "Rahul Gandhi on Israel: How defence tech, Kargil war shaped India’s ties",
+   "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxOOHFnWFhpcEdvS1hMN01OcHc4ZmVUaE4wcTRDRVFieVVZRG93NnA2Y2RJLTFTb1MyQlE4dGRlbFZaeTVhZElldlVxUy11UFVwQTdwb003RlR6NXgyTUp0TmxUYjNNZ2ZBWUkzT296U1FWdml4T3Utc0t0SllualFpRlRCMVI0VWxzNnp2SzliMU1ITVhYRTNaWUVKWmZKcl91LUJhQ0VXMnFrR2ZIOUQ5dXdocUYxRUdzMmF0Q3VSOTVDaXMz0gHLAUFVX3lxTE5MY1NXQnpybHBhb1lPZ1V4blpjeTNaOG9ldE9KbloxbVh4Qk5QUDJhcVpSNEhqaHJkaGY4eFNteDJ4MEZqWEx0NUNhUHFPU3ZmZ3daYUlad3oxcWpZd190X2MyMW5ITkVISi0ycEJmZjQ1TW1MRzFBQnY2YURmVEJYeE9ORE9aNXBlaDVnc2ZMemVZSGhHUzloNzJXYkh3elo1akYwdklwWFpDc3ZjNlJrTE14TldKZ0dkQkp6UmRRa1Q5WHRrTnVza25z?oc=5",
    "source": "Indian Express Explained",
-   "date": "21 Nov"
+   "date": "22 Nov"
   }
  ],
  "courses": {
@@ -162,30 +164,30 @@
     "date": "19 Nov"
    },
    {
-    "title": "NFO alert! Motilal Oswal Mutual Fund to re-open five new schemes for continuous sale and repurchase on 26 Nov — Details",
-    "url": "https://www.livemint.com/money/nfo-alert-motilal-oswal-mutual-fund-re-open-five-new-schemes-continuous-sale-and-repurchase-on-26-november-offer-details-11795330891657.html",
+    "title": "DA hike: Tripura increases dearness allowance by 3% to 44% of basic salary; CM says component enhanced by 36% since 2022",
+    "url": "https://www.livemint.com/money/da-hike-tripura-increase-dearness-allowance-by-3-pc-to-44-pc-basic-salary-cm-saha-says-enhance-component-36-pc-from-2022-11795418979503.html",
     "source": "Mint Money",
-    "date": "22 Nov"
+    "date": "23 Nov"
    },
    {
-    "title": "8th Pay Commission: FNPO seeks maximum four-year promotion wait for postal staff, flags vacancies and career stagnation",
-    "url": "https://www.livemint.com/money/personal-finance/8th-pay-commission-fnpo-seeks-maximum-four-year-promotion-wait-for-postal-staff-flags-vacancies-and-career-stagnation-11795332754011.html",
+    "title": "When a winning trade makes investors take bigger risks",
+    "url": "https://www.livemint.com/money/personal-finance/investor-behaviour-why-quick-stock-market-gains-encourage-risktaking-11795411460755.html",
     "source": "Mint Money",
-    "date": "22 Nov"
+    "date": "23 Nov"
    }
   ],
   "PRD": [
+   {
+    "title": "First principles: What it takes to be a great product manager in the AI era | Sherif Mansour",
+    "url": "https://www.lennysnewsletter.com/p/first-principles-what-it-takes-to",
+    "source": "Lenny's Newsletter",
+    "date": "22 Nov"
+   },
    {
     "title": "🧠 Community Wisdom: Handling context switching with multiple agents, giving feedback on AI-generated designs, getting AI to write less like AI, why PMs don’t share what they’re really working on",
     "url": "https://www.lennysnewsletter.com/p/community-wisdom-handling-context",
     "source": "Lenny's Newsletter",
     "date": "21 Nov"
-   },
-   {
-    "title": "35 premium tools free for a year—now with OpenRouter, LangChain, Sentry, TextExpander, and Ploy 💥",
-    "url": "https://www.lennysnewsletter.com/p/35-premium-tools-free-for-a-yearnow",
-    "source": "Lenny's Newsletter",
-    "date": "17 Nov"
    }
   ],
   "AI": [
@@ -230,12 +232,12 @@
   ]
  },
  "audit": {
-  "wiki_items": 16,
-  "matched": 1,
+  "wiki_items": 19,
+  "matched": 3,
   "total": 9,
   "by_section": {
-   "india": "0/3",
-   "world": "1/3",
+   "india": "1/3",
+   "world": "2/3",
    "business": "0/3"
   },
   "note": "",
@@ -252,7 +254,7 @@
    "Reuters India:15",
    "Mint Politics:15",
    "BBC World:15",
-   "DW:12",
+   "DW:11",
    "Reuters World:15",
    "AP:15",
    "Al Jazeera:15",
