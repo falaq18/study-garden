@@ -1,156 +1,164 @@
 {
- "updated": "2026-11-23T09:27+00:00",
+ "updated": "2026-11-24T11:22+00:00",
  "method": "spectrum-v2",
  "news": {
   "india": [
    {
-    "title": "South Korea’s education minister quits over exam cheating chaos",
-    "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxPX0pCSnVWcFNuaHVHSThYMURDYkQ4Ym5mODVRLTE5cVRfRnN4S0Y1bnB4Nm9xNTBWU0VYZHNPM0FxTHF0ZWtjYjEwTnR6QXJMZFVMLUVvQ0s1cVpIcXg0RE5hTElWb1IxQnQ3S2RiY0JfTkVkdHdUUElVcFFrUVR0TDI2MUY5ZVVUWGpwRDZzei0zSEFpT0hJamVrYWZ6Z9IBowFBVV95cUxPMWJtT3duVnJ3UUFuSzBCQnVqbzBrSUY1djJ0RnY4cTd3X3cwcUg4Y1BJSHdwT0dINm9ZRnJJRThMdzdYZGc4MWg3bjAwanRnbm9GcmxIaWZob2x5N0lqc3doT2twMThxVHhIYlRXMlktQ0tlWktYNXBZalluQkRDSHdsbDhFVTdISW4xV3hJbGFqNUdWZnVUQ0N2TXFKQzdpSDY0?oc=5",
-    "source": "ThePrint",
-    "date": "23 Nov",
+    "title": "Tech giants to face billions of dollars in fines under Australian internet safety bill",
+    "url": "https://news.google.com/rss/articles/CBMi9AFBVV95cUxNUElpcHVlRm1lcVJ6Yi01NTJzekhjREVSazY0VHZnQzN0LW1WRXJmMENQZTdlcGFjai1MWUd0XzNnaXNYd2M2MkpOelA4Z0tnamZyem9vTkIxMWhmUElMS0ttcjVJcS1OTm5kTGtNQzhjZFdkX3h6dG1CdU9fMVp0N282RlpOdmtWZ3NORUlNbVZjMHV2dXJKMzBjNzJRUUlDQmlBYUR5aWV0d3VkTEhaWUxXS1hDcVBFb2JPLUtiT2ZFZUljVmtrTTNkVHIxZklNY1o0cXpKYUpnUUVXanA4REJtMkxaRFpja0ZnNU9fSjZMWjVB0gH7AUFVX3lxTFBWWlhPN3hXMHhyQ0FhTVVwYnNQa0NQTWYxd2ZFT1Izc2IzcVgweUI2Wm54MDhzcVB6ZGMtNUs3WUZRazlCSllBOHUyODBUdG5Da3owVkRaSDhIcUtScHpsbkNseWN5WTg0U2VQTzZsd2JSVjBqMVlKTkR5MURwSFJIaEhqWDJUeEhiM1d3RG84SGc1WkEyV1dVTTg5Tl90Q0ttcXh4b3RSdGFRNTdKVy1Semc5QTVaaGZ3d2ZPbU5LaFlBeDNRNVZPdF9XNFNiak1EZnphSVIyR3RGWEdaVklfd2ItRF9xdFVzUjhTeV95N0VQT3pLdk8zVVFj?oc=5",
+    "source": "Indian Express",
+    "date": "24 Nov",
     "outlets": 4,
     "also": [
-     "BBC",
+     "Al Jazeera",
      "Reuters",
-     "The Guardian"
+     "WSJ"
     ],
     "lean": "LCR",
-    "sites": 9,
-    "wiki": true
+    "sites": 32,
+    "wiki": false
    },
    {
-    "title": "PM Modi meets Nepal PM Balendra Shah, both exchange gifts including Gangajal and Rudraksha in Delhi",
-    "url": "https://www.thehindu.com/videos/shorts/pm-modi-meets-nepal-pm-balendra-shah-both-exchange-gifts-including-gangajal-and-rudraksha-in-delhi/article71733938.ece",
-    "source": "The Hindu",
+    "title": "Kushner Wants Direct Russia-Europe Talks in Ukraine Peace Push",
+    "url": "https://www.livemint.com/politics/kushner-wants-direct-russia-europe-talks-in-ukraine-peace-push-11794694798202.html",
+    "source": "Mint Politics",
+    "date": "15 Nov",
+    "outlets": 4,
+    "also": [
+     "NPR",
+     "The Telegraph",
+     "Times of India"
+    ],
+    "lean": "LCR",
+    "sites": 20,
+    "wiki": false
+   },
+   {
+    "title": "'Bada bhai will be CM': Amit Shah after BJP-SAD announce alliance in Punjab",
+    "url": "https://timesofindia.indiatimes.com/india/bada-bhai-will-be-cm-amit-shah-after-bjp-sad-announce-alliance-in-punjab/articleshow/136123852.cms",
+    "source": "Times of India",
+    "date": "24 Nov",
+    "outlets": 5,
+    "also": [
+     "Economic Times",
+     "Hindustan Times",
+     "NDTV"
+    ],
+    "lean": "LC",
+    "sites": 12,
+    "wiki": false
+   }
+  ],
+  "world": [
+   {
+    "title": "Mexican Drug Gangs Have Found a New Cash Cow in Microfinancing",
+    "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNNTlBZmdmejZOcFFPRGJnZUhJSmRaY29KNGZNMm9ZeUZsQi0zcDdTOGowX0ZwNV9nMVV3WFpGUXpRY3hOZ0xBZzM1NWlGWUFpZmtwNzZhUHhrdTZJWDJhV1E4RUpnSFo3WUFLYzFTN3JldFJ0eGRicTJ2U0I1cGRRNi1INllMZUl4bC14Wl9Yd1RXMEpLSWNNMEp5OTFzcUc2cDN5bDNDNndhUQ?oc=5",
+    "source": "WSJ",
     "date": "23 Nov",
     "outlets": 5,
     "also": [
-     "Hindustan Times",
-     "Indian Express",
-     "NDTV"
+     "Al Jazeera",
+     "BBC",
+     "DW"
+    ],
+    "lean": "LCR",
+    "sites": 2,
+    "wiki": false
+   },
+   {
+    "title": "EXCLUSIVE: Sheikh Hasina seeks to return to Bangladesh on December 16 on state carrier",
+    "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQQTZ3QXNQYmJqMENPRDZLVFAyS3JkUmhjaWxHLUF6TkwzejRmTTZHaERqdmd5NkZmMVVOMEZCaW1MWnlIS3hMVE5BUjJiRTNoMy1RdXUtUVpibnhicDgxZ0JHOUNuYmRDVTNrLVpTVUFaUVM5UDVaZExqR3hTSkxrNU9nSG5aMG9sc2hsMmFvTkstR2g4Qk1UZDMzM2JSaE1yTHVtSV9qaTRPbzN1U2F3UWM4S0hyT2FpaWc?oc=5",
+    "source": "Reuters World",
+    "date": "24 Nov",
+    "outlets": 5,
+    "also": [
+     "AP",
+     "Al Jazeera",
+     "BBC"
     ],
     "lean": "LC",
     "sites": 3,
     "wiki": false
    },
    {
-    "title": "Bisleri says it’s water ‘safe for consumption’ after FSSAI sanctions prosecution, says it has received no notice",
-    "url": "https://www.thehindu.com/sci-tech/health/bisleri-says-its-water-safe-for-consumption-after-fssai-sanctions-prosecution-says-it-has-received-no-notice/article71733517.ece",
-    "source": "The Hindu",
+    "title": "Ukraine confirms it used naval drones to strike two Russian ships off Libya",
+    "url": "https://www.theguardian.com/world/2026/nov/23/ukraine-naval-drones-strike-russian-warship-libya",
+    "source": "The Guardian",
     "date": "23 Nov",
     "outlets": 4,
     "also": [
-     "Economic Times",
-     "Indian Express",
-     "Times of India"
+     "Al Jazeera",
+     "BBC",
+     "NPR"
     ],
     "lean": "LC",
-    "sites": 16,
+    "sites": 9,
     "wiki": false
    }
   ],
-  "world": [
+  "business": [
    {
-    "title": "Russian warship sinks in Benghazi after suspected Ukrainian drone attack",
-    "url": "https://www.theguardian.com/world/2026/nov/22/blast-russian-ship-suspected-drone-attack-benghazi-libya",
-    "source": "The Guardian",
-    "date": "22 Nov",
-    "outlets": 10,
+    "title": "Trump wanted Jensen Huang back at Nvidia, here's how he made it happen",
+    "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxNdk00QUdMRzBQaWpJWDFkbWN6Y2Fvek45aGx1V3FOalRqRjM5ajlKUnJfNWNOeG5Da3FaLWd4OE9LRm5sTUU1Wlh0NVVEeUFPTmY0eE1vQjF4azU2TG1Sakp0elRRdkdDc25pSTloeEE0SEtNdHI3TGRWaG5ZSnQ3UUJrSDBONk8yYTZPVG5tUUxsb2NLOE0xUGJBZWU3VndZM3UzX3hwUTBnSnlITjNVWEV2TnRlRE9aZWVSaG91N0haUHR4R1N5OUI0cFFBTWPSAdQBQVVfeXFMTy1ycnduZEpLTV9yLU1VWjNiazN2QnR2Q2ItRVNmUWNNNXdxWHV3bzAxdWgwRmtiZFB1Z295YkdxaURubTlJMUl5NDNOZnhqT3pBVXlWNHo5ZlV4SnVBa1kyZWlNNUJuUUU0ZENSTGdPOFRXdWRWZUo4elMyRjF4LXVickJ0ZENEWU13TzluUXpORkFMZ096QmdjcURickhvR1ItdmNZY3hMQ1MwZzk5Y0J2QXNSX3hfM1c3eXE5Q3BMSjc5akt5YXZBWVg3ODZzc2c3M1Y?oc=5",
+    "source": "Business Standard",
+    "date": "24 Nov",
+    "outlets": 11,
     "also": [
      "AP",
      "Al Jazeera",
      "BBC"
     ],
     "lean": "LCR",
-    "sites": 63,
-    "wiki": true
+    "sites": 9,
+    "wiki": false
    },
    {
-    "title": "Five takeaways from the failed climate talks COP31",
-    "url": "https://www.bbc.co.uk/news/articles/cm75237wlp3lo?at_medium=RSS&at_campaign=rss",
-    "source": "BBC World",
-    "date": "23 Nov",
-    "outlets": 6,
-    "also": [
-     "AP",
-     "Indian Express",
-     "NPR"
-    ],
-    "lean": "LC",
-    "sites": 8,
-    "wiki": true
-   },
-   {
-    "title": "Democrats clinch a historic House majority of at least 258 seats, the largest since 1992",
-    "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNN0ZaSUxXY2RGTWZBcXdNRjV0eWhIZUdfWjFBSmI1OHBGZy1qRWFpNnJxZDJVOC14dVFGZGdSS3NfeFNsQm1IcmJIWGs4M0l5alZQZVhDek80S1lnQ3plUkRrbm9uaE44RWtNMTBDTWRLUmdGLWVVUDRJZ1J5TmR4QU5vWW5qT2NvOHB3dklzcFZ2ZFltMy1SYVdJQnNRZFBiaURJN2t0bjExaE0?oc=5",
-    "source": "AP",
-    "date": "22 Nov",
-    "outlets": 4,
+    "title": "31.5% surge in Nvidia share adds $34 billion to Jensen Huang's wealth in a day; what's his net worth now?",
+    "url": "https://www.livemint.com/market/stock-market-news/315-surge-in-nvidia-share-adds-34-billion-to-jensen-huangs-wealth-in-a-day-whats-his-net-worth-now-11795516605100.html",
+    "source": "Mint",
+    "date": "24 Nov",
+    "outlets": 8,
     "also": [
      "BBC",
-     "The Hindu",
-     "The Telegraph"
-    ],
-    "lean": "LCR",
-    "sites": 11,
-    "wiki": false
-   }
-  ],
-  "business": [
-   {
-    "title": "Tata Steel to sell tubes business, Tata Steel Colors stake to APL Apollo for up to $3 billion",
-    "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxOcVpWcGJLY3JCOXlyRUZaR3p4MmNSU3V3Qm12b0N1aG5IcC00dDVJSnVsUFZ6dnU3VE5CWVZFVUc0ajhjZEgtRHFXRWVjUDQwTkwzTnJPVFlsZzJ3MVFOVXRPM3Rmc3o5ekZJci1QQ21jQWR4Z2dLQjdsSTZsRU8xNS1JMThzZTJ5SnZ3alpINjhUT05Hb0ZWNUdBUXNCc3l0OUZSZDlveW5pV0s4dTE0ZC1NeG9nS21zUGw2ZE94MA?oc=5",
-    "source": "Reuters Business",
-    "date": "22 Nov",
-    "outlets": 3,
-    "also": [
      "Business Standard",
-     "The Hindu"
+     "Economic Times"
     ],
     "lean": "LCR",
-    "sites": 18,
+    "sites": 9,
     "wiki": false
    },
    {
-    "title": "Financials drag Indian shares down on profit-taking after four-week rally",
-    "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQdDVfby1VRHZ6aGZYVDB2dU9SSjlQRGlJcUUxQm5Gdk9vWkU4UG15RFdHeTZxVjZQUzVNLXRmX3FjVndPRFJQQzdoNWNsUlRMeEQzdWVxWE1RVWp3TUM2WnJRc2lqamVnM1Vlek5LdU1rZjVRNEdVOUNkMVpoNTRLQlMxRFlfUXZzd1JOQ2J2QUI2S0wzMTRUWnN5aVhrTG5qSmk0Mzc0NFEwU1owcEpPNlljaw?oc=5",
+    "title": "India announces $1.62 billion package to bolster ties with flood-hit Nepal",
+    "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQSWpDakZzTzdkdDFwdmNHcHlTc0Q0SDBxWEN3Uk5ZcmZaZXJzdzV3RXNtZkUzZzk1RlJKVFdkNkp5aVI2cVNaeVBBMFRBcXZ5S00xVVRvN3JuNXJUcXpvaVdrTnZPRmVhTUhuNHNEdDZtQmF4bFEyRVB4NG93c19Ub3hsQnJZNUJURGZjcndld1ZTVGViQnFDaGFzeExYaGVxZkE0SXdR?oc=5",
     "source": "Reuters India Business",
     "date": "23 Nov",
     "outlets": 3,
     "also": [
-     "Mint",
-     "The Hindu"
+     "Business Standard",
+     "Economic Times"
     ],
-    "lean": "LC",
-    "sites": 4,
-    "wiki": false
-   },
-   {
-    "title": "Business can't be usual as tech outages pinch, firms reassess risks",
-    "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxORmloU0pCWXAwM1dGeU1mLWVIWGN0ZFdYZk1nNVM5ZEJ1SXJTMkphcTFEeTMyYlg0SlhXbUJBSGtrV0phdm1BbGw3Mjd0UEJGVjdRbVVrWlJveVh2SGx3NEVTcGg3X2h2QTJvazB1cnVQTWFpcDlQeVBoR0c4Nml6UTQxb1NnZHVXVkprRGNCN3dwRnl0VDcyT25iWG1ZcTYtRy1EZlRNV2VmeVdRdDJLRXdFa2NHLTRKTDNnQUFvZWVFMUJ4NkdLdExRRnJvMEYwcElmNUpjNC3SAd4BQVVfeXFMT1VGTEpkd2piR1FnQmxqeGRtYXJ3NGx5Y29ZLUdwVTNUck1WUEJIOHFsZFdfT3JFT3Zyd3RNb0RZTVlvVEtfZUkyUUlBV1NWYk5PLUk0QURsZWk2cFhrQ0ZYaTJBM1pZZHctRUZmbnJxdkx1ZDFMU1ZUWGpDMHNGRWVZdGlLN3RDVmpXdXl0QTRoN0NtekhxMTNBNE4tRllLRFNFSVdrc1BYNUhuUHp5VkdVLVl4M1Z6Ym5JRUc4cXA1dUpvNjRxem1jQjRhc0xNUGYySm9LNjFibjI2aGlR?oc=5",
-    "source": "Business Standard",
-    "date": "22 Nov",
-    "outlets": 3,
-    "also": [
-     "Reuters",
-     "The Guardian"
-    ],
-    "lean": "LCR",
-    "sites": 1,
+    "lean": "CR",
+    "sites": 6,
     "wiki": false
    }
   ]
  },
  "explainer": [
   {
-   "title": "Rahul Gandhi on Israel: How defence tech, Kargil war shaped India’s ties",
-   "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxOOHFnWFhpcEdvS1hMN01OcHc4ZmVUaE4wcTRDRVFieVVZRG93NnA2Y2RJLTFTb1MyQlE4dGRlbFZaeTVhZElldlVxUy11UFVwQTdwb003RlR6NXgyTUp0TmxUYjNNZ2ZBWUkzT296U1FWdml4T3Utc0t0SllualFpRlRCMVI0VWxzNnp2SzliMU1ITVhYRTNaWUVKWmZKcl91LUJhQ0VXMnFrR2ZIOUQ5dXdocUYxRUdzMmF0Q3VSOTVDaXMz0gHLAUFVX3lxTE5MY1NXQnpybHBhb1lPZ1V4blpjeTNaOG9ldE9KbloxbVh4Qk5QUDJhcVpSNEhqaHJkaGY4eFNteDJ4MEZqWEx0NUNhUHFPU3ZmZ3daYUlad3oxcWpZd190X2MyMW5ITkVISi0ycEJmZjQ1TW1MRzFBQnY2YURmVEJYeE9ORE9aNXBlaDVnc2ZMemVZSGhHUzloNzJXYkh3elo1akYwdklwWFpDc3ZjNlJrTE14TldKZ0dkQkp6UmRRa1Q5WHRrTnVza25z?oc=5",
+   "title": "Road dust rising, where are Delhi’s missing road sweeping machines?",
+   "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxPLUNkU0cwMFJUSXBqYnZvdmt2NXhzX1dqdjQxZUIzLUJPejlWTEMzUVZpanhtclpQUW42SklXaEN5aTJGRG1LSUQwWTBtS3ZOOHd4V1VQLXNqTUpuQTFzcFhISFdZXzhMbF9EalV1TFJIQkliN2NaTHYyY0FScWktb0hIYmJoUi1xdTRkcFBaT2Y1Rnc1N2lMU1ozb05BaWlQc1FtNEhsMGNTanRVczBUSUh2VHVUajRkSlduMU5NRW1tanpQV0diMXBRaGjSAdMBQVVfeXFMTUJBbm5ja1VxTklXYWVDR3RhdWZCUEhvZnlya19DU0VBRUdpRUU4cUlGY2Jhd1haQjl3cWd6aGNVdmV5dl95VnJvc3lFa05EeG9tZ1ptOE5iOHNtVngwcmpQc29zcm1wd0ZlZ0xlZXhKaWRWVmxoeVJPdmVnMlVwMUFtdFBja3RFS1ZPUVRwVExKTEpnYVJDbGdyMk9yNjBVdHF3N0dfN3JoR0tFZ3hzWjBEc1VwRXo4MzJnWjJkeU1qTUNiaFFyRGVwOEtBSnprQnZDRQ?oc=5",
    "source": "Indian Express Explained",
-   "date": "22 Nov"
+   "date": "24 Nov"
   }
  ],
  "courses": {
   "FIN": [
+   {
+    "title": "Two Companies: Loss to Operating Profit! But How? (Hindi) | CA Rachana Ranade",
+    "url": "https://www.youtube.com/watch?v=Okudr-cxL-A",
+    "source": "CA Rachana Ranade",
+    "date": "24 Nov"
+   },
    {
     "title": "Which Sectors Could Win in the Next 12 Months? (Hindi)| CA Rachana Ranade",
     "url": "https://www.youtube.com/watch?v=4xHebHrR870",
@@ -158,36 +166,30 @@
     "date": "20 Nov"
    },
    {
-    "title": "Anthropic's $81 Billion IPO:What It Means for India's IT Industry(Hindi)|CA Rachana Ranade|#shorts",
-    "url": "https://www.youtube.com/shorts/vUof1ccWE4E",
-    "source": "CA Rachana Ranade",
-    "date": "19 Nov"
+    "title": "Planning to retire in a smaller city? 5 things you should consider before moving away from a metro after retirement",
+    "url": "https://www.livemint.com/money/personal-finance/planning-to-retire-in-a-smaller-city-5-things-you-should-consider-before-moving-away-from-a-metro-after-retirement-11795516412475.html",
+    "source": "Mint Money",
+    "date": "24 Nov"
    },
    {
-    "title": "DA hike: Tripura increases dearness allowance by 3% to 44% of basic salary; CM says component enhanced by 36% since 2022",
-    "url": "https://www.livemint.com/money/da-hike-tripura-increase-dearness-allowance-by-3-pc-to-44-pc-basic-salary-cm-saha-says-enhance-component-36-pc-from-2022-11795418979503.html",
+    "title": "EPFO may let employees deposit PF money directly via UAN beyond 12% mandate: What the proposal means for you",
+    "url": "https://www.livemint.com/money/personal-finance/epfo-may-let-employees-deposit-pf-money-directly-via-uan-beyond-12-mandate-what-the-proposal-means-for-you-11795514057212.html",
     "source": "Mint Money",
-    "date": "23 Nov"
-   },
-   {
-    "title": "When a winning trade makes investors take bigger risks",
-    "url": "https://www.livemint.com/money/personal-finance/investor-behaviour-why-quick-stock-market-gains-encourage-risktaking-11795411460755.html",
-    "source": "Mint Money",
-    "date": "23 Nov"
+    "date": "24 Nov"
    }
   ],
   "PRD": [
    {
-    "title": "First principles: What it takes to be a great product manager in the AI era | Sherif Mansour",
-    "url": "https://www.lennysnewsletter.com/p/first-principles-what-it-takes-to",
+    "title": "🎙️ How I AI: OpenClaw for executives: Automate every 1% annoyance",
+    "url": "https://www.lennysnewsletter.com/p/how-i-ai-openclaw-for-executives",
     "source": "Lenny's Newsletter",
-    "date": "22 Nov"
+    "date": "23 Nov"
    },
    {
-    "title": "🧠 Community Wisdom: Handling context switching with multiple agents, giving feedback on AI-generated designs, getting AI to write less like AI, why PMs don’t share what they’re really working on",
-    "url": "https://www.lennysnewsletter.com/p/community-wisdom-handling-context",
+    "title": "OpenClaw for executives: Automate every 1% annoyance | Ankit Maheshwari (Innovaccer)",
+    "url": "https://www.lennysnewsletter.com/p/openclaw-for-executives-automate",
     "source": "Lenny's Newsletter",
-    "date": "21 Nov"
+    "date": "23 Nov"
    }
   ],
   "AI": [
@@ -232,12 +234,12 @@
   ]
  },
  "audit": {
-  "wiki_items": 19,
-  "matched": 3,
+  "wiki_items": 22,
+  "matched": 0,
   "total": 9,
   "by_section": {
-   "india": "1/3",
-   "world": "2/3",
+   "india": "0/3",
+   "world": "0/3",
    "business": "0/3"
   },
   "note": "",
@@ -254,7 +256,7 @@
    "Reuters India:15",
    "Mint Politics:15",
    "BBC World:15",
-   "DW:11",
+   "DW:12",
    "Reuters World:15",
    "AP:15",
    "Al Jazeera:15",
