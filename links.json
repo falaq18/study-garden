@@ -1,158 +1,162 @@
 {
- "updated": "2026-11-24T11:22+00:00",
+ "updated": "2026-11-25T10:07+00:00",
  "method": "spectrum-v2",
  "news": {
   "india": [
    {
-    "title": "Tech giants to face billions of dollars in fines under Australian internet safety bill",
-    "url": "https://news.google.com/rss/articles/CBMi9AFBVV95cUxNUElpcHVlRm1lcVJ6Yi01NTJzekhjREVSazY0VHZnQzN0LW1WRXJmMENQZTdlcGFjai1MWUd0XzNnaXNYd2M2MkpOelA4Z0tnamZyem9vTkIxMWhmUElMS0ttcjVJcS1OTm5kTGtNQzhjZFdkX3h6dG1CdU9fMVp0N282RlpOdmtWZ3NORUlNbVZjMHV2dXJKMzBjNzJRUUlDQmlBYUR5aWV0d3VkTEhaWUxXS1hDcVBFb2JPLUtiT2ZFZUljVmtrTTNkVHIxZklNY1o0cXpKYUpnUUVXanA4REJtMkxaRFpja0ZnNU9fSjZMWjVB0gH7AUFVX3lxTFBWWlhPN3hXMHhyQ0FhTVVwYnNQa0NQTWYxd2ZFT1Izc2IzcVgweUI2Wm54MDhzcVB6ZGMtNUs3WUZRazlCSllBOHUyODBUdG5Da3owVkRaSDhIcUtScHpsbkNseWN5WTg0U2VQTzZsd2JSVjBqMVlKTkR5MURwSFJIaEhqWDJUeEhiM1d3RG84SGc1WkEyV1dVTTg5Tl90Q0ttcXh4b3RSdGFRNTdKVy1Semc5QTVaaGZ3d2ZPbU5LaFlBeDNRNVZPdF9XNFNiak1EZnphSVIyR3RGWEdaVklfd2ItRF9xdFVzUjhTeV95N0VQT3pLdk8zVVFj?oc=5",
-    "source": "Indian Express",
-    "date": "24 Nov",
-    "outlets": 4,
-    "also": [
-     "Al Jazeera",
-     "Reuters",
-     "WSJ"
-    ],
-    "lean": "LCR",
-    "sites": 32,
-    "wiki": false
-   },
-   {
-    "title": "Kushner Wants Direct Russia-Europe Talks in Ukraine Peace Push",
-    "url": "https://www.livemint.com/politics/kushner-wants-direct-russia-europe-talks-in-ukraine-peace-push-11794694798202.html",
-    "source": "Mint Politics",
-    "date": "15 Nov",
-    "outlets": 4,
-    "also": [
-     "NPR",
-     "The Telegraph",
-     "Times of India"
-    ],
-    "lean": "LCR",
-    "sites": 20,
-    "wiki": false
-   },
-   {
-    "title": "'Bada bhai will be CM': Amit Shah after BJP-SAD announce alliance in Punjab",
-    "url": "https://timesofindia.indiatimes.com/india/bada-bhai-will-be-cm-amit-shah-after-bjp-sad-announce-alliance-in-punjab/articleshow/136123852.cms",
-    "source": "Times of India",
+    "title": "India's Tamil Nadu state signs pacts for $6.27 billion in proposed investments",
+    "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxNUjFJR043ZUh4a3c5c3BOelhJaUtweVZEeUFCc3IxSmhFU2JBS1F2UTVaQXBHTE0tZVc0a3VvTEd5NUZVckx6OXNxOFhfZkh1Q25DbzFwYldoQXVram1VTC1fVFYxSXk5WVpvZ3Q1TmtaQkJfdm84RjNyVGdFVW1sU2JnQ19LTlpzc0U4TmFZcmpNNFRVSzZDWU9jaVhTdGxqVUsxRzJNY28zQjFXb09WdTlCQk9pX0QwZXJ0aGZmUzQ4dGFTczhv?oc=5",
+    "source": "Reuters India",
     "date": "24 Nov",
     "outlets": 5,
     "also": [
-     "Economic Times",
-     "Hindustan Times",
-     "NDTV"
+     "Mint",
+     "NDTV",
+     "The Hindu"
     ],
     "lean": "LC",
-    "sites": 12,
+    "sites": 26,
+    "wiki": false
+   },
+   {
+    "title": "Murder Accused's Hand Chopped Off With Machete, Then Shot Outside Pune Court",
+    "url": "https://www.ndtv.com/pune-news/murder-accuseds-hand-chopped-off-with-machete-then-shot-dead-outside-pune-court-12374587#publisher=newsstand",
+    "source": "NDTV",
+    "date": "25 Nov",
+    "outlets": 4,
+    "also": [
+     "Hindustan Times",
+     "ThePrint",
+     "Times of India"
+    ],
+    "lean": "LCR",
+    "sites": 6,
+    "wiki": false
+   },
+   {
+    "title": "Sooryavanshi, 15, blasts 204 off 53 balls for India A",
+    "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPekZyYkNiWlh4RzFIOW9BRkFJaHdTSzhxcERlbmlkZS1NSzdqS3R6WmwxWEJzd21adkE4MEJKMTA5aG0zUVZUT1NxNmdXX2NqR2p4SHV1emRMYXdyaHI5ekYyTFlWelZyb1B4M2hGQkZtUUh5VGVJRWRrU1pCRnRjYTNiM213MTAzQVhWeVFhNERSZnQtc0dEUVNMTGg?oc=5",
+    "source": "Reuters India",
+    "date": "24 Nov",
+    "outlets": 3,
+    "also": [
+     "BBC",
+     "The Telegraph"
+    ],
+    "lean": "CR",
+    "sites": 15,
     "wiki": false
    }
   ],
   "world": [
    {
-    "title": "Mexican Drug Gangs Have Found a New Cash Cow in Microfinancing",
-    "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNNTlBZmdmejZOcFFPRGJnZUhJSmRaY29KNGZNMm9ZeUZsQi0zcDdTOGowX0ZwNV9nMVV3WFpGUXpRY3hOZ0xBZzM1NWlGWUFpZmtwNzZhUHhrdTZJWDJhV1E4RUpnSFo3WUFLYzFTN3JldFJ0eGRicTJ2U0I1cGRRNi1INllMZUl4bC14Wl9Yd1RXMEpLSWNNMEp5OTFzcUc2cDN5bDNDNndhUQ?oc=5",
-    "source": "WSJ",
-    "date": "23 Nov",
-    "outlets": 5,
-    "also": [
-     "Al Jazeera",
-     "BBC",
-     "DW"
-    ],
-    "lean": "LCR",
-    "sites": 2,
-    "wiki": false
-   },
-   {
-    "title": "EXCLUSIVE: Sheikh Hasina seeks to return to Bangladesh on December 16 on state carrier",
-    "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQQTZ3QXNQYmJqMENPRDZLVFAyS3JkUmhjaWxHLUF6TkwzejRmTTZHaERqdmd5NkZmMVVOMEZCaW1MWnlIS3hMVE5BUjJiRTNoMy1RdXUtUVpibnhicDgxZ0JHOUNuYmRDVTNrLVpTVUFaUVM5UDVaZExqR3hTSkxrNU9nSG5aMG9sc2hsMmFvTkstR2g4Qk1UZDMzM2JSaE1yTHVtSV9qaTRPbzN1U2F3UWM4S0hyT2FpaWc?oc=5",
-    "source": "Reuters World",
-    "date": "24 Nov",
-    "outlets": 5,
-    "also": [
-     "AP",
-     "Al Jazeera",
-     "BBC"
-    ],
-    "lean": "LC",
-    "sites": 3,
-    "wiki": false
-   },
-   {
-    "title": "Ukraine confirms it used naval drones to strike two Russian ships off Libya",
-    "url": "https://www.theguardian.com/world/2026/nov/23/ukraine-naval-drones-strike-russian-warship-libya",
-    "source": "The Guardian",
-    "date": "23 Nov",
+    "title": "China investigates Politburo member and Shanghai party chief Chen Jining",
+    "url": "https://www.npr.org/2026/11/25/nx-s1-6053801/china-investigation-politburo-shanghai-party",
+    "source": "NPR",
+    "date": "25 Nov",
     "outlets": 4,
     "also": [
-     "Al Jazeera",
-     "BBC",
-     "NPR"
+     "Reuters",
+     "The Guardian",
+     "WSJ"
+    ],
+    "lean": "LCR",
+    "sites": 67,
+    "wiki": false
+   },
+   {
+    "title": "Saudi-led coalition intercepts Houthi attacks after Hodeidah strike",
+    "url": "https://www.aljazeera.com/news/2026/11/25/saudi-led-coalition-intercepts-houthi-attacks-after-hodeidah-strike?traffic_source=rss",
+    "source": "Al Jazeera",
+    "date": "25 Nov",
+    "outlets": 5,
+    "also": [
+     "Indian Express",
+     "The Hindu",
+     "The Telegraph"
+    ],
+    "lean": "LR",
+    "sites": 32,
+    "wiki": false
+   },
+   {
+    "title": "Russia's own figures show it has lost almost 500,000 people in Ukraine war",
+    "url": "https://www.bbc.co.uk/news/articles/cmx27g533zwyo?at_medium=RSS&at_campaign=rss",
+    "source": "BBC World",
+    "date": "25 Nov",
+    "outlets": 4,
+    "also": [
+     "Mint",
+     "NPR",
+     "The Hindu"
     ],
     "lean": "LC",
-    "sites": 9,
+    "sites": 29,
     "wiki": false
    }
   ],
   "business": [
    {
-    "title": "Trump wanted Jensen Huang back at Nvidia, here's how he made it happen",
-    "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxNdk00QUdMRzBQaWpJWDFkbWN6Y2Fvek45aGx1V3FOalRqRjM5ajlKUnJfNWNOeG5Da3FaLWd4OE9LRm5sTUU1Wlh0NVVEeUFPTmY0eE1vQjF4azU2TG1Sakp0elRRdkdDc25pSTloeEE0SEtNdHI3TGRWaG5ZSnQ3UUJrSDBONk8yYTZPVG5tUUxsb2NLOE0xUGJBZWU3VndZM3UzX3hwUTBnSnlITjNVWEV2TnRlRE9aZWVSaG91N0haUHR4R1N5OUI0cFFBTWPSAdQBQVVfeXFMTy1ycnduZEpLTV9yLU1VWjNiazN2QnR2Q2ItRVNmUWNNNXdxWHV3bzAxdWgwRmtiZFB1Z295YkdxaURubTlJMUl5NDNOZnhqT3pBVXlWNHo5ZlV4SnVBa1kyZWlNNUJuUUU0ZENSTGdPOFRXdWRWZUo4elMyRjF4LXVickJ0ZENEWU13TzluUXpORkFMZ096QmdjcURickhvR1ItdmNZY3hMQ1MwZzk5Y0J2QXNSX3hfM1c3eXE5Q3BMSjc5akt5YXZBWVg3ODZzc2c3M1Y?oc=5",
-    "source": "Business Standard",
-    "date": "24 Nov",
-    "outlets": 11,
-    "also": [
-     "AP",
-     "Al Jazeera",
-     "BBC"
-    ],
-    "lean": "LCR",
-    "sites": 9,
-    "wiki": false
-   },
-   {
-    "title": "31.5% surge in Nvidia share adds $34 billion to Jensen Huang's wealth in a day; what's his net worth now?",
-    "url": "https://www.livemint.com/market/stock-market-news/315-surge-in-nvidia-share-adds-34-billion-to-jensen-huangs-wealth-in-a-day-whats-his-net-worth-now-11795516605100.html",
-    "source": "Mint",
-    "date": "24 Nov",
-    "outlets": 8,
+    "title": "Elon Musk meets Jensen Huang after his return as Nvidia CEO",
+    "url": "https://www.thehindubusinessline.com/info-tech/elon-musk-meets-jensen-huang-after-his-return-as-nvidia-ceo/article71741774.ece",
+    "source": "Hindu BusinessLine",
+    "date": "25 Nov",
+    "outlets": 7,
     "also": [
      "BBC",
-     "Business Standard",
-     "Economic Times"
+     "Indian Express",
+     "NPR"
     ],
     "lean": "LCR",
     "sites": 9,
     "wiki": false
    },
    {
-    "title": "India announces $1.62 billion package to bolster ties with flood-hit Nepal",
-    "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQSWpDakZzTzdkdDFwdmNHcHlTc0Q0SDBxWEN3Uk5ZcmZaZXJzdzV3RXNtZkUzZzk1RlJKVFdkNkp5aVI2cVNaeVBBMFRBcXZ5S00xVVRvN3JuNXJUcXpvaVdrTnZPRmVhTUhuNHNEdDZtQmF4bFEyRVB4NG93c19Ub3hsQnJZNUJURGZjcndld1ZTVGViQnFDaGFzeExYaGVxZkE0SXdR?oc=5",
-    "source": "Reuters India Business",
-    "date": "23 Nov",
+    "title": "Kalyan Krishnamurthy to step down as Flipkart CEO",
+    "url": "https://www.thehindu.com/business/Industry/kalyan-krishnamurthy-to-step-down-as-flipkart-ceo/article71741751.ece",
+    "source": "The Hindu Business",
+    "date": "25 Nov",
     "outlets": 3,
     "also": [
-     "Business Standard",
-     "Economic Times"
+     "NDTV",
+     "Reuters"
+    ],
+    "lean": "LC",
+    "sites": 49,
+    "wiki": false
+   },
+   {
+    "title": "Nvidia board faces scrutiny after reversing decision to reinstate Huang",
+    "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxQb0F1aUFfNkV4MVpHWHBxSWdjNlVzVG1aQ2FXaHVjMWJtWFVJQjQzcFJXamt6VWN4QXZYN2V5eHkxM0toQUtIRVQwYzNlZGNMMmxKcS1PWHI0NFdEN1NxWGxpaFNyS1BseEYtaVFlNFBrWVVBWUVSVzlYMEVlbWRTOFZsOUJtWEZsWGV1OVZNTklROWloQnQxODFrZnl4ODFTVjBhc2ZSV0NCeGROMUZFNDViNDJwSTU2ZkhyT0lEUUpzN2hQcHpEUXFnM2NfT25jYmfSAdcBQVVfeXFMUFRQSkFxR3Nndi04UHJNTVpXTEdCWWxjZXg4azU2bWRZV1hCbDQ1QVVNYVItMFZjN0p3RU5FVHhzMVpzVHplT0ctek1YNVNjVnBGdG5TNUFfbGRqRUE3QlRpVTc0U2FVam5zdDE5QmhRRURrYzVrM3Q0djhrOVBPQS1xWHotNjVzaEVPTkVpdm9ncG9LVTN5aEdpRXhJaGZraWZKUHZqbkYtNHFoM3d1N25ic0p6T0syYjlkdXloeThqdHp2WGQwRDluZEVKbFBjZV9CbjFoVVU?oc=5",
+    "source": "Business Standard",
+    "date": "25 Nov",
+    "outlets": 3,
+    "also": [
+     "AP",
+     "BBC"
     ],
     "lean": "CR",
-    "sites": 6,
+    "sites": 11,
     "wiki": false
    }
   ]
  },
  "explainer": [
   {
-   "title": "Road dust rising, where are Delhi’s missing road sweeping machines?",
-   "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxPLUNkU0cwMFJUSXBqYnZvdmt2NXhzX1dqdjQxZUIzLUJPejlWTEMzUVZpanhtclpQUW42SklXaEN5aTJGRG1LSUQwWTBtS3ZOOHd4V1VQLXNqTUpuQTFzcFhISFdZXzhMbF9EalV1TFJIQkliN2NaTHYyY0FScWktb0hIYmJoUi1xdTRkcFBaT2Y1Rnc1N2lMU1ozb05BaWlQc1FtNEhsMGNTanRVczBUSUh2VHVUajRkSlduMU5NRW1tanpQV0diMXBRaGjSAdMBQVVfeXFMTUJBbm5ja1VxTklXYWVDR3RhdWZCUEhvZnlya19DU0VBRUdpRUU4cUlGY2Jhd1haQjl3cWd6aGNVdmV5dl95VnJvc3lFa05EeG9tZ1ptOE5iOHNtVngwcmpQc29zcm1wd0ZlZ0xlZXhKaWRWVmxoeVJPdmVnMlVwMUFtdFBja3RFS1ZPUVRwVExKTEpnYVJDbGdyMk9yNjBVdHF3N0dfN3JoR0tFZ3hzWjBEc1VwRXo4MzJnWjJkeU1qTUNiaFFyRGVwOEtBSnprQnZDRQ?oc=5",
+   "title": "COP31 failed to deliver. How climate negotiations can move forward from here",
+   "url": "https://indianexpress.com/article/explained/explained-climate/cop31-climate-summit-fossil-fuels-finance-negotiations-explained-10977769/",
    "source": "Indian Express Explained",
-   "date": "24 Nov"
+   "date": "25 Nov"
   }
  ],
  "courses": {
   "FIN": [
+   {
+    "title": "Why Are FIIs and DIIs Buying this stock? Q2 FY27 Results Decoded (Hindi) | CA Rachana Ranade",
+    "url": "https://www.youtube.com/watch?v=i_R1C8T5ZX8",
+    "source": "CA Rachana Ranade",
+    "date": "25 Nov"
+   },
    {
     "title": "Two Companies: Loss to Operating Profit! But How? (Hindi) | CA Rachana Ranade",
     "url": "https://www.youtube.com/watch?v=Okudr-cxL-A",
@@ -160,22 +164,16 @@
     "date": "24 Nov"
    },
    {
-    "title": "Which Sectors Could Win in the Next 12 Months? (Hindi)| CA Rachana Ranade",
-    "url": "https://www.youtube.com/watch?v=4xHebHrR870",
-    "source": "CA Rachana Ranade",
-    "date": "20 Nov"
+    "title": "As markets recover, it's time to rebalance, not chase returns",
+    "url": "https://www.livemint.com/money/personal-finance/stock-market-rally-why-investors-should-rebalance-portfolios-11795585619182.html",
+    "source": "Mint Money",
+    "date": "25 Nov"
    },
    {
-    "title": "Planning to retire in a smaller city? 5 things you should consider before moving away from a metro after retirement",
-    "url": "https://www.livemint.com/money/personal-finance/planning-to-retire-in-a-smaller-city-5-things-you-should-consider-before-moving-away-from-a-metro-after-retirement-11795516412475.html",
+    "title": "Gold prices crash 27% in 3 months: Golden opportunity to invest in jewellery or should households wait? What experts say",
+    "url": "https://www.livemint.com/money/personal-finance/gold-prices-crash-27-in-3-months-golden-opportunity-to-invest-in-jewellery-or-should-households-wait-what-experts-say-11795593473220.html",
     "source": "Mint Money",
-    "date": "24 Nov"
-   },
-   {
-    "title": "EPFO may let employees deposit PF money directly via UAN beyond 12% mandate: What the proposal means for you",
-    "url": "https://www.livemint.com/money/personal-finance/epfo-may-let-employees-deposit-pf-money-directly-via-uan-beyond-12-mandate-what-the-proposal-means-for-you-11795514057212.html",
-    "source": "Mint Money",
-    "date": "24 Nov"
+    "date": "25 Nov"
    }
   ],
   "PRD": [
@@ -234,7 +232,7 @@
   ]
  },
  "audit": {
-  "wiki_items": 22,
+  "wiki_items": 21,
   "matched": 0,
   "total": 9,
   "by_section": {
@@ -245,7 +243,7 @@
   "note": "",
   "feeds_ok": [
    "The Hindu:15",
-   "Indian Express (via gnews):15",
+   "Indian Express:15",
    "Hindustan Times:15",
    "NDTV:15",
    "Times of India:15",
@@ -256,7 +254,7 @@
    "Reuters India:15",
    "Mint Politics:15",
    "BBC World:15",
-   "DW:12",
+   "DW:11",
    "Reuters World:15",
    "AP:15",
    "Al Jazeera:15",
@@ -275,7 +273,7 @@
    "Reuters Business:15",
    "The Guardian Business:15",
    "WSJ Business:15",
-   "Indian Express Explained (via gnews):2",
+   "Indian Express Explained:2",
    "CA Rachana Ranade:2",
    "Mint Money:2",
    "Lenny's Newsletter:2",
