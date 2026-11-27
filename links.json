@@ -1,112 +1,111 @@
 {
- "updated": "2026-11-26T09:49+00:00",
+ "updated": "2026-11-27T09:55+00:00",
  "method": "spectrum-v2",
  "news": {
   "india": [
    {
-    "title": "In a first, Tamil Nadu govt approves 15-day paternity leave for govt staff",
-    "url": "https://www.hindustantimes.com/india-news/vijay-govt-approves-15-day-paternity-leave-for-male-govt-employees-in-tamil-nadu-101795684045036.html",
-    "source": "Hindustan Times",
-    "date": "26 Nov",
-    "outlets": 6,
-    "also": [
-     "Economic Times",
-     "Indian Express",
-     "Mint"
-    ],
-    "lean": "LC",
-    "sites": 41,
-    "wiki": false
-   },
-   {
-    "title": "Large explosion, fire at oil depot in Bangkok; nearby residents told to evacuate",
-    "url": "https://timesofindia.indiatimes.com/world/rest-of-world/large-explosion-fire-at-oil-depot-in-bangkok-nearby-residents-told-to-evacuate/articleshow/136184137.cms",
-    "source": "Times of India",
-    "date": "26 Nov",
-    "outlets": 3,
-    "also": [
-     "Al Jazeera",
-     "NDTV"
-    ],
-    "lean": "LC",
-    "sites": 35,
-    "wiki": false
-   },
-   {
-    "title": "US finds no evidence China directed Alice Huang to spy on Nvidia CEO",
-    "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxNNHF5Q19pOG1naktSWEc2djNkYXBHdDc1bjNMVXRHSXUtYXNHZG14RkxxdEprNXcweGNVcHh3N1A5ZG5Oc0VYNDBzME01eUtrcHVRd3ZYVmdtVUVGUzFtZVVjaHRnV3NtT1o1aks0czNNSkVCSkJDaE9tbkhLTU5MTi1lMUpNUnNKT0hxbXZlYmNxeXRwaXpSVVhjMVRyZXZuYmVodzJCMUs5ak1BdFJaTUF0MTFMVXFRa3ZrTmtlb1lfc05rRmFYTE1HMzhqUdIB0wFBVV95cUxPb1BRbDR3bTJ3OE1MSXdUV29jTjJCWlptU2d4M1ZKZE9YdF9tZzZVbWNhSEhOdXlVREFhU3lON1JaTjFFVkU4TkUtTzVoMFVIa1N1SFVlNzZ0WDVXbEhMbHR6a3lkYURCaTg3Z0NPZ2xNcXdmSXNubGJXOWRydG5OQ0I1OGNudVFldWtpclV0REpzV2wxUHhUTkEyUXZqTWtMX1g5cGdLSlpwV2szZnhMdmlIY3RVcGdZWF9EQWFMNW9ENFhncXhENm1iZkRBOFlaTDA4?oc=5",
-    "source": "Business Standard",
-    "date": "25 Nov",
-    "outlets": 3,
+    "title": "India-US trade deal is nearing completion, minister says",
+    "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNMkR3N0t3ZmV1SDk5LWNGa3hCcXVleWpPVFpORzVUZnUtYUJoUXQ2eFEzN3ZrQjcxMHhCaXk0NzY4M2NkSFNic1Q2aGJYZlZoYnFlSG5iU0NQX1dUNWZzci1xTU10bm5UbGRYSWkzdno1c3dDRlpZWjVxNjRaWkF5ZzlJdGxsUlJpWUFTbDZCN0d4bFlqN3NNOG4xdy1zZy05TmxNZTlR?oc=5",
+    "source": "Reuters India",
+    "date": "27 Nov",
+    "outlets": 4,
     "also": [
      "NDTV",
-     "WSJ"
+     "The Hindu",
+     "Times of India"
     ],
-    "lean": "LR",
-    "sites": 19,
+    "lean": "LC",
+    "sites": 20,
+    "wiki": false
+   },
+   {
+    "title": "Jaish Terrorist Arrested From Gujarat, Was Planning Attack On Air Force Station",
+    "url": "https://www.ndtv.com/india-news/jaish-terrorist-arrested-from-gujarat-was-planning-attack-on-vadodara-air-force-station-12383894#publisher=newsstand",
+    "source": "NDTV",
+    "date": "27 Nov",
+    "outlets": 4,
+    "also": [
+     "Hindustan Times",
+     "The Hindu",
+     "Times of India"
+    ],
+    "lean": "LC",
+    "sites": 12,
+    "wiki": false
+   },
+   {
+    "title": "Delimitation push: Cabinet clears women’s quota, 50% seats rise for states",
+    "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNWnFVcklnZXpuOVhIZ2VoR0JRamc4NVlYVzB1ZnZCRmNEVUJKQk9NMGhNNmRMekI1VWFWVXhiN1JjemZWNzhxNDlVX1dkakg3M3BRV3g5bGpuODU2bVNXRUxXXzM0dlpiSF9WelRjLUpSMGRNR1ZrOFdVU2wwUTFZcEFZbFFEbnJZSjVGamVESjJuaFVCODdneU8tQy1WSU5JZzdRVQ?oc=5",
+    "source": "Indian Express",
+    "date": "27 Nov",
+    "outlets": 3,
+    "also": [
+     "ThePrint",
+     "Times of India"
+    ],
+    "lean": "LCR",
+    "sites": 14,
     "wiki": false
    }
   ],
   "world": [
    {
-    "title": "At least 31 killed as fuel tanker crash ignites large fire on Cairo highway",
-    "url": "https://www.theguardian.com/world/2026/nov/25/people-killed-fuel-tanker-crash-ignites-large-fire-cairo-highway",
-    "source": "The Guardian",
+    "title": "Trump says he asked Putin to 'pull back' military aggression throughout Europe",
+    "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOLTBqZDFmdVZMYUhDSHRObmlwNXBGNXRpXzdBVnBTc2hZTk54NU9BYThqQUswalJPMklvaGhHNmJiNW5venFCYk1FbjdNQUdJU1RISjlXbGtpc0lWektRUThRNEhOdFdSZ3B3cGZTSlk5blFMWnhGOGNfaEFjbzBha29XdlNxTXUzemUzR1FIc0FPc0kybGZLSmp5OVNNSGRLOXNZM21pd0Fac2prOVoxcC1rMnFIUQ?oc=5",
+    "source": "Reuters World",
     "date": "26 Nov",
-    "outlets": 4,
+    "outlets": 3,
     "also": [
-     "BBC",
      "The Hindu",
      "The Telegraph"
     ],
     "lean": "LCR",
-    "sites": 28,
-    "wiki": true
-   },
-   {
-    "title": "Why has North Korea expelled a Swiss diplomat from Pyongyang?",
-    "url": "https://www.aljazeera.com/news/2026/11/26/why-has-north-korea-expelled-a-swiss-diplomat-from-pyongyang?traffic_source=rss",
-    "source": "Al Jazeera",
-    "date": "26 Nov",
-    "outlets": 4,
-    "also": [
-     "BBC",
-     "DW",
-     "The Hindu"
-    ],
-    "lean": "LC",
-    "sites": 25,
+    "sites": 15,
     "wiki": false
    },
    {
-    "title": "Army calls detonation of bomb chemicals in Iowa a success after earlier fears of a toxic plume",
-    "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPZi1lalA4QTR1T3RxVkRDblVuYkY3SDBXV3A3bWhpaWJzN29ZT2xEWTR5b1RDMzZWUWRfdldya2R1ZlZiQ2ptLThvVjMxQmpMWUFKeFVEWnhjOGMzVUcyZDVjb3ZYa1o0RjFiYXVQSUFCczNFelNVYjQ2ZzFiOWxUSmlKdFVXWW8?oc=5",
-    "source": "AP",
+    "title": "Iranian Drone Attack Kills Two Italians in Kuwait",
+    "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPR0JXYTAzOTNnajlLczdFM0FKUXdjbHlSLUFPRlhHQWpXaV9JRnQzNGRETWR6c1pWM3hQZnptczZaQVZqeExWa1JqdFRDWlJDcUItNEVra09WVEFfSDlSUm1nT3B3SUVZRGZHMTdieHlaSDhBWDdvMUhTVjJ0eTZmbFlfWHM2MUYyYnpHNWtFcTg3Q2JndEw4LTl3MHg?oc=5",
+    "source": "WSJ",
     "date": "26 Nov",
     "outlets": 3,
     "also": [
-     "BBC",
+     "AP",
+     "BBC"
+    ],
+    "lean": "CR",
+    "sites": 80,
+    "wiki": true
+   },
+   {
+    "title": "Major Thanksgiving storm brings flooding, flight delays across US",
+    "url": "https://www.bbc.co.uk/news/articles/ckm2mz3prq77o?at_medium=RSS&at_campaign=rss",
+    "source": "BBC World",
+    "date": "27 Nov",
+    "outlets": 3,
+    "also": [
+     "AP",
      "The Hindu"
     ],
     "lean": "LC",
-    "sites": 14,
+    "sites": 19,
     "wiki": false
    }
   ],
   "business": [
    {
-    "title": "US proposes up to 25% tariff on India, offers 17% upon trade deal",
-    "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxPU0pJTnZMYzd2THhRb0RXX2xmUWR5MjZVUC1EM3o2eUszZ3c3VlE3ZzdIUU5QbU9KVWRzUjZUZzBIU1pxNXR3Q0p2S0VVbFpXRU5Tdk9wMjJoTVFyRUJWZFgtdkVTS0lBWnpEUmUxSGVteXJURk1Bb3dpaXpUYndjTEpXZktLZkExcFR4b0dtS1BWYjhlRkxsbEczcHpaU2dtSGY4bmUxWm5tc1NjM19OeWlKY20tLV9ycE8tSnpJWG40SFR1ckhVV9IBzgFBVV95cUxPS0MyaXVyQ3I1bGV2bzlibS1QNzIwbmItT2kweGEybm9qQmNGY19PS3JqRXRRY3lxdVNUYmktclVvQXA1a1N3aTZ4WW1VMnpGUlpPX25la1FIUTd3cHN0Q29paEE4aFNpbnBvYmE5Mnk4M3hnVndjRFYxTTAyMG5ZYXdva3E0LW5FNXZoNFpRN0ZGaUNfRk0wMjB4Z3RaRjkwYUxmQkFmbnpFTkgzNWxKaUxPMk5sN2M3SGFTMHBZbUI1aXAzVEJBUkVCOFlEUQ?oc=5",
-    "source": "Business Standard",
-    "date": "25 Nov",
-    "outlets": 5,
+    "title": "Faisal Islam: Why Trump's new tariffs are less of a threat",
+    "url": "https://www.bbc.co.uk/news/articles/c6r7g4e3yep1o?at_medium=RSS&at_campaign=rss",
+    "source": "BBC Business",
+    "date": "26 Nov",
+    "outlets": 6,
     "also": [
-     "BBC",
-     "Reuters",
-     "The Guardian"
+     "AP",
+     "Business Standard",
+     "Reuters"
     ],
     "lean": "LCR",
-    "sites": 20,
+    "sites": 2,
     "wiki": false
    },
    {
@@ -114,37 +113,36 @@
     "url": "https://www.theguardian.com/technology/2026/nov/24/jensen-huang-nvidia-apologizes-staff",
     "source": "The Guardian Business",
     "date": "24 Nov",
-    "outlets": 5,
-    "also": [
-     "BBC",
-     "NPR",
-     "The Hindu"
-    ],
-    "lean": "LCR",
-    "sites": 9,
-    "wiki": false
-   },
-   {
-    "title": "Elon Musk says every child in U.S. will get two SpaceX shares",
-    "url": "https://www.thehindu.com/news/international/elon-musk-says-every-child-in-us-will-get-two-spacex-shares/article71745692.ece",
-    "source": "The Hindu Business",
-    "date": "26 Nov",
     "outlets": 4,
     "also": [
-     "BBC",
-     "Reuters",
+     "NDTV",
+     "The Hindu",
      "Times of India"
     ],
     "lean": "LC",
-    "sites": 88,
+    "sites": 4,
+    "wiki": false
+   },
+   {
+    "title": "SAP Weighs Cutting at Least 10,000 Positions in AI Restructuring",
+    "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxQYlBuWjh1VUh4WlhNX00zX2gxWEh0akFMUXo0YkxMYTBkWlpjdGZSYnBJRDZOcDRkeS1kVjFIa1ZxUU9idUtHbjdQV2RhY19ubTd3OUhzZVd2cXNvWHNrc1lZU2p3QVFHbnY0V1hoUzFLNnNQYzFyZ0c2UmpsaHVBTVFCYjRSVklhbHZVMWtsMzNmTllwX1FFT3FPQ1VENkZZMU1ySm5fMUJqMEFfRlhQYmhnN1BUcHpiQVkzS0JfOUw1bUcwUDUtNGY5SXp5Z9IB0wFBVV95cUxOSnZjdlVJeU5Pb1Y5OHo4QkNhb2VTSktQemE5MzNHc0UyRXFGTUk1c1VoRlNBdnQtbWkzOU9UajB5aE5NTmpWRjNhcF9QcWVwRVpsV1ZMbG44NzJhNTVqc2Jwa0tfcUw3OTBrenFoY3JCa0VVbVNTMWZaLTVBanY2V2xIZWVDZnlBT3NWbmM0MkZPRkNHNzhwN2pXV01HYTBZVE9XSEpNdlZlc2RSQW9LbkU1S0FVUEcyejN5YmZnZG50VFRzdmZKNWd4TGdFOXZQdjE0?oc=5",
+    "source": "Business Standard",
+    "date": "26 Nov",
+    "outlets": 3,
+    "also": [
+     "Economic Times",
+     "Reuters"
+    ],
+    "lean": "CR",
+    "sites": 31,
     "wiki": false
    }
   ]
  },
  "explainer": [
   {
-   "title": "Tariffs come full circle: How Trump’s Section 301 tariffs restore duties struck down by US top court",
-   "url": "https://indianexpress.com/article/explained/explained-economics/us-tariffs-india-section-301-trade-deal-explained-10979307/",
+   "title": "Salt, sugar and fat warnings: What Supreme Court’s order means for packaged food labels",
+   "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPem9uLVBfYWxDU2NsVHJHaVlkRVgteGdCeFZSUnNqZXVsTDBpZDNfTUNEc3d5TDRhc1p6ZmJUQXB4U1Q1X0hET2pQQmxxYTlFeFE5MGdacTVUdXZHUlRHdzVYVktGSjllZkFpY0dYcEdsanAxdFl0WnBCX2tNYmxQbHpQVzdrLTFKalRMUGR5Qm10V0FocEU2ZnFLakpMd0tTUTVTSE9n0gGsAUFVX3lxTE0teHpQbXZYR3Nsd014VHlsZWxWV1kwbE9Ecy1NU2sxeENXc0NuSWtDS3VKWmRRU3hOLUE5dzRNZ0k3SE5oUFFHalNieGlIQklWX1BRdTNyZGhxWFNpTjJ4c01fNGh2eUxHZVh2RFhxMV9vWFVuZ0g1dGE4MF9DcjZPSlRVM0pCOF9GRjBaNEh2RG1uenU3aXlfWDVrYlB2eklfX2JDclNKaGJQaVg?oc=5",
    "source": "Indian Express Explained",
    "date": "26 Nov"
   }
@@ -164,16 +162,16 @@
     "date": "25 Nov"
    },
    {
-    "title": "No PF deposit for 3 years? EPFO clarifies inoperative account rules: This is how you can claim your money",
-    "url": "https://www.livemint.com/money/personal-finance/no-pf-deposit-for-3-years-epfo-clarifies-inoperative-account-rules-this-is-how-you-can-claim-your-money-11795683188052.html",
+    "title": "1 mn views on Facebook vs Instagram vs YouTube: Why 2 different paychecks? Why viewer location rules creator economy",
+    "url": "https://www.livemint.com/money/1-mn-views-on-facebook-vs-instagram-vs-youtube-why-2-different-paychecks-why-viewer-location-rules-creator-economy-11795771125514.html",
     "source": "Mint Money",
-    "date": "26 Nov"
+    "date": "27 Nov"
    },
    {
-    "title": "Income tax calendar December 2026: Check key deadlines for TDS payments, advance tax, belated ITR and FAST-DS scheme",
-    "url": "https://www.livemint.com/money/personal-finance/income-tax-calendar-december-2026-check-key-deadlines-for-tds-payments-advance-tax-belated-itr-and-fast-ds-scheme-11795681500577.html",
+    "title": "Gold, equity ETFs or debt mutual funds: How should investors balance their portfolios in 2027? Expert shares allocation",
+    "url": "https://www.livemint.com/money/personal-finance/gold-equity-etfs-or-debt-mutual-funds-how-should-investors-balance-their-portfolios-in-2027-expert-shares-allocation-11795768188827.html",
     "source": "Mint Money",
-    "date": "26 Nov"
+    "date": "27 Nov"
    }
   ],
   "PRD": [
@@ -232,7 +230,7 @@
   ]
  },
  "audit": {
-  "wiki_items": 24,
+  "wiki_items": 27,
   "matched": 1,
   "total": 9,
   "by_section": {
@@ -243,7 +241,7 @@
   "note": "",
   "feeds_ok": [
    "The Hindu:15",
-   "Indian Express:15",
+   "Indian Express (via gnews):15",
    "Hindustan Times:15",
    "NDTV:15",
    "Times of India:15",
@@ -254,7 +252,7 @@
    "Reuters India:15",
    "Mint Politics:15",
    "BBC World:15",
-   "DW:13",
+   "DW:12",
    "Reuters World:15",
    "AP:15",
    "Al Jazeera:15",
@@ -273,7 +271,7 @@
    "Reuters Business:15",
    "The Guardian Business:15",
    "WSJ Business:15",
-   "Indian Express Explained:2",
+   "Indian Express Explained (via gnews):2",
    "CA Rachana Ranade:2",
    "Mint Money:2",
    "Lenny's Newsletter:2",
