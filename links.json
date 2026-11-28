@@ -1,28 +1,28 @@
 {
- "updated": "2026-11-27T09:55+00:00",
+ "updated": "2026-11-28T09:08+00:00",
  "method": "spectrum-v2",
  "news": {
   "india": [
    {
-    "title": "India-US trade deal is nearing completion, minister says",
-    "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNMkR3N0t3ZmV1SDk5LWNGa3hCcXVleWpPVFpORzVUZnUtYUJoUXQ2eFEzN3ZrQjcxMHhCaXk0NzY4M2NkSFNic1Q2aGJYZlZoYnFlSG5iU0NQX1dUNWZzci1xTU10bm5UbGRYSWkzdno1c3dDRlpZWjVxNjRaWkF5ZzlJdGxsUlJpWUFTbDZCN0d4bFlqN3NNOG4xdy1zZy05TmxNZTlR?oc=5",
+    "title": "India's bottled-water crackdown widens as new Bisleri sample found with bacteria",
+    "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPVVo0MmV3VWE5bkFxdlExTW5Qa1VRUm4tcHZnbmJKbmNwSjJiNjVuRFlwbHZqcFJYR2pHekJKdFptbDJlekZ0Z0VSRTV3bm5ydUNNNmdLMU5sZkFMLU95SVpnNW9MaXNPNllyZFJleUFWcHEteFZGczZzNHdBY1o3bERlTVp6a3lvd0E1RjFZNXNmRVFpdVVkNVR3MVpJa1dsVW0zcGVTM1I5UmRBVU5icmdB?oc=5",
     "source": "Reuters India",
-    "date": "27 Nov",
+    "date": "28 Nov",
     "outlets": 4,
     "also": [
+     "Hindustan Times",
      "NDTV",
-     "The Hindu",
-     "Times of India"
+     "The Hindu"
     ],
     "lean": "LC",
-    "sites": 20,
+    "sites": 5,
     "wiki": false
    },
    {
-    "title": "Jaish Terrorist Arrested From Gujarat, Was Planning Attack On Air Force Station",
-    "url": "https://www.ndtv.com/india-news/jaish-terrorist-arrested-from-gujarat-was-planning-attack-on-vadodara-air-force-station-12383894#publisher=newsstand",
+    "title": "Boost To Centre As DMK Declares Support For Delimitation Bill",
+    "url": "https://www.ndtv.com/india-news/parliament-special-session-boost-to-centre-as-dmk-declares-support-for-delimitation-bill-12387945#publisher=newsstand",
     "source": "NDTV",
-    "date": "27 Nov",
+    "date": "28 Nov",
     "outlets": 4,
     "also": [
      "Hindustan Times",
@@ -30,121 +30,120 @@
      "Times of India"
     ],
     "lean": "LC",
-    "sites": 12,
+    "sites": 1,
     "wiki": false
    },
    {
-    "title": "Delimitation push: Cabinet clears women’s quota, 50% seats rise for states",
-    "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNWnFVcklnZXpuOVhIZ2VoR0JRamc4NVlYVzB1ZnZCRmNEVUJKQk9NMGhNNmRMekI1VWFWVXhiN1JjemZWNzhxNDlVX1dkakg3M3BRV3g5bGpuODU2bVNXRUxXXzM0dlpiSF9WelRjLUpSMGRNR1ZrOFdVU2wwUTFZcEFZbFFEbnJZSjVGamVESjJuaFVCODdneU8tQy1WSU5JZzdRVQ?oc=5",
-    "source": "Indian Express",
+    "title": "Son of Hamas chief survives Israeli strike, Hamas says",
+    "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxOdVppbHJmTmd1WXQtdGFGZEw3OFpVQ21OelB4ckJLbS05RWtlZnlka1RNM1V1WnVkSWFOdVN1SkJDeGlOellyM1llU1k1MldrMDhid0J6VlhHM3NtSzd0S0QyRkdudm9kTHdSa3FvMDFJSk52RnQ3cHgyd0F6aUhVVFEzTUNZeVJJLXhXWWRqVWFnUdIBlwFBVV95cUxNNjNLb21NYlU4SnNuaUZBZUlQc3F3WnpHbVp0cllDSTRseVREaW1BUzJUQzlpU2FQTWZFZktDSVctOFpEeXVnUF9nOTZJNnZ0QWFIVUxmM0hiUjR1WmFraTRXWjdZOWp4akNoLW9LVDNkWmFqYlRIbU1fdF94WDNESnRVc1BwUG1VcWppNWpBcnNZTkxqbmtN?oc=5",
+    "source": "ThePrint",
     "date": "27 Nov",
-    "outlets": 3,
+    "outlets": 2,
     "also": [
-     "ThePrint",
-     "Times of India"
+     "The Hindu"
     ],
-    "lean": "LCR",
-    "sites": 14,
+    "lean": "LR",
+    "sites": 50,
     "wiki": false
    }
   ],
   "world": [
    {
-    "title": "Trump says he asked Putin to 'pull back' military aggression throughout Europe",
-    "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOLTBqZDFmdVZMYUhDSHRObmlwNXBGNXRpXzdBVnBTc2hZTk54NU9BYThqQUswalJPMklvaGhHNmJiNW5venFCYk1FbjdNQUdJU1RISjlXbGtpc0lWektRUThRNEhOdFdSZ3B3cGZTSlk5blFMWnhGOGNfaEFjbzBha29XdlNxTXUzemUzR1FIc0FPc0kybGZLSmp5OVNNSGRLOXNZM21pd0Fac2prOVoxcC1rMnFIUQ?oc=5",
+    "title": "Taiwan votes in local elections as China sends warplanes, lambastes Taipei candidate",
+    "url": "https://www.thehindu.com/news/international/taiwan-votes-in-key-local-elections-as-china-looks-on/article71753506.ece",
+    "source": "The Hindu World",
+    "date": "28 Nov",
+    "outlets": 4,
+    "also": [
+     "AP",
+     "The Guardian",
+     "The Telegraph"
+    ],
+    "lean": "LCR",
+    "sites": 3,
+    "wiki": false
+   },
+   {
+    "title": "Trump’s tariffs have become America’s new normal",
+    "url": "https://www.aljazeera.com/opinions/2026/11/28/trumps-tariffs-have-become-americas-new-normal?traffic_source=rss",
+    "source": "Al Jazeera",
+    "date": "28 Nov",
+    "outlets": 4,
+    "also": [
+     "AP",
+     "BBC",
+     "The Guardian"
+    ],
+    "lean": "LC",
+    "sites": 7,
+    "wiki": false
+   },
+   {
+    "title": "India central bank cuts reserve ratio maintenance to 90% from 99%",
+    "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxOMTZCVkNFN1hpMXFNenlmV015NDBlOER3VzJidHV4WndKWFVqLWNxQnNFdWl0clZiNFV0RGdsN3YzdjFQYzVISWNtZDJGaU55bFdzYVpVS3RPYk9pMEdHUFdfRVQ5N0hKcWdDYTVZc2F0YnMxUkJVYk02Z09Sa1NMV1FldUo4RDRNd1ZGVWRNQjJKYnZLYlVaR2R4eEdMcTBoMGNRT0tB?oc=5",
     "source": "Reuters World",
-    "date": "26 Nov",
+    "date": "27 Nov",
     "outlets": 3,
     "also": [
      "The Hindu",
      "The Telegraph"
     ],
     "lean": "LCR",
-    "sites": 15,
-    "wiki": false
-   },
-   {
-    "title": "Iranian Drone Attack Kills Two Italians in Kuwait",
-    "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPR0JXYTAzOTNnajlLczdFM0FKUXdjbHlSLUFPRlhHQWpXaV9JRnQzNGRETWR6c1pWM3hQZnptczZaQVZqeExWa1JqdFRDWlJDcUItNEVra09WVEFfSDlSUm1nT3B3SUVZRGZHMTdieHlaSDhBWDdvMUhTVjJ0eTZmbFlfWHM2MUYyYnpHNWtFcTg3Q2JndEw4LTl3MHg?oc=5",
-    "source": "WSJ",
-    "date": "26 Nov",
-    "outlets": 3,
-    "also": [
-     "AP",
-     "BBC"
-    ],
-    "lean": "CR",
-    "sites": 80,
-    "wiki": true
-   },
-   {
-    "title": "Major Thanksgiving storm brings flooding, flight delays across US",
-    "url": "https://www.bbc.co.uk/news/articles/ckm2mz3prq77o?at_medium=RSS&at_campaign=rss",
-    "source": "BBC World",
-    "date": "27 Nov",
-    "outlets": 3,
-    "also": [
-     "AP",
-     "The Hindu"
-    ],
-    "lean": "LC",
-    "sites": 19,
+    "sites": 13,
     "wiki": false
    }
   ],
   "business": [
    {
-    "title": "Faisal Islam: Why Trump's new tariffs are less of a threat",
-    "url": "https://www.bbc.co.uk/news/articles/c6r7g4e3yep1o?at_medium=RSS&at_campaign=rss",
-    "source": "BBC Business",
-    "date": "26 Nov",
-    "outlets": 6,
+    "title": "Tata Sons files caveats after Bombay HC refuses relief to Tata trusts’ plea",
+    "url": "https://www.thehindu.com/business/Industry/tata-sons-files-caveats-after-bombay-hc-refuses-relief-to-tata-trusts-plea/article71753663.ece",
+    "source": "The Hindu Business",
+    "date": "28 Nov",
+    "outlets": 3,
     "also": [
-     "AP",
      "Business Standard",
      "Reuters"
     ],
     "lean": "LCR",
-    "sites": 2,
+    "sites": 20,
     "wiki": false
    },
    {
-    "title": "Nvidia CEO Jensen Huang apologizes to staff: ‘I made some terrible mistakes’",
-    "url": "https://www.theguardian.com/technology/2026/nov/24/jensen-huang-nvidia-apologizes-staff",
-    "source": "The Guardian Business",
-    "date": "24 Nov",
-    "outlets": 4,
-    "also": [
-     "NDTV",
-     "The Hindu",
-     "Times of India"
-    ],
-    "lean": "LC",
-    "sites": 4,
-    "wiki": false
-   },
-   {
-    "title": "SAP Weighs Cutting at Least 10,000 Positions in AI Restructuring",
-    "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxQYlBuWjh1VUh4WlhNX00zX2gxWEh0akFMUXo0YkxMYTBkWlpjdGZSYnBJRDZOcDRkeS1kVjFIa1ZxUU9idUtHbjdQV2RhY19ubTd3OUhzZVd2cXNvWHNrc1lZU2p3QVFHbnY0V1hoUzFLNnNQYzFyZ0c2UmpsaHVBTVFCYjRSVklhbHZVMWtsMzNmTllwX1FFT3FPQ1VENkZZMU1ySm5fMUJqMEFfRlhQYmhnN1BUcHpiQVkzS0JfOUw1bUcwUDUtNGY5SXp5Z9IB0wFBVV95cUxOSnZjdlVJeU5Pb1Y5OHo4QkNhb2VTSktQemE5MzNHc0UyRXFGTUk1c1VoRlNBdnQtbWkzOU9UajB5aE5NTmpWRjNhcF9QcWVwRVpsV1ZMbG44NzJhNTVqc2Jwa0tfcUw3OTBrenFoY3JCa0VVbVNTMWZaLTVBanY2V2xIZWVDZnlBT3NWbmM0MkZPRkNHNzhwN2pXV01HYTBZVE9XSEpNdlZlc2RSQW9LbkU1S0FVUEcyejN5YmZnZG50VFRzdmZKNWd4TGdFOXZQdjE0?oc=5",
-    "source": "Business Standard",
-    "date": "26 Nov",
+    "title": "EXCLUSIVE: Global brands shift hundreds of millions in orders from Bangladesh to India amid unrest",
+    "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxOcVhoVXVubGp1bk52dUFmd2p1NVdJQzNwaXRBTm5TWXdEZXNHTmNlUmIwLXMyWlBMdVByV3RKRFFkV19UVzNCV3UydGgwUjhXMlBES1lFbkxvQndUSkpRXy1RU3k5TmxJOHhHSjZYOWcyNFM0cW95N0twYjJyVU9BZlY2cTVEU2dsNkx0MTFXRXNya0t3alBPN2FnUDgyTUxkUzlUTTN1c21BR19HeDNzZWhOTEFWS2JYNEl1OVdad1dna21acnI4TDhuRDdUWk5EeWk4?oc=5",
+    "source": "Reuters Business",
+    "date": "27 Nov",
     "outlets": 3,
     "also": [
-     "Economic Times",
+     "Business Standard",
+     "The Hindu"
+    ],
+    "lean": "LCR",
+    "sites": 8,
+    "wiki": false
+   },
+   {
+    "title": "Oil Futures Settle Lower Ahead of OPEC+ Policy Meeting",
+    "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPTlk0cWFXc1dCWFZnYlZPbnBBNGtndk1USE5BM3dhd1RYNzNZdkJiYlNxWmtsLVoxa3FSR0FmNkdKaEVsaVZjYnYwaHl3QjVUbnpLcFpfUDRyenNXMjVFOVNEY083SG9rSTBLeHd4ZENhb1hBc0gtS3kyYzRQUU8xM1duaG51WHZjRFhRcXh5Y1FrdEk3WTIyMXFhdGw3ZzliWjc3RkJDVGZYT252YXRZRTd2Y3RXY2wwbWVVNEREWQ?oc=5",
+    "source": "WSJ Business",
+    "date": "27 Nov",
+    "outlets": 3,
+    "also": [
+     "Business Standard",
      "Reuters"
     ],
     "lean": "CR",
-    "sites": 31,
+    "sites": 17,
     "wiki": false
    }
   ]
  },
  "explainer": [
   {
-   "title": "Salt, sugar and fat warnings: What Supreme Court’s order means for packaged food labels",
-   "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPem9uLVBfYWxDU2NsVHJHaVlkRVgteGdCeFZSUnNqZXVsTDBpZDNfTUNEc3d5TDRhc1p6ZmJUQXB4U1Q1X0hET2pQQmxxYTlFeFE5MGdacTVUdXZHUlRHdzVYVktGSjllZkFpY0dYcEdsanAxdFl0WnBCX2tNYmxQbHpQVzdrLTFKalRMUGR5Qm10V0FocEU2ZnFLakpMd0tTUTVTSE9n0gGsAUFVX3lxTE0teHpQbXZYR3Nsd014VHlsZWxWV1kwbE9Ecy1NU2sxeENXc0NuSWtDS3VKWmRRU3hOLUE5dzRNZ0k3SE5oUFFHalNieGlIQklWX1BRdTNyZGhxWFNpTjJ4c01fNGh2eUxHZVh2RFhxMV9vWFVuZ0g1dGE4MF9DcjZPSlRVM0pCOF9GRjBaNEh2RG1uenU3aXlfWDVrYlB2eklfX2JDclNKaGJQaVg?oc=5",
+   "title": "Why the health of State-level finances is worsening in India",
+   "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxOeFdZZGdqQ1E4dEJKbHFIWkpLSC1QNzcxRllrM1dHNWc5VlkzR1dza2k4dEI0Z0E2ZkZ2cWxGeWNWQ3dBUDh0eFRNOXlYQlJ1bnlHMjFwRmJWS1NVbG04RFYwTEJsY0tKVVZORldCSFV4NXZud0kwU2lyd0ladTNRN1pUeldRZFFRQnVnanpWaDlaT3dGeVJ4TW9wTzlvUm4xcExpNmF4enVDOUIw0gGzAUFVX3lxTE5sTV9HVzFrdkx6QTVHRjFhWUV3LVRHbEllUGpvcXFTeUtTNzJQSS1RdU02aFl5YXJwdlRyQU9jX041WEd4RE9kMjM5WlExemNuc3h0MGczazNVN0Yyb1BubDd1V1k4em51X05mWnlYUVAzdTZqbng3WjcwNXVMWDBYV2NXdzlVS1Rwa0xEZ3BKaHlmVE5RbVdkRV84WUwyMVdHQllPYWFWdzZxVFFrQVdKZzRZ?oc=5",
    "source": "Indian Express Explained",
-   "date": "26 Nov"
+   "date": "28 Nov"
   }
  ],
  "courses": {
@@ -162,16 +161,16 @@
     "date": "25 Nov"
    },
    {
-    "title": "1 mn views on Facebook vs Instagram vs YouTube: Why 2 different paychecks? Why viewer location rules creator economy",
-    "url": "https://www.livemint.com/money/1-mn-views-on-facebook-vs-instagram-vs-youtube-why-2-different-paychecks-why-viewer-location-rules-creator-economy-11795771125514.html",
+    "title": "Gold ETF vs Nifty 50 ETF: Which investment has delivered higher returns over 1, 3, 5 years? Check top-performing schemes",
+    "url": "https://www.livemint.com/money/personal-finance/gold-etf-vs-nifty-50-etf-which-investment-has-delivered-higher-returns-over-1-3-5-years-check-top-performing-schemes-11795854701255.html",
     "source": "Mint Money",
-    "date": "27 Nov"
+    "date": "28 Nov"
    },
    {
-    "title": "Gold, equity ETFs or debt mutual funds: How should investors balance their portfolios in 2027? Expert shares allocation",
-    "url": "https://www.livemint.com/money/personal-finance/gold-equity-etfs-or-debt-mutual-funds-how-should-investors-balance-their-portfolios-in-2027-expert-shares-allocation-11795768188827.html",
+    "title": "Mint Money Festival | Building retirement corpus is only half the battle: PFRDA's Randip Singh Jagpal",
+    "url": "https://www.livemint.com/money/personal-finance/building-retirement-corpus-is-only-half-the-battle-pfrdas-randip-singh-jagpal-11795852009274.html",
     "source": "Mint Money",
-    "date": "27 Nov"
+    "date": "28 Nov"
    }
   ],
   "PRD": [
@@ -230,12 +229,12 @@
   ]
  },
  "audit": {
-  "wiki_items": 27,
-  "matched": 1,
+  "wiki_items": 12,
+  "matched": 0,
   "total": 9,
   "by_section": {
    "india": "0/3",
-   "world": "1/3",
+   "world": "0/3",
    "business": "0/3"
   },
   "note": "",
@@ -252,7 +251,7 @@
    "Reuters India:15",
    "Mint Politics:15",
    "BBC World:15",
-   "DW:12",
+   "DW:11",
    "Reuters World:15",
    "AP:15",
    "Al Jazeera:15",
